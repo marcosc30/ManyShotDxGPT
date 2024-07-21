@@ -5,18 +5,20 @@ from categorize_diseases import ern_categories
 
 def get_example_diseases(data, ern_category):
     example_diseases = []
+    indices = []
     for i in range(len(data)):
         if data[i]['ERN Category'] == ern_category:
             example_diseases.append([data[i]['Phenotype'], data[i]['RareDisease']])
+            indices.append(i)
             if len(example_diseases) == 15:
                 break
     if len(example_diseases) < 15:
         print(f"ERN Category {ern_category} has less than 15 examples")
-    return example_diseases
+    return example_diseases, indices
 
 # The prompt produced by this function is intended to be combined with the main prompt to provide many-shot examples
 def setup_manyshot_ex(data, ern_category):
-    example_diseases = get_example_diseases(data, ern_category)
+    example_diseases, indices = get_example_diseases(data, ern_category)
     example_disease_str = ""
     for i in range(len(example_diseases)):
         phenotype_list = ""
@@ -24,4 +26,8 @@ def setup_manyshot_ex(data, ern_category):
             phenotype_list += f"{example_diseases[i][0][j]}, "
         example_disease_str += f"{i+1}. {phenotype_list} -> {example_diseases[i][1]}\n"
     prompt = f"The following are examples of diagnosis for the ERN category '{ern_category}':\n{example_diseases}\n"
-    return prompt
+    return prompt, indices
+
+# These are examples of how to do it without description, we could also expand it so examples also explain the reasons behind diagnosis and a T5 list
+
+# add an optimization protocol for choosing examples like DSPy

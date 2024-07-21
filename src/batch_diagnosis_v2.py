@@ -25,7 +25,7 @@ from vertexai.preview.generative_models import GenerativeModel
 from google.oauth2 import service_account
 from open_models import initialize_mistralmoe, initialize_mistral7b, initialize_mixtral_moe_big
 
-from translate import deepl_translate
+from prompt_generator import PROMPT_TEMPLATE
 
 logging.basicConfig(level=logging.INFO)
 
@@ -127,40 +127,6 @@ def initialize_bedrock_claude(prompt, temperature=0, max_tokens=2000):
 
     return json.loads(response.get('body').read())
 
-def initialize_azure_llama2_7b(prompt, temperature=0, max_tokens=800):
-    llm = AzureMLChatOnlineEndpoint(
-        endpoint_url=os.getenv("AZURE_ML_ENDPOINT"),
-        endpoint_api_type="serverless",
-        endpoint_api_key=os.getenv("AZURE_ML_API_KEY"),
-        content_formatter=CustomOpenAIChatContentFormatter(),
-        deployment_name="Llama-2-7b-chat-dxgpt",
-        model_kwargs={"temperature": temperature, "max_new_tokens": max_tokens},
-    )
-
-    response = llm.invoke(
-        [HumanMessage(content=prompt)]
-    )
-
-    # logging.warning(response.content)
-    return response.content
-
-def initialize_azure_llama3_8b(prompt, temperature=0, max_tokens=800):
-    llm = AzureMLChatOnlineEndpoint(
-        endpoint_url=os.getenv("AZURE_ML_ENDPOINT_3"),
-        endpoint_api_type="serverless",
-        endpoint_api_key=os.getenv("AZURE_ML_API_KEY_3"),
-        content_formatter=CustomOpenAIChatContentFormatter(),
-        deployment_name="llama-3-8b-chat-dxgpt",
-        model_kwargs={"temperature": temperature, "max_new_tokens": max_tokens},
-    )
-
-    response = llm.invoke(
-        [HumanMessage(content=prompt)]
-    )
-
-    # logging.warning(response.content)
-    return response.content
-
 def initialize_azure_llama3_70b(prompt, temperature=0, max_tokens=800):
     llm = AzureMLChatOnlineEndpoint(
         endpoint_url=os.getenv("AZURE_ML_ENDPOINT_4"),
@@ -177,50 +143,6 @@ def initialize_azure_llama3_70b(prompt, temperature=0, max_tokens=800):
 
     # logging.warning(response.content)
     return response.content
-
-def initialize_azure_cohere_cplus(prompt, temperature=0, max_tokens=800):
-    llm = AzureMLChatOnlineEndpoint(
-        endpoint_url=os.getenv("AZURE_ML_ENDPOINT_2"),
-        endpoint_api_type="serverless",
-        endpoint_api_key=os.getenv("AZURE_ML_API_KEY_2"),
-        content_formatter=CustomOpenAIChatContentFormatter(),
-        deployment_name="Cohere-command-r-plus-dxgpt",
-        model_kwargs={"temperature": temperature, "max_new_tokens": max_tokens},
-    )
-
-    response = llm.invoke(
-        [HumanMessage(content=prompt)]
-    )
-
-    # logging.warning(response.content)
-    return response.content
-
-def initialize_gcp_geminipro(prompt, temperature=0, max_tokens=800):
-    PROJECT_ID = "nav29-21389"
-    REGION = "us-central1"
-    credentials = service_account.Credentials.from_service_account_file(
-    './nav29-21389-c1a94e300dcb.json')
-    vertexai.init(project=PROJECT_ID, location=REGION, credentials=credentials)
-
-    geminipro_model = GenerativeModel("gemini-1.5-pro-preview-0409")
-    response = geminipro_model.generate_content([prompt],
-                                                generation_config={
-            "max_output_tokens": max_tokens,
-            "temperature": temperature,
-            "top_p": 1,
-            "top_k": 32
-        },
-        safety_settings = {
-        },
-        stream=False)
-    response_text = ""
-    if response.to_dict()["candidates"] == []:
-        response_text = "No response available due to inappropriate content, request error or safety settings."
-    else:
-        response_text = response.to_dict()["candidates"][0]["content"]["parts"][0]["text"]
-    print(response_text)
-
-    return response_text
 
 # Initialize the AzureChatOpenAI model
 # This is gpt4-0613
@@ -273,29 +195,6 @@ gpt4o = ChatOpenAI(
     )
 
 
-PROMPT_TEMPLATE_RARE = "Behave like a hypotethical doctor who has to do a diagnosis for a patient. Give me a list of potential rare diseases with a short description. Shows for each potential rare diseases always with '\n\n+' and a number, starting with '\n\n+1', for example '\n\n+23.' (never return \n\n-), the name of the disease and finish with ':'. Dont return '\n\n-', return '\n\n+' instead. You have to indicate which symptoms the patient has in common with the proposed disease and which symptoms the patient does not have in common. The text is \n Symptoms:{description}"
-
-PROMPT_TEMPLATE = "Behave like a hypotethical doctor who has to do a diagnosis for a patient. Give me a list of potential diseases with a short description. Shows for each potential diseases always with '\n\n+' and a number, starting with '\n\n+1', for example '\n\n+23.' (never return \n\n-), the name of the disease and finish with ':'. Dont return '\n\n-', return '\n\n+' instead. You have to indicate which symptoms the patient has in common with the proposed disease and which symptoms the patient does not have in common. The text is \n Symptoms:{description}"
-
-PROMPT_TEMPLATE_MORE = "Behave like a hypotethical doctor who has to do a diagnosis for a patient. Continue the list of potential rare diseases without repeating any disease from the list I give you. If you repeat any, it is better not to return it. Shows for each potential rare diseases always with '\n\n+' and a number, starting with '\n\n+1', for example '\n\n+23.' (never return \n\n-), the name of the disease and finish with ':'. Dont return '\n\n-', return '\n\n+' instead. You have to indicate a short description and which symptoms the patient has in common with the proposed disease and which symptoms the patient does not have in common. The text is \n Symptoms: {description}. Each must have this format '\n\n+7.' for each potencial rare diseases. The list is: {initial_list} "
-
-PROMPT_TEMPLATE_IMPROVED = """
-<prompt> As an AI-assisted diagnostic tool, your task is to analyze the given patient symptoms and generate a list of the top 5 potential diagnoses. Follow these steps:
-Carefully review the patient's reported symptoms.
-In the <thinking></thinking> tags, provide a detailed analysis of the patient's condition: a. Highlight any key symptoms or combinations of symptoms that stand out. b. Discuss possible diagnoses and why they might or might not fit the patient's presentation. c. Suggest any additional tests or information that could help narrow down the diagnosis.
-In the <top5></top5> tags, generate a list of the 5 most likely diagnoses that match the given symptoms: a. Assign each diagnosis a number, starting from 1 (e.g., "\n\n+1", "\n\n+2", etc.). b. Provide the name of the condition, followed by a colon (":"). c. Indicate which of the patient's symptoms are consistent with this diagnosis. d. Mention any key symptoms of the condition that the patient did not report, if applicable.
-Remember:
-
-Do not use "\n\n-" in your response. Only use "\n\n+" when listing the diagnoses.
-The <thinking> section should come before the <top5> section.
-Patient Symptoms:
-<patient_description>
-{description} 
-</patient_description>
-</prompt>
-"""
-
-
 def get_diagnosis(prompt, dataframe, output_file, model):
     HM = False # HM Hospitals
     HF = False # Hugging Face Datasets
@@ -335,15 +234,12 @@ def get_diagnosis(prompt, dataframe, output_file, model):
         # Generate a diagnosis
         diagnoses = []
         # Generate the diagnosis using the GPT-4 model
-        if model == "llama3_70b_ENG":
-            english_description = deepl_translate(description)
-            formatted_prompt = chat_prompt.format_messages(description=english_description)
-        else:
-            formatted_prompt = chat_prompt.format_messages(description=description)
+        formatted_prompt = chat_prompt.format_messages(description=description)
         # print(formatted_prompt[0].content)
         attempts = 0
         while attempts < 2:
             try:
+                # CHANGE HERE
                 if model == "c3opus":
                     diagnosis = initialize_anthropic_claude(formatted_prompt[0].content).content[0].text
                 elif model == "c3sonnet":
@@ -357,16 +253,8 @@ def get_diagnosis(prompt, dataframe, output_file, model):
                 elif model == "mistral7b":
                     diagnosis = initialize_mistral7b(formatted_prompt[0].content)["outputs"][0]["text"]
                     print(diagnosis)
-                elif model == "llama2_7b":
-                    diagnosis = initialize_azure_llama2_7b(formatted_prompt[0].content)
-                elif model == "llama3_8b":
-                    diagnosis = initialize_azure_llama3_8b(formatted_prompt[0].content)
                 elif model == "llama3_70b":
                     diagnosis = initialize_azure_llama3_70b(formatted_prompt[0].content)
-                elif model == "cohere_cplus":
-                    diagnosis = initialize_azure_cohere_cplus(formatted_prompt[0].content)
-                elif model == "geminipro":
-                    diagnosis = initialize_gcp_geminipro(formatted_prompt[0].content)
                 else:
                     diagnosis = model(formatted_prompt).content  # Call the model instance directly
                 break

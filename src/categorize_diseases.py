@@ -1,7 +1,6 @@
 # Script to categorize the diseases in rarebench into the ERN categories using GPT
 
 from datasets import load_dataset
-from datasets import load_dataset
 import requests
 import pyhpo
 import openai
