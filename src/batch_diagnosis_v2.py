@@ -32,6 +32,14 @@ logging.basicConfig(level=logging.INFO)
 # Load the environment variables from the .env file
 load_dotenv()
 
+# models:
+# -	GPT-4o
+# -	GPT-4 Turbo 1106
+# -	Llama 3 70B
+# -	Claude 3 Opus
+# -	Claude 3.5 Sonnet 
+
+
 
 def orpha_api_get_disease_name(disease_code):
     """
@@ -69,6 +77,7 @@ def mapping_fn_with_hpo3_plus_orpha_api(data):
 
     return mapped_data
 
+# Claude 3 Opus
 def initialize_anthropic_claude(prompt, temperature=0, max_tokens=2000):
     client = anthropic.Anthropic(
         # defaults to os.environ.get("ANTHROPIC_API_KEY")
@@ -83,6 +92,7 @@ def initialize_anthropic_claude(prompt, temperature=0, max_tokens=2000):
     # print(message.content)
     return message
 
+# Claude 3.5 Sonnet
 def initialize_bedrock_claude(prompt, temperature=0, max_tokens=2000):
     aws_access_key_id = os.getenv("BEDROCK_USER_KEY")
     aws_secret_access_key = os.getenv("BEDROCK_USER_SECRET")
@@ -127,6 +137,7 @@ def initialize_bedrock_claude(prompt, temperature=0, max_tokens=2000):
 
     return json.loads(response.get('body').read())
 
+# Llama 3 70B
 def initialize_azure_llama3_70b(prompt, temperature=0, max_tokens=800):
     llm = AzureMLChatOnlineEndpoint(
         endpoint_url=os.getenv("AZURE_ML_ENDPOINT_4"),
@@ -144,26 +155,6 @@ def initialize_azure_llama3_70b(prompt, temperature=0, max_tokens=800):
     # logging.warning(response.content)
     return response.content
 
-# Initialize the AzureChatOpenAI model
-# This is gpt4-0613
-gpt4_0613azure = AzureChatOpenAI(
-    openai_api_version=os.getenv("OPENAI_API_VERSION"),
-    azure_deployment=os.getenv("DEPLOYMENT_NAME"),
-    temperature=0,
-    max_tokens=2000,
-    model_kwargs={"top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}
-)
-
-# Initialize the AzureChatOpenAI model
-# This is gpt4-turbo-1106
-gpt4turboazure = AzureChatOpenAI(
-    openai_api_version=os.getenv("OPENAI_API_VERSION"),
-    azure_deployment="nav29turbo",
-    temperature=0,
-    max_tokens=800,
-    model_kwargs={"top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}
-)
-
 # Initialize the ChatOpenAI model turbo 1106
 model_name = "gpt-4-1106-preview"
 openai_api_key=os.getenv("OPENAI_API_KEY")
@@ -174,17 +165,7 @@ gpt4turbo1106 = ChatOpenAI(
         max_tokens = 800,
     )
 
-# Initialize the last ChatOpenAI model turbo
-# This is gpt4-turbo-0409
-model_name = "gpt-4-turbo-2024-04-09"
-openai_api_key=os.getenv("OPENAI_API_KEY")
-gpt4turbo0409 = ChatOpenAI(
-        openai_api_key = openai_api_key,
-        model_name = model_name,
-        temperature = 0,
-        max_tokens = 800,
-    )
-
+# gpt-4o
 model_name = "gpt-4o"
 openai_api_key=os.getenv("OPENAI_API_KEY")
 gpt4o = ChatOpenAI(
@@ -239,22 +220,17 @@ def get_diagnosis(prompt, dataframe, output_file, model):
         attempts = 0
         while attempts < 2:
             try:
-                # CHANGE HERE
                 if model == "c3opus":
                     diagnosis = initialize_anthropic_claude(formatted_prompt[0].content).content[0].text
                 elif model == "c3sonnet":
                     diagnosis = initialize_bedrock_claude(formatted_prompt[0].content).get("content")[0].get("text")
                     # print(diagnosis)
-                elif model == "mistralmoebig":
-                    diagnosis = initialize_mixtral_moe_big(formatted_prompt[0].content)
-                elif model == "mistralmoe":
-                    diagnosis = initialize_mistralmoe(formatted_prompt[0].content)["outputs"][0]["text"]
-                    # print(diagnosis)
-                elif model == "mistral7b":
-                    diagnosis = initialize_mistral7b(formatted_prompt[0].content)["outputs"][0]["text"]
-                    print(diagnosis)
                 elif model == "llama3_70b":
                     diagnosis = initialize_azure_llama3_70b(formatted_prompt[0].content)
+                elif model == "gpt4turbo1106":
+                    diagnosis = gpt4turbo1106(formatted_prompt).content
+                elif model == "gpt4o":
+                    diagnosis = gpt4o(formatted_prompt).content
                 else:
                     diagnosis = model(formatted_prompt).content  # Call the model instance directly
                 break
