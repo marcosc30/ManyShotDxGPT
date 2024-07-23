@@ -4,6 +4,9 @@ from datasets import load_dataset
 import requests
 import pyhpo
 import openai
+import boto3
+import json
+import os
 #from batch_diagnosis_v2 import mapping_fn_with_hpo3_plus_orpha_api
 
 ern_categories = ['Rare endocrine conditions', 'Rare kidney diseases', 'Rare bone disorders', 'Rare and complex epilepsies',
@@ -80,35 +83,77 @@ def mapping_fn_with_hpo3_plus_orpha_api(data):
 
 datasets = ["RAMEDIS", "MME", "HMS", "LIRICAL", "PUMCH_ADM"]
 
+# we initialize the claude 3.5 sonnet model here
+# Claude 3.5 Sonnet
+def initialize_bedrock_claude(prompt, temperature=0, max_tokens=2000):
+    aws_access_key_id = os.getenv("BEDROCK_USER_KEY")
+    aws_secret_access_key = os.getenv("BEDROCK_USER_SECRET")
+    region = "us-east-1"
+
+    boto3_session = boto3.Session(
+        aws_access_key_id=aws_access_key_id,
+        aws_secret_access_key=aws_secret_access_key,
+        region_name=region,
+    )
+
+    bedrock = boto3_session.client(service_name='bedrock-runtime')
+
+    # body = json.dumps({
+    #     "prompt": prompt,
+    #     "max_tokens_to_sample": max_tokens,
+    #     "top_p": 1,
+    #     "temperature": temperature,
+    # })
+
+    body = json.dumps({
+        "max_tokens": max_tokens,
+        "temperature": temperature,
+        "messages": [{"role": "user", "content": prompt}],
+        "anthropic_version": "bedrock-2023-05-31"
+    })
+
+    response = bedrock.invoke_model(
+        body=body,
+        modelId="anthropic.claude-3-sonnet-20240229-v1:0",
+        accept="application/json",
+        contentType="application/json",
+    )
+
+    # claude3s = BedrockChat(
+    #             client = bedrock,
+    #             model_id="anthropic.claude-3-sonnet-20240229",
+    #             model_kwargs={"temperature": temperature, "max_tokens_to_sample": max_tokens},
+    # )
+
+    print(response)
+
+    return json.loads(response.get('body').read())
+
+
 def categorize_diseases(dataset):
         data = load_dataset('chenxz/RareBench', dataset, split='test', trust_remote_code=True)
         data = mapping_fn_with_hpo3_plus_orpha_api(data)
         # Format of the data is {Phenotype: [], RareDisease: []}
         for i in range(len(data)):
-            # Define the ERN categories
-            # Initialize the OpenAI GPT model
-            openai.api_key = 'API_KEY'
-            model = "gpt-3.5-turbo"
-
             # Iterate over the data
             for i in range(len(data)):
                 # Get the disease from the data
                 disease = data[i]['RareDisease']
                 # Generate the prompt for the GPT model
-                prompt = f"Categorize the disease '{disease}' into an ERN category:"
+                prompt = f"Categorize the disease '{disease}' into an ERN category from this list ({ern_categories}). Please provide the category followed by '/n':" 
 
                 # Generate the completion using the GPT model
-                response = openai.Completion.create(
-                    engine=model,
-                    prompt=prompt,
-                    max_tokens=50,
-                    n=1,
-                    stop=None,
-                    temperature=0.7
-                )
+                response = initialize_bedrock_claude(prompt)
 
                 # Get the generated category from the GPT response
-                category = response.choices[0].text.strip()
+                category = response.split('\n')[0]
+                if category not in ern_categories:
+                    response = initialize_bedrock_claude(prompt)
+                    category = response.split('\n')[0]
+                    if category not in ern_categories:
+                        print(f"Category '{category}' not recognized, index {i}")
+                        continue
+
 
                 # Add the category field to the data entry
                 data[i]['ERN Category'] = category
