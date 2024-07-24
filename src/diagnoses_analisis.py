@@ -87,11 +87,12 @@ def get_scores(model, dataframe, output_file):
     scores_df.to_csv(output_path, index=False)
 
 
-# get_scores(model, 'diagnoses_v2_mixtralmoe_big.csv', 'scores_v2_mixtralmoe_big.csv')
-
-# get_scores(model, 'diagnoses_PUMCH_ADM_mixtralmoe_big.csv', 'scores_PUMCH_ADM_mixtralmoe_big.csv')
-
 get_scores(model, 'diagnoses_RAMEDIS_gpt4o.csv', 'scores_RAMEDIS_gpt4o.csv')
+get_scores(model, 'diagnoses_RAMEDIS_c3sonnet.csv', 'scores_RAMEDIS_c3sonnet.csv')
+get_scores(model, 'diagnoses_RAMEDIS_c3opus.csv', 'scores_RAMEDIS_c3opus.csv')
+get_scores(model, 'diagnoses_RAMEDIS_llama3_70b.csv', 'scores_RAMEDIS_llama3_70b.csv')
+get_scores(model, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', 'scores_RAMEDIS_gpt4turbo1106.csv')
+
 
 
 

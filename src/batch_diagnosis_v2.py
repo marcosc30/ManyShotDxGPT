@@ -23,7 +23,6 @@ import anthropic
 import vertexai
 from vertexai.preview.generative_models import GenerativeModel
 from google.oauth2 import service_account
-from open_models import initialize_mistralmoe, initialize_mistral7b, initialize_mixtral_moe_big
 
 from prompt_generator import PROMPT_TEMPLATE
 
@@ -274,11 +273,10 @@ print(type(mapped_data))
 
 # print(mapped_data[:5])
 
-# get_diagnosis(PROMPT_TEMPLATE, 'synthetic_data_v2.csv', 'diagnoses_v2_mixtralmoe_big.csv', "mistralmoebig")
-
-# get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_PUMCH_ADM_mixtralmoe_big.csv', "mistralmoebig")
-
 get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_gpt4o.csv', gpt4o)
+get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', gpt4turbo1106)
+get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
+get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
+get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
 
-# get_diagnosis(PROMPT_TEMPLATE, 'URG_Torre_Dic_2022_IA_GEN_modified_2.xlsx', 'diagnoses_URG_Torre_Dic_200_gpt4o.csv', gpt4o)
 
