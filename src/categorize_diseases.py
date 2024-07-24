@@ -3,10 +3,10 @@
 from datasets import load_dataset
 import requests
 import pyhpo
-import openai
 import boto3
 import json
 import os
+import pandas as pd
 #from batch_diagnosis_v2 import mapping_fn_with_hpo3_plus_orpha_api
 
 ern_categories = ['Rare endocrine conditions', 'Rare kidney diseases', 'Rare bone disorders', 'Rare and complex epilepsies',
@@ -159,3 +159,9 @@ def categorize_diseases(dataset):
                 data[i]['ERN Category'] = category
 
         return data
+
+# Save the recategorized data
+data = categorize_diseases('RAMEDIS')
+data_df = pd.DataFrame(data)
+output_path = f'data/RAMEDIS_recategorized.csv'
+data_df.to_csv(output_path, index=False)
