@@ -10,6 +10,7 @@ from tqdm import tqdm
 # Load the environment variables from the .env file
 load_dotenv()
 
+# LLM Version from original paper
 # Initialize the AzureChatOpenAI model
 model = AzureChatOpenAI(
     openai_api_version = str(os.getenv("OPENAI_API_VERSION")),
@@ -84,6 +85,7 @@ def get_scores(model, dataframe, output_file):
     # Save the scores to a new CSV file
     output_path = f'data/{output_file}'
     scores_df.to_csv(output_path, index=False)
+
 
 # get_scores(model, 'diagnoses_v2_mixtralmoe_big.csv', 'scores_v2_mixtralmoe_big.csv')
 
