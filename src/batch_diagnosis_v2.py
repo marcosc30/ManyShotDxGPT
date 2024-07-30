@@ -24,7 +24,9 @@ import vertexai
 from vertexai.preview.generative_models import GenerativeModel
 from google.oauth2 import service_account
 
-from prompt_generator import PROMPT_TEMPLATE
+from prompt_generator import PROMPT_TEMPLATE_IMPROVED
+from manyshot_examples import setup_manyshot_ex
+from categorize_diseases import ern_categories
 
 logging.basicConfig(level=logging.INFO)
 
@@ -174,6 +176,15 @@ gpt4o = ChatOpenAI(
         max_tokens = 800,
     )
 
+# gpt-4omini
+model_name = "gpt-4o-mini"
+openai_api_key=os.getenv("OPENAI_API_KEY")
+gpt4omini = ChatOpenAI(
+        openai_api_key = openai_api_key,
+        model_name = model_name,
+        temperature = 0,
+        max_tokens = 800,
+    )
 
 def get_diagnosis(prompt, dataframe, output_file, model):
     HM = False # HM Hospitals
@@ -199,6 +210,16 @@ def get_diagnosis(prompt, dataframe, output_file, model):
     # Define the chat prompt template
     human_message_prompt = HumanMessagePromptTemplate.from_template(prompt)
     chat_prompt = ChatPromptTemplate.from_messages([human_message_prompt])
+    # In order to format the examples as well, we will have a dictionary of examples for each category based on this data
+    ern_examples = {}
+    ern_indices = []
+    for ern_category in ern_categories:
+        # Note: This function will print when not enough examples are present so that this can be considered, since the model
+        # will not be given any inputs for the category if all are used for examples
+        # To fix this, simply change the example number in the function call within a special case for the category
+        curr_examples, curr_indices = setup_manyshot_ex(dataframe, ern_category, seen_indices=ern_indices)
+        ern_examples[ern_category] = curr_examples
+        ern_indices += curr_indices
 
     # Iterate over the rows in the synthetic data
     for index, row in tqdm(df[:200].iterrows(), total=df[:200].shape[0]):
@@ -211,10 +232,14 @@ def get_diagnosis(prompt, dataframe, output_file, model):
         else:
             gt = row[0]
             description = row[1]
+            ern_category = row[2]
+        # This if case checks if it is used as an example for the model
+        if index in ern_indices:
+            continue
         # Generate a diagnosis
         diagnoses = []
         # Generate the diagnosis using the GPT-4 model
-        formatted_prompt = chat_prompt.format_messages(description=description)
+        formatted_prompt = chat_prompt.format_messages(description=description, examples=ern_examples[ern_category])
         # print(formatted_prompt[0].content)
         attempts = 0
         while attempts < 2:
@@ -230,6 +255,8 @@ def get_diagnosis(prompt, dataframe, output_file, model):
                     diagnosis = gpt4turbo1106(formatted_prompt).content
                 elif model == "gpt4o":
                     diagnosis = gpt4o(formatted_prompt).content
+                elif model == "gpt4omini":
+                    diagnosis = gpt4omini(formatted_prompt).content
                 else:
                     diagnosis = model(formatted_prompt).content  # Call the model instance directly
                 break
@@ -273,10 +300,13 @@ print(type(mapped_data))
 
 # print(mapped_data[:5])
 
-get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_gpt4o.csv', gpt4o)
-get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', gpt4turbo1106)
-get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
-get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
-get_diagnosis(PROMPT_TEMPLATE, mapped_data, 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
+RAMEDIS_path = "RAMEDIS_categorized.csv"
+
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4o.csv', "gpt4o")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', "gpt4turbo1106")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4omini.csv', "gpt4omini")
 
 

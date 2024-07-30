@@ -2,7 +2,10 @@ from categorize_diseases import ern_categories
 from manyshot_examples import setup_manyshot_ex
 from datasets import load_dataset
 
-# We will produce a dict of each ERN category and its corresponding prompt
+
+
+# This file just contains some different prompts that were tested
+# The final function is redundant now as the approach was changed to format it at the moment of formatting the final prompt before diagnosis
 
 # These are the examples
 PROMPT_TEMPLATE_RARE = "Behave like a hypotethical doctor who has to do a diagnosis for a patient. Give me a list of potential rare diseases with a short description. Shows for each potential rare diseases always with '\n\n+' and a number, starting with '\n\n+1', for example '\n\n+23.' (never return \n\n-), the name of the disease and finish with ':'. Dont return '\n\n-', return '\n\n+' instead. You have to indicate which symptoms the patient has in common with the proposed disease and which symptoms the patient does not have in common. The text is \n Symptoms:{description}"
@@ -40,10 +43,12 @@ Remember:
 
 Do not use "\n\n-" in your response. Only use "\n\n+" when listing the diagnoses.
 The <thinking> section should come before the <top5> section.
+###
 Use the provided examples to guide your response.
 <diagnosis_examples>
 {examples}
-<\diagnosis_examples>"""
+<\diagnosis_examples>
+###"""
 
 
 PROMPT_TEMPLATE_IMPROVED_SPLIT2 = """
@@ -57,15 +62,15 @@ Patient Symptoms:
 datasets = ["RAMEDIS", "MME", "HMS", "LIRICAL", "PUMCH_ADM"]
 examples = {}
 indices = {}
-for ern_category in ern_categories:
-    data = load_dataset('chenxz/RareBench', datasets[0], split='test', trust_remote_code=True)
-    examples[ern_category], indices[ern_category] = setup_manyshot_ex(data, ern_category)
 
-def setup_prompts():
-    ern_prompts = {}
-    prompt_template = PROMPT_TEMPLATE_IMPROVED_SPLIT1
-    for ern_category in ern_categories:
-        ern_prompts[ern_category] = prompt_template.format(examples=examples) + PROMPT_TEMPLATE_IMPROVED_SPLIT2
-    return ern_prompts
 
-PROMPT_TEMPLATE = setup_prompts()
+# def setup_prompts(dataset):
+#     for ern_category in ern_categories:
+#         data = load_dataset('chenxz/RareBench', dataset, split='test', trust_remote_code=True)
+#         examples[ern_category], indices[ern_category] = setup_manyshot_ex(data, ern_category)
+#     ern_prompts = {}
+#     prompt_template = PROMPT_TEMPLATE_IMPROVED_SPLIT1
+#     for ern_category in ern_categories:
+#         ern_prompts[ern_category] = prompt_template.format(examples=examples[ern_category]) + PROMPT_TEMPLATE_IMPROVED_SPLIT2
+#     return ern_prompts
+

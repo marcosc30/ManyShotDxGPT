@@ -125,43 +125,78 @@ def initialize_bedrock_claude(prompt, temperature=0, max_tokens=2000):
     #             model_kwargs={"temperature": temperature, "max_tokens_to_sample": max_tokens},
     # )
 
-    print(response)
+    #print(response)
 
     return json.loads(response.get('body').read())
 
 
 def categorize_diseases(dataset):
+        print(f"Loading dataset {dataset}")
         data = load_dataset('chenxz/RareBench', dataset, split='test', trust_remote_code=True)
+        # let's try with first 10 first
+        print("Mapping data to disease names")
         data = mapping_fn_with_hpo3_plus_orpha_api(data)
+        print("Data mapped")
+        data = data
         # Format of the data is {Phenotype: [], RareDisease: []}
+        # Categorizing diseases into ERN categories
         for i in range(len(data)):
-            # Iterate over the data
-            for i in range(len(data)):
-                # Get the disease from the data
-                disease = data[i]['RareDisease']
-                # Generate the prompt for the GPT model
-                prompt = f"Categorize the disease '{disease}' into an ERN category from this list ({ern_categories}). Please provide the category followed by '/n':" 
+            print("Entry ", i)
+            # Get the disease from the data
+            disease = data[i]['RareDisease']
+            phenotype = data[i]['Phenotype']
+            # Generate the prompt for the GPT model
+            prompt = f"Categorize the disease '{disease}' into an ERN category from this list ({ern_categories}) using known information about the disease. Please only provide just the category followed by '\n' so it can be split easily:" 
 
-                # Generate the completion using the GPT model
-                response = initialize_bedrock_claude(prompt)
+            # Generate the completion using the GPT model
+            response = initialize_bedrock_claude(prompt).get("content")[0].get("text")
+            # print(disease)
+            # print(response)
 
-                # Get the generated category from the GPT response
+            # Check if response is a string before splitting
+            if isinstance(response, str):
                 category = response.split('\n')[0]
-                if category not in ern_categories:
-                    response = initialize_bedrock_claude(prompt)
+            else:
+                print(f"Response is not a string at index {i}: {response}")
+                continue
+
+            # Get the generated category from the Claude response
+            if category not in ern_categories:
+                response = initialize_bedrock_claude(prompt)
+                if isinstance(response, str):
                     category = response.split('\n')[0]
-                    if category not in ern_categories:
-                        print(f"Category '{category}' not recognized, index {i}")
-                        continue
+                else:
+                    print(f"Response is not a string at index {i}: {response}")
+                    continue
+
+                if category not in ern_categories:
+                    print(f"Category '{category}' not recognized, index {i}")
+                    continue
 
 
-                # Add the category field to the data entry
-                data[i]['ERN Category'] = category
-
+            # Add the category field to the data entry
+            data[i]['ERN Category'] = category
         return data
 
 # Save the recategorized data
-data = categorize_diseases('RAMEDIS')
-data_df = pd.DataFrame(data)
-output_path = f'data/RAMEDIS_recategorized.csv'
-data_df.to_csv(output_path, index=False)
+def dataset_categorization(dataset):
+    data = categorize_diseases(dataset)
+    data_df = pd.DataFrame(data)
+    output_path = f'data/{dataset}_categorized.csv'
+    data_df.to_csv(output_path, index=False)
+
+# RAMEDIS_categorize() # RAMEDIS is all metabolic diseases, so no need to categorize
+# dataset_categorization("MME")
+# dataset_categorization("HMS")
+# dataset_categorization("LIRICAL")
+# dataset_categorization("PUMCH_ADM")
+
+def RAMEDIS_categorize():
+    data = load_dataset('chenxz/RareBench', 'RAMEDIS', split='test', trust_remote_code=True)
+    data = mapping_fn_with_hpo3_plus_orpha_api(data)
+    for example in data:
+        example["ERN Category"] = "Hereditary metabolic disorders"
+    data_df = pd.DataFrame(data)
+    output_path = 'data/RAMEDIS_recategorized.csv'
+    data_df.to_csv(output_path, index=False)
+    return data
