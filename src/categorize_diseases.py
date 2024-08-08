@@ -9,10 +9,10 @@ import os
 import pandas as pd
 #from batch_diagnosis_v2 import mapping_fn_with_hpo3_plus_orpha_api
 
-ern_categories = ['Rare endocrine conditions', 'Rare kidney diseases', 'Rare bone disorders', 'Rare and complex epilepsies',
+ERN_CATEGORIES = ['Rare endocrine conditions', 'Rare kidney diseases', 'Rare bone disorders', 'Rare and complex epilepsies',
                         'Rare adult solid cancers', 'Rare urogenital diseases and complex conditions', 'Neuromuscular diseases',
                         'Rare genetic tumour risk syndromes', 'Uncommon and rare diseases of the heart', 'Paediatric cancer (haemato-oncology)',
-                        'Rare hepatological diseases', 'Rare connective tissue and musculoskeletal diseases', 'Rare immunodeficiency', 'Autoinflammatory and autoimmune diseases'
+                        'Rare hepatological diseases', 'Rare connective tissue and musculoskeletal diseases', 'Rare immunodeficiency', 'Autoinflammatory and autoimmune diseases',
                         'Transplantation in children', 'Rare haematological diseases', 'Rare eye diseases', 'Rare malformation syndromes, intellectual and other neurodevelopmental disorders', 
                         'Rare respiratory disease', 'Rare neurological diseases', 'Rare, complex, and undiagnosed skin disorders',  'Rare inherited and congenital (digestive and gastrointestinal) anomalies', 
                         'Hereditary metabolic disorders', 'Rare multisystemic vascular diseases']
@@ -146,7 +146,7 @@ def categorize_diseases(dataset):
             disease = data[i]['RareDisease']
             phenotype = data[i]['Phenotype']
             # Generate the prompt for the GPT model
-            prompt = f"Categorize the disease '{disease}' into an ERN category from this list ({ern_categories}) using known information about the disease. Please only provide just the category followed by '\n' so it can be split easily:" 
+            prompt = f"Categorize the disease '{disease}' into an ERN category from this list ({ERN_CATEGORIES}) using known information about the disease and the following presented phenotype: {phenotype}. Please only provide just the category followed by '\n' so it can be split easily:" 
 
             # Generate the completion using the GPT model
             response = initialize_bedrock_claude(prompt).get("content")[0].get("text")
@@ -161,7 +161,7 @@ def categorize_diseases(dataset):
                 continue
 
             # Get the generated category from the Claude response
-            if category not in ern_categories:
+            if category not in ERN_CATEGORIES:
                 response = initialize_bedrock_claude(prompt)
                 if isinstance(response, str):
                     category = response.split('\n')[0]
@@ -169,7 +169,7 @@ def categorize_diseases(dataset):
                     print(f"Response is not a string at index {i}: {response}")
                     continue
 
-                if category not in ern_categories:
+                if category not in ERN_CATEGORIES:
                     print(f"Category '{category}' not recognized, index {i}")
                     continue
 
@@ -184,6 +184,7 @@ def dataset_categorization(dataset):
     data_df = pd.DataFrame(data)
     output_path = f'data/{dataset}_categorized.csv'
     data_df.to_csv(output_path, index=False)
+    print(f"{dataset} data categorization complete")
 
 # RAMEDIS_categorize() # RAMEDIS is all metabolic diseases, so no need to categorize
 # dataset_categorization("MME")
@@ -199,4 +200,30 @@ def RAMEDIS_categorize():
     data_df = pd.DataFrame(data)
     output_path = 'data/RAMEDIS_recategorized.csv'
     data_df.to_csv(output_path, index=False)
+    print("RAMEDIS data categorization complete")
     return data
+
+def HMS_fix():
+    data_df = pd.read_csv('data/HMS_categorized.csv')
+    i = 0
+    failed = [2, 3, 13, 14, 16, 20, 22, 25, 34, 36, 37, 44, 51, 55, 57, 58, 59, 63, 80, 82, 84, 87]
+    for index, row in data_df.iterrows():
+        if i in failed:
+            disease = row['RareDisease']
+            phenotype = row['Phenotype']
+            category = 'Autoinflammatory and autoimmune diseases'
+            data_df.at[index, 'ERN Category'] = category
+        i += 1
+    output_path = 'data/HMS_categorized_fixed.csv'
+    data_df.to_csv(output_path, index=False)
+
+#RAMEDIS_categorize()
+#dataset_categorization("MME")
+#dataset_categorization("HMS")
+#dataset_categorization("LIRICAL")
+#dataset_categorization("PUMCH_ADM")
+
+# I have to fix issues with formating in the ern_category column (some have "" around them and others have '' or don't)
+# Might add a secondary column, but that can be done in a week or so (I can just add the results to the paper), 
+# #this could be done with a separate function that also tells the model the first category, 
+# and tells it to give a secondary one (checking that the secondary is real and not the same as the first)

@@ -66,6 +66,7 @@ def get_scores(model, dataframe, output_file):
 
         # Generate a score for the prediction
         formatted_prompt = chat_prompt.format_messages(gt=gt, predictions=predictions)
+        print(formatted_prompt)
         attempts = 0
         while attempts < 2:
             try:
