@@ -1,6 +1,7 @@
-from categorize_diseases import ern_categories
+from categorize_diseases import ERN_CATEGORIES
 import pandas as pd
 
+# Data is of the form Phenotype,RareDisease,Department,ERN Category
 # For each ern_category, we will go through the data and use the first fifteen example diseases as examples
 # We will note their indices so they are not used in the testing
 
@@ -8,14 +9,12 @@ def get_example_diseases(data: pd.DataFrame, ern_category, example_num, seen_ind
     # The seen_indices parameter is a not yet implemented optimization for when the function is used in a loop to go through all categories
     example_diseases = []
     indices = []
-    for i in range(len(data)):
-        if data.iloc([i][2]) == ern_category:
-            example_diseases.append([data[i]['Phenotype'], data[i]['RareDisease']])
-            indices.append(i)
-            if len(example_diseases) == example_num:
-                break
+    for index, row in data.iterrows():
+        if row['ERN Category'] == ern_category:
+            example_diseases.append((row['Phenotype'], row['RareDisease']))
+            indices.append(index)
     examples_found = len(example_diseases)
-    if examples_found < 15:
+    if examples_found < example_num:
         print(f"Warning: ERN Category {ern_category} has only {examples_found} examples, which is less than {example_num} examples")
     return example_diseases, indices
 
@@ -52,7 +51,7 @@ def setup_manyshot_ex(dataset, ern_category, example_num=15, seen_indices=[], al
 
 def get_num_examples(ern_category, dataset, all_datasets=True, include_dataset=False, max_num=15, split=0.5):
     # This function is to calculate how many many-shot examples to use in case the category is too small
-    # category_info.csv is formatted like ERN Category,Total Cases,RAMEDIS,LIRICAL,PUMCH ADM,MME,HHS
+    # category_info.csv is formatted like ERN Category,Total Cases,RAMEDIS,LIRICAL,PUMCH_ADM,MME,HHS
     input_path = 'data/category_info.csv'
     df = pd.read_csv(input_path, sep=',')
     total_cases = 0

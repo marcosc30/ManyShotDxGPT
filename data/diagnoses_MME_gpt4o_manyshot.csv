@@ -1,0 +1,201 @@
+GT,Diagnosis 1
+['Mandibulofacial dysostosis-microcephaly syndrome'],"+1. Treacher Collins Syndrome: Malar flattening, micrognathia, conductive hearing impairment, atresia of the external auditory canal, microtia, aplasia/hypoplasia of the middle ear. Key symptoms not reported: downward-slanting palpebral fissures, coloboma.
++2. CHARGE Syndrome: Choanal atresia, micrognathia, conductive hearing impairment, increased nuchal translucency, mild global developmental delay. Key symptoms not reported: coloboma, heart defects, genital abnormalities.
++3. Goldenhar Syndrome: Malar flattening, micrognathia, preauricular skin tag, microtia, aplasia/hypoplasia of the middle ear. Key symptoms not reported: vertebral anomalies, epibulbar dermoids.
++4. Nager Syndrome: Malar flattening, micrognathia, microtia, proximal placement of thumb. Key symptoms not reported: lower limb anomalies, cleft palate.
++5. Pierre Robin Sequence: Micrognathia, primary microcephaly, gastrostomy tube feeding in infancy. Key symptoms not reported: glossoptosis, airway obstruction."
+[],"+1. Aicardi-Goutières Syndrome: Progressive microcephaly, global developmental delay, spastic tetraparesis, myoclonus, infantile spasms. Key symptoms not reported: chilblains, intracranial calcifications.
++2. Cockayne Syndrome: Progressive microcephaly, optic atrophy, global developmental delay, small for gestational age, birth length less than 3rd percentile. Key symptoms not reported: photosensitivity, hearing loss.
++3. Rett Syndrome: Progressive microcephaly, global developmental delay, spastic tetraparesis, myoclonus. Key symptoms not reported: stereotypic hand movements, breathing irregularities.
++4. Sturge-Weber Syndrome: Arteriovenous malformation, global developmental delay, infantile spasms. Key symptoms not reported: port-wine stain, glaucoma.
++5. Zellweger Spectrum Disorder: Progressive microcephaly, global developmental delay, spastic tetraparesis, small for gestational age, birth length less than 3rd percentile. Key symptoms not reported: hepatomegaly, dysmorphic features."
+[],"+1. Spinocerebellar Ataxia (SCA): Progressive gait ataxia, cerebellar atrophy, speech articulation difficulties, sensorineural hearing impairment, peripheral retinal atrophy.
++2. Charcot-Marie-Tooth Disease (CMT): Sensorimotor neuropathy, pes cavus, hammertoe, areflexia, somatic sensory dysfunction. (Lacks cerebellar atrophy and rod-cone dystrophy)
++3. Friedreich's Ataxia: Progressive gait ataxia, cerebellar atrophy, areflexia, speech articulation difficulties. (Lacks sensorineural hearing impairment and rod-cone dystrophy)
++4. Refsum Disease: Sensorineural hearing impairment, rod-cone dystrophy, peripheral neuropathy, somatic sensory dysfunction. (Lacks cerebellar atrophy and expressive language delay)
++5. Neuronal Ceroid Lipofuscinosis (NCL): Progressive neurological decline, rod-cone dystrophy, sensorimotor neuropathy, peripheral demyelination. (Lacks seizures)"
+[],"+1. Aicardi Syndrome: Delayed gross motor development, gray matter heterotopia, cerebellar dysplasia, aplasia/hypoplasia of the optic nerve. Key symptoms not reported: agenesis of the corpus callosum, seizures.
++2. Walker-Warburg Syndrome: Delayed gross motor development, cerebellar dysplasia, aplasia/hypoplasia of the optic nerve. Key symptoms not reported: muscle weakness, other systemic issues.
++3. Lissencephaly: Delayed gross motor development, gray matter heterotopia, cerebellar dysplasia. Key symptoms not reported: smooth brain surface (agyria or pachygyria).
++4. Joubert Syndrome: Delayed gross motor development, cerebellar dysplasia. Key symptoms not reported: ""molar tooth sign"" on brain imaging.
++5. Periventricular Nodular Heterotopia: Delayed gross motor development, gray matter heterotopia. Key symptoms not reported: cerebellar dysplasia, optic nerve hypoplasia."
+['Cataract-growth hormone deficiency-sensory neuropathy-sensorineural hearing loss-skeletal dysplasia syndrome'],"+1. **Mucopolysaccharidosis (MPS)**: Severe short stature, multiple skeletal anomalies, delayed gross motor development, cataracts, bilateral sensorineural hearing impairment.
++2. **Laron Syndrome**: Severe short stature, multiple skeletal anomalies, delayed gross motor development, decreased response to growth hormone stimulation test. (Note: Cataracts and hearing impairment are not typical.)
++3. **Turner Syndrome**: Severe short stature, multiple skeletal anomalies, delayed gross motor development. (Note: Other typical features like webbed neck and cardiac anomalies are not reported.)
++4. **Cockayne Syndrome**: Severe short stature, delayed gross motor development, cataracts, bilateral sensorineural hearing impairment. (Note: Photosensitivity and premature aging are not mentioned.)
++5. **Hypochondroplasia**: Severe short stature, multiple skeletal anomalies. (Note: Cataracts and hearing impairment are not typical.)"
+[],"+1. Joubert Syndrome: Strabismus, nystagmus, delayed speech and language development, motor delay, agenesis of the corpus callosum, cerebellar vermis hypoplasia, high myopia.
++2. Dandy-Walker Malformation: Cerebellar vermis hypoplasia, dilated fourth ventricle, cerebellar cysts, motor delay. Key symptoms not reported: Hydrocephalus.
++3. Walker-Warburg Syndrome: Cerebellar dysplasia, motor delay, high myopia, strabismus. Key symptoms not reported: Muscular dystrophy.
++4. Aicardi Syndrome: Agenesis of the corpus callosum, ocular abnormalities, developmental delays, partial absence of the septum pellucidum.
++5. Lissencephaly: Developmental delays, motor issues. Key symptoms not reported: Smooth brain surface, seizures."
+[],"+1. Joubert Syndrome: Strabismus, myopia, nystagmus, motor delay, cerebellar vermis hypoplasia, dilated fourth ventricle, cerebellar cyst, cerebellar dysplasia.
++2. Walker-Warburg Syndrome: Myopia, nystagmus, motor delay, cerebellar cyst, cerebellar dysplasia. (Key symptom not reported: severe muscular dystrophy)
++3. Dandy-Walker Malformation: Cerebellar vermis hypoplasia, dilated fourth ventricle, cerebellar cyst, ocular abnormalities. (Key symptom not reported: absent retinal pigment epithelium)
++4. Leber Congenital Amaurosis: Absent retinal pigment epithelium, myopia, nystagmus. (Key symptoms not reported: cerebellar abnormalities)
++5. Congenital Muscular Dystrophy: Ocular abnormalities, cerebellar malformations. (Key symptom not reported: pronounced muscle weakness)"
+[],"+1: Joubert Syndrome: Consistent with cerebellar vermis hypoplasia, motor delay, ocular abnormalities, cerebellar cysts, and abnormal midbrain morphology.
++2: Walker-Warburg Syndrome: Consistent with ocular abnormalities, brain malformations (cerebellar dysplasia and hypoplasia), and developmental delays.
++3: Bardet-Biedl Syndrome: Consistent with retinal dystrophy, developmental delays, and syndactyly.
++4: Meckel-Gruber Syndrome: Consistent with cerebellar and midbrain abnormalities, syndactyly, and ocular issues.
++5: COACH Syndrome: Consistent with cerebellar vermis hypoplasia, ocular abnormalities, and developmental delays."
+[],"+1. Joubert Syndrome: Consistent with 'Cerebellar dysplasia', 'Inferior cerebellar vermis hypoplasia', 'Oculomotor apraxia', 'Generalized hypotonia', 'Delayed speech and language development', and 'Motor delay'.
++2. Walker-Warburg Syndrome: Consistent with 'Cerebellar dysplasia', 'Generalized hypotonia', 'Delayed speech and language development', and 'Motor delay'. Key symptoms not reported: Muscular dystrophy, retinal dysplasia.
++3. Dandy-Walker Malformation: Consistent with 'Cerebellar dysplasia', 'Dilated fourth ventricle', and 'Inferior cerebellar vermis hypoplasia'. Key symptoms not reported: Pronounced hydrocephalus.
++4. Congenital Muscular Dystrophy: Consistent with 'Cerebellar dysplasia', 'Generalized hypotonia', and 'Motor delay'. Key symptoms not reported: Severe muscle weakness, dystrophic changes.
++5. Ataxia-Telangiectasia: Consistent with 'Cerebellar dysplasia', 'Oculomotor apraxia', and 'Generalized hypotonia'. Key symptoms not reported: Telangiectasias, immunodeficiency."
+[],"+1. Joubert Syndrome: Consistent with cerebellar vermis hypoplasia, oculomotor apraxia, hypotonia, developmental delays, and ocular abnormalities.
++2. Walker-Warburg Syndrome: Matches cerebellar dysplasia, high myopia, chorioretinal atrophy, and developmental delays.
++3. Congenital Muscular Dystrophy: Aligns with generalized hypotonia, motor delay, and ocular abnormalities.
++4. Leber Congenital Amaurosis: Consistent with nystagmus, high myopia, and developmental delays.
++5. Aicardi Syndrome: Fits with chorioretinal atrophy, developmental delays, and cerebellar malformations."
+['Cerebrocostomandibular syndrome'],"+1: 22q11.2 Deletion Syndrome (DiGeorge Syndrome): Consistent with cleft palate, feeding difficulties, learning disabilities, and hypoxemia. Posterior rib gap is not typical.
++2: Stickler Syndrome: Consistent with Pierre-Robin sequence, cleft palate, learning disabilities, and feeding difficulties. Posterior rib gap is not typical.
++3: Treacher Collins Syndrome: Consistent with Pierre-Robin sequence, cleft palate, learning disabilities, and feeding difficulties. Hypoxemia and posterior rib gap are not typical.
++4: CHARGE Syndrome: Consistent with cleft palate, feeding difficulties, learning disabilities, and hypoxemia. Posterior rib gap is not typical but skeletal anomalies can be present.
++5: Goldenhar Syndrome: Consistent with craniofacial abnormalities including cleft palate and Pierre-Robin sequence, learning disabilities, and feeding difficulties. Posterior rib gap is not typical."
+['Cerebrocostomandibular syndrome'],"+1: Pierre-Robin sequence: Pierre-Robin sequence is directly mentioned and includes features such as a small lower jaw and feeding difficulties.
++2: Stickler syndrome: Consistent with Pierre-Robin sequence, high palate, downslanted palpebral fissures, and specific learning disability. Skeletal abnormalities also fit.
++3: Treacher Collins syndrome: Downslanted palpebral fissures and high palate are consistent, but 11 pairs of ribs and hypoplastic vertebral pedicle are not typical.
++4: DiGeorge syndrome (22q11.2 deletion syndrome): Craniofacial abnormalities, feeding difficulties, and learning disabilities are consistent, but the specific combination of symptoms is less typical.
++5: Spondylocostal dysostosis: Vertebral and rib anomalies fit, but Pierre-Robin sequence and craniofacial features are not typical."
+['Cerebrocostomandibular syndrome'],"+1: 22q11.2 Deletion Syndrome (DiGeorge Syndrome): Consistent with cleft palate, hypertelorism, and central nervous system abnormalities. Key symptoms not reported: cardiac defects, immune deficiencies.
++2: Holoprosencephaly: Consistent with craniofacial abnormalities and central nervous system malformations. Key symptoms not reported: severe facial anomalies.
++3: CHARGE Syndrome: Consistent with craniofacial abnormalities and central nervous system involvement. Key symptoms not reported: coloboma, heart defects.
++4: Smith-Lemli-Opitz Syndrome: Consistent with cleft palate, hypertelorism, and central nervous system abnormalities. Key symptoms not reported: limb abnormalities, metabolic issues.
++5: Orofaciodigital Syndrome: Consistent with cleft palate, hypertelorism, and central nervous system abnormalities. Key symptoms not reported: digital anomalies."
+['Cerebrocostomandibular syndrome'],"+1. Multiple Pterygium Syndrome: Consistent with cleft palate, webbed neck, multiple pterygia, scoliosis, and abnormal rib ossification. Key symptoms not reported: none.
++2. DiGeorge Syndrome (22q11.2 deletion syndrome): Consistent with cleft palate, atrial septal defect, and skeletal abnormalities. Key symptoms not reported: webbed neck, multiple pterygia.
++3. Noonan Syndrome: Consistent with webbed neck, cystic hygroma, and atrial septal defect. Key symptoms not reported: cleft palate, Pierre-Robin sequence.
++4. Stickler Syndrome: Consistent with Pierre-Robin sequence, cleft palate, and scoliosis. Key symptoms not reported: webbed neck, cystic hygroma.
++5. Turner Syndrome: Consistent with webbed neck and cystic hygroma. Key symptoms not reported: cleft palate, Pierre-Robin sequence, multiple pterygia."
+['Cerebrocostomandibular syndrome'],"+1 Pierre-Robin sequence: Consistent with the reported symptoms of Pierre-Robin sequence, high palate, and abnormal thorax morphology.
++2 Stickler syndrome: Consistent with Pierre-Robin sequence and high palate; may also include abnormal thorax morphology.
++3 Treacher Collins syndrome: Consistent with high palate and abnormal thorax morphology; may also include Pierre-Robin sequence.
++4 22q11.2 deletion syndrome (DiGeorge syndrome): Consistent with high palate and abnormal thorax morphology; may also include Pierre-Robin sequence.
++5 Goldenhar syndrome: Consistent with craniofacial abnormalities and abnormal thorax morphology; may also include Pierre-Robin sequence."
+['Cerebrocostomandibular syndrome'],"+1: Stickler Syndrome: Pierre-Robin sequence, cleft palate, hearing impairment, scoliosis. Missing: Decreased response to growth hormone stimulation test.
++2: Treacher Collins Syndrome: Cleft palate, hearing impairment, Pierre-Robin sequence. Missing: Scoliosis, decreased response to growth hormone stimulation test.
++3: CHARGE Syndrome: Hearing impairment, growth retardation. Missing: Pierre-Robin sequence, scoliosis, posterior rib gap.
++4: DiGeorge Syndrome (22q11.2 deletion syndrome): Cleft palate, hearing impairment. Missing: Pierre-Robin sequence, scoliosis, posterior rib gap.
++5: Goldenhar Syndrome: Cleft palate, hearing impairment. Missing: Pierre-Robin sequence, scoliosis, decreased response to growth hormone stimulation test."
+['Cerebrocostomandibular syndrome'],"+1. Stickler Syndrome: Consistent with cleft palate, Pierre-Robin sequence, scoliosis, and cognitive impairment. Key symptoms not reported: myopia, hearing loss.
++2. VACTERL Association: Consistent with anal stenosis, scoliosis, and thin ribs. Key symptoms not reported: vertebral anomalies, cardiac defects, renal anomalies, limb defects.
++3. DiGeorge Syndrome (22q11.2 deletion syndrome): Consistent with cleft palate, cognitive impairment, and potential skeletal abnormalities. Key symptoms not reported: cardiac defects, immune deficiency, hypocalcemia.
++4. CHARGE Syndrome: Consistent with cleft palate, cognitive impairment, and potential skeletal abnormalities. Key symptoms not reported: coloboma, heart defects, choanal atresia, growth retardation, ear anomalies.
++5. Treacher Collins Syndrome: Consistent with cleft palate and Pierre-Robin sequence. Key symptoms not reported: facial anomalies, hearing loss, lower eyelid coloboma."
+['Cerebrocostomandibular syndrome'],"+1: Pierre-Robin Sequence: Consistent with cleft palate, respiratory insufficiency, and feeding difficulties. However, it does not explain atrial septal defect, hyperechogenic kidneys, or posterior rib gap.
++2: DiGeorge Syndrome (22q11.2 deletion syndrome): Consistent with atrial septal defect, cleft palate, feeding difficulties, and respiratory insufficiency. Hyperechogenic kidneys and posterior rib gap are not typical.
++3: VACTERL Association: Consistent with atrial septal defect and renal anomalies. However, the patient does not have all the typical features (e.g., vertebral defects, anal atresia).
++4: CHARGE Syndrome: Consistent with heart defects and feeding difficulties. Other typical features (coloboma, atresia choanae, genital abnormalities, ear abnormalities) are not reported.
++5: Branchio-Oto-Renal (BOR) Syndrome: Consistent with renal anomalies. However, other typical features (branchial cleft anomalies, hearing loss) are not reported."
+['Cerebrocostomandibular syndrome'],"+1. Pierre-Robin Sequence: Consistent with cleft palate, Pierre-Robin sequence, and respiratory distress. Key symptoms not reported: micrognathia.
++2. Stickler Syndrome: Consistent with cleft palate, Pierre-Robin sequence, scoliosis, and respiratory distress. Key symptoms not reported: myopia, hearing loss.
++3. VACTERL Association: Consistent with scoliosis and rib anomalies. Key symptoms not reported: anal atresia, cardiac defects, tracheoesophageal fistula, renal anomalies, limb abnormalities.
++4. DiGeorge Syndrome (22q11.2 deletion syndrome): Consistent with cleft palate, respiratory distress, and skeletal anomalies. Key symptoms not reported: cardiac defects, immune deficiency.
++5. Goldenhar Syndrome: Consistent with cleft lip/palate, scoliosis, and respiratory distress. Key symptoms not reported: ear anomalies, facial asymmetry."
+['Cerebrocostomandibular syndrome'],"+1. **Pierre-Robin Sequence**: Consistent with Pierre-Robin sequence, respiratory distress, and feeding difficulties.
++2. **Stickler Syndrome**: Consistent with Pierre-Robin sequence, conductive hearing impairment, hypermetropia, scoliosis, and feeding difficulties. Key symptoms not reported: joint hypermobility, retinal detachment.
++3. **22q11.2 Deletion Syndrome (DiGeorge Syndrome)**: Consistent with atrial septal defect, feeding difficulties, and craniofacial abnormalities. Key symptoms not reported: immune deficiency, hypocalcemia.
++4. **CHARGE Syndrome**: Consistent with conductive hearing impairment, strabismus, and possibly the atrial septal defect. Key symptoms not reported: coloboma, choanal atresia.
++5. **VACTERL Association**: Consistent with scoliosis and atrial septal defect. Key symptoms not reported: vertebral anomalies, anal atresia, tracheoesophageal fistula, renal anomalies, limb abnormalities."
+['Cerebrocostomandibular syndrome'],"+1: Stickler Syndrome: Pierre-Robin sequence, cleft palate, hearing impairment, scoliosis.
++2: Treacher Collins Syndrome: Cleft palate, hearing impairment (though more pronounced facial abnormalities are typically present).
++3: DiGeorge Syndrome (22q11.2 deletion syndrome): Cleft palate, hearing impairment (though cardiac and immune issues are not reported).
++4: Goldenhar Syndrome: Cleft palate, hearing impairment (though typically includes eye and vertebral anomalies).
++5: Spondylocostal Dysostosis: Rib anomalies (11 pairs of ribs, thin ribs, posterior rib gap), scoliosis."
+[],"+1. Smith-Lemli-Opitz Syndrome (SLOS): Narrow mouth, broad forehead, seizures, severe global developmental delay. Key symptoms not reported: Polydactyly, syndactyly.
++2. Rett Syndrome: Severe global developmental delay, seizures. Key symptoms not reported: Hand-wringing, loss of purposeful hand skills.
++3. Angelman Syndrome: Severe global developmental delay, seizures. Key symptoms not reported: Happy demeanor, frequent laughter.
++4. Wolf-Hirschhorn Syndrome: Broad forehead, malar flattening, seizures, severe global developmental delay. Key symptoms not reported: Greek warrior helmet appearance, growth retardation.
++5. Aicardi Syndrome: Severe global developmental delay, seizures, abnormality of ocular abduction. Key symptoms not reported: Agenesis of the corpus callosum, chorioretinal lacunae."
+"['Spondylometaphyseal dysplasia, Sedaghatian type']","+1. **Thanatophoric Dysplasia**: Consistent with platyspondyly, thoracic hypoplasia, rhizomelia, and apnea. Key symptoms not reported: none.
++2. **Spondyloepiphyseal Dysplasia (SED)**: Consistent with platyspondyly, metaphyseal irregularity, and abnormal facial shape. Key symptoms not reported: arrhythmia.
++3. **Jeune Syndrome (Asphyxiating Thoracic Dystrophy)**: Consistent with thoracic hypoplasia, flat acetabular roof, and apnea. Key symptoms not reported: broad metacarpals, arrhythmia.
++4. **Ellis-van Creveld Syndrome**: Consistent with short metacarpal, broad phalanx, and arrhythmia. Key symptoms not reported: platyspondyly, thoracic hypoplasia.
++5. **Achondroplasia**: Consistent with rhizomelia, abnormal facial shape, and short metacarpal. Key symptoms not reported: platyspondyly, arrhythmia."
+"['Spondylometaphyseal dysplasia, Sedaghatian type']","+1: Spondylometaphyseal Dysplasia (SMD): Platyspondyly, metaphyseal dysplasia, short tubular bones, hypoplastic ilia, cupped metaphyses of hand bones.
++2: Joubert Syndrome: Cerebellar hypoplasia, hypotonia, respiratory distress, simplified gyral pattern, hypoplasia of the corpus callosum.
++3: Mucopolysaccharidosis (MPS): Platyspondyly, metaphyseal dysplasia, short tubular bones, hypoplastic ilia. Key symptoms not reported: corneal clouding, hepatosplenomegaly.
++4: Peroxisomal Biogenesis Disorders (PBD): Hypotonia, cerebellar hypoplasia, skeletal abnormalities, generalized myoclonic seizures, hypoplasia of the corpus callosum.
++5: Congenital Muscular Dystrophy (CMD): Hypotonia, respiratory distress, cerebellar hypoplasia. Key symptoms not reported: progressive muscle weakness, joint contractures."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1: Zellweger Spectrum Disorder: Consistent with hypotonia, developmental delay, hepatic fibrosis, elevated alpha-fetoprotein, and peripheral neuropathy. Key symptoms not reported: craniofacial abnormalities, vision/hearing issues.
++2: Congenital Disorders of Glycosylation (CDG): Consistent with developmental delays, hypotonia, hepatic fibrosis, elevated transaminases, and peripheral neuropathy. Key symptoms not reported: specific glycosylation abnormalities.
++3: Alagille Syndrome: Consistent with hepatic fibrosis and developmental delays. Key symptoms not reported: characteristic facial features, heart defects.
++4: Riley-Day Syndrome (Familial Dysautonomia): Consistent with alacrima, hypotonia, and developmental delays. Key symptoms not reported: absence of hepatic fibrosis or elevated alpha-fetoprotein.
++5: Aicardi-Goutières Syndrome: Consistent with developmental delay, seizures, and hepatic issues. Key symptoms not reported: brain calcifications, specific neurological findings."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1. **Mitochondrial Disorder**: Consistent with microcephaly, hypotonia, global developmental delay, increased circulating lactate concentration, elevated hepatic transaminase levels, and peripheral neuropathy. Key symptoms not reported: muscle weakness, seizures.
++2. **Congenital Disorder of Glycosylation (CDG)**: Consistent with hypotonia, global developmental delay, elevated hepatic transaminase levels, peripheral neuropathy, microcephaly, and increased lactate levels. Key symptoms not reported: abnormal fat distribution, coagulation disorders.
++3. **Riley-Day Syndrome (Familial Dysautonomia)**: Consistent with alacrima, hypotonia, global developmental delay, and peripheral neuropathy. Key symptoms not reported: absence of fungiform papillae on the tongue, insensitivity to pain.
++4. **Cockayne Syndrome**: Consistent with microcephaly, developmental delay, and increased lactate levels. Key symptoms not reported: photosensitivity, progeroid appearance.
++5. **Peroxisomal Disorder**: Consistent with hypotonia, global developmental delay, elevated hepatic transaminase levels, peripheral neuropathy, microcephaly, and increased lactate levels. Key symptoms not reported: dysmorphic features, adrenal insufficiency."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1. **Congenital Disorders of Glycosylation (CDG)**: Developmental delay, hypotonia, hepatic fibrosis, elevated transaminases, increased lactate.
++2. **Mitochondrial Disorders**: Increased lactate concentration, hypotonia, developmental delay, seizures, gliosis, delayed myelination.
++3. **Zellweger Spectrum Disorder**: Hypotonia, developmental delay, hepatic fibrosis, elevated transaminases, prolonged neonatal jaundice, strabismus, small hands.
++4. **Aicardi-Goutières Syndrome**: Developmental delay, seizures, increased lactate, gliosis. (Key symptoms not reported: chilblains, intracranial calcifications)
++5. **Joubert Syndrome**: Hypotonia, developmental delay, strabismus, hepatic fibrosis. (Key symptom not reported: molar tooth sign on MRI)"
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1: Mitochondrial disorder: Consistent with elevated lactate, developmental delay, hypotonia, seizures, and abnormal midbrain morphology.
++2: Congenital disorder of glycosylation (CDG): Consistent with developmental delay, hypotonia, seizures, and elevated alpha-fetoprotein. Key symptoms not reported: liver dysfunction, coagulation abnormalities.
++3: Zellweger spectrum disorder: Consistent with hypotonia, seizures, developmental delay, and elevated alpha-fetoprotein. Key symptoms not reported: more pronounced dysmorphic features, liver dysfunction.
++4: Aicardi-Goutières syndrome: Consistent with microcephaly, seizures, developmental delay, and elevated alpha-fetoprotein. Key symptoms not reported: brain calcifications, chronic CSF lymphocytosis.
++5: Rett syndrome: Consistent with microcephaly, seizures, developmental delay, and hypotonia. Key symptoms not reported: hand-wringing movements, more common in females."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1. **Zellweger Spectrum Disorder**: Consistent with microcephaly, epicanthus, hypotonia, global developmental delay, hepatic fibrosis, EEG abnormality, short nose, prolonged neonatal jaundice, and lateral ventricle dilatation.
++2. **Smith-Lemli-Opitz Syndrome**: Consistent with microcephaly, epicanthus, hypotonia, global developmental delay, short nose, and prolonged neonatal jaundice. Hepatic fibrosis is not typically associated.
++3. **Congenital Disorders of Glycosylation (CDG)**: Consistent with hypotonia, global developmental delay, hepatic fibrosis, epicanthus, short nose, and EEG abnormality.
++4. **Aicardi-Goutières Syndrome**: Consistent with microcephaly, global developmental delay, hypotonia, EEG abnormality, and prolonged neonatal jaundice. Hepatic fibrosis is less common.
++5. **Joubert Syndrome**: Consistent with hypotonia, global developmental delay, and abnormality of movement. Hepatic fibrosis and some facial features are less typical."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1. Congenital Disorders of Glycosylation (CDG): Microcephaly, developmental delay, hypotonia, elevated hepatic transaminases, prolonged neonatal jaundice, dysmorphic features.
++2. Smith-Lemli-Opitz Syndrome (SLOS): Microcephaly, developmental delay, hypotonia, dysmorphic features (frontal bossing, epicanthus). Key symptoms not reported: Alacrima, oculomotor apraxia.
++3. Aicardi-Goutières Syndrome (AGS): Microcephaly, developmental delay, liver dysfunction. Key symptoms not reported: Specific combination of dysmorphic features, oculomotor apraxia.
++4. Zellweger Spectrum Disorder: Hypotonia, developmental delay, liver dysfunction, dysmorphic features, elevated hepatic transaminases, prolonged neonatal jaundice.
++5. Cerebrohepatorenal Syndrome (Zellweger Syndrome): Hypotonia, developmental delay, liver dysfunction, dysmorphic features, elevated hepatic transaminases, prolonged neonatal jaundice."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1: Cerebro-oculo-facio-skeletal (COFS) syndrome: Consistent with microcephaly, proptosis, oculomotor apraxia, dental crowding, seizures, hypotonia, global developmental delay, and scoliosis. Key symptoms not reported: cataracts, joint contractures.
++2: Hallermann-Streiff syndrome: Consistent with microcephaly, wide nasal bridge, dental crowding, highly arched eyebrows, and lack of facial subcutaneous fat. Key symptoms not reported: bird-like facies, skin atrophy.
++3: Cornelia de Lange syndrome: Consistent with microcephaly, wide nasal bridge, strabismus, dental crowding, seizures, hypotonia, global developmental delay, and small hands. Key symptoms not reported: limb abnormalities, hirsutism.
++4: Smith-Lemli-Opitz syndrome: Consistent with microcephaly, wide nasal bridge, strabismus, hypotonia, global developmental delay, and small hands. Key symptoms not reported: syndactyly, genital abnormalities.
++5: Angelman syndrome: Consistent with seizures, hypotonia, global developmental delay, and EEG abnormalities. Key symptoms not reported: happy demeanor, ataxia."
+['Autosomal recessive primary microcephaly'],"+1. Rett Syndrome: Microcephaly, seizures, severe intellectual disability. (Key symptoms not reported: loss of purposeful hand skills, repetitive hand movements)
++2. Angelman Syndrome: Severe intellectual disability, seizures. (Key symptoms not reported: happy demeanor)
++3. Lennox-Gastaut Syndrome: Seizures, intellectual disability. (Key symptoms not reported: microcephaly, aggressive behavior)
++4. Fragile X Syndrome: Intellectual disability, behavioral issues. (Key symptoms not reported: microcephaly)
++5. Tuberous Sclerosis Complex: Seizures, intellectual disability. (Key symptoms not reported: skin abnormalities, benign tumors)"
+['Cerebellar ataxia-areflexia-pes cavus-optic atrophy-sensorineural hearing loss syndrome'],"+1. **Leigh Syndrome**: Consistent with hypotonia, lethargy, optic atrophy, gait ataxia, bilateral sensorineural hearing impairment, and undetectable visual evoked potentials. Key symptoms not reported: lactic acidosis, respiratory issues.
++2. **Friedreich's Ataxia**: Consistent with gait ataxia, poor coordination, dysarthria, and nystagmus. Key symptoms not reported: cardiomyopathy, diabetes mellitus.
++3. **Multiple Sclerosis (MS)**: Consistent with optic atrophy, nystagmus, dysarthria, and gait ataxia. Key symptoms not reported: relapsing-remitting episodes, spinal cord lesions.
++4. **Spinocerebellar Ataxia (SCA)**: Consistent with gait ataxia, poor coordination, dysarthria, and nystagmus. Key symptoms not reported: family history of ataxia, specific genetic markers.
++5. **Neurodegeneration with Brain Iron Accumulation (NBIA)**: Consistent with optic atrophy, gait ataxia, poor coordination, and dysarthria. Key symptoms not reported: dystonia, parkinsonism."
+['Shprintzen-Goldberg syndrome'],"+1: Marfan Syndrome: Consistent with arachnodactyly, pectus carinatum, craniofacial abnormalities. Key symptoms not reported: lens dislocation, aortic root dilation.
++2: Ehlers-Danlos Syndrome: Consistent with joint laxity, craniofacial abnormalities. Key symptoms not reported: skin hyperextensibility, easy bruising.
++3: Mitochondrial Disorder: Consistent with increased circulating lactate concentration, intellectual disability. Key symptoms not reported: muscle weakness, exercise intolerance.
++4: Noonan Syndrome: Consistent with hypertelorism, low-set ears, pectus carinatum. Key symptoms not reported: short stature, congenital heart defects.
++5: Congenital Contractural Arachnodactyly: Consistent with arachnodactyly, craniofacial abnormalities, skeletal deformities. Key symptoms not reported: contractures, scoliosis."
+[],"+1. **Methylmalonic acidemia (MMA)**: Methylmalonic acidemia, methylmalonic aciduria, developmental delay, hypotonia, delayed myelination, elevated urinary 3-hydroxybutyric acid, elevated urinary aminoisobutyric acid.
++2. **Smith-Lemli-Opitz syndrome (SLOS)**: High forehead, anteverted nares, short nose, developmental delays. Key symptoms not reported: cholesterol metabolism abnormalities.
++3. **Cornelia de Lange syndrome (CdLS)**: High palate, epicanthus, hypertelorism, short philtrum, high forehead, anteverted nares, developmental delays. Key symptoms not reported: limb abnormalities.
++4. **Zellweger spectrum disorder**: Hypotonia, developmental delays, certain facial features. Key symptoms not reported: peroxisomal dysfunction.
++5. **Trisomy 21 (Down syndrome)**: Single transverse palmar crease, hypotonia, developmental delays. Key symptoms not reported: characteristic chromosomal findings."
+['SHORT syndrome'],"+1. Hallermann-Streiff Syndrome: Triangular face, underdeveloped nasal alae, deeply set eyes, delayed eruption of teeth, short stature, prematurely aged appearance, lipodystrophy.
++2. Cockayne Syndrome: Short stature, prematurely aged appearance, delayed eruption of teeth. (Key symptoms not reported: photosensitivity, neurological decline)
++3. Hutchinson-Gilford Progeria Syndrome (HGPS): Short stature, prematurely aged appearance. (Key symptoms not reported: severe cardiovascular issues)
++4. Rothmund-Thomson Syndrome: Short stature, prematurely aged appearance, delayed eruption of teeth. (Key symptoms not reported: poikiloderma, skeletal abnormalities)
++5. Mandibulofacial Dysostosis (Treacher Collins Syndrome): Underdeveloped nasal alae, deeply set eyes. (Key symptoms not reported: short stature, prematurely aged appearance)"
+[],"+1. **Williams Syndrome**: Consistent with intellectual disability, patent ductus arteriosus, distinct facial features (e.g., broad forehead, short palpebral fissure, full lips). Horseshoe kidney is not typical.
++2. **Noonan Syndrome**: Consistent with congenital heart defects, intellectual disability, distinct facial features (e.g., high forehead, deeply set eyes). Horseshoe kidney is less common.
++3. **Smith-Magenis Syndrome**: Consistent with intellectual disability, distinct facial features (e.g., broad forehead, deep-set eyes), dental issues. Horseshoe kidney is not typical.
++4. **Kabuki Syndrome**: Consistent with intellectual disability, distinct facial features (e.g., long palpebral fissures, arched eyebrows), congenital heart defects. Horseshoe kidney is less common but possible.
++5. **VACTERL Association**: Consistent with renal anomalies (e.g., horseshoe kidney), cardiac defects. Specific facial features described are not typical."
+[],"+1. Wiskott-Aldrich Syndrome (WAS): Recurrent infections, thrombocytopenia, impaired platelet aggregation, neutropenia, lymphopenia, splenomegaly.
++2. Chronic Granulomatous Disease (CGD): Recurrent bacterial and fungal infections, neutropenia, granulocytic hyperplasia, splenomegaly. (Lacks impaired platelet aggregation)
++3. Severe Congenital Neutropenia (SCN): Severe neutropenia, recurrent infections, granulocytic hyperplasia. (Lacks lymphopenia and impaired platelet aggregation)
++4. Common Variable Immunodeficiency (CVID): Recurrent infections, splenomegaly, lymphopenia. (Lacks neutropenia and impaired platelet aggregation)
++5. Myelodysplastic Syndromes (MDS): Cytopenias (neutropenia, lymphopenia, thrombocytopenia), recurrent infections, splenomegaly. (More common in older adults)"
+['Combined immunodeficiency-enteropathy spectrum'],"+1: Omphalocele: Consistent with the patient's presentation of omphalocele.
++2: Intestinal atresia: Consistent with the patient's presentation of intestinal atresia and obstruction.
++3: Gastroschisis: Similar presentation to omphalocele but typically without a protective sac.
++4: Meconium ileus: Can cause intestinal obstruction, though typically associated with cystic fibrosis.
++5: Hirschsprung's disease: Can cause intestinal obstruction, though typically presents with severe constipation."
+['Alacrimia-choreoathetosis-liver dysfunction syndrome'],"+1. **Cerebrohepatorenal syndrome (Zellweger spectrum disorders)**: Consistent with microcephaly, hypotonia, global developmental delay, hepatic fibrosis, elevated lactate, and prolonged neonatal jaundice.
++2. **Aicardi-Goutières syndrome**: Consistent with microcephaly, cerebral atrophy, hypoplasia of the corpus callosum, and elevated hepatic transaminases. Key symptoms not reported: chilblains, intracranial calcifications.
++3. **Joubert syndrome**: Consistent with hypotonia, developmental delay, oculomotor apraxia. Key symptoms not reported: molar tooth sign on MRI.
++4. **Mitochondrial disorders**: Consistent with developmental delay, hypotonia, elevated lactate, hepatic dysfunction. Key symptoms not reported: specific mitochondrial DNA mutations.
++5. **Congenital disorders of glycosylation (CDG)**: Consistent with developmental delay, hypotonia, hepatic fibrosis, elevated transaminases. Key symptoms not reported: specific glycosylation defects."

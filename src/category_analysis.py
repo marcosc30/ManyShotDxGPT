@@ -24,9 +24,9 @@ def create_aggregated_csv():
     for index, row in df_LIRICAL.iterrows():
         row['Dataset'] = 'LIRICAL'
     df_PUMCH_ADM = pd.read_csv('data/PUMCH_ADM_categorized.csv')
-    df_PUMCH_ADM['Dataset'] = 'PUMCH ADM'
+    df_PUMCH_ADM['Dataset'] = 'PUMCH_ADM'
     for index, row in df_PUMCH_ADM.iterrows():
-        row['Dataset'] = 'PUMCH ADM'
+        row['Dataset'] = 'PUMCH_ADM'
     
     df = pd.concat([df_RAMEDIS, df_HMS, df_MME, df_LIRICAL, df_PUMCH_ADM])
     df.to_csv('data/aggregated_categorized.csv', index=False)
@@ -42,7 +42,7 @@ def get_cases_per_dataset(df, ern_category):
     cases = {
         'RAMEDIS': 0,
         'LIRICAL': 0,
-        'PUMCH ADM': 0,
+        'PUMCH_ADM': 0,
         'MME': 0,
         'HHS': 0
     }
@@ -52,8 +52,8 @@ def get_cases_per_dataset(df, ern_category):
                 cases['RAMEDIS'] += 1
             elif row['Dataset'] == 'LIRICAL':
                 cases['LIRICAL'] += 1
-            elif row['Dataset'] == 'PUMCH ADM':
-                cases['PUMCH ADM'] += 1
+            elif row['Dataset'] == 'PUMCH_ADM':
+                cases['PUMCH_ADM'] += 1
             elif row['Dataset'] == 'MME':
                 cases['MME'] += 1
             elif row['Dataset'] == 'HHS':
@@ -62,11 +62,11 @@ def get_cases_per_dataset(df, ern_category):
 
 def make_category_info_csv():
     df = pd.read_csv('data/aggregated_categorized.csv')
-    new_df = pd.DataFrame(columns=['ERN Category', 'Total Cases', 'RAMEDIS', 'LIRICAL', 'PUMCH ADM', 'MME', 'HHS'])
+    new_df = pd.DataFrame(columns=['ERN Category', 'Total Cases', 'RAMEDIS', 'LIRICAL', 'PUMCH_ADM', 'MME', 'HHS'])
     for ern_category in ERN_CATEGORIES:
         total_cases = get_total_cases(df, ern_category)
         cases_per_dataset = get_cases_per_dataset(df, ern_category)
-        new_df.loc[len(new_df)] = [ern_category, total_cases, cases_per_dataset['RAMEDIS'], cases_per_dataset['LIRICAL'], cases_per_dataset['PUMCH ADM'], cases_per_dataset['MME'], cases_per_dataset['HHS']]
+        new_df.loc[len(new_df)] = [ern_category, total_cases, cases_per_dataset['RAMEDIS'], cases_per_dataset['LIRICAL'], cases_per_dataset['PUMCH_ADM'], cases_per_dataset['MME'], cases_per_dataset['HHS']]
 
     new_df.to_csv('data/category_info.csv', index=False)
 

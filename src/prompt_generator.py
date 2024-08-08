@@ -1,9 +1,3 @@
-from categorize_diseases import ern_categories
-from manyshot_examples import setup_manyshot_ex
-from datasets import load_dataset
-
-
-
 # This file just contains some different prompts that were tested
 # The final function is redundant now as the approach was changed to format it at the moment of formatting the final prompt before diagnosis
 

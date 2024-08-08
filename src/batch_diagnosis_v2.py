@@ -27,6 +27,7 @@ from google.oauth2 import service_account
 from prompt_generator import PROMPT_TEMPLATE_IMPROVED
 from manyshot_examples import setup_manyshot_ex
 from categorize_diseases import ERN_CATEGORIES
+from manyshot_examples import get_num_examples
 
 logging.basicConfig(level=logging.INFO)
 
@@ -186,19 +187,22 @@ gpt4omini = ChatOpenAI(
         max_tokens = 800,
     )
 
-def get_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=False):
+def get_manyshot_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=False):
+    print("Loading data and setting up prompts")
     # Load the data
     input_path = f'data/{dataset}_categorized.csv'
     if input_path.endswith('.csv'):
         df = pd.read_csv(input_path, sep=',')
     elif input_path.endswith('.xlsx'):
         df = pd.read_excel(input_path)
-        HM = True
     else:
         raise ValueError("Unsupported file extension. Please provide a .csv or .xlsx file.")
+    
+    # For this test, we will only use first 15 entries in the dataframe
+    df = df[:15]
         
     # Create a new DataFrame to store the diagnoses
-    diagnoses_df = pd.DataFrame(columns=['GT', 'Diagnosis 1'])
+    diagnoses_df = pd.DataFrame(columns=['GT', 'Diagnosis 1', 'ERN Category'])
 
     # Define the chat prompt template
     human_message_prompt = HumanMessagePromptTemplate.from_template(prompt)
@@ -207,15 +211,19 @@ def get_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=Fal
     ern_examples = {}
     ern_indices = []
     all_datasets = True
+    print("Creating Many-Shot Examples")
     for ern_category in ERN_CATEGORIES:
         # Note: This function will print when not enough examples are present so that this can be considered, since the model
         # will not be given any inputs for the category if all are used for examples
         # To fix this, simply change the example number in the function call within a special case for the category
-        curr_examples, curr_indices = setup_manyshot_ex(dataset, ern_category, all_datasets=all_datasets, include_dataset=include_dataset_in_ex, seen_indices=ern_indices)
+        num_examples = get_num_examples(ern_category, dataset)
+        print(f"Using {num_examples} examples for ERN Category {ern_category}")
+        curr_examples, curr_indices = setup_manyshot_ex(dataset, ern_category, example_num=num_examples, all_datasets=all_datasets, include_dataset=include_dataset_in_ex, seen_indices=ern_indices)
         ern_examples[ern_category] = curr_examples
         ern_indices += curr_indices
 
     if include_dataset_in_ex:
+        # if this is off, you don't have to worry about dataset entries being used as a manyshot example
         if all_datasets:
             aggregate_df = pd.read_csv('data/aggregated_categorized.csv')
             first_index = aggregate_df[aggregate_df['Dataset'] == dataset].index[0]
@@ -223,8 +231,10 @@ def get_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=Fal
             first_index = 0
 
 
+    print("Generating Diagnoses")
     # Iterate over the rows in the synthetic data
     for index, row in tqdm(df[:200].iterrows(), total=df[:200].shape[0]):
+        print(f"Entry: {index}")
         # Get the ground truth (GT) and the description
         description = row["Phenotype"]
         gt = row["RareDisease"]
@@ -279,10 +289,7 @@ def get_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=Fal
         # print(diagnosis)
 
         # Add the diagnoses to the new DataFrame
-        if HM:
-            diagnoses_df.loc[index] = [description] + diagnoses
-        else:
-            diagnoses_df.loc[index] = [gt] + diagnoses
+        diagnoses_df.loc[index] = [gt] + [ern_category] + diagnoses
 
         # print(diagnoses_df.loc[index])
         # break
@@ -298,13 +305,15 @@ data = load_dataset('chenxz/RareBench', "RAMEDIS", split='test')
 mapped_data = mapping_fn_with_hpo3_plus_orpha_api(data)
 print(type(mapped_data))
 
+# I need to add a run that does not keep in mind categories and uses a lot more examples, I will apply that to each dataset and see results
+
 # print(mapped_data[:5])
 
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4o.csv', "gpt4o")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4turbo1106.csv', "gpt4turbo1106")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4omini.csv', "gpt4omini")
+# Naming Guide: diagnoses_<dataset>_<model>_<shot>_<i/ni>.csv
+# diagnoses: Indicator for file containing the raw diagnoses
+# dataset: The dataset used
+# model: The model used
+# shot: Whether it uses many-shot examples or not
+# i/ni: Whether dataset entries can be used as examples or not
 
-
+get_manyshot_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'PUMCH_ADM', 'diagnoses_PUMCH_ADM_gpt4o_manyshot_ni.csv', "gpt4o")
