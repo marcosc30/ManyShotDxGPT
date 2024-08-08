@@ -26,7 +26,7 @@ from google.oauth2 import service_account
 
 from prompt_generator import PROMPT_TEMPLATE_IMPROVED
 from manyshot_examples import setup_manyshot_ex
-from categorize_diseases import ern_categories
+from categorize_diseases import ERN_CATEGORIES
 
 logging.basicConfig(level=logging.INFO)
 
@@ -186,17 +186,10 @@ gpt4omini = ChatOpenAI(
         max_tokens = 800,
     )
 
-def get_diagnosis(prompt, dataframe, output_file, model):
-    HM = False # HM Hospitals
-    HF = False # Hugging Face Datasets
-    if isinstance(dataframe, list):
-        HF = True
-
+def get_diagnosis(prompt, dataset, output_file, model, include_dataset_in_ex=False):
     # Load the data
-    input_path = f'data/{dataframe}'
-    if HF:
-        df = pd.DataFrame(dataframe)
-    elif input_path.endswith('.csv'):
+    input_path = f'data/{dataset}_categorized.csv'
+    if input_path.endswith('.csv'):
         df = pd.read_csv(input_path, sep=',')
     elif input_path.endswith('.xlsx'):
         df = pd.read_excel(input_path)
@@ -213,29 +206,36 @@ def get_diagnosis(prompt, dataframe, output_file, model):
     # In order to format the examples as well, we will have a dictionary of examples for each category based on this data
     ern_examples = {}
     ern_indices = []
-    for ern_category in ern_categories:
+    all_datasets = True
+    for ern_category in ERN_CATEGORIES:
         # Note: This function will print when not enough examples are present so that this can be considered, since the model
         # will not be given any inputs for the category if all are used for examples
         # To fix this, simply change the example number in the function call within a special case for the category
-        curr_examples, curr_indices = setup_manyshot_ex(dataframe, ern_category, seen_indices=ern_indices)
+        curr_examples, curr_indices = setup_manyshot_ex(dataset, ern_category, all_datasets=all_datasets, include_dataset=include_dataset_in_ex, seen_indices=ern_indices)
         ern_examples[ern_category] = curr_examples
         ern_indices += curr_indices
+
+    if include_dataset_in_ex:
+        if all_datasets:
+            aggregate_df = pd.read_csv('data/aggregated_categorized.csv')
+            first_index = aggregate_df[aggregate_df['Dataset'] == dataset].index[0]
+        else:
+            first_index = 0
+
 
     # Iterate over the rows in the synthetic data
     for index, row in tqdm(df[:200].iterrows(), total=df[:200].shape[0]):
         # Get the ground truth (GT) and the description
-        if HM:
-            description = row[0]
-        elif HF:
-            description = row["Phenotype"]
-            gt = row["RareDisease"]
-        else:
-            gt = row[0]
-            description = row[1]
-            ern_category = row[2]
-        # This if case checks if it is used as an example for the model
-        if index in ern_indices:
-            continue
+        description = row["Phenotype"]
+        gt = row["RareDisease"]
+        # else:
+        #     gt = row[0]
+        #     description = row[1]
+        #     ern_category = row[2]
+        # This if case checks if it is used as an example for the model, if so, it will skip it
+        if include_dataset_in_ex:
+            if index+first_index in ern_indices:
+                continue
         # Generate a diagnosis
         diagnoses = []
         # Generate the diagnosis using the GPT-4 model
@@ -300,13 +300,11 @@ print(type(mapped_data))
 
 # print(mapped_data[:5])
 
-RAMEDIS_path = "RAMEDIS_categorized.csv"
-
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4o.csv', "gpt4o")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', "gpt4turbo1106")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, RAMEDIS_path, 'diagnoses_RAMEDIS_gpt4omini.csv', "gpt4omini")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4o.csv', "gpt4o")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4turbo1106.csv', "gpt4turbo1106")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_c3opus.csv', "c3opus")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_c3sonnet.csv', "c3sonnet")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_llama3_70b.csv', "llama3_70b")
+get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'RAMEDIS', 'diagnoses_RAMEDIS_gpt4omini.csv', "gpt4omini")
 
 
