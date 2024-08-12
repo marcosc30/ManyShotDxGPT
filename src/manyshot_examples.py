@@ -96,7 +96,7 @@ def setup_manyshot_ex_no_cat(dataset, example_num=15, seen_indices=[], all_datas
     return prompt, indices
 
 
-def get_num_examples(ern_category, dataset, all_datasets=True, include_dataset=False, max_num=15, split=0.5):
+def get_num_examples(ern_category, dataset, all_datasets=True, include_dataset=False, max_num=15, split=0.7):
     # This function is to calculate how many many-shot examples to use in case the category is too small
     # category_info.csv is formatted like ERN Category,Total Cases,RAMEDIS,LIRICAL,PUMCH_ADM,MME,HHS
     input_path = 'data/category_info.csv'

@@ -206,19 +206,25 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
     # Create a new DataFrame to store the diagnoses
     diagnoses_df = pd.DataFrame(columns=['GT', 'Diagnosis 1', 'ERN Category'])
 
+    # Load the data for keeping track of examples used
+    input_path = f'data/test_tracking.csv'
+    tt_df = pd.read_csv(input_path, sep=',')
+
     # Define the chat prompt template
     human_message_prompt = HumanMessagePromptTemplate.from_template(prompt)
     chat_prompt = ChatPromptTemplate.from_messages([human_message_prompt])
 
     if many_shot:
         if no_cat:
-            examples, indices = setup_manyshot_ex_no_cat(dataset, include_dataset=include_dataset_in_ex)
+            num_examples = 50
+            examples, indices = setup_manyshot_ex_no_cat(dataset, include_dataset=include_dataset_in_ex, examples_num=num_examples)
             if include_dataset_in_ex:
                 if all_datasets:
                     aggregate_df = pd.read_csv('data/aggregated_categorized.csv')
                     first_index = aggregate_df[aggregate_df['Dataset'] == dataset].index[0]
                 else:
                     first_index = 0
+            tt_df = tt_df.append(pd.DataFrame([[dataset, output_file, "No Category", num_examples, indices]], columns=tt_df.columns))
         else:
             # In order to format the examples as well, we will have a dictionary of examples for each category based on this data
             ern_examples = {}
@@ -229,12 +235,14 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
                 # Note: This function will print when not enough examples are present so that this can be considered, since the model
                 # will not be given any inputs for the category if all are used for examples
                 # To fix this, simply change the example number in the function call within a special case for the category
-                num_examples = get_num_examples(ern_category, dataset)
-                print(f"Using {num_examples} examples for ERN Category {ern_category}")
+                num_examples = get_num_examples(ern_category, dataset, max_num=50)
+                #print(f"Using {num_examples} examples for ERN Category {ern_category}")
                 curr_examples, curr_indices = setup_manyshot_ex(dataset, ern_category, example_num=num_examples, all_datasets=all_datasets, include_dataset=include_dataset_in_ex, seen_indices=ern_indices)
                 ern_examples[ern_category] = curr_examples
                 ern_indices += curr_indices
-
+                # Now we append the dataset, test, ern_category, example number, and indices to the test tracking file
+                # Stored indices are relative to their dataset
+                tt_df = tt_df.append(pd.DataFrame([[dataset, output_file, ern_category, num_examples, curr_indices]], columns=tt_df.columns))
             if include_dataset_in_ex:
                 # if this is off, you don't have to worry about dataset entries being used as a manyshot example
                 if all_datasets:
@@ -242,6 +250,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
                     first_index = aggregate_df[aggregate_df['Dataset'] == dataset].index[0]
                 else:
                     first_index = 0
+        tt_df.to_csv('data/test_tracking.csv', index=False)
 
     print("Generating Diagnoses")
     # Iterate over the rows in the synthetic data
@@ -315,7 +324,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
         # break
 
     # Save the diagnoses to a new CSV file
-    output_path = f'data//Diagnoses/{model}/{output_file}'
+    output_path = f'data/Diagnoses/{model}/{output_file}'
     diagnoses_df.to_csv(output_path, index=False)
 
 # I need to add a run that does not keep in mind categories and uses a lot more examples, I will apply that to each dataset and see results
@@ -331,4 +340,15 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
 
 #get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'PUMCH_ADM', 'diagnoses_PUMCH_ADM_gpt4omini_manyshot_ni.csv', "gpt4omini")
 #get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, 'PUMCH_ADM', 'diagnoses_PUMCH_ADM_gpt4omini_noshot_ni.csv', "gpt4omini", many_shot=False)
-get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'aggregated', 'diagnoses_aggregated_gpt4omini_manyshot_ni.csv', "gpt4omini", no_cat=True)
+#get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'aggregated', 'diagnoses_aggregated_gpt4omini_manyshot_ni.csv', "gpt4omini", no_cat=True)
+
+# I should do an analysis of what the ideal example_num is
+# I can just do this with 4o mini then apply that example num to the other models
+
+
+def get_all_diagnoses(model, dataset, include_agg=False):
+    get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_ni.csv', model)
+    get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_ni.csv', model, many_shot=False)
+    if include_agg:
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'aggregated', f'diagnoses_aggregated_{model}_manyshot_ni.csv', model, no_cat=True)
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, 'aggregated', f'diagnoses_aggregated_{model}_noshot_ni.csv', model, no_cat=True, many_shot=False)
