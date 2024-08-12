@@ -206,9 +206,10 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
     # Create a new DataFrame to store the diagnoses
     diagnoses_df = pd.DataFrame(columns=['GT', 'Diagnosis 1', 'ERN Category'])
 
-    # Load the data for keeping track of examples used
-    input_path = f'data/test_tracking.csv'
-    tt_df = pd.read_csv(input_path, sep=',')
+    if many_shot:
+        # Load the data for keeping track of examples used
+        input_path = f'data/test_tracking.csv'
+        tt_df = pd.read_csv(input_path, sep=',')
 
     # Define the chat prompt template
     human_message_prompt = HumanMessagePromptTemplate.from_template(prompt)
@@ -224,7 +225,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
                     first_index = aggregate_df[aggregate_df['Dataset'] == dataset].index[0]
                 else:
                     first_index = 0
-            tt_df = tt_df.append(pd.DataFrame([[dataset, output_file, "No Category", num_examples, indices]], columns=tt_df.columns))
+            tt_df = pd.concat([tt_df, pd.DataFrame([[dataset, output_file, "No Category", num_examples, indices]], columns=tt_df.columns)])
         else:
             # In order to format the examples as well, we will have a dictionary of examples for each category based on this data
             ern_examples = {}
@@ -242,7 +243,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
                 ern_indices += curr_indices
                 # Now we append the dataset, test, ern_category, example number, and indices to the test tracking file
                 # Stored indices are relative to their dataset
-                tt_df = tt_df.append(pd.DataFrame([[dataset, output_file, ern_category, num_examples, curr_indices]], columns=tt_df.columns))
+                tt_df = pd.concat([tt_df, pd.DataFrame([[dataset, output_file, ern_category, num_examples, curr_indices]], columns=tt_df.columns)])
             if include_dataset_in_ex:
                 # if this is off, you don't have to worry about dataset entries being used as a manyshot example
                 if all_datasets:
@@ -279,7 +280,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
             #print(formatted_prompt)
         else:
             formatted_prompt = chat_prompt.format_messages(description=description)
-        print(formatted_prompt[0].content)
+        #print(formatted_prompt[0].content)
         attempts = 0
         while attempts < 2:
             try:
@@ -352,3 +353,5 @@ def get_all_diagnoses(model, dataset, include_agg=False):
     if include_agg:
         get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'aggregated', f'diagnoses_aggregated_{model}_manyshot_ni.csv', model, no_cat=True)
         get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, 'aggregated', f'diagnoses_aggregated_{model}_noshot_ni.csv', model, no_cat=True, many_shot=False)
+
+get_all_diagnoses("gpt4omini", "PUMCH_ADM", include_agg=False)
