@@ -21,6 +21,23 @@ Use the provided examples to guide your response.
 <diagnosis_examples>
 {examples}
 <\diagnosis_examples>
+
+Patient Symptoms:
+<patient_description>
+{description} 
+</patient_description>
+</prompt>
+"""
+
+PROMPT_TEMPLATE_IMPROVED_NO_SHOT = """
+<prompt> As an AI-assisted diagnostic tool, your task is to analyze the given patient symptoms and generate a list of the top 5 potential diagnoses. Follow these steps:
+Carefully review the patient's reported symptoms.
+In the <thinking></thinking> tags, provide a detailed analysis of the patient's condition: a. Highlight any key symptoms or combinations of symptoms that stand out. b. Discuss possible diagnoses and why they might or might not fit the patient's presentation. c. Suggest any additional tests or information that could help narrow down the diagnosis.
+In the <top5></top5> tags, generate a list of the 5 most likely diagnoses that match the given symptoms: a. Assign each diagnosis a number, starting from 1 (e.g., "\n\n+1", "\n\n+2", etc.). b. Provide the name of the condition, followed by a colon (":"). c. Indicate which of the patient's symptoms are consistent with this diagnosis. d. Mention any key symptoms of the condition that the patient did not report, if applicable.
+Remember:
+
+Do not use "\n\n-" in your response. Only use "\n\n+" when listing the diagnoses.
+The <thinking> section should come before the <top5> section.
 Patient Symptoms:
 <patient_description>
 {description} 

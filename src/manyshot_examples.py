@@ -43,11 +43,58 @@ def setup_manyshot_ex(dataset, ern_category, example_num=15, seen_indices=[], al
     example_disease_str = ""
     for i in range(len(example_diseases)):
         phenotype_list = ""
-        for j in range(len(example_diseases[i][0])):
-            phenotype_list += f"{example_diseases[i][0][j]}, "
+        for j in range(len(example_diseases[i])):
+            phenotype_list += f"{example_diseases[i][j]}"
         example_disease_str += f"{i+1}. {phenotype_list} -> {example_diseases[i][1]}\n"
-    prompt = f"The following are examples of diagnosis for the ERN category '{ern_category}':\n{example_diseases}\n"
+    prompt = f"The following are examples of diagnosis for the ERN category '{ern_category}': \n{example_disease_str}\n"
     return prompt, indices
+
+# These are the same two functions but for the case where we don't have categories
+
+def get_example_diseases_no_cat(data: pd.DataFrame, example_num, seen_indices):
+    # The seen_indices parameter is a not yet implemented optimization for when the function is used in a loop to go through all categories
+    example_diseases = []
+    indices = []
+    for index, row in data.iterrows():
+        example_diseases.append((row['Phenotype'], row['RareDisease']))
+        indices.append(index)
+        if len(example_diseases) >= example_num:
+            break
+    examples_found = len(example_diseases)
+    if examples_found < example_num:
+        print(f"Warning: There are only {examples_found} examples, which is less than {example_num} examples")
+    return example_diseases, indices
+
+def setup_manyshot_ex_no_cat(dataset, example_num=15, seen_indices=[], all_datasets=True, include_dataset=False, shuffle=True):
+    # If all datasets is true, indices provided will be relative to the aggregative csv
+    # Otherwise, they are relative to that dataset
+    # In theory, they can be converted to each other by just adding or subtracting the index of the first element in the dataset in the aggregative csv
+    if all_datasets:
+        input_path = 'data/aggregated_categorized.csv'
+    else: 
+        input_path = f'data/{dataset}'
+    df = pd.read_csv(input_path, sep=',')
+    if shuffle:
+        df['Original Index'] = df.index
+        df = df.sample(frac=1).reset_index(drop=True)
+    if not include_dataset:
+        # we will remove all of the entries from the dataset from the df
+        df = df[df['Dataset'] != dataset]
+
+    example_diseases, indices = get_example_diseases_no_cat(df, example_num, seen_indices)
+    if shuffle:
+        for index in indices:
+            index = df['Original Index'][index]
+
+    example_disease_str = ""
+    for i in range(len(example_diseases)):
+        phenotype_list = ""
+        for j in range(len(example_diseases[i])):
+            phenotype_list += f"{example_diseases[i][j]}"
+        example_disease_str += f"{i+1}. {phenotype_list} -> {example_diseases[i][1]}\n"
+    prompt = f"The following are examples of diagnosis: \n{example_disease_str}\n"
+    return prompt, indices
+
 
 def get_num_examples(ern_category, dataset, all_datasets=True, include_dataset=False, max_num=15, split=0.5):
     # This function is to calculate how many many-shot examples to use in case the category is too small
