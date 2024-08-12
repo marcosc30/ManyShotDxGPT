@@ -43,6 +43,8 @@ process. `diagnoses_` prefix is used for the files that contain the actual diagn
 5. **Categorized** Identifies if categories were taken into account when generating examples or if examples were general (cat/nocat)
 6. **Dataset Examples Included**: Identifies whether or not examples were taken from the dataset being tested (i/ni). All of the tests so far have been run ni, but the option is there in case further testing is done.
 
+Example: `diagnoses_PUMCH_ADM_gpt4omini_manyshot_cat_ni.csv` is the csv file containing diagnoses for the PUMCH_ADM dataset done by GPT-4omini using many-shot examples, taking into account categories, and not including the dataset cases as examples
+
 This structured approach to file naming ensures that each file is easily identifiable and that its contents are self-explanatory based on the name alone.
 
 ## Evaluation metrics
