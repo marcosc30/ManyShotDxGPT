@@ -186,7 +186,7 @@ gpt4omini = ChatOpenAI(
         max_tokens = 800,
     )
 
-def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=True, include_dataset_in_ex=False):
+def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=True, include_dataset_in_ex=False, max_examples=50):
     # Parameters: Prompt Template (If no-shot is wanted, prompt must be changed in input), Dataset, Output File, 
     # Model, No Category (Bool to determine if ern categories will be used, this is for implementing the aggregate test), 
     # Many Shot (whether examples are used at all), Include Dataset in Examples (whether the dataset entries can be used as examples)
@@ -217,7 +217,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
 
     if many_shot:
         if no_cat:
-            num_examples = 50
+            num_examples = max_examples
             examples, indices = setup_manyshot_ex_no_cat(dataset, include_dataset=include_dataset_in_ex, examples_num=num_examples)
             if include_dataset_in_ex:
                 if all_datasets:
@@ -236,7 +236,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
                 # Note: This function will print when not enough examples are present so that this can be considered, since the model
                 # will not be given any inputs for the category if all are used for examples
                 # To fix this, simply change the example number in the function call within a special case for the category
-                num_examples = get_num_examples(ern_category, dataset, max_num=50)
+                num_examples = get_num_examples(ern_category, dataset, max_num=max_examples)
                 #print(f"Using {num_examples} examples for ERN Category {ern_category}")
                 curr_examples, curr_indices = setup_manyshot_ex(dataset, ern_category, example_num=num_examples, all_datasets=all_datasets, include_dataset=include_dataset_in_ex, seen_indices=ern_indices)
                 ern_examples[ern_category] = curr_examples
@@ -332,11 +332,12 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
 
 # print(mapped_data[:5])
 
-# Naming Guide: diagnoses_<dataset>_<model>_<shot>_<i/ni>.csv
+# Naming Guide: diagnoses_<dataset>_<model>_<shot>_<categorized>_<i/ni>.csv
 # diagnoses: Indicator for file containing the raw diagnoses
 # dataset: The dataset used
 # model: The model used, (gpt4o, gpt4turbo1106, llama3_70b, c3opus, c3sonnet, gpt4omini)
 # shot: Whether it uses many-shot examples or not
+# categorized: Whether categories are considered or not
 # i/ni: Whether dataset entries can be used as examples or not, for now all do not include it but option is there (might test this for the more challenging data sets)
 
 #get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'PUMCH_ADM', 'diagnoses_PUMCH_ADM_gpt4omini_manyshot_ni.csv', "gpt4omini")
@@ -347,11 +348,18 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
 # I can just do this with 4o mini then apply that example num to the other models
 
 
-def get_all_diagnoses(model, dataset, include_agg=False):
-    get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_ni.csv', model)
-    get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_ni.csv', model, many_shot=False)
-    if include_agg:
-        get_diagnosis(PROMPT_TEMPLATE_IMPROVED, 'aggregated', f'diagnoses_aggregated_{model}_manyshot_ni.csv', model, no_cat=True)
-        get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, 'aggregated', f'diagnoses_aggregated_{model}_noshot_ni.csv', model, no_cat=True, many_shot=False)
+def get_all_diagnoses(model, dataset, no_cat=False):
+    get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_cat_ni.csv', model)
+    get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_cat_ni.csv', model, many_shot=False)
+    if no_cat:
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_nocat_ni.csv', model, no_cat=True)
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_nocat_ni.csv', model, no_cat=True, many_shot=False)
 
-get_all_diagnoses("gpt4omini", "PUMCH_ADM", include_agg=False)
+# GPT-4o-mini
+get_all_diagnoses("gpt4omini", "PUMCH_ADM", no_cat=True)
+get_all_diagnoses("gpt4omini", "MME", no_cat=True)
+get_all_diagnoses("gpt4omini", "LIRICAL", no_cat=True)
+get_all_diagnoses("gpt4omini", "HMS", no_cat=True)
+get_all_diagnoses("gpt4omini", "RAMEDIS", no_cat=True)
+get_all_diagnoses("gpt4omini", "aggregated", no_cat=True)
+
