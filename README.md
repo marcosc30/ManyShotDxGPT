@@ -36,7 +36,7 @@ process. `diagnoses_` prefix is used for the files that contain the actual diagn
     - `aggregated` is all of the datasets from Rarebench aggregated into one
 
 3. **Model identifier**: Following the prefix, the name includes an identifier for the AI model used during the evaluation. Some of the possible model identifiers are:
-   - 'gpt4o': Data evaluated using the GPT-4o Model
+   - `gpt4o`: Data evaluated using the GPT-4o Model
    - `_llama3_70b`: Data evaluated using the LLaMA 3 70b model.
    - `_c3opus`: Data evaluated using the Claude 3 Opus model.
 4. **Shot**: Identifies whether it was a many-shot or no-shot test
