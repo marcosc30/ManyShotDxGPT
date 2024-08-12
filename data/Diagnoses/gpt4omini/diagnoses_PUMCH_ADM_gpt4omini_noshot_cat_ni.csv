@@ -1,0 +1,446 @@
+GT,Diagnosis 1,ERN Category
+['Prader-Willi syndrome'],"+1 Cerebral Palsy: This diagnosis fits with neonatal hypotonia, slurred speech, and aspiration pneumonia. Key symptoms not reported include spasticity or motor function delays.
+
++2 Autism Spectrum Disorder: This aligns with delayed speech and compulsive behaviors. Key symptoms not reported include social communication difficulties and restricted interests.
+
++3 Prader-Willi Syndrome: This condition matches with hypotonia, poor suck, and increased body weight. Key symptoms not reported include hyperphagia (excessive eating) and behavioral issues.
+
++4 Congenital Myopathy: This could explain hypotonia and weak cry. Key symptoms not reported include muscle weakness and delayed motor milestones.
+
++5 Metabolic Disorder (e.g., Glycogen Storage Disease): This could account for growth retardation and elevated hemoglobin A1c. Key symptoms not reported include exercise intolerance and muscle pain.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: This condition is consistent with cryptorchidism, infantile muscular hypotonia, feeding difficulties, and excessive daytime somnolence. Key symptoms not reported include obesity and behavioral issues. 
++2 Congenital Hypothyroidism: This diagnosis aligns with hypotonia, feeding difficulties, and potential developmental delays. Key symptoms not reported include dry skin and constipation. 
++3 Spinal Muscular Atrophy (SMA): This condition matches hypotonia and feeding difficulties. Key symptoms not reported include muscle weakness and respiratory issues. 
++4 Down Syndrome: This genetic disorder is consistent with hypotonia, feeding difficulties, and cryptorchidism. Key symptoms not reported include characteristic facial features and developmental delays. 
++5 Neuromuscular Disorders: Various disorders could explain hypotonia and dysphonia. Key symptoms not reported include muscle weakness and fatigue.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: This condition is consistent with neonatal hypotonia, poor suck, bilateral cryptorchidism, and abnormal palmar creases. Key symptoms not reported include obesity and behavioral issues in later childhood. 
++2 Beckwith-Wiedemann Syndrome: This syndrome aligns with intrauterine growth retardation and hypotonia. Key symptoms not reported include macroglossia and abdominal wall defects. 
++3 Congenital Myopathy: This diagnosis fits with neonatal hypotonia and poor suck. Key symptoms not reported include muscle weakness and delayed motor milestones. 
++4 Mitochondrial Disorder: The presence of lactic aciduria suggests a metabolic issue. Key symptoms not reported include exercise intolerance and neurological symptoms. 
++5 Chromosomal Abnormality (e.g., Trisomy 18): This could explain growth retardation and craniofacial features. Key symptoms not reported include severe developmental delays and other congenital anomalies.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: Symptoms consistent include poor suck, postnatal growth retardation, infantile muscular hypotonia, and compulsive behaviors. Key symptoms not reported include hyperphagia (excessive eating).
+
++2 Autism Spectrum Disorder: Symptoms consistent include delayed speech and language development, compulsive behaviors, and possible hypotonia. Key symptoms not reported include social communication difficulties.
+
++3 Angelman Syndrome: Symptoms consistent include delayed speech and language development, infantile muscular hypotonia, and possible compulsive behaviors. Key symptoms not reported include seizures and a characteristic happy demeanor.
+
++4 Cerebral Palsy: Symptoms consistent include infantile muscular hypotonia and developmental delays. Key symptoms not reported include specific motor function impairments.
+
++5 Down Syndrome: Symptoms consistent include infantile muscular hypotonia and developmental delays. Key symptoms not reported include distinct facial features and heart defects.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Congenital Adrenal Hyperplasia (CAH): This condition can lead to ambiguous genitalia (micropenis) and cryptorchidism due to adrenal insufficiency. Symptoms consistent with CAH include abnormal sexual development and potential metabolic disturbances. Key symptoms not reported include adrenal crisis or electrolyte imbalances.
+
++2 Methylmalonic Acidemia: This metabolic disorder is characterized by the accumulation of methylmalonic acid due to a deficiency in the enzyme responsible for its metabolism. Symptoms consistent with this diagnosis include hypocalcemia, decreased vitamin B12, and neurological symptoms like encephalopathy and hypotonia. Key symptoms not reported include recurrent vomiting or failure to thrive.
+
++3 Propionic Acidemia: Similar to methylmalonic acidemia, this condition involves a deficiency in propionyl-CoA carboxylase, leading to metabolic acidosis and neurological symptoms. Symptoms consistent with this diagnosis include lactic aciduria and hypotonia. Key symptoms not reported include metabolic crises or seizures.
+
++4 Genetic Syndrome (e.g., Prader-Willi Syndrome): This syndrome can present with obesity, hypotonia, and developmental delays. Symptoms consistent with this diagnosis include obesity and postnatal growth retardation. Key symptoms not reported include hyperphagia or behavioral issues.
+
++5 Neurological Disorder (e.g., Cerebral Palsy): The combination of slurred speech, hypotonia, and encephalopathy suggests a neurological condition. Symptoms consistent with this diagnosis include developmental delays and motor impairments. Key symptoms not reported include spasticity or seizures.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Wilson disease'],"+1 Wilson's Disease: Symptoms consistent include jaundice, Kayser-Fleischer ring, decreased ceruloplasmin, and liver dysfunction. Key symptoms not reported include neurological symptoms such as tremors or psychiatric disturbances. 
++2 Cirrhosis: Symptoms consistent include ascites, jaundice, hypoalbuminemia, and prolonged prothrombin time. Key symptoms not reported include variceal bleeding or hepatic encephalopathy. 
++3 Primary Biliary Cholangitis: Symptoms consistent include jaundice, elevated alkaline phosphatase, and skin rash. Key symptoms not reported include pruritus and fatigue. 
++4 Acute Liver Failure: Symptoms consistent include jaundice, hyperammonemia, and prolonged prothrombin time. Key symptoms not reported include confusion or altered mental status. 
++5 Porphyria: Symptoms consistent include abnormal urinary color and increased urinary porphobilinogen. Key symptoms not reported include photosensitivity or abdominal pain.",Rare hepatological diseases
+['Wilson disease'],"+1 Wilson's disease: The presence of Kayser-Fleischer ring, decreased ceruloplasmin, increased urinary copper, irritability, personality changes, tremor, and elevated liver enzymes are all consistent with this diagnosis. Key symptoms not reported include neurological decline or movement disorders in advanced cases. 
++2 Hepatitis: Elevated liver enzymes and hepatomegaly are consistent with hepatitis, but the neurological symptoms and Kayser-Fleischer ring do not fit. Key symptoms not reported include jaundice or specific viral symptoms. 
++3 Alcoholic liver disease: Hepatomegaly and elevated liver enzymes could suggest this condition, but the neurological symptoms and specific lab findings do not align. Key symptoms not reported include a history of alcohol use or withdrawal symptoms. 
++4 Hemochromatosis: Liver dysfunction and some neurological symptoms could be present, but the specific findings of decreased ceruloplasmin and increased urinary copper are not characteristic. Key symptoms not reported include diabetes, skin changes, or joint pain. 
++5 Acute liver failure: Elevated liver enzymes and abdominal pain could suggest this, but the neurological symptoms and Kayser-Fleischer ring do not fit. Key symptoms not reported include severe jaundice or confusion.",Rare hepatological diseases
+['Wilson disease'],"+1 Wilson's disease: Symptoms consistent include hematuria, slurred speech, dysphagia, drooling, hand tremor, decreased ceruloplasmin, increased urinary copper, and Kayser-Fleischer ring. Key symptoms not reported include liver failure or acute hepatic symptoms. 
++2 Hepatic encephalopathy: Symptoms consistent include slurred speech and poor appetite. Key symptoms not reported include confusion or altered level of consciousness. 
++3 Multiple sclerosis: Symptoms consistent include slurred speech and hand tremor. Key symptoms not reported include visual disturbances or sensory changes. 
++4 Parkinson's disease: Symptoms consistent include hand tremor and slurred speech. Key symptoms not reported include rigidity or bradykinesia. 
++5 Acute liver failure: Symptoms consistent include abnormality of the liver and poor appetite. Key symptoms not reported include jaundice or severe abdominal pain.",Rare hepatological diseases
+['Wilson disease'],"+1 Wilson's disease: This condition is characterized by copper accumulation in the body, leading to liver dysfunction, neurological symptoms (muscle weakness, slurred speech, incoordination), and the presence of Kayser-Fleischer rings. Key symptoms not reported include psychiatric symptoms such as mood changes or personality changes.
++2 Hepatic encephalopathy: This condition can cause neurological symptoms due to liver dysfunction, but the presence of Kayser-Fleischer rings and copper metabolism issues makes Wilson's disease more likely. Key symptoms not reported include confusion or altered level of consciousness.
++3 Vitamin B12 deficiency: This can lead to neurological symptoms and muscle weakness, but does not explain the liver abnormalities or Kayser-Fleischer ring. Key symptoms not reported include glossitis or peripheral neuropathy.
++4 Hemolytic anemia: This could explain splenomegaly and microscopic hematuria, but does not account for the neurological symptoms or liver abnormalities. Key symptoms not reported include jaundice or fatigue.
++5 Multiple sclerosis: This could explain incoordination and muscle weakness, but does not fit with the liver abnormalities or Kayser-Fleischer ring. Key symptoms not reported include visual disturbances or sensory changes.",Rare hepatological diseases
+['Wilson disease'],"+1 Wilson's disease: The patient exhibits decreased ceruloplasmin and increased urinary copper, along with neurological symptoms like slurred speech and hand tremor. Key symptoms not reported include hepatic symptoms such as jaundice or abdominal pain. 
++2 Multiple sclerosis: The patient has slurred speech and muscle weakness, but does not show the characteristic MRI findings or other typical symptoms of MS. 
++3 Amyotrophic lateral sclerosis: The patient presents with muscle weakness and slurred speech, but lacks the specific copper metabolism abnormalities. 
++4 Parkinson's disease: The hand tremor and muscle weakness are present, but the other symptoms and lab findings do not support this diagnosis. 
++5 Heavy metal poisoning (other than copper): Neurological symptoms are present, but the specific findings of copper metabolism strongly indicate Wilson's disease rather than general heavy metal toxicity.",Rare hepatological diseases
+['McCune-Albright syndrome'],"+1 McCune-Albright syndrome: This condition is consistent with the patient's cafe-au-lait spots, fibrous dysplasia, precocious puberty, and elevated alkaline phosphatase. Key symptoms not reported include endocrine abnormalities related to other hormone levels.
++2 Neurofibromatosis type 1: The presence of cafe-au-lait spots and potential skeletal abnormalities aligns with this diagnosis, but it does not fully explain the fibrous dysplasia or hormonal changes. Key symptoms not reported include neurofibromas or learning disabilities.
++3 Osteogenesis imperfecta: This condition explains the fractures and bone pain, but does not account for the other symptoms such as abnormal morphology and precocious puberty. Key symptoms not reported include blue sclera or hearing loss.
++4 Turner syndrome: This could explain some developmental abnormalities, but the cafe-au-lait spots and fibrous dysplasia are atypical. Key symptoms not reported include short stature and other sexual development issues.
++5 Hypophosphatasia: This condition could explain the elevated alkaline phosphatase and bone issues, but does not account for the other systemic symptoms. Key symptoms not reported include dental issues or rickets-like symptoms.",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright syndrome: This condition is characterized by the triad of fibrous dysplasia, café-au-lait spots, and endocrine abnormalities. The patient exhibits cafe-au-lait spots, polyostotic fibrous dysplasia, and signs of premature thelarche, which align with this diagnosis. Key symptoms not reported include precocious puberty and other endocrine manifestations.
++2 Ovarian tumor (e.g., granulosa cell tumor): The presence of ovarian cysts, increased estradiol, and abnormal uterine bleeding could indicate an ovarian tumor. The hormonal profile suggests an estrogen-secreting tumor. Key symptoms not reported include abdominal mass or pain specific to the tumor.
++3 Precocious puberty: The early development of secondary sexual characteristics (premature thelarche) and abnormal vaginal morphology suggest precocious puberty. The hormonal imbalance supports this diagnosis. Key symptoms not reported include advanced bone age or other signs of early sexual maturation.
++4 Endocrine dysfunction (hypothalamic-pituitary-gonadal axis): The hormonal profile with decreased FSH and LH suggests a disruption in the HPG axis, possibly due to a central cause. Key symptoms not reported include headaches or visual disturbances that could indicate a pituitary lesion.
++5 Fibrous dysplasia: The presence of monostotic and polyostotic fibrous dysplasia indicates a bone disorder that could be part of a broader syndrome. The patient’s pain and skeletal maturation may relate to this condition. Key symptoms not reported include bone deformities or fractures.",Rare bone disorders
+['McCune-Albright syndrome'],"+1 Acromegaly: Elevated circulating growth hormone concentration, abnormal calvaria morphology, thickened cortex of bones. Key symptoms not reported: Soft tissue swelling, joint pain.
++2 Neurofibromatosis Type 1 (NF1): Cafe-au-lait spot, fibrous dysplasia of the bones. Key symptoms not reported: Neurofibromas, learning disabilities.
++3 McCune-Albright Syndrome: Cafe-au-lait spot, fibrous dysplasia of the bones, accelerated skeletal maturation, increased serum testosterone level. Key symptoms not reported: Precocious puberty, irregular menstrual cycles in females.
++4 Pituitary Adenoma: Increased circulating prolactin concentration, elevated growth hormone concentration. Key symptoms not reported: Headaches, vision changes.
++5 Congenital Adrenal Hyperplasia (CAH): Increased serum testosterone level, premature pubarche. Key symptoms not reported: Salt-wasting crisis, adrenal insufficiency.",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright syndrome: This condition is consistent with cafe-au-lait spots, cranial hyperostosis, and polyostotic fibrous dysplasia. Key symptoms not reported may include endocrine abnormalities such as precocious puberty or hyperthyroidism. 
++2 Neurofibromatosis type 1: This diagnosis fits with the cafe-au-lait spots and potential visual loss due to optic nerve involvement. Key symptoms not reported may include neurofibromas or learning disabilities. 
++3 Fibrous dysplasia: The presence of polyostotic fibrous dysplasia and cranial hyperostosis supports this diagnosis. Key symptoms not reported may include bone pain or fractures. 
++4 Craniosynostosis: The abnormal shape of the occiput suggests this condition, which can lead to visual issues. Key symptoms not reported may include developmental delays or other cranial deformities. 
++5 Optic nerve glioma: This could explain the visual loss and is associated with neurofibromatosis type 1. Key symptoms not reported may include proptosis or other neurological deficits.",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright syndrome: This condition is consistent with the abnormal vagina morphology, breast abnormalities, cafe-au-lait spots, and premature pubarche. Key symptoms not reported include bone pain or fractures.
++2 Neurofibromatosis type 1 (NF1): The presence of cafe-au-lait spots and potential developmental delays align with NF1. Key symptoms not reported include neurofibromas or learning disabilities.
++3 Congenital adrenal hyperplasia (CAH): This could explain the abnormal genital morphology, premature pubarche, and hormonal imbalances. Key symptoms not reported include adrenal crisis or electrolyte imbalances.
++4 Thyroid dysfunction: The hormonal profile suggests hyperthyroidism, which could explain some symptoms. Key symptoms not reported include weight loss or heat intolerance.
++5 Turner syndrome: This genetic condition could explain some developmental abnormalities, but the hormonal profile and cafe-au-lait spots may not fit. Key symptoms not reported include short stature or heart defects.",Rare endocrine conditions
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Heart Failure: Symptoms consistent include cardiomegaly, abnormal left ventricular function, dyspnea, and palpitations. Key symptoms not reported include orthopnea and paroxysmal nocturnal dyspnea. 
++2 Valvular Heart Disease: Symptoms consistent include mitral regurgitation, aortic regurgitation, and cardiomegaly. Key symptoms not reported include significant chest pain or syncope. 
++3 Infective Endocarditis: Symptoms consistent include fever, heart murmurs, and respiratory symptoms. Key symptoms not reported include skin manifestations (e.g., petechiae) or embolic events. 
++4 Chronic Obstructive Pulmonary Disease (COPD) or Bronchiectasis: Symptoms consistent include productive cough and bronchiectasis. Key symptoms not reported include wheezing or significant smoking history. 
++5 Aortic Aneurysm or Dissection: Symptoms consistent include ascending tubular aorta aneurysm and dyspnea. Key symptoms not reported include severe chest or back pain.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Idiopathic Scoliosis: Symptoms consistent with this diagnosis include the presence of scoliosis and potential back pain. Key symptoms not reported may include a family history of scoliosis or specific age-related onset.
+
++2 Congenital Scoliosis: Symptoms consistent with this diagnosis include the presence of kyphoscoliosis from an early age. Key symptoms not reported may include any history of congenital anomalies or developmental delays.
+
++3 Neuromuscular Scoliosis: Symptoms consistent with this diagnosis include the presence of scoliosis and potential muscle weakness. Key symptoms not reported may include a history of neuromuscular disorders or muscle atrophy.
+
++4 Degenerative Disc Disease: Symptoms consistent with this diagnosis include back pain and postural changes. Key symptoms not reported may include age-related symptoms or a history of chronic back pain.
+
++5 Osteoporosis: Symptoms consistent with this diagnosis include potential back pain and postural changes. Key symptoms not reported may include risk factors such as age, gender, or previous fractures.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Marfan syndrome: Tall stature, mitral valve prolapse, hypertrophic cardiomyopathy, aortic root aneurysm, kyphoscoliosis. Key symptoms not reported: Arachnodactyly, lens dislocation.
++2 Ehlers-Danlos syndrome: Mitral valve prolapse, aortic regurgitation, tricuspid valve prolapse, dyspnea. Key symptoms not reported: Hyperelastic skin, joint hypermobility.
++3 Aortic dissection: Chest pain, dyspnea, tachypnea, aortic root aneurysm. Key symptoms not reported: Sudden severe chest or back pain, unequal blood pressure in arms.
++4 Dilated cardiomyopathy: Dyspnea, exercise intolerance, left ventricular hypertrophy. Key symptoms not reported: Fatigue, palpitations.
++5 Congenital heart disease: Heart murmur, mitral regurgitation, tricuspid regurgitation. Key symptoms not reported: Cyanosis, clubbing of fingers.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Marfan syndrome: Lens subluxation, scoliosis, high myopia, lens luxation. Key symptoms not reported: Aortic dilation or mitral valve prolapse.
++2 Ehlers-Danlos syndrome: Lens subluxation, scoliosis, low back pain. Key symptoms not reported: Joint hypermobility or skin hyperelasticity.
++3 Homocystinuria: Lens subluxation, scoliosis. Key symptoms not reported: Developmental delays or vascular issues.
++4 Osteogenesis imperfecta: Scoliosis, low back pain. Key symptoms not reported: Bone fragility or frequent fractures.
++5 Idiopathic scoliosis: Scoliosis, low back pain. Key symptoms not reported: Ocular symptoms or lens issues.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Heart failure due to myocarditis: Symptoms consistent include cardiomegaly, dyspnea, increased NT-proBNP concentration, and exercise intolerance. Key symptoms not reported may include orthopnea or paroxysmal nocturnal dyspnea. 
++2 Dilated cardiomyopathy: Symptoms consistent include cardiomegaly, dyspnea, and exercise intolerance. Key symptoms not reported may include palpitations or syncope. 
++3 Pericardial effusion: Symptoms consistent include cardiomegaly and dyspnea. Key symptoms not reported may include chest pain or a history of recent viral infection. 
++4 Constrictive pericarditis: Symptoms consistent include dyspnea and abdominal distention. Key symptoms not reported may include peripheral edema or jugular venous distention. 
++5 Pulmonary hypertension: Symptoms consistent include dyspnea and exercise intolerance. Key symptoms not reported may include chest pain or hemoptysis.",Rare connective tissue and musculoskeletal diseases
+['Desminopathy'],"+1 Heart Failure: Symptoms consistent include exertional dyspnea, pedal edema, decreased urine output, and elevated NT-proBNP concentration. Key symptoms not reported include orthopnea and paroxysmal nocturnal dyspnea. 
++2 Dilated Cardiomyopathy: Symptoms consistent include cardiomegaly, reduced systolic function, and right ventricular dilatation. Key symptoms not reported include family history of cardiomyopathy or specific genetic markers. 
++3 Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC): Symptoms consistent include palpitations, syncope, and right ventricular failure. Key symptoms not reported include a history of exercise-induced syncope or family history of sudden cardiac death. 
++4 Valvular Heart Disease: Symptoms consistent include abnormal tricuspid valve morphology and right atrial enlargement. Key symptoms not reported include specific murmurs or signs of left-sided heart involvement. 
++5 Hyperlipidemia-related Cardiovascular Disease: Symptoms consistent include cardiomegaly and elevated NT-proBNP concentration. Key symptoms not reported include a history of coronary artery disease or specific lipid panel results.",Neuromuscular diseases
+['Desminopathy'],"+1 Heart Failure: Symptoms include cardiomegaly, mitral regurgitation, left ventricular systolic dysfunction, and lower limb muscle weakness. Key symptoms not reported include orthopnea and paroxysmal nocturnal dyspnea.
++2 Arrhythmia (e.g., Ventricular Tachycardia): Symptoms include palpitations, ventricular tachycardia, and premature ventricular contractions. Key symptoms not reported include syncope or near-syncope episodes.
++3 Hyperkalemia: Symptoms include muscle weakness and bradycardia. Key symptoms not reported include muscle cramps or paralysis.
++4 Ischemic Heart Disease: Symptoms include ST segment depression and T-wave inversion. Key symptoms not reported include chest pain or angina.
++5 Pulmonary Hypertension: Symptoms include right ventricular dilatation and right bundle branch block. Key symptoms not reported include dyspnea on exertion or fatigue.",Neuromuscular diseases
+['Desminopathy'],"+1 Congenital Heart Disease: This condition could explain the multiple valve abnormalities and cardiomegaly. Symptoms consistent with this diagnosis include abnormal mitral, pulmonary, aortic, and tricuspid valve morphology, as well as right ventricular failure. Key symptoms not reported may include cyanosis or exercise-induced symptoms. 
+
++2 Heart Failure: The presence of cardiomegaly, tachycardia, ascites, and pedal edema strongly suggests heart failure. Symptoms consistent with this diagnosis include orthopnea, decreased urine output, and fatigue. Key symptoms not reported may include paroxysmal nocturnal dyspnea or significant weight gain due to fluid retention.
+
++3 Cirrhosis: The hepatic cysts, conjugated hyperbilirubinemia, hypoalbuminemia, and ascites suggest liver dysfunction, possibly cirrhosis. Symptoms consistent with this diagnosis include poor appetite and episodic vomiting. Key symptoms not reported may include jaundice or spider angiomata.
+
++4 Pericardial Effusion: The presence of pericardial effusion and third-degree atrioventricular block indicates potential pericardial disease. Symptoms consistent with this diagnosis include orthopnea and fatigue. Key symptoms not reported may include chest pain or a history of recent viral infection.
+
++5 Cardiomyopathy: The left ventricular diastolic dysfunction and regional wall motion abnormalities suggest cardiomyopathy. Symptoms consistent with this diagnosis include exercise intolerance and fatigable weakness. Key symptoms not reported may include family history of heart disease or arrhythmias.",Neuromuscular diseases
+['Desminopathy'],"+1 Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC): This condition is consistent with right ventricular morphology abnormalities, syncope, palpitations, and ventricular tachycardia. Key symptoms not reported include family history of sudden cardiac death or arrhythmias.
+
++2 Biventricular Noncompaction Cardiomyopathy: This diagnosis aligns with cardiomegaly, left and right ventricular dysfunction, and arrhythmias. Key symptoms not reported include exercise intolerance or heart failure symptoms.
+
++3 Myocarditis: This could explain the cardiomyopathy, arrhythmias, and heart failure symptoms. Key symptoms not reported include fever, chest pain, or recent viral illness.
+
++4 Pulmonary Hypertension: The elevated pulmonary artery pressure and dyspnea are consistent with this diagnosis. Key symptoms not reported include chest pain or signs of right heart failure.
+
++5 Thromboembolic Disease: Given the ischemic stroke and abnormal thrombosis, this diagnosis is plausible. Key symptoms not reported include history of deep vein thrombosis or other thromboembolic events.",Neuromuscular diseases
+['Brugada syndrome'],"+1 Myocardial Infarction: Symptoms consistent include ST segment elevation, dyspnea, and exercise intolerance. Key symptoms not reported include chest pain or discomfort. 
++2 Pneumonia: Symptoms consistent include cough and dyspnea. Key symptoms not reported include fever or chills. 
++3 Viral Hepatitis: Symptoms consistent include fatigue and potential liver dysfunction. Key symptoms not reported include jaundice or abdominal pain. 
++4 Congestive Heart Failure: Symptoms consistent include dyspnea and exercise intolerance. Key symptoms not reported include edema or orthopnea. 
++5 Pulmonary Embolism: Symptoms consistent include dyspnea and cough. Key symptoms not reported include pleuritic chest pain or hemoptysis.",Uncommon and rare diseases of the heart
+['Brugada syndrome'],"+1 Acute myocardial infarction: Symptoms consistent include ST segment elevation, syncope, and vomiting. Key symptoms not reported may include chest pain or discomfort.
++2 Cardiac arrhythmia: Symptoms consistent include syncope and right bundle branch block. Key symptoms not reported may include palpitations or irregular heartbeat.
++3 Seizure disorder: Symptoms consistent include loss of consciousness and vomiting. Key symptoms not reported may include postictal confusion or tongue biting.
++4 Severe dehydration or electrolyte imbalance: Symptoms consistent include syncope and vomiting. Key symptoms not reported may include dry mucous membranes or muscle cramps.
++5 Neurological event (e.g., stroke): Symptoms consistent include trismus and loss of consciousness. Key symptoms not reported may include unilateral weakness or speech difficulties.",Uncommon and rare diseases of the heart
+['Brugada syndrome'],"+1 Prostatitis: Symptoms consistent include urinary hesitancy, urinary incontinence, and dysuria. Key symptoms not reported may include pelvic pain or discomfort. 
++2 Acute coronary syndrome: Symptoms consistent include ST segment elevation, elevated CK and CK-MB levels, and syncope. Key symptoms not reported may include chest pain or discomfort. 
++3 Heart failure: Symptoms consistent include pedal edema, exercise intolerance, and syncope. Key symptoms not reported may include shortness of breath or fatigue. 
++4 Transient ischemic attack (TIA): Symptoms consistent include amaurosis fugax and syncope. Key symptoms not reported may include weakness or numbness on one side of the body. 
++5 Myopathy: Symptoms consistent include muscle weakness and elevated CK levels. Key symptoms not reported may include muscle pain or cramping.",Uncommon and rare diseases of the heart
+[],"+1 Heart Failure: Symptoms consistent include dyspnea, pedal edema, poor appetite, and increased NT-proBNP concentration. Key symptoms not reported include orthopnea or paroxysmal nocturnal dyspnea.
++2 Pericardial Disease (e.g., Constrictive Pericarditis): Symptoms consistent include pericardial effusion, dyspnea, and right atrial enlargement. Key symptoms not reported include chest pain or fever.
++3 Valvular Heart Disease (Tricuspid Regurgitation): Symptoms consistent include abnormal tricuspid valve morphology, tricuspid regurgitation, and palpitations. Key symptoms not reported include significant fatigue or syncope.
++4 Connective Tissue Disorder (e.g., Ehlers-Danlos Syndrome): Symptoms consistent include vascular tortuosity and abnormality of internal jugular vein. Key symptoms not reported include joint hypermobility or skin changes.
++5 Atrial Fibrillation: Symptoms consistent include palpitations and dyspnea. Key symptoms not reported include episodes of rapid heart rate or dizziness.",Uncommon and rare diseases of the heart
+[],"+1 Heart Failure with Preserved Ejection Fraction (HFpEF): Symptoms include dyspnea, pedal edema, reduced left ventricular ejection fraction, and right ventricular dilatation. Key symptoms not reported include significant fatigue or orthopnea.
++2 Pulmonary Hypertension: Symptoms include dyspnea and right ventricular dilatation. Key symptoms not reported include syncope or chest pain during exertion.
++3 Urinary Tract Infection/Obstruction: Symptoms include urinary hesitancy and dysuria. Key symptoms not reported include fever or flank pain.
++4 Systemic Disease (e.g., Sarcoidosis or Amyloidosis): Symptoms include multi-organ involvement with respiratory and cardiac symptoms. Key symptoms not reported include skin lesions or systemic symptoms like fever or weight loss.
++5 Hematological Disorder (e.g., Polycythemia Vera): Symptoms include abnormal thrombosis and systemic symptoms. Key symptoms not reported include headaches, dizziness, or visual disturbances.",Rare kidney diseases
+[],"+1 Heart Failure: Symptoms include dyspnea, pedal edema, reduced left ventricular ejection fraction, and right atrial enlargement. Key symptoms not reported include orthopnea and paroxysmal nocturnal dyspnea. 
++2 Pulmonary Hypertension: Symptoms include dyspnea and exercise intolerance. Key symptoms not reported include chest pain and syncope. 
++3 Liver Cirrhosis: Symptoms include hepatomegaly, ascites, and conjugated hyperbilirubinemia. Key symptoms not reported include jaundice and spider angiomata. 
++4 Valvular Heart Disease: Symptoms include dyspnea, pedal edema, and abnormal mitral/tricuspid valve morphology. Key symptoms not reported include palpitations and chest discomfort. 
++5 Cardiac Tamponade: Symptoms include dyspnea, pedal edema, and pericardial effusion. Key symptoms not reported include hypotension and muffled heart sounds.",Uncommon and rare diseases of the heart
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Multiple Sclerosis: Symptoms consistent include spastic paraplegia, hyperactive reflexes, and Babinski sign. Key symptoms not reported may include sensory disturbances and visual symptoms. 
++2 Amyotrophic Lateral Sclerosis: Symptoms consistent include spasticity and lower limb weakness. Key symptoms not reported may include muscle atrophy and bulbar symptoms. 
++3 Spinal Cord Injury or Compression: Symptoms consistent include difficulty walking, spasticity, and weakness. Key symptoms not reported may include pain or sensory loss. 
++4 Hereditary Spastic Paraplegia: Symptoms consistent include spastic paraplegia and lower limb weakness. Key symptoms not reported may include family history of similar symptoms. 
++5 Syringomyelia: Symptoms consistent include spasticity and weakness. Key symptoms not reported may include sensory changes and pain in the upper limbs.",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Multiple Sclerosis: This condition is characterized by slurred speech, upper limb weakness, and abnormal cerebral white matter morphology due to demyelination. Key symptoms not reported include visual disturbances and fatigue. 
++2 Cervical Spondylotic Myelopathy: The presence of cervical spine abnormalities and spinal canal stenosis suggests this diagnosis, which can cause upper limb weakness and pain. Key symptoms not reported include gait disturbances and lower limb weakness. 
++3 Chiari Malformation: The abnormal sella turcica morphology and cervical spine issues could indicate this condition, which can lead to neurological symptoms like slurred speech and upper limb weakness. Key symptoms not reported include headaches and balance issues. 
++4 Amyotrophic Lateral Sclerosis (ALS): The combination of upper limb muscle weakness and EMG findings of neuropathic changes could suggest ALS. Key symptoms not reported include muscle atrophy and respiratory difficulties. 
++5 Pituitary Adenoma: The abnormal sella turcica morphology raises suspicion for a pituitary tumor, which could cause neurological symptoms through mass effect. Key symptoms not reported include hormonal imbalances and visual field defects.",Rare neurological diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1: Amyotrophic Lateral Sclerosis (ALS): Symptoms consistent include upper and lower limb weakness, dysarthria, spastic gait, and hyperactive reflexes. Key symptoms not reported include significant respiratory failure or bulbar involvement.
++2: Multiple Sclerosis (MS): Symptoms consistent include dysarthria, spastic gait, and upper motor neuron signs. Key symptoms not reported include visual disturbances or sensory changes.
++3: Stroke: Symptoms consistent include sudden onset of weakness, dysarthria, and spasticity. Key symptoms not reported include focal neurological deficits or changes in consciousness prior to coma.
++4: Cerebral Palsy: Symptoms consistent include spastic gait and muscle stiffness. Key symptoms not reported include developmental history or early childhood motor delays.
++5: Spinal Cord Injury or Disease: Symptoms consistent include pyramidal signs, weakness, and hyperreflexia. Key symptoms not reported include acute trauma history or bowel/bladder dysfunction.",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Spinal Muscular Atrophy: Symptoms consistent include proximal muscle weakness in upper and lower limbs, hand muscle atrophy, and EMG findings of neuropathic changes. Key symptoms not reported include significant respiratory issues or bulbar symptoms. 
++2 Hereditary Neuropathy (e.g., Charcot-Marie-Tooth Disease): Symptoms consistent include distal muscle weakness, pes cavus, and decreased Achilles reflex. Key symptoms not reported include sensory loss or neuropathic pain. 
++3 Metabolic Myopathy: Symptoms consistent include elevated creatine kinase levels, muscle weakness, and decreased body weight. Key symptoms not reported include exercise intolerance or myoglobinuria. 
++4 Vitamin B12 Deficiency: Symptoms consistent include decreased circulating vitamin B12 concentration, hyperhomocystinemia, and neurological symptoms. Key symptoms not reported include cognitive changes or macrocytic anemia. 
++5 Amyotrophic Lateral Sclerosis (ALS): Symptoms consistent include proximal and distal muscle weakness, hyperactive patellar reflex, and abnormal pyramidal signs. Key symptoms not reported include significant bulbar symptoms or respiratory failure at this stage.",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Spinal Muscular Atrophy (SMA): Symptoms include upper and lower limb muscle weakness, interosseus muscle atrophy, and poor fine motor coordination. Key symptoms not reported include respiratory difficulties.
+
++2 Charcot-Marie-Tooth Disease (CMT): Symptoms include muscle weakness, atrophy, and neuropathic changes on EMG. Key symptoms not reported include sensory loss or foot deformities.
+
++3 Cerebral Palsy: Symptoms include abnormal muscle tone and difficulty walking. Key symptoms not reported include cognitive impairment or seizures.
+
++4 Muscular Dystrophy: Symptoms include progressive muscle weakness and atrophy. Key symptoms not reported include pseudohypertrophy of muscles.
+
++5 Hereditary Spastic Paraplegia (HSP): Symptoms include lower limb weakness and difficulty walking. Key symptoms not reported include bladder dysfunction or spasticity in the upper limbs.",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Symptoms include bilateral ptosis, fatigable weakness, and upper limb muscle weakness. Key symptoms not reported may include ocular symptoms like diplopia or generalized weakness. 
++2 Lambert-Eaton Myasthenic Syndrome: Symptoms include muscle weakness and fatigability, often with autonomic features. Key symptoms not reported may include dry mouth or sexual dysfunction. 
++3 Congenital Myasthenic Syndrome: Symptoms include muscle weakness and fatigability, with possible structural abnormalities. Key symptoms not reported may include early onset of symptoms or family history of similar conditions. 
++4 Ocular Myasthenia Gravis: Symptoms include ptosis and diplopia, with weakness that worsens with activity. Key symptoms not reported may include isolated ocular symptoms without generalized weakness. 
++5 Myopathy: Symptoms include muscle weakness, but typically without the specific fatigability pattern seen in neuromuscular junction disorders. Key symptoms not reported may include muscle pain or cramps.",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Symptoms consistent include blurred vision, diplopia, ptosis, dysphagia, dyspnea, generalized muscle weakness, and EMG findings. Key symptoms not reported may include thymoma or other autoimmune symptoms.
++2 Lambert-Eaton Myasthenic Syndrome: Symptoms consistent include generalized muscle weakness and easy fatigability. Key symptoms not reported may include autonomic dysfunction or a history of malignancy.
++3 Oculopharyngeal Muscular Dystrophy: Symptoms consistent include dysphagia, ptosis, and muscle weakness. Key symptoms not reported may include progressive weakness over time and family history.
++4 Myasthenic Syndrome (Congenital): Symptoms consistent include muscle weakness and fatigability. Key symptoms not reported may include early onset and specific muscle involvement patterns.
++5 Botulism: Symptoms consistent include diplopia, ptosis, dysphagia, and muscle weakness. Key symptoms not reported may include gastrointestinal symptoms or a history of exposure to contaminated food.",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Symptoms consistent include diplopia, bilateral and unilateral ptosis, dysphagia, easy fatigability, and EMG findings. Key symptoms not reported include muscle weakness in limbs.
++2 Multiple Sclerosis: Symptoms consistent include diplopia and difficulty walking. Key symptoms not reported include sensory disturbances and motor weakness.
++3 Lambert-Eaton Myasthenic Syndrome: Symptoms consistent include easy fatigability and EMG findings. Key symptoms not reported include proximal muscle weakness and autonomic dysfunction.
++4 Thymoma: Symptoms consistent include ptosis and dysphagia. Key symptoms not reported include chest pain or mass effect symptoms.
++5 Amyotrophic Lateral Sclerosis: Symptoms consistent include difficulty walking and easy fatigability. Key symptoms not reported include upper and lower motor neuron signs.",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Symptoms consistent include diplopia, dysarthria, bilateral and unilateral ptosis, upper limb muscle weakness, and a favorable response to acetylcholine esterase inhibitors. Key symptoms not reported include ocular muscle fatigue and generalized muscle weakness. 
++2 Amyotrophic Lateral Sclerosis (ALS): Symptoms consistent include dysarthria, upper limb muscle weakness, and easy fatigability. Key symptoms not reported include significant muscle atrophy and respiratory difficulties. 
++3 Multiple Sclerosis: Symptoms consistent include diplopia, dysarthria, and abnormal cerebral white matter morphology. Key symptoms not reported include sensory disturbances and bladder dysfunction. 
++4 Myopathy: Symptoms consistent include muscle weakness and easy fatigability. Key symptoms not reported include muscle pain and elevated creatine kinase levels. 
++5 Neuropathy: Symptoms consistent include reduced tendon reflexes and muscle weakness. Key symptoms not reported include sensory loss and pain in the extremities.",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: This diagnosis is consistent with diplopia, ptosis, dysarthria, dysphagia, generalized muscle weakness, and the favorable response to acetylcholine esterase inhibitors. Key symptoms not reported include muscle fatigue that worsens with activity.
++2 Lambert-Eaton Myasthenic Syndrome: This could explain the muscle weakness and the presence of thymoma, but the EMG findings and symptom profile are more characteristic of myasthenia gravis. Key symptoms not reported include autonomic dysfunction.
++3 Multiple Sclerosis: While it can cause diplopia and weakness, the specific combination of symptoms and EMG findings are more characteristic of myasthenia gravis. Key symptoms not reported include sensory disturbances or visual field defects.
++4 Amyotrophic Lateral Sclerosis: This is less likely due to the specific nature of the weakness and the EMG findings. Key symptoms not reported include upper motor neuron signs such as spasticity or hyperreflexia.
++5 Thyroid-related myopathy: This could be a consideration due to Hashimoto thyroiditis, but the specific neuromuscular junction symptoms are more indicative of myasthenia gravis. Key symptoms not reported include muscle pain or tenderness.",Neuromuscular diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1: Parkinson's Disease: Symptoms consistent include bradykinesia, akinesia, clumsiness, action tremor, shuffling gait, and progressive language deterioration. Key symptoms not reported include resting tremor and postural instability. 
++2: Multiple System Atrophy (MSA): Symptoms consistent include urinary urgency, urinary retention, bradykinesia, and abnormal basal ganglia morphology. Key symptoms not reported include significant autonomic dysfunction and possible cerebellar signs. 
++3: Normal Pressure Hydrocephalus (NPH): Symptoms consistent include urinary incontinence, gait disturbance (shuffling gait), and cognitive decline (progressive language deterioration). Key symptoms not reported include classic triad of symptoms (dementia, gait disturbance, and urinary incontinence) being less pronounced. 
++4: Atypical Parkinsonism (e.g., Corticobasal Degeneration): Symptoms consistent include bradykinesia, clumsiness, and abnormal basal ganglia morphology. Key symptoms not reported include asymmetric motor symptoms and possible cortical signs. 
++5: Urinary Tract Infection (UTI) or Bladder Dysfunction: Symptoms consistent include urinary urgency, urinary retention, dysuria, and pollakisuria. Key symptoms not reported include fever or systemic signs of infection.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1 Multiple System Atrophy: This condition is characterized by autonomic dysfunction (e.g., urinary incontinence, xerostomia), motor symptoms (e.g., dysarthria, clumsiness), and visual disturbances. Key symptoms not reported include parkinsonism and severe postural instability.
+
++2 Multiple Sclerosis: The presence of urinary urgency, visual loss, and abnormal cerebral white matter morphology aligns with MS. Symptoms not reported include episodes of sensory disturbances and fatigue.
+
++3 Vascular Dementia: The combination of memory impairment, dysarthria, and cerebral ischemia suggests vascular dementia. Symptoms not reported include significant cognitive decline and history of stroke.
+
++4 Cerebellar Ataxia: The waddling gait, dysdiadochokinesis, and poor fine motor coordination indicate possible cerebellar ataxia. Symptoms not reported include tremors and more pronounced balance issues.
+
++5 Neurodegenerative Disorder (e.g., Parkinson's Disease): The combination of decreased facial expression, dysarthria, and hyperactive reflexes suggests a neurodegenerative process. Symptoms not reported include resting tremor and bradykinesia.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1 Normal Pressure Hydrocephalus (NPH): Symptoms consistent include urinary incontinence, gait disturbance, and cognitive changes (hallucinations). Key symptoms not reported include memory loss and apathy. 
++2 Parkinson's Disease: Symptoms consistent include bradykinesia, dysdiadochokinesis, and gait abnormalities. Key symptoms not reported include resting tremor and rigidity. 
++3 Multiple System Atrophy (MSA): Symptoms consistent include urinary incontinence, motor symptoms, and cognitive changes. Key symptoms not reported include orthostatic hypotension and specific autonomic dysfunction. 
++4 Corticobasal Degeneration (CBD): Symptoms consistent include bradykinesia and poor fine motor coordination. Key symptoms not reported include asymmetric motor symptoms and alien limb phenomenon. 
++5 Frontotemporal Dementia (FTD): Symptoms consistent include hallucinations and motor symptoms. Key symptoms not reported include significant personality changes and language difficulties.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1 Multiple Sclerosis: Symptoms consistent include urinary urgency, incontinence, dysdiadochokinesis, and abnormal cerebral white matter morphology. Key symptoms not reported include visual disturbances and fatigue. 
++2 Stroke: Symptoms consistent include slurred speech, syncope, lower limb muscle weakness, and increased intracranial pressure. Key symptoms not reported include unilateral weakness or facial droop. 
++3 Spinal Cord Injury: Symptoms consistent include urinary hesitancy, incontinence, lower limb muscle weakness, and abnormal spinal cord morphology. Key symptoms not reported include loss of reflexes or sensory deficits. 
++4 Neuropathy: Symptoms consistent include urinary urgency, dysesthesia, and EMG neuropathic changes. Key symptoms not reported include pain or tingling in extremities. 
++5 Neurogenic Bladder: Symptoms consistent include urinary urgency, hesitancy, incontinence, and abnormal prostate morphology. Key symptoms not reported include recurrent urinary tract infections or bladder distension.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1 Neurogenic Bladder Dysfunction: This condition is consistent with nocturia, urinary hesitancy, urinary incontinence, and positive Romberg sign. Key symptoms not reported include bladder overactivity or detrusor underactivity.
++2 Multiple Sclerosis: The combination of slurred speech, bradykinesia, memory impairment, and positive Babinski sign aligns with this diagnosis. Symptoms not reported include visual disturbances or fatigue.
++3 Parkinson's Disease: The presence of bradykinesia, unsteady gait, and memory impairment suggests this condition. Key symptoms not reported include resting tremor or rigidity.
++4 Diabetic Neuropathy: The patient's diabetes mellitus and symptoms of paresthesia and impaired sensation at the ankles support this diagnosis. Symptoms not reported include pain or burning sensations in the feet.
++5 Spinal Cord Compression: The abnormal intervertebral disk morphology and neurological symptoms such as hyporeflexia and gait instability suggest this condition. Key symptoms not reported include severe back pain or bowel dysfunction.",Rare neurological diseases
+['Alport syndrome'],"+1 Chronic Kidney Disease: Symptoms consistent include nocturia, proteinuria, hematuria, hypertension, elevated creatinine, hyperkalemia, and hypoalbuminemia. Key symptoms not reported may include fatigue and decreased appetite. 
+
++2 Nephrotic Syndrome: Symptoms consistent include proteinuria, hypoalbuminemia, and hypercholesterolemia. Key symptoms not reported may include significant edema and weight gain.
+
++3 Glomerulonephritis: Symptoms consistent include hematuria, proteinuria, hypertension, and elevated creatinine. Key symptoms not reported may include flank pain and fever.
+
++4 Hyperthyroidism: Symptoms consistent include hypertension and nodular goiter. Key symptoms not reported may include weight loss, increased appetite, and palpitations.
+
++5 Polycystic Kidney Disease: Symptoms consistent include hypertension and renal impairment (elevated creatinine). Key symptoms not reported may include abdominal or flank pain and family history of kidney disease.",Rare kidney diseases
+['Alport syndrome'],"+1 Alport syndrome: This condition is consistent with proteinuria, hypertension, elevated creatinine, severe sensorineural hearing impairment, and hematuria. Key symptoms not reported may include eye abnormalities.
++2 Focal segmental glomerulosclerosis (FSGS): Symptoms consistent include proteinuria, hypertension, and elevated creatinine. Key symptoms not reported may include specific types of edema or nephrotic syndrome features.
++3 IgA nephropathy: Consistent symptoms include proteinuria and hematuria. Key symptoms not reported may include recurrent episodes of hematuria or flank pain.
++4 Lupus nephritis: Symptoms consistent include proteinuria, hypertension, and fever. Key symptoms not reported may include a history of systemic lupus erythematosus or skin rashes.
++5 Nephronophthisis: Consistent symptoms include renal failure and hearing loss. Key symptoms not reported may include growth retardation or other systemic manifestations.",Rare kidney diseases
+['Alport syndrome'],"+1 Alport Syndrome: This condition is consistent with nephritis, microscopic and macroscopic hematuria, and high-frequency sensorineural hearing impairment. Key symptoms not reported may include eye abnormalities. 
++2 Lupus Nephritis: This diagnosis aligns with nephritis and sinusitis. The patient may not report other systemic symptoms such as joint pain or rashes. 
++3 IgA Nephropathy: This condition is consistent with hematuria and nephritis but does not typically cause hearing loss. 
++4 Vasculitis (e.g., Granulomatosis with Polyangiitis): This could explain the renal symptoms and sinusitis, but hearing loss is less common. 
++5 Churg-Strauss Syndrome: This condition can cause renal involvement and sinusitis, but hearing loss is less typical and would usually present with asthma or eosinophilia.",Rare kidney diseases
+['Alport syndrome'],"+1 Chronic Glomerulonephritis: This diagnosis is consistent with hematuria, proteinuria, and chronic kidney disease. Key symptoms not reported may include edema and hypertension.
++2 Thyroid Disease (e.g., Hashimoto's Thyroiditis): The nodular goiter and increased IgM levels align with this diagnosis. Key symptoms not reported may include fatigue, weight changes, and temperature sensitivity.
++3 Lupus Nephritis: The elevated ESR and kidney symptoms suggest this autoimmune condition. Key symptoms not reported may include joint pain, rashes, and systemic symptoms.
++4 Diabetic Nephropathy: If the patient has diabetes, this could explain the kidney issues. Key symptoms not reported may include neuropathy and retinopathy.
++5 Vasculitis (e.g., IgA Vasculitis): The combination of kidney symptoms and elevated IgM could suggest this condition. Key symptoms not reported may include skin rashes and abdominal pain.",Rare kidney diseases
+['Alport syndrome'],"+1 Systemic Lupus Erythematosus (SLE): Proteinuria, glomerulonephritis, fever, elevated ESR. Key symptoms not reported: Butterfly rash, joint pain. 
++2 Wegener's Granulomatosis: Proteinuria, glomerulonephritis, hearing impairment, visual loss. Key symptoms not reported: Respiratory symptoms. 
++3 Alport Syndrome: Proteinuria, glomerulonephritis, hearing impairment, visual loss. Key symptoms not reported: Family history of kidney disease. 
++4 IgA Vasculitis: Proteinuria, hematuria, fever. Key symptoms not reported: Abdominal pain, skin rash. 
++5 Churg-Strauss Syndrome: Proteinuria, elevated ESR, hearing impairment. Key symptoms not reported: Asthma or allergic rhinitis history.",Rare kidney diseases
+['Alport syndrome'],"+1 Nephrotic syndrome: This diagnosis is supported by the presence of proteinuria, hypoalbuminemia, and hypercholesterolemia. Key symptoms not reported include significant edema.
++2 Focal segmental glomerulosclerosis (FSGS): The patient's renal tubular atrophy and proteinuria align with this diagnosis. Key symptoms not reported include a history of hypertension or specific risk factors for FSGS.
++3 Chronic kidney disease (CKD): Elevated creatinine and renal atrophy suggest CKD. Key symptoms not reported include fatigue, anemia, or electrolyte imbalances.
++4 Systemic lupus erythematosus (SLE): The combination of fever, hair loss, and renal symptoms raises suspicion for SLE. Key symptoms not reported include joint pain or rashes.
++5 Amyloidosis: The systemic symptoms and renal involvement could indicate amyloidosis. Key symptoms not reported include signs of organ involvement (e.g., cardiac symptoms, neuropathy).",Rare kidney diseases
+['Alport syndrome'],"+1 Alport Syndrome: This condition is characterized by glomerulonephritis, hearing impairment, and often renal cysts. The patient's symptoms align well with this diagnosis, although eye abnormalities are not reported. 
+
++2 Focal Segmental Glomerulosclerosis (FSGS): This condition can cause proteinuria, hematuria, hypoalbuminemia, and hypercholesterolemia. The presence of chronic kidney disease supports this diagnosis, but hearing impairment is not typically associated.
+
++3 IgA Nephropathy: This is a common cause of glomerulonephritis and can present with hematuria and proteinuria. However, it does not typically cause hearing impairment, which makes it less likely.
+
++4 Polycystic Kidney Disease (PKD): The presence of renal cysts and chronic kidney disease suggests this condition. However, hearing impairment is not a common feature unless it is associated with a specific genetic variant.
+
++5 Systemic Lupus Erythematosus (SLE): This autoimmune condition can cause glomerulonephritis, proteinuria, and other systemic symptoms. The patient's leukocytosis and thrombocytosis could suggest an inflammatory process, but hearing impairment is not a classic symptom.",Rare kidney diseases
+['Alport syndrome'],"+1 Nephrotic Syndrome: Proteinuria, hypercholesterolemia, macroscopic hematuria. Key symptoms not reported: Edema. 
++2 Glomerulonephritis: Proteinuria, macroscopic hematuria, fever, decreased body weight. Key symptoms not reported: Edema, hypertension. 
++3 Diabetes Mellitus (Gestational Diabetes): Large for gestational age, proteinuria. Key symptoms not reported: Polyuria, polydipsia. 
++4 Systemic Lupus Erythematosus (SLE): Proteinuria, macroscopic hematuria, xerostomia, fever, decreased body weight. Key symptoms not reported: Joint pain, rash. 
++5 Chronic Kidney Disease (CKD): Proteinuria, macroscopic hematuria, hypercholesterolemia. Key symptoms not reported: Fatigue, hypertension.",Rare kidney diseases
+['Fabry disease'],"+1 Chronic Kidney Disease (CKD): Proteinuria, hematuria, hypertension, increased blood urea nitrogen, elevated creatinine. Key symptoms not reported: Edema, fatigue. 
++2 Systemic Lupus Erythematosus (SLE): Proteinuria, hematuria, hypertension, arthralgia, leukocytosis, thrombocytosis. Key symptoms not reported: Rash, photosensitivity. 
++3 Diabetes Mellitus: Proteinuria, xerostomia, elevated creatinine. Key symptoms not reported: Polyuria, polydipsia. 
++4 Vasculitis (e.g., ANCA-associated vasculitis): Proteinuria, hematuria, leukocytosis, thrombocytosis, drowsiness. Key symptoms not reported: Skin rashes, respiratory symptoms. 
++5 Multiple Myeloma: Proteinuria, elevated creatinine, xerostomia. Key symptoms not reported: Bone pain, anemia.",Hereditary metabolic disorders
+['Fabry disease'],"+1 Alport Syndrome: This condition is characterized by kidney disease, hearing loss, and eye abnormalities. The patient's proteinuria and unilateral deafness align with this diagnosis. Key symptoms not reported include ocular issues.
++2 Turner Syndrome: This genetic condition can present with renal anomalies, skeletal abnormalities, and hearing loss. The patient's symptoms of abnormal ureter and finger morphology fit, but the absence of typical features like short stature or ovarian dysfunction is noted.
++3 Ehlers-Danlos Syndrome: This connective tissue disorder can lead to skeletal abnormalities and may be associated with hypermobility and fragility of bones. The fractured hand bones and abnormal phalanx morphology are consistent, but the renal and auditory symptoms are less typical.
++4 Cystic Fibrosis: This condition can lead to nasal polyps and has associations with renal issues. The nasal polyposis is a strong indicator, but the auditory and skeletal symptoms are less common.
++5 Stickler Syndrome: This genetic disorder can cause hearing loss, skeletal abnormalities, and ocular issues. The combination of auditory canal morphology issues and skeletal abnormalities fits, but the renal symptoms are less typical.",Hereditary metabolic disorders
+['Fabry disease'],"+1 Chronic Kidney Disease (CKD): Symptoms include proteinuria, elevated creatinine, nocturia, hematuria, and pedal edema. Key symptoms not reported include significant fatigue or malaise.
++2 Hypertensive Heart Disease: Symptoms include hypertension, left ventricular hypertrophy, syncope, and palpitations. Key symptoms not reported include chest discomfort during exertion.
++3 Glomerulonephritis: Symptoms include hematuria, proteinuria, and IgA deposition. Key symptoms not reported include edema or systemic symptoms like fever.
++4 Metabolic Syndrome: Symptoms include hypertriglyceridemia, hypercholesterolemia, and weight loss. Key symptoms not reported include insulin resistance or abdominal obesity.
++5 Cardiorenal Syndrome: Symptoms include renal dysfunction and cardiovascular symptoms (hypertension, arrhythmias). Key symptoms not reported include significant fluid retention or worsening renal function with heart failure symptoms.",Rare kidney diseases
+['Gitelman syndrome'],"+1 Gitelman syndrome: Consistent symptoms include hypokalemia, hypomagnesemia, and renal potassium wasting. Key symptoms not reported include hypertension and a family history of similar conditions.
++2 Bartter syndrome: Consistent symptoms include hypokalemia, metabolic alkalosis, and renal potassium wasting. Key symptoms not reported include hypercalciuria and a family history of similar conditions.
++3 Renal tubular acidosis (Type 1 or Type 2): Consistent symptoms include renal potassium wasting, hypokalemia, and metabolic alkalosis. Key symptoms not reported include bone pain or growth retardation in children.
++4 Liddle syndrome: Consistent symptoms include hypokalemia and metabolic alkalosis. Key symptoms not reported include hypertension and a family history of early-onset hypertension.
++5 Systemic connective tissue disorder (e.g., lupus): Consistent symptoms include skin rash and electrolyte imbalances. Key symptoms not reported include joint pain, fatigue, and other systemic symptoms.",Rare kidney diseases
+['Gitelman syndrome'],"+1 Primary hyperaldosteronism: This condition explains hypokalemia, renal potassium wasting, and potential hypertension (palpitations, sinus tachycardia). Key symptoms not reported include hypertension.
++2 Metabolic syndrome: This could account for hepatic steatosis, hyperuricemia, and possibly nocturia. Key symptoms not reported include obesity or insulin resistance.
++3 Cushing's syndrome: This could explain hyperhidrosis, muscle weakness, and palpitations. Key symptoms not reported include weight gain, particularly in the trunk and face.
++4 Liddle syndrome: This genetic condition explains hypokalemia and renal potassium wasting. Key symptoms not reported include a family history of hypertension or early-onset hypertension.
++5 Hyperthyroidism: This could account for palpitations, hyperhidrosis, and muscle weakness. Key symptoms not reported include weight loss, increased appetite, or tremors.",Rare kidney diseases
+['Gitelman syndrome'],"+1 Primary Hyperaldosteronism: Symptoms consistent include hypokalemia, increased renin levels, generalized muscle weakness, and palpitations. Key symptoms not reported include hypertension and metabolic alkalosis. 
++2 Renal Artery Stenosis: Symptoms consistent include increased renin levels, hypokalemia, and palpitations. Key symptoms not reported include flank pain and renal dysfunction. 
++3 Autoimmune Vasculitis: Symptoms consistent include dysesthesia, amaurosis fugax, and paroxysmal vertigo. Key symptoms not reported include systemic symptoms like fever or rash. 
++4 Hyperparathyroidism: Symptoms consistent include abnormal urine calcium concentration and muscle weakness. Key symptoms not reported include bone pain and kidney stones. 
++5 Liver Disease (Nodular Regenerative Hyperplasia): Symptoms consistent include nodular regenerative hyperplasia of the liver and possibly diarrhea. Key symptoms not reported include jaundice and ascites.",Rare kidney diseases
+['Gitelman syndrome'],"+1 Gitelman syndrome: This condition is consistent with renal potassium wasting, hypokalemia, hypocalciuria, and metabolic alkalosis. Key symptoms not reported include hypomagnesemia.
+
++2 Bartter syndrome: This condition presents with hypokalemia and metabolic alkalosis but typically features hypercalciuria, which is not present in this patient.
+
++3 Primary hyperaldosteronism: This condition can cause hypokalemia and metabolic alkalosis but usually presents with hypertension and hypernatremia, which are not mentioned.
+
++4 Diuretic use: If applicable, this could explain the symptoms of renal potassium wasting and hypokalemia, but further evaluation is needed to confirm the absence of hypocalciuria and metabolic alkalosis.
+
++5 Renal tubular acidosis: This could explain hypokalemia and metabolic alkalosis, but the specific combination of symptoms is more indicative of Gitelman syndrome.",Rare kidney diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Systemic Lupus Erythematosus (SLE): Symptoms consistent include thrombocytopenia, leukopenia, proteinuria, and hypercoagulability. Key symptoms not reported may include joint pain and skin rashes. 
++2 Aplastic Anemia: Symptoms consistent include pancytopenia, reticulocytosis, and generalized muscle weakness. Key symptoms not reported may include fatigue and increased susceptibility to infections. 
++3 Hemolytic Anemia: Symptoms consistent include megaloblastic anemia, elevated bilirubin, and reticulocytosis. Key symptoms not reported may include jaundice and dark urine. 
++4 Vasculitis: Symptoms consistent include proteinuria, hematuria, and generalized muscle weakness. Key symptoms not reported may include systemic symptoms like fever and malaise. 
++5 Chronic Kidney Disease: Symptoms consistent include proteinuria, hematuria, and increased bilirubin. Key symptoms not reported may include hypertension and electrolyte imbalances.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Acute Kidney Injury: This condition is consistent with symptoms of proteinuria, hematuria, nocturia, hypertension, and elevated creatinine levels. Key symptoms not reported include oliguria or anuria in the early stages of AKI.
++2 Hepatitis or Liver Disease: The jaundice, elevated bilirubin, and confusion suggest liver dysfunction. Symptoms not reported include abdominal pain or pruritus, which are common in liver disease.
++3 Hemolytic Anemia: The presence of anemia, reticulocytosis, jaundice, and confusion could indicate hemolytic anemia. Symptoms not reported include dark urine or splenomegaly, which are often associated with this condition.
++4 Nephrotic Syndrome: The combination of proteinuria, edema (not explicitly mentioned but could be present), and hypertension aligns with nephrotic syndrome. Symptoms not reported include significant weight gain due to fluid retention.
++5 Aplastic Anemia: Given the presence of aplastic anemia, reticulocytosis, and anemia, this condition is a strong contender. Symptoms not reported include increased susceptibility to infections or bleeding tendencies.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Myelofibrosis: Symptoms consistent include anemia, leukopenia, reticulocytosis, and increased megakaryocyte count. Key symptoms not reported include bone pain and splenic pain. 
++2 Portal Hypertension: Symptoms consistent include hepatomegaly, splenomegaly, ascites, and pedal edema. Key symptoms not reported include variceal bleeding and caput medusae. 
++3 Hepatic Cysts: Symptoms consistent include hepatomegaly and abdominal distention. Key symptoms not reported include biliary colic or jaundice. 
++4 Myelodysplastic Syndrome: Symptoms consistent include anemia, leukopenia, and poikilocytosis. Key symptoms not reported include recurrent infections and bleeding tendencies. 
++5 Liver Cirrhosis: Symptoms consistent include hepatomegaly, ascites, and poor appetite. Key symptoms not reported include jaundice and hepatic encephalopathy.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Myelodysplastic syndromes: This diagnosis is supported by the presence of pancytopenia, abnormal erythroid and megakaryocyte morphology, and reticulocytosis. Key symptoms not reported include significant fatigue or weight loss, which are common in MDS.
++2 Aplastic anemia: This condition could explain the oral ulcers, skin rash, and pancytopenia. However, the abnormal cell morphology is not typical for aplastic anemia. Key symptoms not reported include a history of exposure to toxins or medications.
++3 Systemic lupus erythematosus (SLE): The skin rash and oral ulcers suggest an autoimmune process, and cytopenias can occur in SLE. Key symptoms not reported include joint pain or systemic symptoms like fatigue or malaise.
++4 Acute leukemia: The combination of leukopenia, thrombocytopenia, and abnormal cell morphology raises suspicion for acute leukemia. Key symptoms not reported include rapid weight loss or night sweats, which are often seen in acute leukemia.
++5 Paroxysmal nocturnal hemoglobinuria (PNH): This condition can cause cytopenias and may present with hemolytic anemia. Key symptoms not reported include episodes of dark urine, especially in the morning, which are characteristic of PNH.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"<thinking>
+The patient presents with a complex array of symptoms that suggest a serious underlying condition. Key symptoms include purpura, skin rash, muscle weakness, ascites, thrombocytopenia, anemia, fever, leukocytosis, hepatomegaly, and increased total bilirubin. The presence of hemophagocytosis and recurrent thromboembolism further complicates the clinical picture.
+
+a. The combination of purpura, thrombocytopenia, and anemia suggests a hematological disorder, possibly related to bone marrow dysfunction or a systemic process affecting blood cell production. The ascites and hepatomegaly indicate potential liver involvement, which could be due to portal hypertension or liver disease. The increased bilirubin levels and abnormal urinary color may point towards liver dysfunction or hemolysis.
+
+b. Possible diagnoses include:
+- **Hemophagocytic lymphohistiocytosis (HLH)**: This condition could explain the fever, cytopenias (thrombocytopenia and anemia), and hemophagocytosis. The presence of leukocytosis and muscle weakness may also fit. However, HLH typically presents with more pronounced systemic symptoms such as severe organ dysfunction.
+- **Thrombotic Thrombocytopenic Purpura (TTP)**: The combination of thrombocytopenia, purpura, and neurological symptoms (like vertigo) could suggest TTP. However, the presence of ascites and hepatomegaly is less common in TTP.
+- **Acute liver failure or cirrhosis**: The hepatomegaly, ascites, and increased bilirubin levels could indicate liver failure, possibly due to viral hepatitis or alcohol-related liver disease. However, the presence of hemophagocytosis and recurrent thromboembolism is atypical.
+- **Systemic lupus erythematosus (SLE)**: This autoimmune condition could explain many of the symptoms, including skin rash, thrombocytopenia, and muscle weakness. However, the acute presentation with ascites and hemophagocytosis is less typical.
+- **Myelodysplastic syndromes or acute leukemia**: The abnormal cell morphology and cytopenias could suggest a bone marrow disorder. However, the acute presentation with fever and ascites is more suggestive of an aggressive process.
+
+c. Additional tests that could help narrow down the diagnosis include:
+- Bone marrow biopsy to assess for malignancy or hematological disorders.
+- Liver function tests and imaging (ultrasound or CT) to evaluate for liver disease and portal vein thrombosis.
+- Viral serologies (e.g., hepatitis panel) to rule out viral hepatitis.
+- Autoimmune panels to assess for SLE or other connective tissue diseases.
+- Coagulation studies to evaluate for hypercoagulability and thrombotic disorders.
+
+</thinking>
+
+<top5>
++1 Hemophagocytic lymphohistiocytosis (HLH): This condition is consistent with fever, thrombocytopenia, anemia, leukocytosis, and hemophagocytosis. Key symptoms not reported include severe organ dysfunction and splenomegaly.
++2 Thrombotic Thrombocytopenic Purpura (TTP): The presence of purpura, thrombocytopenia, and neurological symptoms aligns with TTP. Key symptoms not reported include microangiopathic hemolytic anemia and renal dysfunction.
++3 Acute liver failure or cirrhosis: The hepatomegaly, ascites, and increased bilirubin levels suggest liver involvement. Key symptoms not reported include jaundice and hepatic encephalopathy.
++4 Systemic lupus erythematosus (SLE): The skin rash, thrombocytopenia, and muscle weakness are consistent with SLE. Key symptoms not reported include joint pain and renal involvement.
++5 Myelodysplastic syndromes or acute leukemia: The abnormal cell morphology and cytopenias suggest a bone marrow disorder. Key symptoms not",Rare haematological diseases
+['POEMS syndrome'],"+1 Nephrotic syndrome: Proteinuria, edema, hypoalbuminemia. Key symptoms not reported: Hyperlipidemia, significant renal impairment. 
++2 Systemic lupus erythematosus (SLE): Skin pigmentation abnormalities, proteinuria, hematuria, fever, lymphadenopathy. Key symptoms not reported: Malar rash, photosensitivity, oral ulcers. 
++3 Malignancy (e.g., lymphoma or ovarian cancer): Ascites, lymphadenopathy, ovarian cyst, abdominal distention. Key symptoms not reported: Weight loss, night sweats, specific tumor markers. 
++4 Heart failure with preserved ejection fraction (HFpEF): Congestive heart failure, cardiomegaly, pulmonary hypertension. Key symptoms not reported: Dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea. 
++5 Thyroid disease (e.g., Hashimoto's thyroiditis): Hypothyroidism, abnormal thyroid hormone levels. Key symptoms not reported: Goiter, weight gain, cold intolerance.",Rare neurological diseases
+['POEMS syndrome'],"+1 Liver Cirrhosis with Portal Hypertension: Symptoms include ascites, hepatosplenomegaly, facial edema, and anasarca. Key symptoms not reported include jaundice and variceal bleeding.
++2 Hypopituitarism or Pituitary Adenoma: Symptoms include increased prolactin levels, facial edema, and apathy. Key symptoms not reported include headaches and visual disturbances.
++3 Multiple Myeloma: Symptoms include monoclonal elevation of IgG, anemia, and possible renal involvement. Key symptoms not reported include bone pain and hypercalcemia.
++4 Systemic Lupus Erythematosus (SLE): Symptoms include facial edema, anemia, and lymphadenopathy. Key symptoms not reported include joint pain and a characteristic rash.
++5 Chronic Kidney Disease (CKD) with Secondary Hyperparathyroidism: Symptoms include anemia, edema, and possible electrolyte imbalances. Key symptoms not reported include hypertension and metabolic acidosis.",Rare neurological diseases
+['POEMS syndrome'],"+1 Systemic Lupus Erythematosus (SLE): Symptoms consistent include papilledema, splenomegaly, thrombocytosis, and demyelinating neuropathies. Key symptoms not reported may include skin rashes or joint pain. 
++2 Sarcoidosis: Symptoms consistent include pulmonary arterial hypertension, splenomegaly, and possible hepatic involvement. Key symptoms not reported may include respiratory symptoms or skin lesions. 
++3 Myeloproliferative Neoplasm: Symptoms consistent include thrombocytosis, abnormal granulocyte morphology, and splenomegaly. Key symptoms not reported may include fatigue or night sweats. 
++4 Multiple Sclerosis: Symptoms consistent include demyelinating motor and sensory neuropathies, muscle weakness, and dysesthesia. Key symptoms not reported may include visual disturbances or bladder dysfunction. 
++5 Heart Failure with Preserved Ejection Fraction: Symptoms consistent include left ventricular diastolic dysfunction, left atrial enlargement, and pulmonary arterial hypertension. Key symptoms not reported may include orthopnea or paroxysmal nocturnal dyspnea.",Rare neurological diseases
+['POEMS syndrome'],"+1 Systemic Lupus Erythematosus (SLE): Symptoms consistent include proteinuria, hematuria, hypertension, hyperpigmentation, and elevated ESR. Key symptoms not reported may include joint pain and photosensitivity. 
++2 Vasculitis: Symptoms consistent include renal involvement (proteinuria, hematuria), hypertension, and systemic symptoms like splenomegaly and ascites. Key symptoms not reported may include skin rashes or peripheral neuropathy. 
++3 Chronic Kidney Disease (CKD): Symptoms consistent include proteinuria, elevated creatinine, hypertension, and hydronephrosis. Key symptoms not reported may include fatigue and decreased urine output. 
++4 Dermatomyositis: Symptoms consistent include muscle weakness, skin changes (hyperpigmentation, thickened skin), and possible renal involvement. Key symptoms not reported may include a rash on the face or chest. 
++5 Multiple Myeloma: Symptoms consistent include renal impairment, hyperuricemia, anemia (suggested by thrombocytosis), and splenomegaly. Key symptoms not reported may include bone pain or recurrent infections.",Rare neurological diseases
+['POEMS syndrome'],"+1 Chronic Kidney Disease (CKD): Symptoms include elevated creatinine concentration, hematuria, and nephrolithiasis. Key symptoms not reported include significant proteinuria or oliguria. 
++2 Heart Failure with Preserved Ejection Fraction (HFpEF): Symptoms include cardiomegaly, right ventricular dilatation, exertional dyspnea, and pleural effusion. Key symptoms not reported include paroxysmal nocturnal dyspnea or orthopnea. 
++3 Systemic Lupus Erythematosus (SLE): Symptoms include facial edema, anemia, and abnormal lymphocyte morphology. Key symptoms not reported include joint pain or rashes. 
++4 Hypothyroidism with Myxedema: Symptoms include dry skin, facial edema, and decreased T4 concentration. Key symptoms not reported include severe fatigue or cold intolerance. 
++5 Multiple Myeloma: Symptoms include monoclonal elevation of circulating IgA, anemia, and renal impairment. Key symptoms not reported include bone pain or hypercalcemia.",Rare neurological diseases
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Lysosomal Storage Disorder (e.g., Gaucher's disease): Symptoms consistent include hepatosplenomegaly, bone-marrow foam cells, and abdominal distension. Key symptoms not reported include bone pain or anemia.
++2 Multiple Myeloma: Symptoms consistent include bone-marrow foam cells and systemic symptoms. Key symptoms not reported include bone pain or hypercalcemia.
++3 Amyloidosis: Symptoms consistent include hepatosplenomegaly and systemic symptoms. Key symptoms not reported include skin changes or carpal tunnel syndrome.
++4 Neurological Disorder (e.g., Multiple Sclerosis): Symptoms consistent include urinary incontinence, bowel incontinence, and falls. Key symptoms not reported include visual disturbances or sensory changes.
++5 Chronic Infection (e.g., HIV/AIDS): Symptoms consistent include recurrent respiratory infections and fever. Key symptoms not reported include weight loss or lymphadenopathy.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1: Lysosomal Storage Disease: Symptoms consistent include splenomegaly, leukopenia, reticulocytosis, intellectual disability, and growth retardation. Key symptoms not reported may include specific organomegaly or skeletal abnormalities.
++2: Congenital Syndrome (e.g., Turner Syndrome): Symptoms consistent include growth retardation, intellectual disability, and abnormal morphology. Key symptoms not reported may include specific physical features or other systemic anomalies.
++3: Mitochondrial Disorder: Symptoms consistent include neurological symptoms, growth retardation, and poor appetite. Key symptoms not reported may include exercise intolerance or specific metabolic crises.
++4: Autoimmune Disorder (e.g., Systemic Lupus Erythematosus): Symptoms consistent include splenomegaly, leukopenia, and lymphadenopathy. Key symptoms not reported may include skin rashes or joint pain.
++5: Chronic Infection (e.g., HIV): Symptoms consistent include leukopenia, splenomegaly, and systemic symptoms like diarrhea and abdominal pain. Key symptoms not reported may include opportunistic infections or weight loss.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Hemolytic Anemia: Symptoms include anemia, reticulocytosis, and schistocytosis. Key symptoms not reported include jaundice and dark urine. 
++2 Thrombotic Thrombocytopenic Purpura (TTP): Symptoms include thrombocytopenia, schistocytosis, and possible neurological symptoms. Key symptoms not reported include neurological deficits. 
++3 Sickle Cell Disease or Thalassemia: Symptoms include anemia and elliptocytosis. Key symptoms not reported include pain crises or splenic sequestration. 
++4 Liver Disease (e.g., Wilson's Disease or Hemochromatosis): Symptoms include hepatomegaly, conjugated hyperbilirubinemia, and hypocholesterolemia. Key symptoms not reported include neurological symptoms or skin changes. 
++5 Infectious or Inflammatory Process: Symptoms include generalized lymphadenopathy and recurrent infections. Key symptoms not reported include fever or weight loss.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Genetic syndrome: This could explain the intellectual disability, dysarthria, and other developmental issues. Key symptoms not reported may include distinct physical features or other systemic anomalies.
++2 Neurodegenerative disorder: Conditions like Batten disease could account for the progressive language deterioration, seizures, and cognitive decline. Key symptoms not reported may include vision problems or motor decline.
++3 Metabolic disorder: Wilson's disease could explain the neurological symptoms and splenomegaly. Key symptoms not reported may include liver dysfunction or psychiatric symptoms.
++4 Congenital malformation: Chiari malformation could explain the abnormal morphology findings and neurological symptoms. Key symptoms not reported may include headaches or neck pain.
++5 Infectious or inflammatory condition: Encephalitis could explain the seizures and cognitive decline. Key symptoms not reported may include fever or signs of infection.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Wilson's Disease: This condition is characterized by copper accumulation leading to liver dysfunction (jaundice, hepatosplenomegaly, hypoalbuminemia) and neurological or psychiatric symptoms. The patient exhibits conjugated hyperbilirubinemia and hepatosplenomegaly, which are consistent with this diagnosis. Key symptoms not reported include neurological deficits or psychiatric symptoms.
+
++2 Congenital Heart Disease: The presence of abnormal mitral and aortic valve morphology, left ventricular hypertrophy, and congestive heart failure suggests a congenital heart defect. Symptoms such as exertional dyspnea and pulmonary arterial hypertension align with this diagnosis. Key symptoms not reported may include cyanosis or significant exercise intolerance.
+
++3 Thrombotic Thrombocytopenic Purpura (TTP): The combination of thrombocytopenia, anemia, and neurological symptoms (if present) could indicate TTP. The patient's bruising susceptibility and recurrent epistaxis support this diagnosis. Key symptoms not reported include neurological deficits or renal impairment.
+
++4 Hemolytic Uremic Syndrome (HUS): The presence of anemia, thrombocytopenia, and renal involvement (decreased urine output) could suggest HUS, particularly if there is a history of gastrointestinal infection. The patient's melena and generalized muscle weakness may also be consistent. Key symptoms not reported include acute renal failure or diarrhea.
+
++5 Chronic Liver Disease: The combination of jaundice, hepatosplenomegaly, and prolonged prothrombin time suggests chronic liver disease, possibly due to cirrhosis or hepatitis. The patient's hypoalbuminemia and increased total bilirubin support this diagnosis. Key symptoms not reported include ascites or significant hepatic encephalopathy.",Hereditary metabolic disorders

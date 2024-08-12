@@ -20,9 +20,21 @@ model = AzureChatOpenAI(
     max_tokens=800
 )
 
-def get_scores(model, dataframe, output_file):
+def get_scores(model, dataset, model_tested, many_shot, cat, i=False):
+    if many_shot:
+        many_shot = 'manyshot'
+    else:
+        many_shot = 'noshot'
+    if cat:
+        cat = 'cat'
+    else:
+        cat = 'nocat'
+    if i:
+        i = 'i'
+    else:
+        i = 'ni'
     # Load the diagnoses data
-    input_path = f'data/{dataframe}'
+    input_path = f'data/Diagnoses/{model_tested}/diagnoses_{dataset}_{model_tested}_{many_shot}_{cat}_{i}.csv'
     df = pd.read_csv(input_path)
 
     # Summarize the data
@@ -66,7 +78,7 @@ def get_scores(model, dataframe, output_file):
 
         # Generate a score for the prediction
         formatted_prompt = chat_prompt.format_messages(gt=gt, predictions=predictions)
-        print(formatted_prompt)
+        #print(formatted_prompt)
         attempts = 0
         while attempts < 2:
             try:
@@ -84,15 +96,13 @@ def get_scores(model, dataframe, output_file):
         scores_df.loc[index] = [gt, score]
 
     # Save the scores to a new CSV file
-    output_path = f'data/{output_file}'
+    output_file = f'scores_{dataset}_{model_tested}_{many_shot}_{cat}_{i}.csv'
+    output_path = f'data/Scores/{model_tested}/{output_file}'
     scores_df.to_csv(output_path, index=False)
 
 
-get_scores(model, 'diagnoses_RAMEDIS_gpt4o.csv', 'scores_RAMEDIS_gpt4o.csv')
-get_scores(model, 'diagnoses_RAMEDIS_c3sonnet.csv', 'scores_RAMEDIS_c3sonnet.csv')
-get_scores(model, 'diagnoses_RAMEDIS_c3opus.csv', 'scores_RAMEDIS_c3opus.csv')
-get_scores(model, 'diagnoses_RAMEDIS_llama3_70b.csv', 'scores_RAMEDIS_llama3_70b.csv')
-get_scores(model, 'diagnoses_RAMEDIS_gpt4turbo1106.csv', 'scores_RAMEDIS_gpt4turbo1106.csv')
+get_scores(model, 'PUMCH_ADM', 'gpt4omini',many_shot=True, cat=True)
+get_scores(model, 'PUMCH_ADM', 'gpt4omini', many_shot=False, cat=True)
 
 
 

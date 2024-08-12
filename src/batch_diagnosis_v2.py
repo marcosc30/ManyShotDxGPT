@@ -218,7 +218,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
     if many_shot:
         if no_cat:
             num_examples = max_examples
-            examples, indices = setup_manyshot_ex_no_cat(dataset, include_dataset=include_dataset_in_ex, examples_num=num_examples)
+            examples, indices = setup_manyshot_ex_no_cat(dataset, include_dataset=include_dataset_in_ex, example_num=num_examples)
             if include_dataset_in_ex:
                 if all_datasets:
                     aggregate_df = pd.read_csv('data/aggregated_categorized.csv')
@@ -348,18 +348,23 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
 # I can just do this with 4o mini then apply that example num to the other models
 
 
-def get_all_diagnoses(model, dataset, no_cat=False):
-    get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_cat_ni.csv', model)
-    get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_cat_ni.csv', model, many_shot=False)
+def get_all_diagnoses(model, dataset, cat=True, no_cat=False):
+    if cat:
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_cat_ni.csv', model)
+        get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_cat_ni.csv', model, many_shot=False)
     if no_cat:
         get_diagnosis(PROMPT_TEMPLATE_IMPROVED, dataset, f'diagnoses_{dataset}_{model}_manyshot_nocat_ni.csv', model, no_cat=True)
         get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_nocat_ni.csv', model, no_cat=True, many_shot=False)
 
 # GPT-4o-mini
 get_all_diagnoses("gpt4omini", "PUMCH_ADM", no_cat=True)
-get_all_diagnoses("gpt4omini", "MME", no_cat=True)
-get_all_diagnoses("gpt4omini", "LIRICAL", no_cat=True)
-get_all_diagnoses("gpt4omini", "HMS", no_cat=True)
+#get_all_diagnoses("gpt4omini", "MME", no_cat=False)
+get_all_diagnoses("gpt4omini", "LIRICAL", no_cat=False)
+get_all_diagnoses("gpt4omini", "HMS", no_cat=False)
 get_all_diagnoses("gpt4omini", "RAMEDIS", no_cat=True)
-get_all_diagnoses("gpt4omini", "aggregated", no_cat=True)
+
+# No point in doing aggregated, I will just concatenate the other results
+#get_all_diagnoses("gpt4omini", "aggregated", no_cat=True)
+
+
 
