@@ -1,0 +1,1066 @@
+GT,Diagnosis 1,ERN Category
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia: Consistent with ""Death in infancy,"" ""Metabolic acidosis,"" ""Decreased methylmalonyl-CoA mutase activity,"" and ""Death in childhood.""
++2. Propionic acidemia: Consistent with ""Death in infancy,"" ""Metabolic acidosis,"" and ""Death in childhood,"" but involves a different enzyme deficiency.
++3. Isovaleric acidemia: Consistent with ""Death in infancy"" and ""Metabolic acidosis,"" but typically involves a distinct odor of sweaty feet, which is not mentioned.
++4. Glutaric acidemia type I: Consistent with ""Death in infancy"" and ""Metabolic acidosis,"" but often presents with macrocephaly and dystonia, which are not mentioned.
++5. Urea cycle disorders: Consistent with ""Death in infancy"" and ""Metabolic acidosis,"" but typically present with hyperammonemia, which is not mentioned.",Hereditary metabolic disorders
+['Succinic semialdehyde dehydrogenase deficiency'],"+1. **Mitochondrial disorder**: Consistent with motor delay, generalized hypotonia, elevated urinary carboxylic acid, and severe progression leading to death in infancy.
++2. **Organic acidemia**: Consistent with elevated urinary carboxylic acid, motor delay, generalized hypotonia, and severe progression.
++3. **Spinal muscular atrophy (SMA)**: Consistent with motor delay, generalized hypotonia, and severe progression, but less typical for elevated urinary carboxylic acid.
++4. **Pompe disease**: Consistent with motor delay, generalized hypotonia, and severe progression, but less typical for elevated urinary carboxylic acid.
++5. **Zellweger syndrome**: Consistent with motor delay, generalized hypotonia, elevated urinary carboxylic acid, and severe progression leading to death in infancy.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in infancy.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and abnormal prenatal development.
++3. Maple Syrup Urine Disease (MSUD): Consistent with abnormal prenatal development and neonatal death.
++4. Urea Cycle Disorders: Consistent with severe metabolic abnormalities and death in infancy.
++5. Mitochondrial Disorders: Consistent with a variety of metabolic abnormalities and early death.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. Congenital Diaphragmatic Hernia: Congenital diaphragmatic hernia, failure to thrive, death in infancy, hiatus hernia.
++2. Cerebellar Agenesis: Cerebellar atrophy, motor delay, cerebellar agenesis, abnormal muscle physiology.
++3. Lipodystrophy: Lipodystrophy, failure to thrive, abnormal muscle physiology.
++4. Neuromuscular Disorder: Motor delay, abnormal muscle physiology, failure to thrive.
++5. Genetic Syndrome (e.g., Pallister-Killian Syndrome): Congenital diaphragmatic hernia, cerebellar atrophy, failure to thrive, death in infancy, motor delay.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease (MSUD): Consistent with hypervalinemia, hyperleucinemia, hyperisoleucinemia, feeding difficulties, motor delay, intellectual disability, and neonatal death.
++2. Organic Acidurias: Consistent with elevated urinary carboxylic acids, feeding difficulties, motor delay, intellectual disability, and neonatal death.
++3. Leigh Syndrome: Consistent with hypotonia, motor delay, feeding difficulties, intellectual disability, and death in infancy or childhood. Metabolic abnormalities are less typical.
++4. Cerebral Palsy (Athetoid type): Consistent with athetosis, opisthotonus, motor delay, and intellectual disability. Metabolic abnormalities and neonatal death are less typical.
++5. Spinal Muscular Atrophy (SMA): Consistent with hypotonia, motor delay, and feeding difficulties. Metabolic abnormalities and neonatal death are less typical.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. **Tyrosinemia Type I**: Consistent with hypertyrosinemia, gastrointestinal inflammation, neonatal death, and early childhood death. Key symptoms not reported: liver dysfunction, renal tubular dysfunction.
++2. **Phenylketonuria (PKU)**: Consistent with hyperphenylalaninemia, developmental issues, and early death. Key symptoms not reported: musty odor, eczema.
++3. **Severe Combined Immunodeficiency (SCID)**: Consistent with recurrent viral infections, early death. Key symptoms not reported: severe bacterial infections, failure to thrive.
++4. **Organic Acidemias**: Consistent with metabolic abnormalities, gastrointestinal inflammation, early death. Key symptoms not reported: metabolic acidosis, vomiting.
++5. **Systemic Juvenile Idiopathic Arthritis**: Consistent with skin rash, gastrointestinal inflammation, severe systemic symptoms. Key symptoms not reported: arthritis, fever.",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1: Mitochondrial disorder: Symptoms consistent with this diagnosis include increased circulating lactate concentration, increased CSF lactate, skin rash, and severe outcomes in infancy.
++2: Pyruvate dehydrogenase deficiency: Symptoms consistent with this diagnosis include increased circulating lactate concentration, increased CSF lactate, and severe outcomes in infancy.
++3: Biotinidase deficiency: Symptoms consistent with this diagnosis include skin rash, alopecia, and metabolic abnormalities.
++4: Organic acidemia: Symptoms consistent with this diagnosis include increased circulating lactate concentration, increased CSF lactate, and severe outcomes in infancy.
++5: Severe combined immunodeficiency (SCID): Symptoms consistent with this diagnosis include skin rash, severe outcomes in infancy, and potential metabolic abnormalities.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. **Zellweger Spectrum Disorder**: Intellectual disability, abnormal facial shape, cerebellar atrophy, cerebellar agenesis, lipodystrophy, acute and chronic hepatitis, death in infancy.
++2. **Alström Syndrome**: Rod-cone dystrophy, intellectual disability, hepatic involvement (acute and chronic hepatitis). Key symptoms not reported: progressive hearing loss, cardiomyopathy.
++3. **Cockayne Syndrome**: Intellectual disability, abnormal facial shape, cerebellar atrophy. Key symptoms not reported: photosensitivity, progeroid appearance.
++4. **Mitochondrial Disorders**: Intellectual disability, cerebellar atrophy, hepatic issues. Key symptoms not reported: lactic acidosis, myopathy.
++5. **Cerebrotendinous Xanthomatosis**: Intellectual disability, cerebellar atrophy, thromboembolism. Key symptoms not reported: cataracts, chronic diarrhea.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Macrocephaly, generalized hypotonia, dystonia, glutaric aciduria, decreased plasma free carnitine.
++2. Mitochondrial disorder: Generalized hypotonia, dystonia, lethargy, decreased plasma free carnitine. (Key symptoms not reported: specific mitochondrial DNA mutations)
++3. Organic acidemia: Vomiting, diarrhea, lethargy, generalized hypotonia, glutaric aciduria. (Key symptoms not reported: specific organic acid profiles)
++4. Urea cycle disorder: Lethargy, vomiting, hypotonia. (Key symptoms not reported: hyperammonemia, specific enzyme deficiencies)
++5. Lysosomal storage disorder: Macrocephaly, generalized hypotonia, developmental delay. (Key symptoms not reported: specific enzyme deficiencies, organomegaly)",Hereditary metabolic disorders
+['Isovaleric acidemia'],"+1. Urea Cycle Disorders (UCDs): Hyperammonemia, lethargy, drowsiness, feeding difficulties, neonatal death, death in infancy/childhood.
++2. Nonketotic Hyperglycinemia (NKH): Abnormal circulating glycine concentration, lethargy, drowsiness, feeding difficulties, neonatal death, death in infancy/childhood.
++3. Carnitine Transport Deficiency: Abnormal circulating carnitine concentration, lethargy, drowsiness, feeding difficulties, neonatal death, death in infancy/childhood.
++4. Mitochondrial Disorders: Abnormal circulating carnitine concentration, lethargy, drowsiness, feeding difficulties, neonatal death, death in infancy/childhood.
++5. Organic Acidemias: Hyperammonemia, abnormal circulating carnitine concentration, lethargy, drowsiness, feeding difficulties, neonatal death, death in infancy/childhood.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. Pontocerebellar Hypoplasia: Microcephaly, strabismus, nystagmus, intellectual disability, ataxia, hyporeflexia, motor delay, cerebellar atrophy, generalized hypotonia, encephalopathy, growth delay, death in infancy, cerebellar agenesis.
++2. Joubert Syndrome: Ataxia, nystagmus, hypotonia, intellectual disability, motor delay, cerebellar atrophy. Key symptoms not reported: Molar tooth sign on MRI.
++3. Congenital Disorders of Glycosylation (CDG): Cerebellar atrophy, intellectual disability, hypotonia, growth delay. Key symptoms not reported: Liver dysfunction, coagulation abnormalities.
++4. Leigh Syndrome: Encephalopathy, ataxia, hypotonia, intellectual disability. Key symptoms not reported: Lactic acidosis, respiratory abnormalities.
++5. Lissencephaly: Intellectual disability, motor delay, hypotonia. Key symptoms not reported: Smooth brain surface, seizures.",Hereditary metabolic disorders
+"['Methylmalonic acidemia with homocystinuria, type cblC']","+1. Methylmalonic acidemia (MMA): Strabismus, Nystagmus, Optic atrophy, Motor delay, Generalized hypotonia, Hyperammonemia, Hyperalaninemia, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration, Methylmalonic aciduria, Elevated urinary carboxylic acid.
++2. Propionic acidemia: Strabismus, Nystagmus, Optic atrophy, Motor delay, Generalized hypotonia, Hyperammonemia, Hyperalaninemia, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration. (Methylmalonic aciduria is less typical).
++3. Homocystinuria: Strabismus, Nystagmus, Optic atrophy, Motor delay, Generalized hypotonia, Ventricular septal defect, Hyperhomocystinemia, Neonatal death, Death in childhood.
++4. Carnitine transporter deficiency: Strabismus, Nystagmus, Optic atrophy, Motor delay, Generalized hypotonia, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration.
++5. Leigh syndrome: Strabismus, Nystagmus, Optic atrophy, Motor delay, Generalized hypotonia, Neonatal death, Death in childhood. (Specific metabolic markers like methylmalonic aciduria and hyperalaninemia are less typical).",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Fatty Acid Oxidation Disorders (FAODs): Hypoglycemia, vomiting, elevated liver enzymes, abnormal carnitine levels, death in infancy.
++2. Organic Acidemias: Hypoglycemia, vomiting, diarrhea, elevated liver enzymes, abnormal carnitine levels, death in infancy.
++3. Glycogen Storage Diseases (GSDs): Hypoglycemia, elevated liver enzymes, vomiting. (Diarrhea and abnormal carnitine levels are less typical.)
++4. Mitochondrial Disorders: Hypoglycemia, elevated liver enzymes, abnormal carnitine levels, death in infancy.
++5. Urea Cycle Disorders: Vomiting, elevated liver enzymes, hypoglycemia. (Abnormal carnitine levels are less typical.)",Hereditary metabolic disorders
+['Succinic semialdehyde dehydrogenase deficiency'],"+1. **Propionic acidemia**: Coma, death in infancy, hyperkalemia, hyponatremia, respiratory acidosis, elevated urinary carboxylic acid.
++2. **Methylmalonic acidemia**: Coma, death in infancy, hyperkalemia, hyponatremia, respiratory acidosis, elevated urinary carboxylic acid.
++3. **Congenital adrenal hyperplasia (CAH)**: Hyperkalemia, hyponatremia, metabolic acidosis, neonatal death (ambiguous genitalia not reported).
++4. **Isovaleric acidemia**: Coma, death in infancy, hyperkalemia, hyponatremia, respiratory acidosis, elevated urinary carboxylic acid.
++5. **Glutaric acidemia type II**: Coma, death in infancy, hyperkalemia, hyponatremia, respiratory acidosis, elevated urinary carboxylic acid.",Hereditary metabolic disorders
+['Homocystinuria due to cystathionine beta-synthase deficiency'],"+1. Homocystinuria: Ptosis, ectopia lentis, intellectual disability, motor delay, hyperhomocystinemia, hypermethioninemia, fatigue.
++2. Marfan Syndrome: Ptosis, ectopia lentis, large hands, long foot. (Key symptoms not reported: aortic root dilation, arachnodactyly)
++3. Ehlers-Danlos Syndrome: Ptosis, large hands, motor delay. (Key symptoms not reported: hyperelastic skin, joint hypermobility)
++4. Down Syndrome: Intellectual disability, motor delay. (Key symptoms not reported: characteristic facial features, congenital heart defects)
++5. Methylmalonic acidemia: Intellectual disability, motor delay. (Key symptoms not reported: elevated methylmalonic acid, metabolic acidosis)",Hereditary metabolic disorders
+[],"+1. **Congenital hyperinsulinism**: Hyperinsulinemia, hypoglycemia. Key symptoms not reported: typically does not cause seizures, sparse hair, or wide mouth.
++2. **Glycogen storage diseases**: Hypoglycemia, seizures. Key symptoms not reported: typically does not cause sparse hair or wide mouth.
++3. **Mitochondrial disorders**: Seizures, feeding difficulties, death in infancy or childhood. Key symptoms not reported: typically does not cause hyperinsulinemia.
++4. **Congenital disorders of glycosylation (CDG)**: Seizures, feeding difficulties, abnormal hemoglobin, death in infancy or childhood. Key symptoms not reported: none.
++5. **Beckwith-Wiedemann syndrome**: Hyperinsulinemia, hypoglycemia, severe symptoms. Key symptoms not reported: typically does not cause sparse hair or seizures.",Hereditary metabolic disorders
+['Propionic acidemia'],"+1. Urea Cycle Disorders: Hyperammonemia, intellectual disability, seizures, hepatomegaly, neonatal death, death in infancy.
++2. Organic Acidemias: Hyperammonemia, hyperglycinemia, seizures, motor delay, hepatomegaly, neonatal death, death in infancy.
++3. Glycine Encephalopathy (Nonketotic Hyperglycinemia): Hyperglycinemia, intellectual disability, seizures, motor delay, neonatal death, death in infancy.
++4. Carnitine Transport Defects: Abnormal circulating carnitine concentration, hepatomegaly, hypoglycinemia, motor delay, neonatal death.
++5. Mitochondrial Disorders: Intellectual disability, seizures, motor delay, hepatomegaly, abnormal carnitine levels, neonatal death, death in infancy.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia (MMA): Generalized hypotonia, thrombocytopenia, leukopenia, metabolic acidosis, apnea, decreased methylmalonyl-CoA mutase activity, neonatal death, feeding difficulties, methylmalonic aciduria, abnormal nervous system physiology.
++2. Propionic acidemia: Generalized hypotonia, thrombocytopenia, leukopenia, metabolic acidosis, apnea, neonatal death, feeding difficulties, abnormal nervous system physiology. (Key symptom of decreased methylmalonyl-CoA mutase activity not reported)
++3. Isovaleric acidemia: Generalized hypotonia, thrombocytopenia, leukopenia, metabolic acidosis, apnea, neonatal death, feeding difficulties, abnormal nervous system physiology. (Key symptom of decreased methylmalonyl-CoA mutase activity not reported)
++4. Multiple carboxylase deficiency: Generalized hypotonia, thrombocytopenia, leukopenia, metabolic acidosis, apnea, neonatal death, feeding difficulties, abnormal nervous system physiology. (Typically involves multiple enzyme deficiencies)
++5. Organic acidemias: Generalized hypotonia, thrombocytopenia, leukopenia, metabolic acidosis, apnea, neonatal death, feeding difficulties, abnormal nervous system physiology. (Broad category, specific enzyme deficiency points more directly to MMA)",Hereditary metabolic disorders
+['Systemic primary carnitine deficiency'],"+1. **Fatty Acid Oxidation Disorders (FAODs)**: Hypoglycemia, vomiting, sudden death, decreased plasma free carnitine, abnormal amino acid concentrations.
++2. **Mitochondrial Disorders**: Hypoglycemia, vomiting, coma, elevated lactate dehydrogenase, abnormal amino acid concentrations, elevated alkaline phosphatase.
++3. **Organic Acidemias**: Hypoglycemia, vomiting, elevated lactate dehydrogenase, abnormal amino acid concentrations.
++4. **Urea Cycle Disorders**: Coma, vomiting, abnormal amino acid concentrations (hypoglycemia is less common).
++5. **Glycogen Storage Diseases**: Hypoglycemia, vomiting, elevated lactate dehydrogenase (decreased plasma free carnitine is less typical).",Hereditary metabolic disorders
+['3-methylcrotonyl-CoA carboxylase deficiency'],"+1. Carnitine Transporter Deficiency: Lethargy, poor coordination, decreased plasma free carnitine, feeding difficulties, neonatal death, death in infancy/childhood.
++2. Mitochondrial Disorders: Lethargy, poor coordination, sleep abnormalities, feeding difficulties, decreased plasma free carnitine (secondary), neonatal death, death in infancy/childhood.
++3. Fatty Acid Oxidation Disorders: Lethargy, poor coordination, decreased plasma free carnitine, feeding difficulties, neonatal death, death in infancy/childhood.
++4. Organic Acidemias: Lethargy, poor coordination, feeding difficulties, decreased plasma free carnitine, neonatal death, death in infancy/childhood.
++5. Congenital Disorders of Glycosylation: Lethargy, poor coordination, feeding difficulties, sleep abnormalities, neonatal death, death in infancy/childhood.",Hereditary metabolic disorders
+[],"+1: Ethylmalonic encephalopathy: Consistent with ethylmalonic aciduria, spastic diplegia, spastic tetraplegia, encephalopathy, and recurrent infections.
++2: Mitochondrial disorder: Consistent with cytochrome C oxidase-negative muscle fibers, encephalopathy, spasticity, and recurrent infections.
++3: Glycine encephalopathy (Nonketotic hyperglycinemia): Consistent with abnormal circulating glycine concentration, encephalopathy, and severe neurological symptoms.
++4: Leukodystrophy: Consistent with spastic diplegia, spastic tetraplegia, dysarthria, encephalopathy, and progressive neurological decline.
++5: Congenital disorder of glycosylation: Consistent with developmental delays, metabolic abnormalities, and recurrent infections.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Carnitine Transporter Deficiency: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++2. Mitochondrial Disorders: Abnormality of prenatal development or birth, neonatal death, abnormal circulating carnitine concentration.
++3. Fatty Acid Oxidation Disorders: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++4. Organic Acidemias: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++5. Peroxisomal Disorders: Abnormality of prenatal development or birth, neonatal death, abnormal circulating carnitine concentration.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. **Glutaric acidemia type I (GA-I)**: Consistent with macrocephaly, generalized hypotonia, dystonia, metabolic acidosis, glutaric aciduria, elevated circulating glutaric acid concentration, and decreased plasma free carnitine.
++2. **Mitochondrial disorder**: Consistent with hypotonia, dystonia, metabolic acidosis, and lethargy, but less specific for elevated glutaric acid.
++3. **Organic acidemia (other than GA-I)**: Consistent with metabolic acidosis and elevated organic acids, but less specific for glutaric aciduria.
++4. **Urea cycle disorder**: Consistent with lethargy, vomiting, and metabolic acidosis, but typically does not have elevated glutaric acid levels.
++5. **Lysosomal storage disorder**: Consistent with macrocephaly and hypotonia, but less specific for the metabolic profile observed.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and developmental abnormalities.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and severe developmental issues.
++4. Methylmalonic Acidemia: Consistent with neonatal death, developmental abnormalities, and metabolic crises.
++5. Urea Cycle Disorders: Consistent with neonatal death and severe developmental issues.",Hereditary metabolic disorders
+['L-2-hydroxyglutaric aciduria'],"+1. Metachromatic leukodystrophy: Delayed speech and language development, intellectual disability, hyperreflexia, difficulty walking, abnormal cerebral white matter morphology, difficulty climbing stairs, death in infancy and childhood.
++2. Pelizaeus-Merzbacher disease: Delayed speech and language development, intellectual disability, hyperreflexia, difficulty walking, abnormal cerebral white matter morphology, difficulty climbing stairs, death in childhood.
++3. Adrenoleukodystrophy: Delayed speech and language development, intellectual disability, hyperreflexia, difficulty walking, abnormal cerebral white matter morphology, difficulty climbing stairs, death in infancy and childhood.
++4. Krabbe disease: Delayed speech and language development, intellectual disability, hyperreflexia, difficulty walking, abnormal cerebral white matter morphology, difficulty climbing stairs, death in infancy and childhood.
++5. Canavan disease: Delayed speech and language development, intellectual disability, hyperreflexia, difficulty walking, abnormal cerebral white matter morphology, difficulty climbing stairs, death in infancy and childhood.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease (MSUD): Generalized hypotonia, spasticity, hypoglycemia, hypervalinemia, hyperleucinemia, hyperisoleucinemia, neonatal death, and death in early adulthood.
++2. Prader-Willi Syndrome: Generalized hypotonia, obesity, and developmental delays. Key symptoms not reported: hyperphagia, intellectual disability.
++3. Congenital Hypotonia: Generalized hypotonia and spasticity. Key symptoms not reported: specific metabolic abnormalities.
++4. Organic Acidemias: Generalized hypotonia, spasticity, and metabolic abnormalities. Key symptoms not reported: specific amino acid profile.
++5. Urea Cycle Disorders: Generalized hypotonia and metabolic disturbances. Key symptoms not reported: specific amino acid elevations.",Hereditary metabolic disorders
+['Classic galactosemia'],"+1. Galactosemia: Hypergalactosemia, abnormality of galactoside metabolism, increased total bilirubin, death in infancy or adolescence.
++2. Tyrosinemia: Abnormal circulating tyrosine concentration, increased total bilirubin, death in infancy or adolescence.
++3. Maple Syrup Urine Disease (MSUD): Abnormal circulating aspartate family amino acid concentration, hyperalaninemia, aminoaciduria.
++4. Urea Cycle Disorders: Hyperalaninemia, aminoaciduria, delayed speech and language development.
++5. Phenylketonuria (PKU): Delayed speech and language development, abnormal amino acid metabolism, although hyperalaninemia and hypergalactosemia are not typical.",Hereditary metabolic disorders
+['3-hydroxy-3-methylglutaric aciduria'],"+1. Propionic acidemia: Metabolic acidosis, hyperammonemia, vomiting, dicarboxylic aciduria, elevated urinary carboxylic acid.
++2. Methylmalonic acidemia: Metabolic acidosis, hyperammonemia, vomiting, dicarboxylic aciduria, elevated urinary carboxylic acid.
++3. Isovaleric acidemia: Metabolic acidosis, vomiting, elevated urinary carboxylic acid (though typically involves isovalerylglycine).
++4. Glutaric acidemia type I: Metabolic acidosis, vomiting, elevated levels of glutaric acid and 3-hydroxyglutaric acid.
++5. Multiple carboxylase deficiency: Metabolic acidosis, hyperammonemia, vomiting, elevated levels of various organic acids, including dicarboxylic acids.",Hereditary metabolic disorders
+['Homocystinuria due to cystathionine beta-synthase deficiency'],"+1. Homocystinuria: Jaundice, generalized hypotonia, anemia, hyperhomocystinemia, progressive neurologic deterioration, hypomethioninemia, recurrent viral infections.
++2. Porphyria: Jaundice, anemia, progressive neurologic deterioration, abnormal circulating porphyrin concentration.
++3. Cobalamin (Vitamin B12) metabolism disorders: Jaundice, generalized hypotonia, anemia, hyperhomocystinemia, progressive neurologic deterioration, recurrent viral infections.
++4. Methylmalonic acidemia: Generalized hypotonia, anemia, progressive neurologic deterioration, recurrent viral infections (though typically involves elevated methylmalonic acid).
++5. Gaucher disease: Jaundice, generalized hypotonia, anemia, progressive neurologic deterioration (though does not typically involve hyperhomocystinemia or abnormal porphyrin levels).",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, Death in infancy, Neonatal death, Death in childhood, Death in adolescence, Death in early adulthood.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, Death in infancy, Neonatal death, Death in childhood, Death in adolescence, Death in early adulthood. (Note: Does not explain upper airway obstruction or chronic pulmonary obstruction)
++3. Cystic Fibrosis: Chronic pulmonary obstruction, Death in infancy, Death in childhood, Death in adolescence, Death in early adulthood. (Note: Does not explain hypertyrosinemia or hyperphenylalaninemia)
++4. Congenital Central Hypoventilation Syndrome (CCHS): Upper airway obstruction, Chronic pulmonary obstruction, Death in infancy, Death in childhood, Death in adolescence, Death in early adulthood. (Note: Does not explain metabolic abnormalities)
++5. Urea Cycle Disorders: Abnormality of prenatal development or birth, Death in infancy, Neonatal death, Death in childhood, Death in adolescence, Death in early adulthood. (Note: Does not explain chronic pulmonary obstruction or upper airway obstruction)",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. **Organic acidemia**: Consistent with seizures, spasticity, fatigue, elevated urinary carboxylic acid, and potential for death in infancy.
++2. **Mitochondrial disorder**: Consistent with seizures, spasticity, fatigue, dyspnea, and metabolic abnormalities. Alopecia is less common.
++3. **Peroxisomal disorder**: Consistent with seizures, spasticity, fatigue, dyspnea, and metabolic abnormalities. Alopecia can be seen in some cases.
++4. **Lysosomal storage disorder**: Consistent with seizures, spasticity, fatigue, and systemic symptoms. Elevated urinary carboxylic acid is less typical.
++5. **Leukodystrophy**: Consistent with seizures, spasticity, and developmental regression. Alopecia is not typical.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1: Tyrosinemia: Consistent with hypertyrosinemia, vomiting, gastrointestinal inflammation, and early death.
++2: Phenylketonuria (PKU): Consistent with hyperphenylalaninemia, vomiting, and early death.
++3: Maple Syrup Urine Disease (MSUD): Consistent with vomiting, metabolic crises, and early death.
++4: Urea Cycle Disorders: Consistent with vomiting, metabolic crises, and early death.
++5: Mitochondrial Disorders: Consistent with a wide range of symptoms including vomiting, metabolic abnormalities, and early death.",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. Nonketotic Hyperglycinemia: Abnormal circulating glycine concentration, increased CSF lactate, death in infancy, metabolic acidosis.
++2. Propionic Acidemia: Metabolic acidosis, elevated urinary carboxylic acid, increased CSF lactate, aminoaciduria.
++3. Methylmalonic Acidemia: Metabolic acidosis, elevated urinary carboxylic acid, increased CSF lactate, aminoaciduria.
++4. Glutaric Acidemia Type II: Metabolic acidosis, elevated urinary carboxylic acid, skin rash (erythematous plaque, macule, papule), increased CSF lactate.
++5. Biotinidase Deficiency: Alopecia, skin rash, metabolic acidosis, elevated CSF lactate, death in infancy.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia: Decreased methylmalonyl-CoA mutase activity, feeding difficulties, dehydration, neonatal death, death in infancy.
++2. Propionic acidemia: Feeding difficulties, dehydration, neonatal death, death in infancy (key symptom: propionyl-CoA carboxylase deficiency not reported).
++3. Isovaleric acidemia: Feeding difficulties, dehydration, neonatal death, death in infancy (key symptom: characteristic ""sweaty feet"" odor not reported).
++4. Glutaric acidemia type I: Feeding difficulties, dehydration, neonatal death, death in infancy (key symptom: macrocephaly not reported).
++5. Urea cycle disorders: Feeding difficulties, dehydration, neonatal death, death in infancy (key symptom: hyperammonemia not reported).",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. Propionic Acidemia: Lethargy, generalized hypotonia, metabolic acidosis, increased circulating lactate concentration, propionyl-CoA carboxylase deficiency, elevated urinary carboxylic acid, aminoaciduria.
++2. Pyruvate Carboxylase Deficiency: Lethargy, generalized hypotonia, metabolic acidosis, increased circulating lactate concentration, decreased pyruvate carboxylase activity, elevated urinary carboxylic acid.
++3. Methylmalonic Acidemia: Lethargy, generalized hypotonia, metabolic acidosis, increased circulating lactate concentration, elevated urinary carboxylic acid, aminoaciduria.
++4. Glycine Encephalopathy (Nonketotic Hyperglycinemia): Lethargy, generalized hypotonia, metabolic acidosis, abnormal circulating glycine concentration, drowsiness, sleep abnormality.
++5. Multiple Carboxylase Deficiency: Lethargy, generalized hypotonia, metabolic acidosis, increased circulating lactate concentration, propionyl-CoA carboxylase deficiency, elevated urinary carboxylic acid, aminoaciduria.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood. Key symptoms not reported: liver failure, renal tubular dysfunction.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and abnormality of prenatal development. Key symptoms not reported: intellectual disability, eczema, musty body odor.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and abnormal prenatal development. Key symptoms not reported: sweet-smelling urine, lethargy, poor feeding.
++4. Urea Cycle Disorders: Consistent with neonatal death and developmental abnormalities. Key symptoms not reported: hyperammonemia, encephalopathy.
++5. Mitochondrial Disorders: Consistent with neonatal death, developmental abnormalities, and metabolic derangements. Key symptoms not reported: lactic acidosis, muscle weakness, neurological deficits.",Hereditary metabolic disorders
+['3-hydroxy-3-methylglutaric aciduria'],"+1. Glutaric acidemia type I: Consistent with ""Death in infancy,"" ""Dicarboxylic aciduria,"" ""3-Methylglutaric aciduria,"" and ""Elevated urinary carboxylic acid.""
++2. Multiple acyl-CoA dehydrogenase deficiency (MADD): Consistent with ""Death in infancy,"" ""Dicarboxylic aciduria,"" and ""Elevated urinary carboxylic acid."" Key symptom ""3-Methylglutaric aciduria"" may not be as prominent.
++3. 3-Methylglutaconic aciduria: Consistent with ""Death in infancy,"" ""3-Methylglutaric aciduria,"" and ""Elevated urinary carboxylic acid."" Key symptom ""Dicarboxylic aciduria"" may not be as prominent.
++4. Isovaleric acidemia: Consistent with ""Death in infancy"" and ""Elevated urinary carboxylic acid."" Key symptoms ""Dicarboxylic aciduria"" and ""3-Methylglutaric aciduria"" may not be as prominent.
++5. Methylmalonic acidemia: Consistent with ""Death in infancy"" and ""Elevated urinary carboxylic acid."" Key symptoms ""Dicarboxylic aciduria"" and ""3-Methylglutaric aciduria"" may not be as prominent.",Hereditary metabolic disorders
+['Wilson disease'],"+1. Wilson's disease: Elevated circulating hepatic transaminase concentration, decreased circulating ceruloplasmin concentration, increased urinary copper concentration, decreased circulating copper concentration, death in childhood.
++2. Hereditary hemochromatosis: Elevated circulating hepatic transaminase concentration, but less likely due to copper abnormalities.
++3. Porphyria: Abnormal circulating porphyrin concentration, but copper abnormalities are not typical.
++4. Hepatocerebral degeneration: Elevated circulating hepatic transaminase concentration, death in childhood, but less specific.
++5. Menkes disease: Decreased circulating copper concentration, but typically presents with different symptoms and is usually fatal in infancy.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Carnitine Transporter Deficiency: Abnormal circulating carnitine concentration, neonatal death, death in infancy.
++2. Mitochondrial Disorders: Abnormality of prenatal development or birth, neonatal death, abnormal circulating carnitine concentration.
++3. Fatty Acid Oxidation Disorders: Abnormal circulating carnitine concentration, neonatal death, death in infancy.
++4. Organic Acidemias: Abnormal circulating carnitine concentration, neonatal death, death in infancy.
++5. Peroxisomal Disorders: Abnormality of prenatal development or birth, neonatal death, abnormal circulating carnitine concentration.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1: Tyrosinemia Type I: Consistent with hypertyrosinemia and severe outcomes such as death in infancy and childhood. Recurrent infections are not typical but could be secondary to liver dysfunction.
++2: Phenylketonuria (PKU): Consistent with hyperphenylalaninemia. However, it does not typically cause death in infancy or recurrent infections.
++3: Severe Combined Immunodeficiency (SCID): Consistent with recurrent viral infections and early death. However, it does not typically present with metabolic abnormalities like hypertyrosinemia or hyperphenylalaninemia.
++4: Maple Syrup Urine Disease (MSUD): Consistent with severe outcomes such as death in infancy and childhood. However, it does not typically present with recurrent infections.
++5: Organic Acidemias (e.g., Propionic Acidemia, Methylmalonic Acidemia): Consistent with metabolic abnormalities and severe outcomes, including early death and recurrent infections.",Hereditary metabolic disorders
+['3-methylcrotonyl-CoA carboxylase deficiency'],"+1. Nonketotic Hyperglycinemia (NKH): Abnormal circulating glycine concentration.
++2. Primary Carnitine Deficiency: Abnormal circulating carnitine concentration.
++3. Propionic Acidemia: Elevated urinary carboxylic acid, aminoaciduria.
++4. Methylmalonic Acidemia: Elevated urinary carboxylic acid, aminoaciduria.
++5. Fanconi Syndrome: Aminoaciduria, abnormal circulating carnitine concentration.",Hereditary metabolic disorders
+['Carbamoyl-phosphate synthetase 1 deficiency'],"+1. Mitochondrial DNA Depletion Syndromes (MDDS): Generalized hypotonia, hepatomegaly, tachypnea, 3-methylglutaconic aciduria, neonatal death, feeding difficulties.
++2. Barth Syndrome: Generalized hypotonia, hepatomegaly, 3-methylglutaconic aciduria, feeding difficulties. (Neonatal death is less common.)
++3. Leigh Syndrome: Generalized hypotonia, tachypnea, feeding difficulties, neonatal death. (Hepatomegaly and 3-methylglutaconic aciduria are less common.)
++4. Pyruvate Carboxylase Deficiency: Generalized hypotonia, hepatomegaly, feeding difficulties, neonatal death. (3-methylglutaconic aciduria is not typical but metabolic acidosis is common.)
++5. Zellweger Spectrum Disorders: Generalized hypotonia, hepatomegaly, feeding difficulties, neonatal death. (3-methylglutaconic aciduria is not typical.)",Hereditary metabolic disorders
+['Citrullinemia type I'],"+1. Citrullinemia: Delayed speech and language development, hyperhidrosis, lethargy, motor delay, obesity, hypoglycemia, respiratory alkalosis, hyperammonemia, hypothermia, tachypnea, orotic aciduria, elevated plasma citrulline, acute hepatitis, chronic hepatitis.
++2. Urea cycle disorder (general): Delayed speech and language development, lethargy, motor delay, hypoglycemia, respiratory alkalosis, hyperammonemia, hypothermia, tachypnea, orotic aciduria, elevated plasma citrulline, acute hepatitis, chronic hepatitis.
++3. Organic acidemia: Delayed speech and language development, lethargy, motor delay, hypoglycemia, hyperammonemia, hypothermia, tachypnea, orotic aciduria, acute hepatitis, chronic hepatitis. (Key symptoms missing: elevated plasma citrulline)
++4. Fatty acid oxidation disorder: Delayed speech and language development, lethargy, motor delay, hypoglycemia, hypothermia, tachypnea, acute hepatitis, chronic hepatitis. (Key symptoms missing: hyperammonemia, elevated plasma citrulline, orotic aciduria)
++5. Mitochondrial disorder: Delayed speech and language development, lethargy, motor delay, hypoglycemia, hypothermia, tachypnea, acute hepatitis, chronic hepatitis. (Key symptoms missing: hyperammonemia, elevated plasma citrulline, orotic aciduria)",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Macrocephaly, irritability, seizure, generalized hypotonia, death in infancy, athetosis, glutaric aciduria, neonatal death.
++2. Canavan disease: Macrocephaly, irritability, seizure, generalized hypotonia, death in infancy. (Glutaric aciduria not reported)
++3. Leigh syndrome: Seizure, generalized hypotonia, death in infancy. (Macrocephaly and glutaric aciduria not reported)
++4. Krabbe disease: Irritability, seizure, generalized hypotonia, death in infancy. (Macrocephaly and glutaric aciduria not reported)
++5. Maple syrup urine disease: Irritability, seizure, generalized hypotonia, death in infancy. (Macrocephaly and glutaric aciduria not reported)",Hereditary metabolic disorders
+['Tyrosinemia type 1'],"+1. Tyrosinemia Type I: Delayed speech and language development, elevated urinary delta-aminolevulinic acid, hypertyrosinemia, death in childhood, abnormal circulating phenylalanine concentration.
++2. Phenylketonuria (PKU): Delayed speech and language development, abnormal circulating phenylalanine concentration. (Key symptoms not reported: musty odor, eczema)
++3. Alkaptonuria: Delayed speech and language development, elevated urinary delta-aminolevulinic acid. (Key symptoms not reported: dark urine, ochronosis)
++4. Maple Syrup Urine Disease (MSUD): Delayed speech and language development, abnormal amino acid metabolism. (Key symptoms not reported: sweet-smelling urine, metabolic crises)
++5. Homocystinuria: Delayed speech and language development, abnormal amino acid metabolism. (Key symptoms not reported: lens dislocation, thromboembolism)",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, death in infancy, neonatal death, elevated urinary carboxylic acid.
++2. Maple Syrup Urine Disease (MSUD): Elevated urinary carboxylic acid, neonatal death, death in childhood.
++3. Propionic Acidemia: Elevated urinary carboxylic acid, neonatal death, death in childhood.
++4. Methylmalonic Acidemia: Elevated urinary carboxylic acid, neonatal death, death in childhood.
++5. Phenylketonuria (PKU): Hyperphenylalaninemia, abnormality of prenatal development or birth, obesity (less likely to cause neonatal death).",Hereditary metabolic disorders
+['Phenylketonuria'],"+1: Tyrosinemia Type I: Hypertyrosinemia, intellectual disability, severe outcomes like death in childhood.
++2: Phenylketonuria (PKU): Hyperphenylalaninemia, intellectual disability, hyperactivity.
++3: Sanfilippo Syndrome (Mucopolysaccharidosis Type III): Hyperactivity, intellectual disability, severe outcomes.
++4: Smith-Lemli-Opitz Syndrome: Intellectual disability, short stature, metabolic abnormalities.
++5: Maple Syrup Urine Disease (MSUD): Intellectual disability, seizures, metabolic abnormalities.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia: Seizure, generalized hypotonia, metabolic acidosis, hyperammonemia, vomiting, methylmalonic acidemia, neonatal death.
++2. Propionic acidemia: Seizure, generalized hypotonia, metabolic acidosis, hyperammonemia, vomiting. (Key symptom not reported: Propionic acidemia typically does not present with methylmalonic acidemia.)
++3. Urea cycle disorder: Seizure, generalized hypotonia, metabolic acidosis, hyperammonemia, vomiting. (Key symptom not reported: Urea cycle disorders typically do not present with methylmalonic acidemia.)
++4. Organic acidemia (other than MMA): Seizure, generalized hypotonia, metabolic acidosis, hyperammonemia, vomiting. (Key symptom not reported: Specific organic acid profile not detailed.)
++5. Mitochondrial disorder: Seizure, generalized hypotonia, metabolic acidosis, hyperammonemia, vomiting. (Key symptom not reported: Mitochondrial disorders typically have a broader range of symptoms and do not specifically present with methylmalonic acidemia.)",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Carnitine Transporter Deficiency: Abnormal circulating carnitine concentration, death in infancy, neonatal death.
++2. Mitochondrial Disorders: Abnormal circulating carnitine concentration, death in infancy, neonatal death.
++3. Fatty Acid Oxidation Disorders: Abnormal circulating carnitine concentration, death in infancy, neonatal death.
++4. Organic Acidemias: Abnormal circulating carnitine concentration, death in infancy, neonatal death.
++5. Peroxisomal Disorders: Abnormal circulating carnitine concentration, death in infancy, neonatal death.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia (MMA): Consistent with death in infancy, metabolic acidosis, hyperammonemia, vomiting, and methylmalonic aciduria.
++2. Propionic acidemia: Consistent with metabolic acidosis, hyperammonemia, and vomiting, but typically does not have methylmalonic aciduria.
++3. Urea cycle disorder: Consistent with hyperammonemia and vomiting, but does not present with methylmalonic aciduria.
++4. Multiple carboxylase deficiency: Consistent with metabolic acidosis and hyperammonemia, but less likely given the specific finding of methylmalonic aciduria.
++5. Other organic acidemias: Can present with similar symptoms, but methylmalonic aciduria is more specific to MMA.",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Ornithine Transcarbamylase (OTC) Deficiency: Seizure, Death in infancy, Hyperammonemia, Cerebral edema, Neonatal death. (Oroticaciduria is not typical but can be secondary)
++2. Urea Cycle Disorders (UCDs): Seizure, Death in infancy, Hyperammonemia, Cerebral edema, Neonatal death. (Oroticaciduria is not typical but can be secondary)
++3. Hereditary Orotic Aciduria: Seizure, Oroticaciduria, Neonatal death. (Hyperammonemia and cerebral edema are not typical)
++4. Mitochondrial Disorders: Seizure, Cerebral edema, Neonatal death. (Hyperammonemia can occur due to secondary liver dysfunction; Oroticaciduria is not typical)
++5. Organic Acidemias: Seizure, Hyperammonemia, Neonatal death. (Oroticaciduria can be a secondary finding; Cerebral edema is possible)",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1: Mitochondrial Disorder: Seizures, generalized hypotonia, growth delay, elevated urinary carboxylic acid. Key symptoms not reported: Lactic acidosis, muscle weakness.
++2: Organic Aciduria: Seizures, generalized hypotonia, growth delay, elevated urinary carboxylic acid. Key symptoms not reported: Metabolic acidosis, vomiting.
++3: Zellweger Spectrum Disorder: Seizures, generalized hypotonia, growth delay, elevated urinary carboxylic acid. Key symptoms not reported: Dysmorphic features, liver dysfunction.
++4: Biotinidase Deficiency: Seizures, generalized hypotonia, alopecia, elevated urinary carboxylic acid. Key symptoms not reported: Skin rash, hearing loss.
++5: Spinal Muscular Atrophy (SMA): Generalized hypotonia, growth delay, fasciculations. Key symptoms not reported: Progressive muscle weakness, respiratory difficulties.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia and potential metabolic complications leading to early death. Key symptoms not reported: liver and kidney problems.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia. Key symptoms not reported: intellectual disability, musty odor.
++3. Metabolic Syndrome: Consistent with obesity and hypercholesterolemia. Key symptoms not reported: insulin resistance, hypertension.
++4. Familial Hypercholesterolemia: Consistent with hypercholesterolemia. Key symptoms not reported: xanthomas, early cardiovascular disease.
++5. Alkaptonuria: Consistent with issues in tyrosine metabolism. Key symptoms not reported: dark urine, ochronosis.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Hypertyrosinemia, severe short stature, neonatal death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, severe short stature, neonatal death.
++3. Congenital adrenal hyperplasia (CAH): Hypospadias, severe metabolic disturbances, neonatal death.
++4. Zellweger syndrome: Severe metabolic abnormalities, neonatal death, severe short stature.
++5. Smith-Lemli-Opitz syndrome: Hypospadias, severe short stature, metabolic abnormalities.",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"+1. Smith-Lemli-Opitz syndrome: Consistent with microcephaly, low-set ears, wide nasal bridge, strabismus, delayed speech and language development, syndactyly, intellectual disability, motor delay, severe short stature, elevated 8-dehydrocholesterol, and elevated 7-dehydrocholesterol. Key symptoms not reported: polydactyly, ambiguous genitalia.
++2. Cornelia de Lange syndrome: Consistent with microcephaly, low-set ears, wide nasal bridge, strabismus, delayed speech and language development, syndactyly, intellectual disability, motor delay, severe short stature. Key symptoms not reported: distinctive facial features (arched eyebrows, long eyelashes), limb abnormalities.
++3. Zellweger spectrum disorder: Consistent with microcephaly, low-set ears, wide nasal bridge, strabismus, delayed speech and language development, intellectual disability, motor delay, severe short stature, neonatal death. Key symptoms not reported: hepatomegaly, renal cysts.
++4. Meckel-Gruber syndrome: Consistent with microcephaly, low-set ears, wide nasal bridge, strabismus, intellectual disability, motor delay, neonatal death. Key symptoms not reported: polydactyly, cystic kidneys, encephalocele.
++5. Trisomy 13 (Patau syndrome): Consistent with microcephaly, low-set ears, wide nasal bridge, strabismus, intellectual disability, motor delay, severe short stature, neonatal death. Key symptoms not reported: cleft lip/palate, polydactyly, congenital heart defects.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Ataxia, opisthotonus, athetosis, progressive neurologic deterioration, glutaric aciduria, elevated circulating glutaric acid concentration, decreased plasma free carnitine.
++2. Multiple acyl-CoA dehydrogenase deficiency (MADD): Progressive neurologic deterioration, abnormal circulating acylcarnitine concentration, but less specific for glutaric acid.
++3. Carnitine uptake defect: Decreased plasma free carnitine, metabolic decompensation, but typically presents with hypoketotic hypoglycemia and muscle weakness.
++4. Organic acidemias (general): Progressive neurologic deterioration, abnormal organic acid metabolism, but less specific for glutaric acid.
++5. Mitochondrial disorders: Progressive neurologic deterioration, metabolic symptoms, but less specific biochemical findings.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, neonatal death, motor delay, generalized hypotonia, hip dysplasia.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, motor delay, generalized hypotonia. (Note: Neonatal death is less common if managed early.)
++3. Maple Syrup Urine Disease (MSUD): Motor delay, generalized hypotonia, neonatal death.
++4. Nonketotic Hyperglycinemia: Generalized hypotonia, motor delay, neonatal death.
++5. Zellweger Spectrum Disorders: Generalized hypotonia, motor delay, neonatal death, abnormality of prenatal development or birth.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: ['Seizure', 'Generalized hypotonia', 'Apnea', 'Opisthotonus', 'Hypertyrosinemia', 'Neonatal death', 'Death in childhood']
++2. Phenylketonuria (PKU): ['Seizure', 'Generalized hypotonia', 'Hyperphenylalaninemia', 'Neonatal death', 'Death in childhood']
++3. Maple Syrup Urine Disease (MSUD): ['Seizure', 'Generalized hypotonia', 'Apnea', 'Opisthotonus', 'Neonatal death', 'Death in childhood']
++4. Nonketotic Hyperglycinemia: ['Seizure', 'Generalized hypotonia', 'Apnea', 'Opisthotonus', 'Neonatal death', 'Death in childhood']
++5. Urea Cycle Disorder: ['Seizure', 'Generalized hypotonia', 'Apnea', 'Opisthotonus', 'Neonatal death', 'Death in childhood']",Hereditary metabolic disorders
+['Tyrosinemia type 1'],"+1: Lesch-Nyhan Syndrome: Self-mutilation, hyperactivity, intellectual disability, motor delay, and seizures are consistent with this diagnosis. The metabolic abnormalities are not typical but could be secondary.
++2: Tyrosinemia Type I: Hypertyrosinemia, elevated alpha-fetoprotein, and intellectual disability are consistent with this diagnosis. The presence of seizures and other symptoms suggests a more complex presentation.
++3: Phenylketonuria (PKU): Hyperphenylalaninemia and intellectual disability are consistent with PKU. The presence of seizures and other metabolic abnormalities suggests a more complex condition.
++4: Smith-Lemli-Opitz Syndrome: Intellectual disability, seizures, and metabolic abnormalities could fit, but the specific metabolic profile here is not typical.
++5: Menkes Disease: Intellectual disability, seizures, and elevated alkaline phosphatase could fit, but it usually includes other symptoms like kinky hair and does not typically involve self-mutilation or hyperactivity.",Hereditary metabolic disorders
+['Classic galactosemia'],"+1. Galactosemia: Consistent with hypergalactosemia, vomiting, increased total bilirubin, and neonatal death.
++2. Neonatal hemochromatosis: Consistent with increased bilirubin and neonatal death; hypergalactosemia is not typical.
++3. Biliary atresia: Consistent with increased bilirubin and vomiting; hypergalactosemia is not typical.
++4. Urea cycle disorders: Consistent with vomiting and neonatal death; hypergalactosemia and increased bilirubin are not typical.
++5. Tyrosinemia: Consistent with increased bilirubin and vomiting; hypergalactosemia is not typical.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Abnormal circulating tyrosine concentration, death in infancy, neonatal death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, abnormality of prenatal development or birth. (Note: Death in infancy is less common with early diagnosis and treatment.)
++3. Maple Syrup Urine Disease (MSUD): Abnormality of prenatal development or birth, death in infancy. (Note: Does not typically present with hyperphenylalaninemia or abnormal tyrosine levels.)
++4. Urea Cycle Disorders: Abnormality of prenatal development or birth, death in infancy. (Note: Does not typically present with hyperphenylalaninemia or abnormal tyrosine levels.)
++5. Nonketotic Hyperglycinemia: Abnormality of prenatal development or birth, death in infancy. (Note: Does not typically present with hyperphenylalaninemia or abnormal tyrosine levels.)",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. Carnitine deficiency disorders: Obesity, abnormal circulating carnitine concentration, death in childhood or adolescence.
++2. Mitochondrial disorders: Obesity, abnormal circulating carnitine concentration, death in childhood or adolescence.
++3. Fatty acid oxidation disorders: Obesity, abnormal circulating carnitine concentration, death in childhood or adolescence.
++4. Lysosomal storage disorders: Obesity, abnormal circulating carnitine concentration, death in childhood or adolescence.
++5. Peroxisomal disorders: Obesity, abnormal circulating carnitine concentration, death in childhood or adolescence.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Hypertyrosinemia, intellectual disability, death in infancy, neonatal death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, intellectual disability, death in infancy, neonatal death.
++3. Maple Syrup Urine Disease (MSUD): Intellectual disability, neonatal death, death in infancy.
++4. Methylmalonic acidemia: Intellectual disability, neonatal death, death in infancy.
++5. Urea cycle disorders: Intellectual disability, neonatal death, death in infancy.",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"+1. Smith-Lemli-Opitz syndrome: Consistent with elevated 7-dehydrocholesterol, elevated 8-dehydrocholesterol, intellectual disability, microcephaly, cryptorchidism, hypospadias, and dysmorphic features.
++2. Zellweger spectrum disorder: Consistent with hypotonia, intellectual disability, microcephaly, and dysmorphic features. Elevated 7-dehydrocholesterol is not typical.
++3. Congenital disorders of glycosylation (CDG): Consistent with hypotonia, intellectual disability, and dysmorphic features. Elevated 7-dehydrocholesterol is not typical.
++4. Mevalonate kinase deficiency: Consistent with developmental delay, hypotonia, and dysmorphic features. Elevated 7-dehydrocholesterol is not typical.
++5. Niemann-Pick disease type C: Consistent with hypotonia, intellectual disability, and dysmorphic features. Elevated 7-dehydrocholesterol is not typical.",Hereditary metabolic disorders
+['Canavan disease'],"+1. **Maple Syrup Urine Disease (MSUD)**: Consistent with abnormal circulating aspartate family amino acid concentration, generalized hypotonia, and neurological symptoms. Key symptoms not reported: sweet-smelling urine, lethargy.
++2. **Leigh Syndrome**: Consistent with cerebral atrophy, hypotonia, and metabolic abnormalities. Key symptoms not reported: lactic acidosis, respiratory abnormalities.
++3. **Prader-Willi Syndrome**: Consistent with obesity, hypotonia, and hyporeflexia. Key symptoms not reported: hyperphagia, characteristic facial features.
++4. **Spinal Muscular Atrophy (SMA)**: Consistent with hypotonia and hyporeflexia. Key symptoms not reported: progressive muscle weakness, respiratory difficulties.
++5. **Congenital Infection (e.g., TORCH infections)**: Consistent with fever, cerebral atrophy, and hypotonia. Key symptoms not reported: rash, hepatosplenomegaly.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. **Tyrosinemia**: Consistent with hypertyrosinemia, early death, and potential liver and renal complications.
++2. **Phenylketonuria (PKU)**: Consistent with hyperphenylalaninemia, developmental delays, and early death if untreated.
++3. **Congenital Heart Defect (Coarctation of the Aorta)**: Consistent with coarctation of the aorta, which can lead to severe complications and early death.
++4. **Severe Combined Immunodeficiency (SCID)**: Consistent with recurrent infections like pneumonia and early death.
++5. **Mitochondrial Disorder**: Consistent with multisystem involvement, metabolic abnormalities, and early death.",Hereditary metabolic disorders
+['Homocystinuria due to cystathionine beta-synthase deficiency'],"+1. Homocystinuria: Consistent with hyperhomocystinemia, hypermethioninemia, aminoaciduria, and early death.
++2. Cystathionine beta-synthase deficiency: A specific type of homocystinuria that fits well with the reported symptoms.
++3. Maple Syrup Urine Disease (MSUD): Consistent with aminoaciduria and neonatal death, but lacks hyperhomocystinemia and hypermethioninemia.
++4. Methylmalonic acidemia: Consistent with aminoaciduria and neonatal death, but lacks hyperhomocystinemia and hypermethioninemia.
++5. Propionic acidemia: Consistent with aminoaciduria and neonatal death, but lacks hyperhomocystinemia and hypermethioninemia.",Hereditary metabolic disorders
+[],"+1. Orotic aciduria: Ataxia, generalized hypotonia, abnormal circulating pyrimidine concentration, uraciluria. Key symptoms not reported: Megaloblastic anemia.
++2. Hereditary orotic aciduria: Ataxia, generalized hypotonia, abnormal circulating pyrimidine concentration, uraciluria. Key symptoms not reported: Growth retardation, developmental delay.
++3. Dihydropyrimidine dehydrogenase deficiency: Ataxia, generalized hypotonia, abnormal circulating pyrimidine concentration, uraciluria. Key symptoms not reported: Seizures, developmental delay.
++4. Mitochondrial disorder: Ataxia, generalized hypotonia, death in childhood. Key symptoms not reported: Lactic acidosis, muscle weakness.
++5. Lesch-Nyhan syndrome: Generalized hypotonia, developmental delay. Key symptoms not reported: Self-mutilating behaviors, hyperuricemia.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, hyperphenylalaninemia, death in early adulthood.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia (but typically does not cause hypertyrosinemia or early death if managed).
++3. Tyrosinemia Type II: Hypertyrosinemia (but typically does not cause hyperphenylalaninemia or early death).
++4. Tyrosinemia Type III: Hypertyrosinemia (but typically does not cause hyperphenylalaninemia or early death).
++5. Alkaptonuria: Hypertyrosinemia (but typically does not cause hyperphenylalaninemia or early death).",Hereditary metabolic disorders
+[],"+1. Dihydropyrimidine dehydrogenase deficiency: Consistent with abnormal circulating pyrimidine concentration and uraciluria. Key symptoms include neurological issues and developmental delay, which may not have been reported.
++2. Orotic aciduria: Consistent with abnormal circulating pyrimidine concentration and uraciluria. Key symptoms include failure to thrive and developmental delay, which may not have been reported.
++3. Mitochondrial disorders: Consistent with respiratory insufficiency and neonatal death. Key symptoms include metabolic disturbances and multi-system involvement, which may not have been reported.
++4. Urea cycle disorders: Consistent with respiratory insufficiency and neonatal death. Key symptoms include hyperammonemia and metabolic disturbances, which may not have been reported.
++5. Congenital disorders of glycosylation: Consistent with respiratory insufficiency and neonatal death. Key symptoms include multi-system involvement and metabolic disturbances, which may not have been reported.",Hereditary metabolic disorders
+['Tyrosinemia type 1'],"+1. Tyrosinemia Type I: Pallor, death in infancy, ascites, anemia, hypoalbuminemia, hypoproteinemia, elevated circulating alkaline phosphatase concentration, hypertyrosinemia, aminoaciduria, elevated circulating alpha-fetoprotein concentration, abnormal circulating porphyrin concentration.
++2. Alpha-1 Antitrypsin Deficiency: Pallor, ascites, anemia, hypoalbuminemia, hypoproteinemia, elevated circulating alkaline phosphatase concentration. (Key symptoms not reported: hypertyrosinemia, elevated alpha-fetoprotein)
++3. Congenital Erythropoietic Porphyria: Pallor, anemia, elevated circulating porphyrin concentration. (Key symptoms not reported: ascites, elevated alpha-fetoprotein)
++4. Neonatal Hemochromatosis: Pallor, death in infancy, ascites, anemia, hypoalbuminemia, hypoproteinemia, elevated circulating alkaline phosphatase concentration, elevated circulating alpha-fetoprotein concentration. (Key symptoms not reported: hypertyrosinemia, aminoaciduria)
++5. Galactosemia: Pallor, ascites, anemia, hypoalbuminemia, hypoproteinemia, elevated circulating alkaline phosphatase concentration. (Key symptoms not reported: hypertyrosinemia, elevated alpha-fetoprotein)",Hereditary metabolic disorders
+['Canavan disease'],"+1. **Maple Syrup Urine Disease (MSUD)**: Consistent with seizures, motor delay, and abnormal circulating aspartate family amino acid concentration. Key symptom not reported: Sweet-smelling urine.
++2. **Leigh Syndrome**: Consistent with seizures, motor delay, and early death in infancy. Key symptom not reported: Lactic acidosis.
++3. **Propionic Acidemia**: Consistent with seizures, motor delay, and abnormal amino acid concentrations. Key symptom not reported: Metabolic acidosis.
++4. **Methylmalonic Acidemia**: Consistent with seizures, motor delay, and abnormal amino acid concentrations. Key symptom not reported: Hyperammonemia.
++5. **Glutaric Aciduria Type I**: Consistent with seizures, motor delay, and abnormal amino acid concentrations. Key symptom not reported: Macrocephaly.",Hereditary metabolic disorders
+['Isovaleric acidemia'],"+1. **Propionic Acidemia**: Abnormal glycine and carnitine levels, vomiting, diarrhea, abdominal pain, recurrent infections, and early death.
++2. **Methylmalonic Acidemia**: Similar presentation to propionic acidemia with abnormal metabolite levels, gastrointestinal symptoms, and early death.
++3. **Severe Combined Immunodeficiency (SCID)**: Recurrent viral infections, gastrointestinal inflammation, and early death.
++4. **Mitochondrial Disorder**: Multisystem involvement including gastrointestinal symptoms, metabolic abnormalities, and recurrent infections.
++5. **Urea Cycle Disorder**: Abnormal glycine and carnitine levels, vomiting, diarrhea, abdominal pain, and early death.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, intellectual disability, early death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, intellectual disability. (Note: Hypertension and obesity are not typical.)
++3. Maple Syrup Urine Disease (MSUD): Intellectual disability, metabolic abnormalities. (Note: Sweet-smelling urine not reported.)
++4. Mitochondrial disorder: Intellectual disability, metabolic abnormalities, early death. (Note: Muscle weakness not reported.)
++5. Propionic acidemia: Elevated urinary carboxylic acids, intellectual disability, early death.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. **Mitochondrial disorders**: Symptoms like 'Abnormality of prenatal development or birth', 'Small for gestational age', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Abnormal circulating carnitine concentration', and 'Severe hearing impairment' are consistent with mitochondrial disorders. Key symptoms not reported: specific mitochondrial DNA mutations.
++2. **Organic acidemias**: 'Hyperalaninemia', 'Abnormal circulating carnitine concentration', and severe early-life symptoms fit with organic acidemias. Key symptoms not reported: specific organic acidemia markers.
++3. **Fatty acid oxidation disorders**: 'Abnormal circulating carnitine concentration' and severe early-life symptoms are consistent with these disorders. Key symptoms not reported: hypoketotic hypoglycemia.
++4. **Peroxisomal disorders**: 'Abnormality of prenatal development or birth', 'Small for gestational age', 'Death in infancy', 'Neonatal death', 'Death in childhood', and 'Abnormal circulating carnitine concentration' fit with peroxisomal disorders. Key symptoms not reported: specific peroxisomal enzyme deficiencies.
++5. **Leigh syndrome**: 'Abnormality of prenatal development or birth', 'Small for gestational age', 'Death in infancy', 'Neonatal death', 'Death in childhood', and 'Severe hearing impairment' are consistent with Leigh syndrome. Key symptoms not reported: specific MRI findings of brain lesions.",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Ornithine Transcarbamylase (OTC) Deficiency: Lethargy, drowsiness, sleep abnormality, orotic aciduria, abnormal circulating ornithine concentration. Key symptom not reported: Hyperammonemia.
++2. Carbamoyl Phosphate Synthetase I (CPS1) Deficiency: Lethargy, drowsiness, sleep abnormality, abnormal circulating ornithine concentration. Key symptom not reported: Orotic aciduria.
++3. Argininosuccinate Synthetase Deficiency (Citrullinemia): Lethargy, drowsiness, sleep abnormality, abnormal circulating ornithine concentration. Key symptom not reported: Orotic aciduria.
++4. Hereditary Orotic Aciduria: Lethargy, drowsiness, sleep abnormality, orotic aciduria. Key symptom not reported: Abnormal circulating ornithine concentration.
++5. Hyperornithinemia-Hyperammonemia-Homocitrullinuria (HHH) Syndrome: Lethargy, drowsiness, sleep abnormality, abnormal circulating ornithine concentration. Key symptom not reported: Orotic aciduria.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Ataxia, dystonia, abnormal cerebral morphology, glutaric aciduria, decreased plasma free carnitine, abnormal myelination.
++2. Mitochondrial disorder: Ataxia, dystonia, abnormal myelination (glutaric aciduria is not typical).
++3. Organic acidemia (other than glutaric acidemia type I): Ataxia, dystonia, abnormal cerebral morphology, glutaric aciduria (less specific match).
++4. Leukodystrophy: Ataxia, abnormal myelination (glutaric aciduria is not typical).
++5. Carnitine deficiency: Decreased plasma free carnitine (does not explain glutaric aciduria and abnormal cerebral morphology).",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Phenylketonuria (PKU): Hyperphenylalaninemia is a hallmark of PKU. However, neonatal death is not typical if diagnosed and treated early.
++2. Tyrosinemia Type I: Can present with severe liver and kidney dysfunction in infancy, leading to death. Hyperphenylalaninemia can be a secondary finding.
++3. Maple Syrup Urine Disease (MSUD): Can present with severe metabolic crises in the neonatal period, leading to death. Hyperphenylalaninemia is not typical.
++4. Urea Cycle Disorders: Can present with severe hyperammonemia in the neonatal period, leading to death. Hyperphenylalaninemia is not typical.
++5. Nonketotic Hyperglycinemia: Can present with severe neurological symptoms and early death. Hyperphenylalaninemia is not typical.",Hereditary metabolic disorders
+['Systemic primary carnitine deficiency'],"+1. **Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCAD Deficiency)**: Hypoglycemia, vomiting, hepatomegaly, elevated hepatic transaminase levels, decreased plasma free carnitine.
++2. **Carnitine Palmitoyltransferase II Deficiency (CPT II Deficiency)**: Hypoglycemia, cardiomyopathy, hepatomegaly, decreased plasma free carnitine. (Key symptoms not reported: muscle pain and weakness)
++3. **Mitochondrial Myopathy**: Generalized hypotonia, encephalopathy, cardiomyopathy, elevated hepatic transaminase levels. (Key symptoms not reported: lactic acidosis)
++4. **Glycogen Storage Disease Type II (Pompe Disease)**: Cardiomyopathy, hypotonia, hepatomegaly. (Key symptoms not reported: hypoglycemia)
++5. **Organic Acidemia (e.g., Propionic Acidemia)**: Vomiting, hypotonia, encephalopathy, elevated hepatic transaminase levels, abnormal circulating amino acid concentrations.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. Pontocerebellar hypoplasia: Consistent with cerebellar atrophy, motor delay, hypotonia, encephalopathy, growth delay, and early death.
++2. Walker-Warburg syndrome: Consistent with cerebellar atrophy, hypotonia, motor delay, strabismus, nystagmus, and early death.
++3. Joubert syndrome: Consistent with cerebellar atrophy, hypotonia, ataxia, nystagmus, and motor delay. Key symptom not reported: molar tooth sign on MRI.
++4. Leigh syndrome: Consistent with encephalopathy, ataxia, hypotonia, and early death. Key symptoms not reported: lactic acidosis and specific MRI findings.
++5. Congenital disorders of glycosylation (CDG): Consistent with cerebellar atrophy, hypotonia, ataxia, and growth delay. Key symptoms not reported: additional systemic symptoms.",Hereditary metabolic disorders
+['Homocystinuria due to cystathionine beta-synthase deficiency'],"+1. Homocystinuria: Consistent with myopia, ectopia lentis, intellectual disability, hyperhomocystinemia, hypermethioninemia, and aminoaciduria.
++2. Cystathionine beta-synthase (CBS) deficiency: Consistent with hyperhomocystinemia, hypermethioninemia, intellectual disability, and ectopia lentis.
++3. Marfan Syndrome: Consistent with ectopia lentis and myopia, but less likely due to the absence of hyperhomocystinemia and hypermethioninemia.
++4. Methionine adenosyltransferase I/III deficiency: Consistent with hypermethioninemia and intellectual disability, but ectopia lentis is not typical.
++5. Methylmalonic acidemia: Consistent with intellectual disability and metabolic abnormalities, but ectopia lentis and hyperhomocystinemia are not typical features.",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Ornithine transcarbamylase deficiency: Seizure, ataxia, lethargy, hyperreflexia, metabolic acidosis, hyperammonemia, orotic aciduria, death in childhood/adolescence.
++2. Propionic acidemia: Seizure, ataxia, lethargy, hyperreflexia, metabolic acidosis, hyperammonemia, diarrhea, drowsiness, sleep abnormality, death in childhood/adolescence.
++3. Methylmalonic acidemia: Seizure, ataxia, lethargy, hyperreflexia, metabolic acidosis, hyperammonemia, diarrhea, drowsiness, sleep abnormality, death in childhood/adolescence.
++4. Leigh syndrome: Seizure, ataxia, lethargy, hyperreflexia, metabolic acidosis, fever, drowsiness, sleep abnormality, death in childhood/adolescence.
++5. Reye syndrome: Seizure, ataxia, lethargy, hyperreflexia, metabolic acidosis, hyperammonemia, fever, drowsiness, death in childhood/adolescence.",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"+1. Smith-Lemli-Opitz syndrome: Microcephaly, intellectual disability, generalized hypotonia, hyperreflexia, failure to thrive, elevated 7-dehydrocholesterol concentration, feeding difficulties.
++2. Zellweger spectrum disorder: Microcephaly, intellectual disability, generalized hypotonia, failure to thrive, feeding difficulties. (Lacks elevated 7-dehydrocholesterol)
++3. Trisomy 18 (Edwards syndrome): Microcephaly, intellectual disability, failure to thrive, feeding difficulties. (Lacks elevated 7-dehydrocholesterol)
++4. Congenital disorders of glycosylation (CDG): Intellectual disability, generalized hypotonia, failure to thrive, feeding difficulties. (Lacks elevated 7-dehydrocholesterol)
++5. Rett syndrome: Intellectual disability, generalized hypotonia, failure to thrive, feeding difficulties. (Lacks elevated 7-dehydrocholesterol and more common in females)",Hereditary metabolic disorders
+['Glycogen storage disease due to glycogen debranching enzyme deficiency'],"+1. Mitochondrial disorder: Generalized hypotonia, increased circulating lactate concentration, hepatomegaly, neonatal death, abnormal circulating amino acid concentrations.
++2. Fatty acid oxidation disorder: Hypertriglyceridemia, hepatomegaly, increased circulating lactate concentration, neonatal death.
++3. Organic acidemia: Increased circulating lactate concentration, abnormal circulating amino acid concentrations, neonatal death, hepatomegaly.
++4. Glycogen storage disease: Hepatomegaly, increased circulating lactate concentration, abnormal circulating creatine kinase concentration.
++5. Urea cycle disorder: Abnormal circulating amino acid concentrations, increased circulating lactate concentration, neonatal death.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Microcephaly, generalized hypotonia, cerebral cortical atrophy, athetosis, glutaric aciduria, decreased plasma free carnitine, abnormal circulating acylcarnitine concentration, neonatal death, death in adolescence.
++2. Carnitine palmitoyltransferase II deficiency: Decreased plasma free carnitine, abnormal circulating acylcarnitine concentration. (Key symptoms not reported: recurrent myoglobinuria, muscle pain, weakness).
++3. Mitochondrial disorders: Generalized hypotonia, cerebral cortical atrophy, abnormal circulating acylcarnitine concentration. (Key symptoms not reported: lactic acidosis, multi-system involvement).
++4. Organic acidemias: Generalized hypotonia, abnormal circulating acylcarnitine concentration. (Key symptoms not reported: specific organic acid profiles other than glutaric aciduria).
++5. Peroxisomal disorders: Microcephaly, generalized hypotonia, abnormal circulating acylcarnitine concentration. (Key symptoms not reported: dysmorphic features, liver dysfunction).",Hereditary metabolic disorders
+['Propionic acidemia'],"+1: Ornithine transcarbamylase deficiency: Hyperammonemia, abnormal circulating glutamine concentration, vomiting.
++2: Propionic acidemia: Elevated urinary carboxylic acid, hyperammonemia, abnormal circulating carnitine concentration.
++3: Methylmalonic acidemia: Elevated urinary carboxylic acid, hyperammonemia, abnormal circulating carnitine concentration.
++4: Non-ketotic hyperglycinemia: Hyperglycinemia, hyperglycinuria, vomiting.
++5: Fatty acid oxidation disorder: Abnormal circulating carnitine concentration, vomiting, hyperammonemia.",Hereditary metabolic disorders
+['Succinic semialdehyde dehydrogenase deficiency'],"+1. Propionic acidemia: Intellectual disability, motor delay, elevated urinary carboxylic acid, abnormal circulating monocarboxylic acid concentration.
++2. Methylmalonic acidemia: Intellectual disability, motor delay, elevated urinary carboxylic acid, abnormal circulating monocarboxylic acid concentration.
++3. Mucopolysaccharidoses: Intellectual disability, motor delay, abnormal facial shape, abnormal calvaria morphology, death in childhood.
++4. Congenital disorders of glycosylation: Intellectual disability, motor delay, abnormal facial shape, abnormal calvaria morphology.
++5. Mitochondrial disorder: Intellectual disability, motor delay, abnormal metabolic profiles, death in childhood.",Hereditary metabolic disorders
+['Classic galactosemia'],"+1. **Galactosemia**: Consistent with hypergalactosemia, abnormal galactoside metabolism, hepatic failure, increased total bilirubin, and developmental delays.
++2. **Tyrosinemia Type I**: Consistent with hepatic failure, increased total bilirubin, and developmental delays. Hypergalactosemia is less common.
++3. **Urea Cycle Disorders**: Consistent with developmental delays and hepatic dysfunction. Hypergalactosemia is not typical.
++4. **Neonatal Hemochromatosis**: Consistent with severe liver disease in neonates. Hypergalactosemia is not typical.
++5. **Mitochondrial Disorders**: Consistent with developmental delays and liver dysfunction. Hypergalactosemia is not a hallmark feature.",Hereditary metabolic disorders
+['Neonatal intrahepatic cholestasis due to citrin deficiency'],"+1. Citrullinemia: Elevated plasma citrulline, hyperammonemia, aminoaciduria, neonatal death.
++2. Urea Cycle Disorder (general): Hyperammonemia, aminoaciduria, neonatal death, elevated plasma citrulline.
++3. Lysinuric Protein Intolerance: Hyperammonemia, aminoaciduria, elevated plasma citrulline.
++4. Hyperprolinemia: Elevated proline concentration, but lacks hyperammonemia.
++5. Organic Acidemia: Hyperammonemia, aminoaciduria, but elevated plasma citrulline is less common.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1: Tyrosinemia Type I: Consistent with hypertyrosinemia, recurrent infections, and early death. Key symptoms not reported: liver dysfunction, renal tubular dysfunction.
++2: Phenylketonuria (PKU): Consistent with hyperphenylalaninemia. Key symptoms not reported: intellectual disability, musty odor.
++3: Porphyria: Consistent with abnormal circulating porphyrin concentration. Key symptoms not reported: abdominal pain, neurological symptoms.
++4: Hemochromatosis: Consistent with decreased ferritin levels. Key symptoms not reported: joint pain, skin pigmentation changes.
++5: Mitochondrial disorder: Consistent with a range of metabolic abnormalities and recurrent infections. Key symptoms not reported: muscle weakness, neurological symptoms.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease: Lethargy, generalized hypotonia, tremor, opisthotonus, drowsiness, sleep abnormality, neonatal death, abnormal circulating leucine concentration, elevated urinary carboxylic acid, body odor.
++2. Propionic Acidemia: Lethargy, generalized hypotonia, tremor, drowsiness, sleep abnormality, elevated urinary carboxylic acid. (Key symptoms not reported: abnormal circulating leucine concentration, body odor)
++3. Methylmalonic Acidemia: Lethargy, generalized hypotonia, tremor, drowsiness, sleep abnormality, elevated urinary carboxylic acid. (Key symptoms not reported: abnormal circulating leucine concentration, body odor)
++4. Nonketotic Hyperglycinemia: Lethargy, generalized hypotonia, tremor, opisthotonus, drowsiness, sleep abnormality, neonatal death. (Key symptoms not reported: abnormal circulating leucine concentration, elevated urinary carboxylic acid, body odor)
++5. Phenylketonuria: Lethargy, generalized hypotonia, drowsiness, sleep abnormality. (Key symptoms not reported: abnormal circulating leucine concentration, elevated urinary carboxylic acid, body odor)",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Generalized hypotonia, anemia, hypertyrosinemia, neonatal death. (Key symptoms not reported: liver dysfunction, renal tubular dysfunction)
++2. Phenylketonuria (PKU): Generalized hypotonia, hyperphenylalaninemia, neonatal death. (Key symptoms not reported: intellectual disability, eczema)
++3. Congenital disorders of glycosylation (CDG): Generalized hypotonia, anemia, metabolic abnormalities, neonatal death. (Key symptoms not reported: developmental delay, liver dysfunction)
++4. Mitochondrial disorders: Generalized hypotonia, anemia, metabolic abnormalities, neonatal death. (Key symptoms not reported: lactic acidosis, muscle weakness)
++5. Congenital sideroblastic anemia: Anemia, decreased circulating iron and ferritin concentration, neonatal death. (Key symptoms not reported: ringed sideroblasts in bone marrow, growth retardation)",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"+1. Smith-Lemli-Opitz syndrome: Hypertelorism, anteverted nares, self-mutilation, delayed speech and language development, hyperactivity, syndactyly, intellectual disability, seizure, motor delay, hypocholesterolemia, elevated 8-dehydrocholesterol, elevated circulating 7-dehydrocholesterol concentration, neonatal death, death in infancy, death in childhood, severe hearing impairment.
++2. Cornelia de Lange syndrome: Hypertelorism, anteverted nares, self-mutilation, delayed speech and language development, hyperactivity, syndactyly, intellectual disability, seizure, motor delay. Key symptoms not reported: specific biochemical abnormalities.
++3. Rett syndrome: Intellectual disability, seizure, motor delay, severe hearing impairment. Key symptoms not reported: biochemical abnormalities, hypertelorism, anteverted nares, syndactyly.
++4. Zellweger spectrum disorder: Intellectual disability, seizure, motor delay, neonatal death. Key symptoms not reported: specific biochemical abnormalities related to cholesterol metabolism, hypertelorism, anteverted nares, syndactyly.
++5. Mowat-Wilson syndrome: Hypertelorism, delayed speech and language development, intellectual disability, motor delay. Key symptoms not reported: specific biochemical abnormalities, anteverted nares, syndactyly.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"<thinking>
+a. Key symptoms that stand out include microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, failure to thrive, small for gestational age, splenomegaly, anemia, acute kidney injury, metabolic acidosis, hypoglycemia, dehydration, fever, hyperammonemia, hypothermia, pneumonia, hyperuricemia, increased circulating lactate concentration, hyperglycinemia, hepatomegaly, methylmalonic acidemia, hyperglycinuria, increased blood urea nitrogen, elevated circulating alkaline phosphatase concentration, decreased methylmalonyl-CoA mutase activity, elevated circulating creatinine concentration, severe short stature, neonatal death, death in childhood, gastrointestinal inflammation, decreased plasma free carnitine, abnormal circulating porphyrin concentration, abnormal circulating aspartate family amino acid concentration, abnormal circulating alanine concentration, abnormal circulating homocysteine concentration, elevated circulating C-reactive protein concentration, feeding difficulties, methylmalonic aciduria, chronic kidney disease, and elevated urinary carboxylic acid.
+
+b. Possible diagnoses:
+1. **Methylmalonic acidemia (MMA)**: The presence of methylmalonic acidemia, decreased methylmalonyl-CoA mutase activity, and elevated methylmalonic acid in urine strongly suggest MMA. Symptoms like failure to thrive, developmental delays, metabolic acidosis, and hyperammonemia are consistent with this diagnosis.
+2. **Propionic acidemia**: Similar to MMA, propionic acidemia can present with metabolic acidosis, hyperammonemia, and developmental delays. However, the specific mention of methylmalonic acidemia makes MMA more likely.
+3. **Glycine encephalopathy (Nonketotic hyperglycinemia)**: The presence of hyperglycinemia and hyperglycinuria, along with developmental delays and hypotonia, suggests this condition. However, the presence of methylmalonic acidemia makes this less likely.
+4. **Organic acidemias**: Other organic acidemias could present with similar metabolic disturbances, developmental delays, and failure to thrive. However, the specific findings of methylmalonic acidemia and decreased methylmalonyl-CoA mutase activity point more towards MMA.
+5. **Urea cycle disorders**: Hyperammonemia and developmental delays can be seen in urea cycle disorders, but the presence of methylmalonic acidemia and other specific metabolic findings make this less likely.
+
+c. Additional tests or information:
+- Genetic testing for mutations in the MUT gene (associated with MMA).
+- Plasma amino acid profile to further evaluate hyperglycinemia.
+- Urine organic acid analysis to confirm the presence of methylmalonic acid and other metabolites.
+- Enzyme activity assays for methylmalonyl-CoA mutase.
+- Imaging studies to assess organomegaly and structural abnormalities.
+</thinking>
+
+<top5>
++1. Methylmalonic acidemia (MMA): Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, failure to thrive, small for gestational age, splenomegaly, anemia, acute kidney injury, metabolic acidosis, hypoglycemia, dehydration, fever, hyperammonemia, hypothermia, pneumonia, hyperuricemia, increased circulating lactate concentration, hyperglycinemia, hepatomegaly, methylmalonic acidemia, hyperglycinuria, increased blood urea nitrogen, elevated circulating alkaline phosphatase concentration, decreased methylmalonyl-CoA mutase activity, elevated circulating creatinine concentration, severe short stature, neonatal death, death in childhood, gastrointestinal inflammation, decreased plasma free carnitine, abnormal circulating porphyrin concentration, abnormal circulating aspartate family amino acid concentration, abnormal circulating alanine concentration, abnormal circulating homocysteine concentration, elevated circulating C-reactive protein concentration, feeding difficulties, methylmal",Hereditary metabolic disorders
+[],"+1. Dihydropyrimidine dehydrogenase deficiency (DPD deficiency): Ataxia, lethargy, generalized hypotonia, drowsiness, sleep abnormality, abnormal circulating pyrimidine concentration, uraciluria.
++2. Orotic aciduria: Ataxia, lethargy, generalized hypotonia, drowsiness, sleep abnormality, abnormal circulating pyrimidine concentration (though less specific for uraciluria).
++3. Mitochondrial disorder: Ataxia, lethargy, generalized hypotonia, drowsiness, sleep abnormality (though typically does not involve abnormal pyrimidine concentration or uraciluria).
++4. Urea cycle disorder: Lethargy, generalized hypotonia, drowsiness, sleep abnormality (though typically involves hyperammonemia rather than abnormal pyrimidine concentration).
++5. Molybdenum cofactor deficiency: Generalized hypotonia, drowsiness, sleep abnormality, death in infancy (though typically involves elevated sulfite levels rather than pyrimidine abnormalities).",Hereditary metabolic disorders
+['Isovaleric acidemia'],"+1. Ornithine transcarbamylase deficiency: Hyperammonemia, neonatal death, death in childhood.
++2. Propionic acidemia: Hyperammonemia, abnormal carnitine concentration, neonatal death.
++3. Methylmalonic acidemia: Hyperammonemia, abnormal carnitine concentration, neonatal death.
++4. Nonketotic hyperglycinemia: Abnormal circulating glycine concentration, neonatal death, death in infancy.
++5. Carnitine palmitoyltransferase II deficiency: Abnormal circulating carnitine concentration, neonatal death, death in childhood.",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1: Mitochondrial disorder: Consistent with seizures, hypotonia, and elevated urinary carboxylic acids. Death in infancy is also common in severe cases.
++2: Propionic acidemia: Consistent with seizures, hypotonia, and elevated urinary carboxylic acids. Death in infancy can occur if untreated.
++3: Methylmalonic acidemia: Consistent with seizures, hypotonia, and elevated urinary carboxylic acids. Death in infancy is possible.
++4: Zellweger syndrome (a peroxisomal disorder): Consistent with seizures, hypotonia, and early death. Elevated urinary carboxylic acids can be seen.
++5: Urea cycle disorder: Consistent with seizures and hypotonia. Elevated urinary carboxylic acids can be seen in some cases, and death in infancy is possible.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. **Mitochondrial disorder**: Consistent with 'Delayed speech and language development', 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Decreased plasma free carnitine', 'Decreased 3-hydroxyacyl-CoA dehydrogenase level'.
++2. **Fatty acid oxidation disorder**: Consistent with 'Delayed speech and language development', 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Decreased plasma free carnitine', 'Decreased 3-hydroxyacyl-CoA dehydrogenase level'.
++3. **Organic acidemia**: Consistent with 'Delayed speech and language development', 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Decreased plasma free carnitine', 'Decreased 3-hydroxyacyl-CoA dehydrogenase level'.
++4. **Peroxisomal disorder**: Consistent with 'Delayed speech and language development', 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Decreased plasma free carnitine', 'Decreased 3-hydroxyacyl-CoA dehydrogenase level'.
++5. **Congenital disorder of glycosylation**: Consistent with 'Delayed speech and language development', 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', 'Death in childhood', 'Decreased plasma free carnitine', 'Decreased 3-hydroxyacyl-CoA dehydrogenase level'.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"<thinking>
+a. Key symptoms that stand out include seizure, spastic diplegia, motor delay, generalized hypotonia, metabolic acidosis, dyspnea, apnea, opisthotonus, spastic tetraplegia, neonatal death, hypervalinemia, hyperleucinemia, hyperisoleucinemia, feeding difficulties, and body odor. The combination of metabolic abnormalities (hypervalinemia, hyperleucinemia, hyperisoleucinemia) with severe neurological symptoms (seizure, spastic diplegia, motor delay, generalized hypotonia) and early death suggests a metabolic disorder, possibly a disorder of amino acid metabolism.
+
+b. Possible diagnoses:
+1. Maple Syrup Urine Disease (MSUD): This condition is characterized by the accumulation of branched-chain amino acids (valine, leucine, isoleucine) and presents with symptoms such as seizures, spasticity, motor delay, hypotonia, metabolic acidosis, and a distinctive body odor. Neonatal death can occur if untreated.
+2. Propionic Acidemia: This metabolic disorder can present with metabolic acidosis, seizures, hypotonia, feeding difficulties, and can lead to early death. However, it typically does not cause hypervalinemia, hyperleucinemia, or hyperisoleucinemia.
+3. Methylmalonic Acidemia: Similar to propionic acidemia, it presents with metabolic acidosis, seizures, hypotonia, and feeding difficulties. It also does not typically cause hypervalinemia, hyperleucinemia, or hyperisoleucinemia.
+4. Isovaleric Acidemia: This disorder can cause metabolic acidosis, seizures, hypotonia, and a distinctive body odor. However, it does not typically cause hyperleucinemia or hyperisoleucinemia.
+5. Urea Cycle Disorders: These can present with seizures, hypotonia, metabolic acidosis, and early death. However, they do not typically cause hypervalinemia, hyperleucinemia, or hyperisoleucinemia.
+
+c. Additional tests that could help narrow down the diagnosis include:
+- Plasma amino acid analysis to confirm the presence of elevated branched-chain amino acids.
+- Urine organic acid analysis to identify specific metabolic byproducts.
+- Genetic testing to identify mutations in genes associated with MSUD or other metabolic disorders.
+- Enzyme activity assays to measure the activity of enzymes involved in amino acid metabolism.
+
+</thinking>
+
+<top5>
++1. Maple Syrup Urine Disease (MSUD): Seizure, spastic diplegia, motor delay, generalized hypotonia, metabolic acidosis, dyspnea, apnea, opisthotonus, spastic tetraplegia, neonatal death, hypervalinemia, hyperleucinemia, hyperisoleucinemia, feeding difficulties, body odor.
++2. Propionic Acidemia: Seizure, motor delay, generalized hypotonia, metabolic acidosis, dyspnea, apnea, opisthotonus, spastic tetraplegia, neonatal death, feeding difficulties. (Lacks hypervalinemia, hyperleucinemia, hyperisoleucinemia, body odor).
++3. Methylmalonic Acidemia: Seizure, motor delay, generalized hypotonia, metabolic acidosis, dyspnea, apnea, opisthotonus, spastic tetraplegia, neonatal death, feeding difficulties. (Lacks hypervalinemia, hyperleucinemia, hyperisoleucinemia, body odor).
++4. Isovaleric Acidemia: Seizure, motor delay, generalized hypotonia, metabolic acidosis, dyspnea, apnea, opisthotonus, spastic tetraplegia, neonatal death, feeding difficulties, body odor. (Lacks hyperleuc",Hereditary metabolic disorders
+['Propionic acidemia'],"+1. **Methylmalonic Acidemia (MMA)**: Consistent with hyperammonemia, intellectual disability, elevated urinary carboxylic acid, and severe short stature. Key symptoms not reported: metabolic acidosis.
++2. **Propionic Acidemia**: Consistent with hyperammonemia, intellectual disability, elevated urinary carboxylic acid, and severe short stature. Key symptoms not reported: metabolic acidosis, ketosis.
++3. **Ornithine Transcarbamylase (OTC) Deficiency**: Consistent with hyperammonemia, intellectual disability, and psychosis. Key symptoms not reported: episodes of vomiting and lethargy.
++4. **Homocystinuria**: Consistent with intellectual disability, psychosis, osteoporosis, and severe short stature. Key symptoms not reported: thromboembolic events.
++5. **Maple Syrup Urine Disease (MSUD)**: Consistent with psychosis, intellectual disability, hyperglycinemia, and hyperalaninemia. Key symptoms not reported: characteristic sweet-smelling urine.",Hereditary metabolic disorders
+['L-2-hydroxyglutaric aciduria'],"+1. L-2-Hydroxyglutaric aciduria: Intellectual disability, seizures, ataxia, tremor, death in childhood, L-2-hydroxyglutaric aciduria.
++2. Leigh syndrome: Intellectual disability, seizures, ataxia, early death (does not specifically involve L-2-hydroxyglutaric aciduria).
++3. Glutaric aciduria type I: Intellectual disability, seizures, early death (involves different metabolic markers).
++4. Canavan disease: Intellectual disability, seizures, early death (involves elevated N-acetylaspartic acid).
++5. MELAS: Intellectual disability, seizures, early death (involves lactic acidosis rather than L-2-hydroxyglutaric aciduria).",Hereditary metabolic disorders
+['Canavan disease'],"+1. **Maple Syrup Urine Disease (MSUD)**: Consistent with abnormal circulating aspartate family amino acid concentration and motor delay. Key symptoms not reported: Sweet-smelling urine, lethargy.
++2. **Leigh Syndrome**: Consistent with motor delay and death in infancy. Key symptoms not reported: Lactic acidosis, respiratory issues.
++3. **Propionic Acidemia**: Consistent with abnormal circulating aspartate family amino acid concentration and motor delay. Key symptoms not reported: Vomiting, lethargy.
++4. **Methylmalonic Acidemia**: Consistent with abnormal circulating aspartate family amino acid concentration and motor delay. Key symptoms not reported: Metabolic acidosis, failure to thrive.
++5. **Zellweger Syndrome**: Consistent with motor delay and death in infancy. Key symptoms not reported: Hypotonia, craniofacial abnormalities.",Hereditary metabolic disorders
+['Citrullinemia type I'],"+1. Citrullinemia Type I: Hyperammonemia, elevated plasma citrulline, neonatal death.
++2. Urea Cycle Disorder (general): Hyperammonemia, elevated plasma citrulline, neonatal death.
++3. Neonatal Hemochromatosis: Increased total bilirubin, neonatal death (hyperammonemia not typical).
++4. Galactosemia: Neonatal death, increased total bilirubin (hyperammonemia and elevated plasma citrulline not typical).
++5. Organic Acidemias: Hyperammonemia, neonatal death (elevated plasma citrulline less common).",Hereditary metabolic disorders
+['3-hydroxy-3-methylglutaric aciduria'],"+1. **Propionic acidemia**: Consistent with lethargy, metabolic acidosis, hypoglycemia, hyperammonemia, vomiting, diarrhea, hepatomegaly, drowsiness, sleep abnormality, dicarboxylic aciduria, 3-methylglutaric aciduria, recurrent viral infections, and elevated urinary carboxylic acid.
++2. **Methylmalonic acidemia**: Consistent with lethargy, metabolic acidosis, hypoglycemia, hyperammonemia, vomiting, diarrhea, hepatomegaly, drowsiness, sleep abnormality, dicarboxylic aciduria, 3-methylglutaric aciduria, recurrent viral infections, and elevated urinary carboxylic acid.
++3. **Medium-chain acyl-CoA dehydrogenase deficiency (MCADD)**: Consistent with lethargy, hypoglycemia, vomiting, hepatomegaly, drowsiness, sleep abnormality, and dicarboxylic aciduria. Key symptoms not reported: specific acylcarnitine profile abnormalities.
++4. **Multiple carboxylase deficiency**: Consistent with lethargy, metabolic acidosis, hypoglycemia, hyperammonemia, vomiting, diarrhea, hepatomegaly, drowsiness, sleep abnormality, and elevated urinary carboxylic acid.
++5. **Mitochondrial disorder**: Consistent with lethargy, metabolic acidosis, hypoglycemia, hepatomegaly, drowsiness, sleep abnormality, and recurrent viral infections. Key symptoms not reported: specific mitochondrial DNA mutations or enzyme deficiencies.",Hereditary metabolic disorders
+['Cystinuria'],"+1. Niemann-Pick disease type C: Seizure, Splenomegaly, Respiratory insufficiency, Death in infancy.
++2. Gaucher disease: Seizure, Splenomegaly, Respiratory insufficiency, Death in infancy.
++3. Mitochondrial disorders: Seizure, Respiratory insufficiency, Death in infancy (Splenomegaly less common).
++4. Leukocyte adhesion deficiency type III: Splenomegaly, Respiratory insufficiency, Death in infancy (Seizures less common).
++5. Recurrent metabolic encephalomyopathic crises-rhabdomyolysis-cardiac arrhythmia-intellectual disability syndrome: Seizure, Respiratory insufficiency, Death in infancy (Splenomegaly not reported).",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"<thinking>
+a. Key symptoms that stand out include intellectual disability, motor delay, generalized hypotonia, hyperammonemia, vomiting, hypoproteinemia, increased blood urea nitrogen, hyperthreoninemia, neonatal death, death in childhood, recurrent viral infections, hypervalinemia, abnormal circulating isoleucine concentration, abnormal circulating carnitine concentration, feeding difficulties, decreased serum creatinine, and methylmalonic aciduria. The combination of metabolic abnormalities (hyperammonemia, hyperthreoninemia, hypervalinemia, abnormal circulating isoleucine and carnitine concentrations, methylmalonic aciduria) along with severe clinical manifestations (intellectual disability, motor delay, generalized hypotonia, neonatal death, recurrent infections) suggests a metabolic disorder, possibly a urea cycle disorder or an organic acidemia.
+
+b. Possible diagnoses:
+   - Urea cycle disorders (e.g., Ornithine transcarbamylase deficiency): These disorders often present with hyperammonemia, vomiting, and neurological symptoms such as intellectual disability and hypotonia. However, the presence of methylmalonic aciduria and hypervalinemia makes this less likely.
+   - Methylmalonic acidemia: This condition is characterized by methylmalonic aciduria, hyperammonemia, and metabolic crises, which can lead to intellectual disability, motor delay, and hypotonia. The presence of abnormal circulating isoleucine and carnitine concentrations supports this diagnosis.
+   - Propionic acidemia: Similar to methylmalonic acidemia, this condition can present with hyperammonemia, vomiting, and metabolic crises. It also involves abnormal levels of certain amino acids and organic acids.
+   - Maple syrup urine disease: This disorder involves abnormal levels of branched-chain amino acids (valine, isoleucine) and can present with intellectual disability, motor delay, and metabolic crises. However, the presence of methylmalonic aciduria is not typical.
+   - Multiple carboxylase deficiency: This condition can present with metabolic acidosis, hyperammonemia, and various metabolic abnormalities, including those involving carnitine and amino acids.
+
+c. Additional tests or information that could help narrow down the diagnosis:
+   - Plasma amino acid profile to confirm levels of valine, isoleucine, and other amino acids.
+   - Urine organic acid analysis to further characterize the metabolic abnormalities.
+   - Genetic testing to identify specific mutations associated with suspected metabolic disorders.
+   - Enzyme activity assays for specific enzymes involved in the urea cycle or organic acid metabolism.
+
+</thinking>
+
+<top5>
++1. Methylmalonic acidemia: Intellectual disability, motor delay, generalized hypotonia, hyperammonemia, vomiting, hypoproteinemia, increased blood urea nitrogen, hyperthreoninemia, neonatal death, recurrent viral infections, hypervalinemia, abnormal circulating isoleucine concentration, abnormal circulating carnitine concentration, feeding difficulties, decreased serum creatinine, methylmalonic aciduria.
++2. Propionic acidemia: Intellectual disability, motor delay, generalized hypotonia, hyperammonemia, vomiting, hypoproteinemia, increased blood urea nitrogen, hyperthreoninemia, neonatal death, recurrent viral infections, hypervalinemia, abnormal circulating isoleucine concentration, abnormal circulating carnitine concentration, feeding difficulties, decreased serum creatinine, methylmalonic aciduria.
++3. Urea cycle disorder (e.g., Ornithine transcarbamylase deficiency): Intellectual disability, motor delay, generalized hypotonia, hyperammonemia, vomiting, hypoproteinemia, increased blood urea nitrogen, neonatal death, recurrent viral infections, feeding difficulties, decreased serum creatinine. (Key symptoms not reported: methylmalonic aciduria, hypervalinemia, abnormal circulating isoleucine concentration, abnormal circulating carnitine concentration).
++4. Maple syrup urine disease",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, early death, recurrent infections.
++2. Organic Acidemias: Elevated urinary carboxylic acid, recurrent infections, early death.
++3. Phenylketonuria (PKU): Hyperphenylalaninemia, but typically not associated with early death if managed.
++4. Severe Combined Immunodeficiency (SCID): Recurrent viral infections, early death, but lacks hypertyrosinemia and hyperphenylalaninemia.
++5. Mitochondrial Disorders: Early death, metabolic abnormalities, but less specific for hypertyrosinemia and hyperphenylalaninemia.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. **Tyrosinemia**: Hypertyrosinemia, intellectual disability, early death (infancy, adolescence, early adulthood).
++2. **Phenylketonuria (PKU)**: Hyperphenylalaninemia, intellectual disability. (Obesity and early death are less typical if managed properly).
++3. **Prader-Willi Syndrome**: Intellectual disability, obesity, early death (due to complications). (Does not typically involve hypertyrosinemia or hyperphenylalaninemia).
++4. **Smith-Lemli-Opitz Syndrome**: Intellectual disability, early death, metabolic abnormalities. (More commonly associated with cholesterol metabolism issues).
++5. **Maple Syrup Urine Disease (MSUD)**: Intellectual disability, early death. (Characterized by elevated branched-chain amino acids rather than tyrosine or phenylalanine).",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1: Ornithine transcarbamylase deficiency: Hyperammonemia, vomiting, death in infancy.
++2: Hereditary orotic aciduria: Oroticaciduria, vomiting, failure to thrive, death in infancy.
++3: Propionic acidemia: Hyperammonemia, vomiting, metabolic crises, death in infancy.
++4: Congenital disorders of glycosylation: Abnormal bleeding, coagulation issues, multi-system involvement.
++5: Hemophilia: Abnormal bleeding, coagulation cascade issues (less likely due to lack of hyperammonemia and oroticaciduria).",Hereditary metabolic disorders
+['L-2-hydroxyglutaric aciduria'],"+1. L-2-hydroxyglutaric aciduria: Intellectual disability, generalized hypotonia, hyperreflexia, hyperammonemia, abnormal cerebral morphology, death in childhood, abnormal myelination, L-2-hydroxyglutaric acidemia.
++2. Urea cycle disorder: Intellectual disability, generalized hypotonia, hyperreflexia, hyperammonemia. (L-2-hydroxyglutaric acidemia is not typical)
++3. Leukodystrophy: Intellectual disability, generalized hypotonia, hyperreflexia, abnormal cerebral morphology, death in childhood, abnormal myelination. (Hyperammonemia and L-2-hydroxyglutaric acidemia are not typical)
++4. Mitochondrial disorder: Intellectual disability, generalized hypotonia, hyperreflexia, abnormal cerebral morphology, death in childhood, abnormal myelination. (Hyperammonemia and L-2-hydroxyglutaric acidemia are not typical)
++5. Organic acidemia: Intellectual disability, generalized hypotonia, hyperreflexia, hyperammonemia, abnormal cerebral morphology, death in childhood, abnormal myelination. (Specific type indicated by L-2-hydroxyglutaric acidemia)",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. **Mitochondrial disorder**: Intellectual disability, ataxia, cerebellar atrophy, stroke-like episodes, death in infancy. Key symptoms not reported: Lactic acidosis, muscle weakness.
++2. **Cerebellar ataxia syndrome**: Intellectual disability, ataxia, cerebellar atrophy, cerebellar agenesis. Key symptoms not reported: Nystagmus, dysarthria.
++3. **Leukodystrophy**: Intellectual disability, ataxia, cerebellar atrophy, stroke-like episodes. Key symptoms not reported: White matter changes on MRI, spasticity.
++4. **Congenital disorder of glycosylation**: Intellectual disability, ataxia, cerebellar atrophy, thromboembolism. Key symptoms not reported: Hypotonia, liver dysfunction.
++5. **Organic acidemia**: Intellectual disability, ataxia, cerebellar atrophy, stroke-like episodes, death in infancy. Key symptoms not reported: Metabolic acidosis, vomiting.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in infancy. Key symptoms not reported: liver failure, renal tubular dysfunction.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia. Key symptoms not reported: intellectual disability, eczema, musty body odor.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and metabolic crises. Key symptoms not reported: sweet-smelling urine, lethargy, poor feeding.
++4. Urea Cycle Disorders: Consistent with neonatal death and metabolic crises. Key symptoms not reported: hyperammonemia, respiratory alkalosis.
++5. Mitochondrial Disorders: Consistent with neonatal death and metabolic abnormalities. Key symptoms not reported: lactic acidosis, multi-organ failure.",Hereditary metabolic disorders
+['Propionic acidemia'],"+1. Mitochondrial disorders: Delayed speech and language development, intellectual disability, seizure, lethargy, motor delay, generalized hypotonia, increased circulating lactate concentration, difficulty walking, sleep abnormality, recurrent viral infections.
++2. Urea cycle disorders: Hyperammonemia, vomiting, lethargy, developmental delay, difficulty walking, increased blood urea nitrogen, neonatal death, death in childhood.
++3. Organic acidemias: Hyperammonemia, increased lactate, hyperglycinemia, hyperalaninemia, hyperprolinemia, hypervalinemia, vomiting, lethargy, developmental delay, recurrent viral infections.
++4. Glycine encephalopathy (Nonketotic hyperglycinemia): Hyperglycinemia, seizures, hypotonia, developmental delay, lethargy, drowsiness, difficulty walking.
++5. Lysosomal storage disorders: Intellectual disability, developmental delay, multi-system involvement (e.g., seizures, gastrointestinal issues), recurrent viral infections, severe hearing impairment.",Hereditary metabolic disorders
+['Wilson disease'],"+1. Wilson's Disease: Polydipsia, elevated hepatic transaminase levels, decreased ceruloplasmin and copper concentrations, death in adolescence.
++2. Hereditary Hemochromatosis: Elevated hepatic transaminase levels (key symptoms of decreased ceruloplasmin and copper concentrations are not present).
++3. Autoimmune Hepatitis: Elevated hepatic transaminase levels (key symptoms of decreased ceruloplasmin and copper concentrations are not present).
++4. Alpha-1 Antitrypsin Deficiency: Elevated hepatic transaminase levels (key symptoms of decreased ceruloplasmin and copper concentrations are not present).
++5. Chronic Liver Disease: Elevated hepatic transaminase levels (key symptoms of decreased ceruloplasmin and copper concentrations are not present).",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Organic acidemias: Seizure, lethargy, generalized hypotonia, vomiting, drowsiness, sleep abnormality, oroticaciduria, neonatal death.
++2. Urea cycle disorders: Seizure, lethargy, generalized hypotonia, vomiting, drowsiness, sleep abnormality, hyperglutaminemia, neonatal death.
++3. Pyrimidine metabolism disorders: Seizure, lethargy, generalized hypotonia, vomiting, drowsiness, sleep abnormality, oroticaciduria, neonatal death.
++4. Mitochondrial disorders: Seizure, lethargy, generalized hypotonia, vomiting, drowsiness, sleep abnormality, neonatal death.
++5. Congenital lactic acidosis: Seizure, lethargy, generalized hypotonia, vomiting, drowsiness, sleep abnormality, neonatal death.",Hereditary metabolic disorders
+['Classic galactosemia'],"+1. Galactosemia: Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, obesity, anemia, elevated circulating alkaline phosphatase concentration, hypergalactosemia, feeding difficulties.
++2. Congenital Hypothyroidism: Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, obesity, anemia. (Key symptoms not reported: hypergalactosemia, abnormality of galactoside metabolism)
++3. Niemann-Pick Disease: Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, obesity, anemia, elevated circulating alkaline phosphatase concentration. (Key symptoms not reported: hypergalactosemia)
++4. Zellweger Syndrome: Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, elevated circulating alkaline phosphatase concentration. (Key symptoms not reported: hypergalactosemia, abnormality of galactoside metabolism)
++5. Mitochondrial Disorder: Microcephaly, delayed speech and language development, intellectual disability, motor delay, generalized hypotonia, elevated circulating alkaline phosphatase concentration. (Key symptoms not reported: hypergalactosemia, abnormality of galactoside metabolism)",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. Urea Cycle Disorders (UCDs): Hyperammonemia, death in childhood. (Obesity and abnormal foot morphology are less common but possible secondary features.)
++2. Mitochondrial Disorders: Hyperammonemia, death in childhood, potential for obesity and abnormal foot morphology.
++3. Prader-Willi Syndrome (PWS): Obesity, developmental delays, potential for abnormal foot morphology. (Hyperammonemia is not typical.)
++4. Organic Acidemias: Hyperammonemia, death in childhood. (Obesity and abnormal foot morphology could be secondary features.)
++5. Smith-Lemli-Opitz Syndrome (SLOS): Developmental delays, abnormal foot morphology, death in childhood. (Hyperammonemia is not typical but possible secondary feature.)",Hereditary metabolic disorders
+['Canavan disease'],"+1. **Maple Syrup Urine Disease (MSUD)**: Consistent with abnormal circulating aspartate family amino acid concentration, feeding difficulties, and severe neurological symptoms leading to early death.
++2. **Krabbe Disease**: Consistent with abnormal myelination, severe neurological symptoms, and early death in infancy.
++3. **Zellweger Syndrome**: Consistent with feeding difficulties, abnormal myelination, and early death in infancy.
++4. **Metachromatic Leukodystrophy**: Consistent with abnormal myelination, severe neurological symptoms, and early death in infancy.
++5. **Mitochondrial Disorder**: Consistent with feeding difficulties, abnormal myelination, and metabolic abnormalities.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Phenylketonuria (PKU): Hyperphenylalaninemia is consistent with this diagnosis. However, PKU typically does not result in neonatal death if managed properly.
++2. Maple Syrup Urine Disease (MSUD): Severe metabolic disturbances can lead to neonatal death, but hyperphenylalaninemia is not characteristic.
++3. Urea Cycle Disorders: Can present with severe metabolic crises and neonatal death, but hyperphenylalaninemia is not typical.
++4. Mitochondrial Disorders: Can present with severe early-life symptoms and death, but hyperphenylalaninemia is not a primary feature.
++5. Tyrosinemia Type I: Can present with severe liver and kidney dysfunction leading to early death, but hyperphenylalaninemia is not a primary feature.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Delayed speech and language development, Abnormality of prenatal development or birth, Hypertyrosinemia, Death in infancy, Neonatal death, Death in childhood, Death in early adulthood.
++2. Phenylketonuria (PKU): Delayed speech and language development, Abnormality of prenatal development or birth, Hyperphenylalaninemia, Death in infancy, Neonatal death, Death in childhood, Death in early adulthood.
++3. Maple Syrup Urine Disease (MSUD): Delayed speech and language development, Abnormality of prenatal development or birth, Death in infancy, Neonatal death, Death in childhood, Death in early adulthood.
++4. Methylmalonic Acidemia: Delayed speech and language development, Abnormality of prenatal development or birth, Death in infancy, Neonatal death, Death in childhood, Death in early adulthood.
++5. Urea Cycle Disorders: Delayed speech and language development, Abnormality of prenatal development or birth, Death in infancy, Neonatal death, Death in childhood, Death in early adulthood.",Hereditary metabolic disorders
+[],"+1. **Mitochondrial disorder**: Consistent with cardiomyopathy, generalized hypotonia, and multi-organ involvement (nephritis).
++2. **Alagille syndrome**: Consistent with cardiac anomalies (pulmonic stenosis, ventricular septal defect) and potential renal involvement. Generalized hypotonia is less common.
++3. **Noonan syndrome**: Consistent with cardiac anomalies (pulmonic stenosis, ventricular septal defect) and hypotonia. Nephritis is less common.
++4. **Congenital nephrotic syndrome**: Consistent with nephritis and potential cardiac involvement. Generalized hypotonia and death in infancy can occur.
++5. **Pompe disease**: Consistent with cardiomyopathy, generalized hypotonia, and potential renal involvement. Death in infancy is also a feature.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, irritability, spasticity, hyperreflexia, death in infancy/childhood.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, irritability, spasticity, hyperreflexia, death in infancy/childhood (less common with treatment).
++3. Maple Syrup Urine Disease (MSUD): Irritability, spasticity, hyperreflexia, death in infancy/childhood, hyperaminoacidemia.
++4. Urea Cycle Disorders: Irritability, spasticity, hyperreflexia, death in infancy/childhood, hyperammonemia.
++5. Severe Combined Immunodeficiency (SCID): Recurrent viral infections, death in infancy/childhood (does not explain hyperaminoacidemia directly).",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Carnitine Transporter Deficiency: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++2. Mitochondrial Disorders: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++3. Fatty Acid Oxidation Disorders: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++4. Organic Acidemias: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.
++5. Peroxisomal Disorders: Abnormal circulating carnitine concentration, neonatal death, abnormality of prenatal development or birth.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and developmental delays, though less likely to cause early death if managed.
++3. Maple Syrup Urine Disease (MSUD): Consistent with developmental delays and early death, though typically associated with elevated branched-chain amino acids.
++4. Nonketotic Hyperglycinemia: Consistent with hypotonia and early death, though characterized by elevated glycine levels.
++5. Urea Cycle Disorders: Consistent with developmental delays and early death, though not typically associated with hypertyrosinemia or hyperphenylalaninemia.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Seizure, encephalopathy, opisthotonus, glutaric aciduria, elevated circulating glutaric acid concentration, decreased plasma free carnitine, elevated urinary carboxylic acid.
++2. Multiple acyl-CoA dehydrogenase deficiency (MADD): Seizure, encephalopathy, elevated urinary carboxylic acid (though typically involves a broader range of metabolites).
++3. Carnitine uptake defect: Decreased plasma free carnitine, metabolic decompensation (less likely to cause elevated glutaric acid levels).
++4. Mitochondrial disorders: Seizure, encephalopathy (usually have a different metabolic profile).
++5. Other organic acidemias: Seizure, encephalopathy, elevated urinary carboxylic acid (may have different specific metabolic markers).",Hereditary metabolic disorders
+[],"+1. **Zellweger Spectrum Disorder**: Consistent with hypotonia, seizures, intellectual disability, hepatomegaly, early death, and fair hair. Key symptoms not reported: none.
++2. **Leigh Syndrome**: Consistent with intellectual disability, seizures, spasticity, hypotonia, and metabolic acidosis. Key symptoms not reported: fair hair, white hair.
++3. **Krabbe Disease**: Consistent with spasticity, motor delay, intellectual disability, and early death. Key symptoms not reported: fair hair, white hair.
++4. **Menkes Disease**: Consistent with hypotonia, seizures, intellectual disability, and fair hair. Key symptoms not reported: hepatomegaly, metabolic acidosis.
++5. **Cockayne Syndrome**: Consistent with intellectual disability, seizures, spasticity, and fair hair. Key symptoms not reported: hepatomegaly, metabolic acidosis.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1. **Cerebrotendinous xanthomatosis**: Strabismus, intellectual disability, ataxia, motor delay, cerebellar atrophy, generalized hypotonia, cirrhosis, hepatic fibrosis, thromboembolism, and lipodystrophy are consistent with this diagnosis. Key symptoms not reported: cataracts, tendon xanthomas.
++2. **Niemann-Pick disease type C**: Intellectual disability, ataxia, motor delay, cerebellar atrophy, generalized hypotonia, cirrhosis, hepatic fibrosis, and death in childhood are consistent with this diagnosis. Key symptoms not reported: vertical supranuclear gaze palsy, hepatosplenomegaly.
++3. **Alpers-Huttenlocher syndrome**: Intellectual disability, ataxia, motor delay, cerebellar atrophy, generalized hypotonia, cirrhosis, hepatic fibrosis, and death in childhood are consistent with this diagnosis. Key symptoms not reported: intractable seizures, progressive encephalopathy.
++4. **Gaucher disease type 2**: Intellectual disability, ataxia, motor delay, cerebellar atrophy, generalized hypotonia, cirrhosis, hepatic fibrosis, and death in infancy are consistent with this diagnosis. Key symptoms not reported: hepatosplenomegaly, bone pain.
++5. **Wolman disease**: Intellectual disability, ataxia, motor delay, generalized hypotonia, cirrhosis, hepatic fibrosis, and death in infancy are consistent with this diagnosis. Key symptoms not reported: adrenal calcification, severe malabsorption.",Hereditary metabolic disorders
+['Canavan disease'],"+1: Maple Syrup Urine Disease (MSUD): Consistent with 'Seizure', 'Generalized hypotonia', 'Abnormal circulating aspartate family amino acid concentration', 'Feeding difficulties', 'Death in infancy'.
++2: Nonketotic Hyperglycinemia (NKH): Consistent with 'Seizure', 'Generalized hypotonia', 'Hyperreflexia', 'Feeding difficulties', 'Death in infancy'.
++3: Leigh Syndrome: Consistent with 'Seizure', 'Generalized hypotonia', 'Hyperreflexia', 'Feeding difficulties', 'Death in infancy'.
++4: Glutaric Aciduria Type I: Consistent with 'Seizure', 'Generalized hypotonia', 'Hyperreflexia', 'Opisthotonus', 'Feeding difficulties'.
++5: Urea Cycle Disorders: Consistent with 'Seizure', 'Generalized hypotonia', 'Feeding difficulties', 'Death in infancy'. Hyperreflexia and opisthotonus are less common.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, neonatal death, gastrointestinal inflammation, death in infancy.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, abnormality of prenatal development or birth. (Key symptoms not reported: intellectual disability, musty odor)
++3. Maple Syrup Urine Disease (MSUD): Abnormality of prenatal development or birth, neonatal death. (Key symptoms not reported: sweet-smelling urine, lethargy)
++4. Galactosemia: Neonatal death, gastrointestinal inflammation. (Key symptoms not reported: jaundice, cataracts)
++5. Urea Cycle Disorders: Neonatal death, abnormality of prenatal development or birth. (Key symptoms not reported: hyperammonemia, lethargy)",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. **Leigh Syndrome**: Ataxia, coma, reduced tendon reflexes, metabolic acidosis, cerebral edema, abnormal cerebral white matter morphology, death in childhood. (Alopecia and recurrent viral infections are not typical.)
++2. **Maple Syrup Urine Disease (MSUD)**: Ataxia, coma, metabolic acidosis, hyperleucinemia, death in childhood. (Alopecia and recurrent viral infections are not typical.)
++3. **Biotinidase Deficiency**: Ataxia, coma, reduced tendon reflexes, alopecia, metabolic acidosis, recurrent viral infections, death in childhood. (Cerebral edema and hyperleucinemia are not typical.)
++4. **Menkes Disease**: Ataxia, coma, reduced tendon reflexes, alopecia, death in childhood. (Metabolic acidosis, cerebral edema, and hyperleucinemia are not typical.)
++5. **Propionic Acidemia**: Ataxia, coma, metabolic acidosis, recurrent viral infections, death in childhood. (Alopecia and hyperleucinemia are not typical.)",Hereditary metabolic disorders
+['Acute intermittent porphyria'],"+1. Acute Intermittent Porphyria: Abdominal pain, elevated urinary delta-aminolevulinic acid, potential for death in childhood.
++2. Lead Poisoning: Abdominal pain, elevated urinary delta-aminolevulinic acid, potential for death in childhood.
++3. Hereditary Tyrosinemia Type 1: Abdominal pain, potential for elevated urinary metabolites, potential for death in childhood.
++4. Congenital Erythropoietic Porphyria: Elevated urinary delta-aminolevulinic acid, potential for severe complications and early death.
++5. Mitochondrial Disorders: Abdominal pain, potential for metabolic abnormalities, potential for early death.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia: Consistent with seizures, death in infancy, metabolic acidosis, neonatal death, and methylmalonic aciduria.
++2. Propionic acidemia: Consistent with seizures, death in infancy, and metabolic acidosis, but typically does not present with methylmalonic aciduria.
++3. Isovaleric acidemia: Consistent with seizures and metabolic acidosis, but less likely due to the specific mention of methylmalonic aciduria.
++4. Glutaric acidemia type II: Consistent with seizures and metabolic acidosis, but less specific to methylmalonic acid.
++5. Urea cycle disorders: Consistent with seizures and metabolic acidosis, but typically do not present with methylmalonic aciduria.",Hereditary metabolic disorders
+['Alkaptonuria'],"+1. **Mitochondrial disorder**: Symptoms like seizure, lethargy, generalized hypotonia, growth delay, and early death are consistent with mitochondrial disorders. Dark urine could be due to myoglobinuria, which is sometimes seen in these conditions.
++2. **Metabolic encephalopathy**: Seizures, lethargy, hypotonia, and growth delay can be seen in metabolic encephalopathies. Dark urine might indicate a metabolic disorder affecting the kidneys or muscles.
++3. **Leukodystrophy**: Neurological symptoms, growth delay, and early death are consistent with leukodystrophies. Dark urine is less common but could be secondary to muscle breakdown.
++4. **Urea cycle disorder**: Seizures, lethargy, hypotonia, and growth delay can be seen in urea cycle disorders. Dark urine might indicate a secondary issue.
++5. **Neurodegenerative disorder**: Conditions like Tay-Sachs disease or other lysosomal storage disorders could present with these symptoms. Dark urine might be due to secondary effects on the kidneys.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease (MSUD): Consistent with seizures, aminoaciduria, neonatal death, and abnormal concentrations of leucine, isoleucine, and valine.
++2. Isovaleric Acidemia: Consistent with seizures and aminoaciduria; however, it typically involves abnormal isovalerylglycine rather than leucine, isoleucine, and valine.
++3. Propionic Acidemia: Consistent with seizures and aminoaciduria; however, it typically involves abnormal propionylcarnitine rather than leucine, isoleucine, and valine.
++4. Nonketotic Hyperglycinemia: Consistent with seizures and neonatal death but does not involve abnormal concentrations of leucine, isoleucine, and valine.
++5. Urea Cycle Disorder: Consistent with seizures and neonatal death but does not involve abnormal concentrations of leucine, isoleucine, and valine.",Hereditary metabolic disorders
+['Very long chain acyl-CoA dehydrogenase deficiency'],"+1. Mitochondrial disorders: Cardiomegaly, hypoglycemia, increased circulating lactate concentration, hepatomegaly, tachypnea, recurrent viral infections, abnormal circulating carnitine concentration. Key symptoms not reported: Muscle weakness, neurological symptoms.
++2. Fatty acid oxidation disorders: Hypoglycemia, dicarboxylic aciduria, abnormal circulating carnitine concentration, cardiomegaly, hepatomegaly, tachypnea. Key symptoms not reported: Muscle pain, rhabdomyolysis.
++3. Glycogen storage diseases: Cardiomegaly, hypoglycemia, hepatomegaly, increased circulating lactate concentration, recurrent viral infections. Key symptoms not reported: Muscle cramps, exercise intolerance.
++4. Organic acidemias: Hypoglycemia, increased circulating lactate concentration, dicarboxylic aciduria, recurrent viral infections, abnormal circulating carnitine concentration. Key symptoms not reported: Vomiting, lethargy.
++5. Congenital disorders of glycosylation: Cardiomegaly, hypoglycemia, hepatomegaly, recurrent viral infections, abnormal circulating carnitine concentration. Key symptoms not reported: Developmental delay, abnormal facial features.",Hereditary metabolic disorders
+['3-hydroxy-3-methylglutaric aciduria'],"+1. Glutaric acidemia type I: Seizure, lethargy, metabolic acidosis, hypoglycemia, progressive neurologic deterioration, glutaric aciduria, 3-methylglutaric aciduria, elevated urinary carboxylic acid.
++2. Maple syrup urine disease: Seizure, lethargy, metabolic acidosis, hypoglycemia, progressive neurologic deterioration. (Key symptoms not reported: sweet-smelling urine, elevated branched-chain amino acids).
++3. Propionic acidemia: Seizure, lethargy, metabolic acidosis, hypoglycemia, progressive neurologic deterioration. (Key symptoms not reported: elevated propionic acid, hyperammonemia).
++4. Methylmalonic acidemia: Seizure, lethargy, metabolic acidosis, hypoglycemia, progressive neurologic deterioration. (Key symptoms not reported: elevated methylmalonic acid, hyperammonemia).
++5. Non-ketotic hyperglycinemia: Seizure, lethargy, progressive neurologic deterioration, abnormal circulating glycine concentration. (Key symptoms not reported: elevated glycine in CSF and plasma).",Hereditary metabolic disorders
+['MODY'],"+1. Porphyria: Abnormal circulating porphyrin concentration.
++2. Glycogen storage disease: Hypoglycemia, glycosuria.
++3. Hereditary fructose intolerance: Hypoglycemia, glycosuria, potential secondary effects on heme metabolism.
++4. Fructose intolerance: Hypoglycemia, glycosuria.
++5. Diabetes mellitus: Hypoglycemia, glycosuria (though does not explain abnormal porphyrin levels).",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. **Phenylketonuria (PKU)**: Consistent with hyperphenylalaninemia. Key symptoms not reported: intellectual disability, seizures (if untreated).
++2. **Maple Syrup Urine Disease (MSUD)**: Consistent with abnormal prenatal development and neonatal death. Key symptoms not reported: sweet-smelling urine, lethargy, poor feeding.
++3. **Urea Cycle Disorders**: Consistent with abnormal prenatal development and neonatal death. Key symptoms not reported: hyperammonemia, respiratory alkalosis.
++4. **Nonketotic Hyperglycinemia**: Consistent with abnormal prenatal development and neonatal death. Key symptoms not reported: elevated glycine levels, lethargy, hypotonia.
++5. **Tyrosinemia Type I**: Consistent with abnormal prenatal development and neonatal death. Key symptoms not reported: liver failure, renal tubular dysfunction.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Consistent with macrocephaly, dystonia, hyperreflexia, seizures, glutaric aciduria, increased CSF protein concentration, and cerebral atrophy. Key symptoms not reported: none.
++2. Leigh syndrome: Consistent with hydrocephalus, seizures, dystonia, hyperreflexia, cerebral atrophy, and increased CSF protein concentration. Key symptoms not reported: glutaric aciduria.
++3. Canavan disease: Consistent with macrocephaly, seizures, lethargy, hyperreflexia, and cerebral atrophy. Key symptoms not reported: glutaric aciduria.
++4. Krabbe disease: Consistent with hyperreflexia, opisthotonus, seizures, and cerebral atrophy. Key symptoms not reported: glutaric aciduria.
++5. Alexander disease: Consistent with macrocephaly, seizures, hyperreflexia, and cerebral atrophy. Key symptoms not reported: glutaric aciduria.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Consistent with hypertyrosinemia, neonatal death, and death in childhood.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia, but less commonly associated with neonatal death.
++3. Maple Syrup Urine Disease (MSUD): Consistent with severe metabolic crises in infancy and early death, but not specifically associated with hypertyrosinemia or hyperphenylalaninemia.
++4. Urea Cycle Disorders: Consistent with severe metabolic crises and early death, but not specifically associated with hypertyrosinemia or hyperphenylalaninemia.
++5. Mitochondrial Disorders: Consistent with a wide range of symptoms, including metabolic abnormalities and early death, but not specifically associated with hypertyrosinemia or hyperphenylalaninemia.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, potential liver and kidney dysfunction leading to preeclampsia, and early death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, though typically does not cause preeclampsia or early death unless untreated.
++3. Maternal Phenylketonuria: Hyperphenylalaninemia in the mother leading to complications such as preeclampsia during pregnancy.
++4. Alkaptonuria: Hypertyrosinemia, though typically does not cause preeclampsia or early death.
++5. Maple Syrup Urine Disease (MSUD): Elevated amino acids, though typically presents with neurological symptoms and does not directly cause preeclampsia.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, elevated urinary carboxylic acid, death in infancy, neonatal death.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, abnormality of prenatal development or birth. (Note: Less likely due to typical management preventing early death.)
++3. Maple Syrup Urine Disease (MSUD): Elevated urinary carboxylic acid, death in infancy, neonatal death. (Note: Typically associated with elevated branched-chain amino acids.)
++4. Propionic Acidemia: Elevated urinary carboxylic acid, death in infancy, neonatal death. (Note: Not typically associated with hypertyrosinemia or hyperphenylalaninemia.)
++5. Methylmalonic Acidemia: Elevated urinary carboxylic acid, death in infancy, neonatal death. (Note: Not typically associated with hypertyrosinemia or hyperphenylalaninemia.)",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood. Key symptoms not reported: liver failure, renal tubular dysfunction.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and abnormality of prenatal development. Key symptoms not reported: intellectual disability, eczema.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and abnormality of prenatal development. Key symptoms not reported: sweet-smelling urine, lethargy.
++4. Urea Cycle Disorders: Consistent with neonatal death and developmental abnormalities. Key symptoms not reported: hyperammonemia, respiratory alkalosis.
++5. Mitochondrial Disorders: Consistent with abnormality of prenatal development and death in infancy. Key symptoms not reported: lactic acidosis, muscle weakness.",Hereditary metabolic disorders
+['Hereditary orotic aciduria'],"+1. Niemann-Pick disease: Consistent with hepatosplenomegaly, skin rash, hypotonia, and metabolic abnormalities. Key symptoms not reported: cherry-red spot, interstitial lung disease.
++2. Gaucher disease: Consistent with hepatosplenomegaly, skin rash, hypotonia, and metabolic abnormalities. Key symptoms not reported: bone pain, pancytopenia.
++3. Glycogen storage disease: Consistent with hepatomegaly, hypotonia, and metabolic abnormalities. Key symptoms not reported: muscle cramps, hypoglycemia.
++4. Organic acidemia: Consistent with metabolic abnormalities, hypotonia, and failure to thrive. Key symptoms not reported: metabolic acidosis, encephalopathy.
++5. Hemophagocytic lymphohistiocytosis (HLH): Consistent with fever, splenomegaly, hepatomegaly, and skin rash. Key symptoms not reported: cytopenias, hyperferritinemia.",Hereditary metabolic disorders
+['Holocarboxylase synthetase deficiency'],"+1. Propionic acidemia: Cyanosis, generalized hypotonia, metabolic acidosis, hyperammonemia, propionyl-CoA carboxylase deficiency, elevated urinary carboxylic acid.
++2. Pyruvate carboxylase deficiency: Cyanosis, generalized hypotonia, metabolic acidosis, hyperammonemia, decreased pyruvate carboxylase activity.
++3. Multiple carboxylase deficiency: Cyanosis, generalized hypotonia, metabolic acidosis, hyperammonemia, elevated urinary carboxylic acid.
++4. Methylmalonic acidemia: Cyanosis, generalized hypotonia, metabolic acidosis, hyperammonemia, elevated urinary carboxylic acid (less likely due to specific mention of propionyl-CoA carboxylase deficiency).
++5. Glycine encephalopathy (Non-ketotic hyperglycinemia): Generalized hypotonia, neonatal death, abnormal circulating glycine concentration (less likely due to lack of carboxylase deficiencies).",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Ornithine transcarbamylase (OTC) deficiency: Hyperammonemia, vomiting, lethargy, orotic aciduria, ataxia, drowsiness, sleep abnormality, death in adolescence.
++2. Citrullinemia: Hyperammonemia, vomiting, lethargy, ataxia, drowsiness, sleep abnormality, death in adolescence.
++3. Carbamoyl phosphate synthetase I (CPS1) deficiency: Hyperammonemia, vomiting, lethargy, ataxia, drowsiness, sleep abnormality, death in adolescence.
++4. Urea cycle disorders: Hyperammonemia, vomiting, lethargy, ataxia, drowsiness, sleep abnormality, death in adolescence.
++5. Hereditary orotic aciduria: Orotic aciduria, developmental delay, failure to thrive, lethargy, ataxia, drowsiness, sleep abnormality, death in adolescence.",Hereditary metabolic disorders
+[],"+1. Ethylmalonic encephalopathy: Vomiting, ethylmalonic aciduria, abnormal circulating carnitine concentration, decreased 3-hydroxyacyl-CoA dehydrogenase level, death in childhood and adolescence.
++2. Mitochondrial trifunctional protein deficiency: Vomiting, abnormal circulating carnitine concentration, decreased 3-hydroxyacyl-CoA dehydrogenase level, death in childhood and adolescence. (Ethylmalonic aciduria is not typical but possible).
++3. Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency: Vomiting, abnormal circulating carnitine concentration. (Ethylmalonic aciduria and decreased 3-hydroxyacyl-CoA dehydrogenase level are not typical).
++4. Multiple acyl-CoA dehydrogenase deficiency (MADD): Vomiting, abnormal circulating carnitine concentration, decreased enzyme activity. (Ethylmalonic aciduria is not typical).
++5. Glutaric acidemia type II: Vomiting, abnormal circulating carnitine concentration, decreased enzyme activity. (Ethylmalonic aciduria is not typical).",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"<thinking>
+a. Key symptoms that stand out include 'Low-set ears', 'Wide nasal bridge', 'Anteverted nares', 'Ptosis', 'Syndactyly', 'Intellectual disability', 'Motor delay', 'Generalized hypotonia', 'Death in infancy', 'Hypocholesterolemia', 'Elevated 8-dehydrocholesterol', 'Neonatal death', 'Elevated circulating 7-dehydrocholesterol concentration', and 'Feeding difficulties'. The combination of intellectual disability, motor delay, generalized hypotonia, and specific facial features (low-set ears, wide nasal bridge, anteverted nares, ptosis) are significant. Additionally, the presence of elevated 7-dehydrocholesterol and 8-dehydrocholesterol concentrations points towards a metabolic or genetic disorder related to cholesterol synthesis.
+
+b. Possible diagnoses:
+1. Smith-Lemli-Opitz syndrome (SLOS): This condition is characterized by intellectual disability, distinctive facial features, syndactyly, hypotonia, and elevated levels of 7-dehydrocholesterol. The presence of hypocholesterolemia and elevated 8-dehydrocholesterol further supports this diagnosis.
+2. Zellweger spectrum disorder: This disorder can present with hypotonia, feeding difficulties, intellectual disability, and distinctive facial features. However, it is more commonly associated with elevated very long-chain fatty acids rather than elevated 7-dehydrocholesterol.
+3. Congenital disorders of glycosylation (CDG): These can present with hypotonia, intellectual disability, and distinctive facial features. However, elevated 7-dehydrocholesterol is not typically a feature.
+4. Niemann-Pick disease type C: This can present with hypotonia, intellectual disability, and feeding difficulties, but it is more commonly associated with cholesterol storage issues rather than synthesis.
+5. Mevalonate kinase deficiency: This can present with hypotonia, intellectual disability, and distinctive facial features, but elevated 7-dehydrocholesterol is not a typical feature.
+
+c. Additional tests or information that could help narrow down the diagnosis include genetic testing for mutations in the DHCR7 gene (associated with Smith-Lemli-Opitz syndrome), plasma very long-chain fatty acids (for Zellweger spectrum disorder), and enzyme assays or genetic testing for other metabolic disorders.
+</thinking>
+
+<top5>
++1. Smith-Lemli-Opitz syndrome: Consistent with 'Low-set ears', 'Wide nasal bridge', 'Anteverted nares', 'Ptosis', 'Syndactyly', 'Intellectual disability', 'Motor delay', 'Generalized hypotonia', 'Death in infancy', 'Hypocholesterolemia', 'Elevated 8-dehydrocholesterol', 'Neonatal death', 'Elevated circulating 7-dehydrocholesterol concentration', 'Feeding difficulties'.
++2. Zellweger spectrum disorder: Consistent with 'Low-set ears', 'Wide nasal bridge', 'Anteverted nares', 'Ptosis', 'Intellectual disability', 'Motor delay', 'Generalized hypotonia', 'Death in infancy', 'Feeding difficulties'. Key symptoms not reported: Elevated very long-chain fatty acids.
++3. Congenital disorders of glycosylation (CDG): Consistent with 'Low-set ears', 'Wide nasal bridge', 'Ptosis', 'Intellectual disability', 'Motor delay', 'Generalized hypotonia', 'Feeding difficulties'. Key symptoms not reported: Elevated 7-dehydrocholesterol.
++4. Niemann-Pick disease type C: Consistent with 'Low-set ears', 'Wide nasal bridge', 'Ptosis', 'Intellectual disability', 'Motor delay', 'Generalized hypotonia', 'Feeding difficulties'. Key symptoms not reported: Cholesterol storage issues.
++5. Mevalonate kinase deficiency: Consistent with 'Low-set",Hereditary metabolic disorders
+['L-2-hydroxyglutaric aciduria'],"+1. L-2-hydroxyglutaric aciduria: Intellectual disability, ataxia, tremor, cerebral atrophy, abnormal basal ganglia morphology, L-2-hydroxyglutaric aciduria, neonatal death, death in infancy or childhood.
++2. Leigh syndrome: Intellectual disability, ataxia, tremor, cerebral atrophy, abnormal basal ganglia morphology. Key symptom not reported: L-2-hydroxyglutaric aciduria.
++3. Canavan disease: Intellectual disability, ataxia, cerebral atrophy. Key symptoms not reported: L-2-hydroxyglutaric aciduria, tremor, abnormal basal ganglia morphology.
++4. Glutaric acidemia type I: Intellectual disability, ataxia, cerebral atrophy. Key symptoms not reported: L-2-hydroxyglutaric aciduria, tremor, abnormal basal ganglia morphology.
++5. Mitochondrial encephalomyopathy: Intellectual disability, ataxia, tremor, cerebral atrophy. Key symptoms not reported: L-2-hydroxyglutaric aciduria, abnormal basal ganglia morphology.",Hereditary metabolic disorders
+['3-hydroxy-3-methylglutaric aciduria'],"+1. 3-Methylglutaconic Aciduria Type I: Seizure, Generalized hypotonia, Metabolic acidosis, Opisthotonus, Dicarboxylic aciduria, 3-Methylglutaconic aciduria, Elevated urinary carboxylic acid.
++2. Leigh Syndrome: Seizure, Generalized hypotonia, Metabolic acidosis, Opisthotonus, Death in infancy, Neonatal death, Death in childhood. (Lacks 3-methylglutaconic aciduria)
++3. Barth Syndrome: Generalized hypotonia, Metabolic acidosis, 3-Methylglutaconic aciduria, Elevated urinary carboxylic acid. (Typically includes cardiomyopathy and neutropenia)
++4. Pyruvate Dehydrogenase Deficiency: Seizure, Generalized hypotonia, Metabolic acidosis, Opisthotonus, Death in infancy. (Lacks 3-methylglutaconic aciduria)
++5. Mitochondrial DNA Depletion Syndrome: Seizure, Generalized hypotonia, Metabolic acidosis, Death in infancy, Neonatal death, Death in childhood. (Lacks specific acidurias)",Hereditary metabolic disorders
+['L-2-hydroxyglutaric aciduria'],"+1. L-2-Hydroxyglutaric Aciduria: Seizure, Death in infancy, Elevated circulating C-reactive protein concentration, L-2-hydroxyglutaric aciduria.
++2. Mitochondrial Disorders: Seizure, Death in infancy, Fever, Elevated circulating C-reactive protein concentration (L-2-hydroxyglutaric aciduria is not typical).
++3. Inborn Errors of Metabolism: Seizure, Death in infancy, Elevated circulating C-reactive protein concentration (specific marker of L-2-hydroxyglutaric aciduria is less common).
++4. Neurodegenerative Disorders: Seizure, Death in infancy, Elevated circulating C-reactive protein concentration (L-2-hydroxyglutaric aciduria is not typical).
++5. Infectious or Inflammatory Conditions: Seizure, Fever, Elevated circulating C-reactive protein concentration (L-2-hydroxyglutaric aciduria is not typical).",Hereditary metabolic disorders
+['X-linked hypophosphatemia'],"+1. Autosomal Recessive Hypophosphatemic Rickets (ARHR): Hypophosphatemia, abnormal limb bone morphology, elevated circulating alkaline phosphatase concentration, death in infancy/childhood.
++2. X-linked Hypophosphatemia (XLH): Hypophosphatemia, abnormal limb bone morphology, elevated circulating alkaline phosphatase concentration. (Note: typically does not lead to death in infancy/childhood).
++3. Fanconi Syndrome: Nephritis, hypophosphatemia. (Note: typically does not involve elevated alkaline phosphatase or death in infancy/childhood).
++4. Osteogenesis Imperfecta: Abnormal limb bone morphology, elevated circulating alkaline phosphatase concentration. (Note: typically does not cause nephritis or hypophosphatemia).
++5. Hypophosphatasia: Abnormal limb bone morphology, death in infancy/childhood. (Note: typically involves low levels of alkaline phosphatase, not elevated).",Hereditary metabolic disorders
+['Propionic acidemia'],"+1. Glycine encephalopathy (Nonketotic hyperglycinemia): Delayed speech and language development, hyperglycinemia, hyperglycinuria, developmental delays, and potential fatal outcomes in infancy or childhood.
++2. Urea cycle disorder: Hyperammonemia, developmental delays, and potential severe outcomes.
++3. Organic acidemia: Elevated urinary carboxylic acid, abnormal amino acid concentrations, developmental delays, and severe outcomes.
++4. Mitochondrial disorder: Abnormal circulating amino acid concentrations, developmental delays, progressive deterioration, and potential fatal outcomes.
++5. Amino acid metabolism disorder: Abnormal circulating amino acid concentrations, developmental delays, and severe outcomes.",Hereditary metabolic disorders
+"['Methylmalonic acidemia with homocystinuria, type cblC']","+1. Methylmalonic acidemia (MMA): Delayed speech and language development, generalized hypotonia, hyperhomocystinemia, abnormal cerebral white matter morphology, neonatal death, death in childhood, gastrointestinal inflammation, decreased plasma free carnitine, methylmalonic aciduria.
++2. Propionic acidemia: Delayed speech and language development, generalized hypotonia, neonatal death, death in childhood, gastrointestinal inflammation, decreased plasma free carnitine. (Lacks hyperhomocystinemia and methylmalonic aciduria)
++3. Homocystinuria: Delayed speech and language development, generalized hypotonia, hyperhomocystinemia, neonatal death, death in childhood. (Lacks methylmalonic aciduria)
++4. Leigh syndrome: Delayed speech and language development, generalized hypotonia, abnormal cerebral white matter morphology, neonatal death, death in childhood. (Lacks methylmalonic aciduria and hyperhomocystinemia)
++5. Organic acidemias (other): Delayed speech and language development, generalized hypotonia, neonatal death, death in childhood, gastrointestinal inflammation, decreased plasma free carnitine. (Specific combination of symptoms less clear)",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1. Organic acidemias: Elevated urinary carboxylic acid, death in infancy, neonatal death.
++2. Urea cycle disorders: Death in infancy, neonatal death (though typically associated with hyperammonemia, which is not explicitly mentioned).
++3. Mitochondrial disorders: Elevated urinary carboxylic acid, death in infancy, neonatal death.
++4. Fatty acid oxidation disorders: Elevated urinary carboxylic acid, death in infancy, neonatal death.
++5. Peroxisomal disorders: Elevated urinary carboxylic acid, death in infancy, neonatal death.",Hereditary metabolic disorders
+['Carbamoyl-phosphate synthetase 1 deficiency'],"+1. Urea Cycle Disorders (UCDs): Hyperammonemia, lethargy, drowsiness, feeding difficulties, neonatal death.
++2. Leigh Syndrome: Hypotonia, spasticity, feeding difficulties, sleep abnormalities, neonatal death.
++3. Maple Syrup Urine Disease (MSUD): Lethargy, feeding difficulties, hyperreflexia, neonatal death.
++4. Nonketotic Hyperglycinemia: Lethargy, hypotonia, feeding difficulties, neonatal death.
++5. Organic Acidemias (e.g., Propionic Acidemia, Methylmalonic Acidemia): Hyperammonemia, lethargy, hypotonia, feeding difficulties, neonatal death.",Hereditary metabolic disorders
+['Vitamin B12-unresponsive methylmalonic acidemia'],"+1. Methylmalonic acidemia: Consistent with decreased methylmalonyl-CoA mutase activity, metabolic acidosis, and early death.
++2. Propionic acidemia: Consistent with metabolic acidosis and early death, but involves a different enzyme deficiency.
++3. Isovaleric acidemia: Consistent with metabolic acidosis and early death, but involves a different enzyme (isovaleryl-CoA dehydrogenase).
++4. Glutaric acidemia type I: Consistent with metabolic acidosis and early death, but involves a deficiency in glutaryl-CoA dehydrogenase.
++5. Multiple carboxylase deficiency: Consistent with metabolic acidosis and early death, but involves deficiencies in multiple carboxylase enzymes.",Hereditary metabolic disorders
+[],"+1. Mitochondrial disorder: Spasticity, metabolic acidosis, increased lactate dehydrogenase, hemolytic anemia, increased bilirubin, and neonatal death are consistent with this diagnosis. Recurrent viral infections can also be seen in some mitochondrial disorders.
++2. Hemophagocytic lymphohistiocytosis (HLH): Recurrent infections, increased bilirubin, increased lactate dehydrogenase, metabolic acidosis, and spasticity are consistent with this diagnosis. Hemolytic anemia can also occur.
++3. Congenital erythropoietic porphyria (CEP): Hemolytic anemia, increased bilirubin, and abnormal porphyrin levels are consistent with this diagnosis. However, metabolic acidosis and recurrent infections are not typical.
++4. Pyruvate kinase deficiency: Hemolytic anemia and increased bilirubin are consistent with this diagnosis. However, metabolic acidosis and recurrent infections are not typical.
++5. Severe combined immunodeficiency (SCID): Recurrent infections and neonatal death are consistent with this diagnosis. However, hemolytic anemia and increased bilirubin are not typical.",Hereditary metabolic disorders
+['Neonatal intrahepatic cholestasis due to citrin deficiency'],"+1. Urea cycle disorder: Hyperammonemia, respiratory distress, apnea, neonatal death, respiratory acidosis, elevated plasma citrulline, hypoxemia.
++2. Organic acidemia: Hyperammonemia, respiratory distress, apnea, neonatal death, respiratory acidosis, hypoxemia (elevated plasma citrulline less common).
++3. Mitochondrial disorder: Respiratory distress, apnea, neonatal death, respiratory acidosis, hypoxemia (hyperammonemia and elevated plasma citrulline less typical).
++4. Congenital central hypoventilation syndrome (CCHS): Respiratory distress, apnea, neonatal death (hyperammonemia and elevated plasma citrulline not typical).
++5. Severe congenital infection: Respiratory distress, apnea, neonatal death (hyperammonemia and elevated plasma citrulline not typical).",Hereditary metabolic disorders
+[],"+1. Methylmalonic acidemia: Consistent with methylmalonic acidemia, decreased methylmalonyl-CoA mutase activity, intellectual disability, seizures, hyperammonemia, and metabolic abnormalities.
++2. Propionic acidemia: Intellectual disability, seizures, hyperammonemia, and metabolic abnormalities. However, less likely due to specific mention of methylmalonic acidemia.
++3. Urea cycle disorders: Hyperammonemia, seizures, coma, and intellectual disability. Less likely due to specific mention of methylmalonic acidemia.
++4. Organic acidemias: Intellectual disability, seizures, metabolic crises, and metabolic abnormalities. Less likely due to specific mention of methylmalonic acidemia.
++5. Congenital disorders of glycosylation: Intellectual disability, seizures, and metabolic abnormalities. Less likely due to specific metabolic profile.",Hereditary metabolic disorders
+['Dihydropteridine reductase deficiency'],"+1: **Leigh Syndrome**: Consistent with microcephaly, nystagmus, intellectual disability, seizure, motor delay, generalized hypotonia, cerebral atrophy, and abnormal cerebral white matter morphology. Key symptoms not reported: lactic acidosis, respiratory issues.
++2: **Aicardi-Goutières Syndrome**: Consistent with microcephaly, intellectual disability, seizures, cerebral atrophy, and motor delay. Key symptoms not reported: chilblain-like lesions, elevated interferon-alpha levels.
++3: **Glutaric Aciduria Type 1**: Consistent with motor delay, generalized hypotonia, cerebral atrophy, and abnormal cerebral white matter morphology. Key symptoms not reported: macrocephaly, dystonia.
++4: **Tyrosinemia**: Consistent with hypertyrosinemia and intellectual disability. Key symptoms not reported: liver and renal issues.
++5: **Phenylketonuria (PKU)**: Consistent with hyperphenylalaninemia and intellectual disability. Key symptoms not reported: musty odor, eczema.",Hereditary metabolic disorders
+[],"+1. Ethylmalonic encephalopathy: Skin rash, Death in infancy, Glycosuria, Ethylmalonic aciduria, Cytochrome C oxidase-negative muscle fibers, Abnormal circulating glycine concentration, Feeding difficulties, Functional abnormality of the gastrointestinal tract, Erythematous plaque, Erythematous macule, Erythematous papule.
++2. Mitochondrial disorders: Skin rash, Death in infancy, Glycosuria, Cytochrome C oxidase-negative muscle fibers, Abnormal circulating glycine concentration, Feeding difficulties, Functional abnormality of the gastrointestinal tract, Erythematous plaque, Erythematous macule, Erythematous papule. (Ethylmalonic aciduria is less specific but can be seen in some mitochondrial disorders).
++3. Glycine encephalopathy (Nonketotic hyperglycinemia): Abnormal circulating glycine concentration, Feeding difficulties, Functional abnormality of the gastrointestinal tract. (Ethylmalonic aciduria and cytochrome C oxidase-negative muscle fibers are not typical).
++4. Multiple acyl-CoA dehydrogenase deficiency (MADD): Ethylmalonic aciduria, Skin rash, Feeding difficulties, Functional abnormality of the gastrointestinal tract. (Cytochrome C oxidase-negative muscle fibers and abnormal glycine concentration are less typical).
++5. Congenital disorders of glycosylation (CDG): Skin rash, Feeding difficulties, Functional abnormality of the gastrointestinal tract, Erythematous plaque, Erythematous macule, Erythematous papule. (Ethylmalonic aciduria and cytochrome C oxidase-negative muscle fibers are not typical).",Hereditary metabolic disorders
+['Carbamoyl-phosphate synthetase 1 deficiency'],"+1. Ornithine Transcarbamylase (OTC) Deficiency: Hyperammonemia, low plasma citrulline, oroticaciduria, seizures, neonatal death.
++2. Citrullinemia Type I: Hyperammonemia, low plasma citrulline, seizures, neonatal death.
++3. Argininosuccinic Aciduria: Hyperammonemia, low plasma citrulline, seizures, neonatal death.
++4. Methylmalonic Acidemia: Hyperammonemia, seizures, neonatal death (less likely due to specific urea cycle markers).
++5. Propionic Acidemia: Hyperammonemia, seizures, neonatal death (less likely due to specific urea cycle markers).",Hereditary metabolic disorders
+['Canavan disease'],"+1: Nonketotic hyperglycinemia (NKH): Seizure, abnormal circulating glycine concentration, neonatal death. Key symptoms not reported: Hypotonia, lethargy.
++2: Urea cycle disorder (e.g., Ornithine transcarbamylase deficiency): Hyperammonemia, seizure, neonatal death. Key symptoms not reported: Vomiting, lethargy.
++3: Propionic acidemia: Hyperammonemia, seizure, aminoaciduria. Key symptoms not reported: Vomiting, metabolic acidosis.
++4: Congenital disorders of glycosylation (CDG): Seizure, skin rash (erythematous plaque, macule, papule). Key symptoms not reported: Developmental delay, hypotonia.
++5: Mitochondrial disorder: Seizure, metabolic abnormalities. Key symptoms not reported: Muscle weakness, lactic acidosis.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease (MSUD): Seizure, respiratory insufficiency, opisthotonus, neonatal death, hypervalinemia, hyperleucinemia, hyperisoleucinemia, feeding difficulties, sepsis.
++2. Organic Acidemias: Seizure, respiratory insufficiency, opisthotonus, neonatal death, feeding difficulties, sepsis. (Key symptoms not reported: specific organic acid elevations in urine).
++3. Urea Cycle Disorders: Seizure, respiratory insufficiency, neonatal death, feeding difficulties, sepsis. (Key symptoms not reported: hyperammonemia).
++4. Mitochondrial Disorders: Seizure, respiratory insufficiency, neonatal death, feeding difficulties, sepsis. (Key symptoms not reported: specific amino acid abnormalities).
++5. Sepsis: Seizure, respiratory insufficiency, neonatal death, feeding difficulties, sepsis. (Key symptoms not reported: metabolic abnormalities).",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Fatty Acid Oxidation Disorder (FAOD): Abnormality of prenatal development or birth, Obesity, Death in infancy, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration, Decreased 3-hydroxyacyl-CoA dehydrogenase level.
++2. Carnitine Transport Deficiency: Abnormality of prenatal development or birth, Obesity, Death in infancy, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration.
++3. Mitochondrial Disorder: Abnormality of prenatal development or birth, Obesity, Death in infancy, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration.
++4. Congenital Disorder of Glycosylation (CDG): Abnormality of prenatal development or birth, Obesity, Death in infancy, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration.
++5. Peroxisomal Disorder: Abnormality of prenatal development or birth, Obesity, Death in infancy, Neonatal death, Death in childhood, Abnormal circulating carnitine concentration.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Leigh Syndrome: Intellectual disability, seizure, motor delay, abnormal cerebral white matter morphology, early death.
++2. Glutaric Aciduria Type I: Intellectual disability, seizure, motor delay, dyskinesia, abnormal cerebral white matter morphology, early death.
++3. Canavan Disease: Intellectual disability, motor delay, abnormal cerebral white matter morphology, early death.
++4. Phenylketonuria (PKU): Intellectual disability, seizure, hyperphenylalaninemia. (Note: Death in infancy/early adulthood is less common with proper management.)
++5. Tyrosinemia Type I: Intellectual disability, hypertyrosinemia, early death. (Note: Typically presents with liver and kidney issues not mentioned here.)",Hereditary metabolic disorders
+['Wilson disease'],"+1. Wilson's Disease: Generalized hypotonia, splenomegaly, hepatomegaly, elevated hepatic transaminase levels, decreased ceruloplasmin, increased urinary copper, copper accumulation in the liver.
++2. Menkes Disease: Decreased ceruloplasmin and copper concentrations, but lacks symptoms like kinky hair and developmental delay.
++3. Hepatic Glycogen Storage Diseases: Hepatomegaly, elevated liver enzymes, but does not fit copper metabolism abnormalities.
++4. Hemochromatosis: Hepatomegaly, elevated liver enzymes, but involves iron overload, not copper.
++5. Alpha-1 Antitrypsin Deficiency: Hepatomegaly, elevated liver enzymes, but does not involve copper metabolism.",Hereditary metabolic disorders
+['PMM2-CDG'],"+1: Pontocerebellar hypoplasia: Consistent with cerebellar atrophy, cerebellar agenesis, intellectual disability, hypotonia, ataxia, and early death.
++2: Walker-Warburg syndrome: Consistent with cerebellar malformations, hypotonia, intellectual disability, and early death. Key symptoms not reported: hydrocephalus, eye abnormalities.
++3: Joubert syndrome: Consistent with cerebellar atrophy, hypotonia, ataxia, and intellectual disability. Key symptoms not reported: molar tooth sign on MRI.
++4: Dandy-Walker malformation: Consistent with cerebellar agenesis, atrophy, intellectual disability, and hypotonia. Key symptoms not reported: hydrocephalus.
++5: Congenital disorders of glycosylation: Consistent with cerebellar atrophy, intellectual disability, hypotonia, and abnormal facial features. Key symptoms not reported: specific metabolic abnormalities.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and early mortality.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and potential for early death if untreated.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and severe metabolic crises.
++4. Methylmalonic Acidemia: Consistent with severe metabolic disturbances and early death.
++5. Urea Cycle Disorders: Consistent with severe hyperammonemia, neonatal death, and early mortality.",Hereditary metabolic disorders
+['Glutaryl-CoA dehydrogenase deficiency'],"+1. Glutaric acidemia type I: Macrocephaly, generalized hypotonia, death in infancy, abnormal cerebral morphology, increased circulating lactate concentration, glutaric aciduria, abnormal circulating lysine concentration, abnormal circulating carnitine concentration.
++2. Mitochondrial disorder: Generalized hypotonia, death in infancy, abnormal cerebral morphology, increased circulating lactate concentration. (Hypercalcemia is less common.)
++3. Propionic acidemia: Generalized hypotonia, death in infancy, abnormal cerebral morphology, increased circulating lactate concentration. (Glutaric aciduria is not typical.)
++4. Hyperlysinemia: Abnormal circulating lysine concentration, generalized hypotonia, abnormal cerebral morphology. (Macrocephaly and glutaric aciduria are less common.)
++5. Carnitine deficiency: Generalized hypotonia, abnormal circulating carnitine concentration. (Macrocephaly and glutaric aciduria are not typical.)",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood. Key symptoms not reported: liver and kidney dysfunction.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and abnormality of prenatal development. Key symptoms not reported: intellectual disability, seizures.
++3. Maple Syrup Urine Disease (MSUD): Consistent with neonatal death and abnormal prenatal development. Key symptoms not reported: sweet-smelling urine, lethargy.
++4. Urea Cycle Disorders: Consistent with neonatal death and abnormal prenatal development. Key symptoms not reported: hyperammonemia, encephalopathy.
++5. Mitochondrial Disorders: Consistent with neonatal death, abnormal prenatal development, and death in childhood. Key symptoms not reported: lactic acidosis, muscle weakness.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. **Tyrosinemia**: Consistent with hypertyrosinemia, severe short stature, neonatal death, and feeding difficulties. Key symptoms not reported: liver failure, renal tubular dysfunction.
++2. **Phenylketonuria (PKU)**: Consistent with hyperphenylalaninemia, microcephaly, and severe short stature. Key symptoms not reported: intellectual disability, eczema.
++3. **Trisomy 18 (Edwards syndrome)**: Consistent with microcephaly, severe short stature, pericardial and pleural effusions, neonatal death, and feeding difficulties. Key symptoms not reported: clenched hands, rocker-bottom feet.
++4. **Maple Syrup Urine Disease**: Consistent with severe neonatal symptoms, feeding difficulties, and metabolic abnormalities. Key symptoms not reported: sweet-smelling urine, lethargy.
++5. **Congenital heart defect with metabolic syndrome**: Consistent with pericardial and pleural effusions, severe short stature, and neonatal death. Key symptoms not reported: specific heart defect findings, cyanosis.",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Ornithine transcarbamylase (OTC) deficiency: Hyperammonemia, vomiting, orotic aciduria, and death in childhood are consistent with this urea cycle disorder.
++2. Citrullinemia type I: Hyperammonemia and vomiting are consistent, but orotic aciduria is less common.
++3. Argininosuccinic aciduria: Hyperammonemia and vomiting are consistent, but orotic aciduria is less common.
++4. Propionic acidemia: Hyperammonemia and vomiting are consistent, but orotic aciduria is less common.
++5. Methylmalonic acidemia: Hyperammonemia and vomiting are consistent, but orotic aciduria is less common.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Consistent with 'Abnormal circulating tyrosine concentration', 'Elevated urinary carboxylic acid', 'Death in infancy', and 'Neonatal death'. Key symptoms not reported: liver and kidney issues.
++2. Phenylketonuria (PKU): Consistent with 'Hyperphenylalaninemia' and 'Abnormality of prenatal development or birth'. Key symptoms not reported: intellectual disability if untreated.
++3. Organic acidemias: Consistent with 'Elevated urinary carboxylic acid', 'Death in infancy', and 'Neonatal death'. Key symptoms not reported: specific organic acid abnormalities.
++4. Maple Syrup Urine Disease (MSUD): Consistent with 'Death in infancy' and 'Neonatal death'. Key symptoms not reported: sweet-smelling urine, elevated branched-chain amino acids.
++5. Urea cycle disorders: Consistent with 'Death in infancy' and 'Neonatal death'. Key symptoms not reported: hyperammonemia, neurological symptoms.",Hereditary metabolic disorders
+['Pearson syndrome'],"+1: Mitochondrial disorder: Consistent with increased lactate, pyruvate, 3-methylglutaric aciduria, hypotonia, lethargy, feeding difficulties, and multi-system involvement.
++2: Fanconi syndrome: Consistent with renal Fanconi syndrome, hypoglycemia, chronic kidney disease, and metabolic abnormalities.
++3: Congenital disorder of glycosylation (CDG): Consistent with multi-system involvement, hypotonia, failure to thrive, and various metabolic abnormalities.
++4: Organic acidemia: Consistent with 3-methylglutaric aciduria, elevated urinary 3-hydroxybutyric acid, and metabolic disturbances.
++5: Lysosomal storage disorder: Consistent with hepatosplenomegaly, anemia, thrombocytopenia, and systemic symptoms.",Hereditary metabolic disorders
+['Smith-Lemli-Opitz syndrome'],"+1. Smith-Lemli-Opitz syndrome: Broad philtrum, long philtrum, anteverted nares, syndactyly, generalized hypotonia, death in infancy, deep philtrum, hypocholesterolemia, elevated 8-dehydrocholesterol, neonatal death, elevated circulating 7-dehydrocholesterol concentration, feeding difficulties.
++2. Zellweger syndrome: Generalized hypotonia, feeding difficulties, death in infancy. (Key symptoms not reported: Elevated 7-dehydrocholesterol, elevated 8-dehydrocholesterol).
++3. Congenital disorders of glycosylation (CDG): Generalized hypotonia, feeding difficulties. (Key symptoms not reported: Elevated 7-dehydrocholesterol, elevated 8-dehydrocholesterol).
++4. Niemann-Pick disease type C: Generalized hypotonia, feeding difficulties. (Key symptoms not reported: Elevated 7-dehydrocholesterol, elevated 8-dehydrocholesterol).
++5. Mevalonate kinase deficiency: Generalized hypotonia, feeding difficulties. (Key symptoms not reported: Elevated 7-dehydrocholesterol, elevated 8-dehydrocholesterol).",Hereditary metabolic disorders
+['Acute intermittent porphyria'],"+1. Severe Combined Immunodeficiency (SCID): Recurrent viral infections, severe outcomes in childhood.
++2. Mitochondrial disease: Vomiting, abdominal pain, severe outcomes in childhood, recurrent infections.
++3. Chronic Granulomatous Disease (CGD): Recurrent infections, gastrointestinal symptoms.
++4. Urea cycle disorder: Vomiting, abdominal pain, severe outcomes in childhood, metabolic crises triggered by infections.
++5. IPEX syndrome: Vomiting, abdominal pain, recurrent infections, severe outcomes in childhood.",Hereditary metabolic disorders
+['Citrullinemia type I'],"+1: Argininosuccinic aciduria: Consistent with elevated plasma citrulline, abnormal circulating arginine concentration, hyperammonemia, and metabolic acidosis.
++2: Citrullinemia: Consistent with elevated plasma citrulline, abnormal circulating arginine concentration, hyperammonemia, and metabolic acidosis.
++3: Hyperargininemia: Consistent with abnormal circulating arginine concentration, hyperammonemia, and metabolic acidosis. Elevated plasma citrulline is less typical but possible.
++4: Propionic acidemia: Consistent with metabolic acidosis and hyperammonemia. Hyperglycinuria and hyperglutaminemia are also possible.
++5: Methylmalonic acidemia: Consistent with metabolic acidosis and hyperammonemia. Hyperglycinuria and hyperglutaminemia are also possible.",Hereditary metabolic disorders
+[],"+1. Methylmalonic acidemia: Delayed speech and language development, lethargy, generalized hypotonia, hyperammonemia, methylmalonic acidemia, decreased plasma free carnitine, methylmalonic aciduria.
++2. Propionic acidemia: Delayed speech and language development, lethargy, generalized hypotonia, hyperammonemia, metabolic acidosis (similar to methylmalonic acidemia), decreased plasma free carnitine.
++3. Urea cycle disorders: Hyperammonemia, lethargy, developmental delays, sleep abnormality. Key symptoms not reported: specific enzyme deficiencies in the urea cycle.
++4. Homocystinuria: Hyperhomocystinemia, developmental delays, lethargy. Key symptoms not reported: lens dislocation, thromboembolic events.
++5. Multiple carboxylase deficiency: Delayed speech and language development, lethargy, generalized hypotonia, decreased plasma free carnitine, metabolic acidosis. Key symptoms not reported: skin rash, alopecia.",Hereditary metabolic disorders
+['Very long chain acyl-CoA dehydrogenase deficiency'],"+1. Urea Cycle Disorders: Hyperammonemia, abnormal circulating amino acid concentrations, neonatal death, death in infancy or childhood.
++2. Carnitine Transport Deficiency: Decreased plasma free carnitine, abnormal circulating creatine kinase concentration, neonatal death, death in infancy or childhood.
++3. Organic Acidemias: Hyperammonemia, abnormal circulating amino acid concentrations, abnormal circulating creatine kinase concentration, neonatal death, death in infancy or childhood.
++4. Mitochondrial Disorders: Generalized hypotonia, abnormal circulating creatine kinase concentration, neonatal death, death in infancy or childhood.
++5. Fatty Acid Oxidation Disorders: Decreased plasma free carnitine, abnormal circulating creatine kinase concentration, neonatal death, death in infancy or childhood.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, neonatal death, chronic pulmonary obstruction, upper airway obstruction.
++2. Phenylketonuria (PKU): Hyperphenylalaninemia, abnormality of prenatal development or birth, but typically does not cause death in infancy or chronic pulmonary obstruction.
++3. Congenital Central Hypoventilation Syndrome (CCHS): Upper airway obstruction, chronic pulmonary obstruction, but does not typically cause hypertyrosinemia or hyperphenylalaninemia.
++4. Urea Cycle Disorders: Abnormality of prenatal development or birth, neonatal death, but does not typically cause hypertyrosinemia or hyperphenylalaninemia.
++5. Multiple Sulfatase Deficiency: Abnormality of prenatal development or birth, death in infancy, chronic pulmonary obstruction, but does not typically present with hypertyrosinemia or hyperphenylalaninemia.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. **Primary Carnitine Deficiency**: Decreased plasma free carnitine, hypoxemia, early death.
++2. **Methylmalonic Acidemia**: Abnormal circulating vitamin B12 concentration, decreased 3-hydroxyacyl-CoA dehydrogenase level, spasticity, early death.
++3. **Mitochondrial Disorder**: Spasticity, hypoxemia, decreased levels of various metabolic markers, early death.
++4. **Congenital Disorder of Glycosylation**: Spasticity, hypoxemia, metabolic abnormalities, early death.
++5. **Organic Acidemia**: Decreased 3-hydroxyacyl-CoA dehydrogenase level, spasticity, metabolic crises, early death.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Hypertyrosinemia, early death.
++2. Severe Combined Immunodeficiency (SCID): Recurrent viral infections, early death.
++3. Organic Acidemias: Metabolic abnormalities, early death.
++4. Maple Syrup Urine Disease (MSUD): Metabolic crises, early death (though not directly related to tyrosine or phenylalanine).
++5. Phenylketonuria (PKU): Hyperphenylalaninemia (less likely due to early death being uncommon with treatment).",Hereditary metabolic disorders
+['3-methylcrotonyl-CoA carboxylase deficiency'],"+1. Nonketotic Hyperglycinemia (NKH): Elevated glycine levels in the blood and urine, death in infancy.
++2. Maple Syrup Urine Disease (MSUD): Aminoaciduria, elevated urinary carboxylic acid, death in infancy.
++3. Propionic Acidemia: Elevated urinary carboxylic acid, metabolic acidosis, death in infancy.
++4. Methylmalonic Acidemia (MMA): Elevated urinary carboxylic acid, metabolic crises, death in infancy.
++5. Isovaleric Acidemia: Elevated urinary carboxylic acid, metabolic acidosis, death in infancy.",Hereditary metabolic disorders
+['Succinic semialdehyde dehydrogenase deficiency'],"+1. **Mitochondrial disorder**: Delayed speech and language development, seizures, ataxia, motor delay, generalized hypotonia, and elevated urinary carboxylic acid are consistent with mitochondrial disorders. Key symptoms not reported: lactic acidosis, muscle weakness.
++2. **Organic acidemia**: Elevated urinary carboxylic acid, seizures, hypotonia, and developmental delays are consistent with organic acidemias. Key symptoms not reported: metabolic acidosis, vomiting.
++3. **Rett syndrome**: Delayed speech and language development, seizures, ataxia, motor delay, and hypotonia are consistent with Rett syndrome. Key symptoms not reported: stereotypic hand movements, breathing irregularities.
++4. **Leukodystrophy**: Delayed speech and language development, seizures, ataxia, motor delay, and hypotonia are consistent with leukodystrophies. Key symptoms not reported: white matter changes on MRI.
++5. **Peroxisomal disorder**: Delayed speech and language development, seizures, hypotonia, and elevated urinary carboxylic acid are consistent with peroxisomal disorders. Key symptoms not reported: dysmorphic features, liver dysfunction.",Hereditary metabolic disorders
+['Argininosuccinic aciduria'],"+1. **Mitochondrial disorders**: Symptoms consistent with this diagnosis include metabolic acidosis, hepatomegaly, tachycardia, and neonatal death. Key symptoms not reported: muscle weakness, lactic acidosis.
++2. **Organic acidemias**: Symptoms consistent with this diagnosis include metabolic acidosis, vomiting, hepatomegaly, and neonatal death. Key symptoms not reported: encephalopathy, hypoglycemia.
++3. **Congenital heart defects**: Symptoms consistent with this diagnosis include tachycardia, tachypnea, and neonatal death. Key symptoms not reported: cyanosis, heart murmur.
++4. **Neonatal sepsis**: Symptoms consistent with this diagnosis include tachycardia, metabolic acidosis, vomiting, and neonatal death. Key symptoms not reported: fever, leukocytosis.
++5. **Congenital adrenal hyperplasia**: Symptoms consistent with this diagnosis include metabolic acidosis, vomiting, and neonatal death. Key symptoms not reported: ambiguous genitalia, electrolyte imbalances.",Hereditary metabolic disorders
+['Gyrate atrophy of choroid and retina'],"+1. Urea Cycle Disorder: Hyperammonemia, hypoargininemia, hyperornithinemia, severe short stature, death in childhood/adolescence/early adulthood.
++2. Organic Acidemia: Hyperammonemia, anemia, metabolic disturbances, severe short stature, death in childhood/adolescence/early adulthood.
++3. Mitochondrial Disorder: Anemia, severe short stature, metabolic abnormalities, progressive deterioration, death in childhood/adolescence/early adulthood.
++4. Nonketotic Hyperglycinemia: Hyperglycinemia, severe short stature, feeding difficulties, death in childhood/adolescence/early adulthood.
++5. Congenital Disorder of Glycosylation: Severe short stature, metabolic abnormalities, feeding difficulties, death in childhood/adolescence/early adulthood.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia Type I: Consistent with hypertyrosinemia, neonatal death, and death in childhood.
++2. Phenylketonuria (PKU): Consistent with hyperphenylalaninemia and abnormality of prenatal development or birth.
++3. Maple Syrup Urine Disease (MSUD): Consistent with abnormality of prenatal development or birth and neonatal death.
++4. Urea Cycle Disorders: Consistent with severe developmental issues and early death, though hyperphenylalaninemia is not typical.
++5. Galactosemia: Consistent with neonatal death and abnormal prenatal development, though hypertyrosinemia is not typical.",Hereditary metabolic disorders
+['Carbamoyl-phosphate synthetase 1 deficiency'],"+1: Ornithine transcarbamylase deficiency: Hyperammonemia, cerebral edema, generalized hypotonia, neonatal death.
++2: Propionic acidemia: Hyperammonemia, generalized hypotonia, feeding difficulties, cerebral edema, neonatal death.
++3: Zellweger syndrome: Generalized hypotonia, feeding difficulties, severe neurological impairment, neonatal death.
++4: Mitochondrial disorder: Generalized hypotonia, feeding difficulties, cerebral edema, neonatal death.
++5: Congenital lactic acidosis: Generalized hypotonia, feeding difficulties, cerebral edema, neonatal death.",Hereditary metabolic disorders
+['Canavan disease'],"+1. **Krabbe Disease**: Blindness, nystagmus, seizures, motor delay, generalized hypotonia, death in infancy, abnormal myelination, severe hearing impairment.
++2. **Zellweger Syndrome**: Seizures, motor delay, generalized hypotonia, death in infancy, neonatal death, abnormal myelination, severe hearing impairment.
++3. **Canavan Disease**: Blindness, nystagmus, seizures, motor delay, generalized hypotonia, death in infancy, abnormal myelination.
++4. **Leigh Syndrome**: Seizures, motor delay, generalized hypotonia, death in infancy, abnormal myelination. (Lacks severe hearing impairment and blindness)
++5. **Nonketotic Hyperglycinemia**: Seizures, motor delay, generalized hypotonia, death in infancy, abnormal circulating aspartate family amino acid concentration. (Lacks blindness and severe hearing impairment)",Hereditary metabolic disorders
+"['Methylmalonic acidemia with homocystinuria, type cblC']","+1: Methylmalonic acidemia: Consistent with hydrocephalus, microcephaly, intellectual disability, respiratory insufficiency, methylmalonic aciduria, and abnormal carnitine levels. Key symptoms not reported: none.
++2: Homocystinuria: Consistent with hyperhomocystinemia, intellectual disability, and respiratory insufficiency. Key symptoms not reported: hydrocephalus, microcephaly.
++3: Propionic acidemia: Consistent with intellectual disability, respiratory insufficiency, and abnormal carnitine levels. Key symptoms not reported: hyperhomocystinemia, methylmalonic aciduria.
++4: Isovaleric acidemia: Consistent with intellectual disability, respiratory insufficiency, and abnormal carnitine levels. Key symptoms not reported: hyperhomocystinemia, methylmalonic aciduria.
++5: Leigh syndrome: Consistent with intellectual disability, respiratory insufficiency, and nystagmus. Key symptoms not reported: hyperhomocystinemia, methylmalonic aciduria.",Hereditary metabolic disorders
+['Medium chain acyl-CoA dehydrogenase deficiency'],"+1. Long-chain 3-hydroxyacyl-CoA dehydrogenase deficiency (LCHADD): Vomiting, neonatal death, gastrointestinal inflammation, abnormal carnitine levels, decreased 3-hydroxyacyl-CoA dehydrogenase level.
++2. Mitochondrial trifunctional protein deficiency (MTP deficiency): Vomiting, neonatal death, gastrointestinal inflammation, abnormal carnitine levels, decreased 3-hydroxyacyl-CoA dehydrogenase level.
++3. Medium-chain acyl-CoA dehydrogenase deficiency (MCADD): Vomiting, neonatal death, abnormal carnitine levels (though hypoketotic hypoglycemia is not mentioned).
++4. Carnitine palmitoyltransferase II deficiency (CPT II deficiency): Neonatal death, abnormal carnitine levels (though muscle weakness and myoglobinuria are not mentioned).
++5. Glutaric acidemia type II: Neonatal death, vomiting, abnormal carnitine levels (though distinctive odor and other metabolic abnormalities are not mentioned).",Hereditary metabolic disorders
+['Biotinidase deficiency'],"+1: Ornithine transcarbamylase deficiency: Generalized hypotonia, metabolic acidosis, hyperammonemia, neonatal death.
++2: Propionic acidemia: Generalized hypotonia, metabolic acidosis, hyperammonemia, neonatal death.
++3: Mitochondrial disorder: Generalized hypotonia, metabolic acidosis, neonatal death (hyperammonemia less typical but possible).
++4: Severe combined immunodeficiency (SCID): Leukopenia, neonatal death (metabolic acidosis and hyperammonemia less typical).
++5: Congenital lactic acidosis: Generalized hypotonia, metabolic acidosis, neonatal death (hyperammonemia less typical).",Hereditary metabolic disorders
+['Tyrosinemia type 2'],"+1. Tyrosinemia Type II (Richner-Hanhart Syndrome): Consistent with keratitis, photophobia, hyperkeratosis, intellectual disability, hypertyrosinemia, and death in childhood.
++2. Sjogren-Larsson Syndrome: Consistent with intellectual disability, seizures, and hyperkeratosis. Key symptoms not reported: ichthyosis, spasticity.
++3. Refsum Disease: Consistent with photophobia and intellectual disability. Key symptoms not reported: anosmia, retinitis pigmentosa, peripheral neuropathy.
++4. Niemann-Pick Disease Type C: Consistent with intellectual disability and seizures. Key symptoms not reported: hepatosplenomegaly, vertical supranuclear gaze palsy.
++5. Multiple Sulfatase Deficiency: Consistent with intellectual disability, seizures, and hyperkeratosis. Key symptoms not reported: ichthyosis, skeletal abnormalities.",Hereditary metabolic disorders
+['Phenylketonuria'],"+1. Tyrosinemia: Consistent with 'Hyperphenylalaninemia', 'Abnormal circulating tyrosine concentration', 'Death in infancy', 'Neonatal death', and 'Death in early adulthood'.
++2. Phenylketonuria (PKU): Consistent with 'Hyperphenylalaninemia' and 'Abnormal circulating tyrosine concentration'. However, typically does not lead to early death if managed.
++3. Maple Syrup Urine Disease (MSUD): Consistent with 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', and 'Hyperphenylalaninemia'.
++4. Urea Cycle Disorders: Consistent with 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', and metabolic abnormalities.
++5. Mitochondrial Disorders: Consistent with 'Abnormality of prenatal development or birth', 'Death in infancy', 'Neonatal death', and metabolic abnormalities.",Hereditary metabolic disorders
+[],"+1. Urea cycle disorder: Cyanosis, seizure, hyperammonemia, death in infancy, neonatal death.
++2. Propionic acidemia: Seizure, hyperammonemia, death in infancy, neonatal death, 3-hydroxydicarboxylic aciduria.
++3. Methylmalonic acidemia: Seizure, hyperammonemia, death in infancy, neonatal death, 3-hydroxydicarboxylic aciduria.
++4. Fatty acid oxidation disorder: Seizure, death in infancy, neonatal death, 3-hydroxydicarboxylic aciduria.
++5. Mitochondrial disorder: Seizure, death in infancy, neonatal death, 3-hydroxydicarboxylic aciduria.",Hereditary metabolic disorders
+['Alkaptonuria'],"+1. **Maple Syrup Urine Disease (MSUD)**: Consistent with vomiting and dark urine due to the accumulation of branched-chain amino acids and their toxic metabolites. Death in infancy can occur if untreated.
++2. **Tyrosinemia**: Consistent with vomiting and dark urine due to the accumulation of tyrosine and its metabolites. Can lead to liver failure and early death.
++3. **Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency**: Consistent with dark urine due to hemolysis. Severe cases can lead to early death.
++4. **Biliary atresia**: Consistent with vomiting and dark urine (bilirubinuria) due to liver dysfunction. Can lead to early death if untreated.
++5. **Congenital infection (e.g., CMV)**: Consistent with vomiting and dark urine due to organ dysfunction and can lead to early death.",Hereditary metabolic disorders
+['Maple syrup urine disease'],"+1. Maple Syrup Urine Disease (MSUD): Seizure, lethargy, growth delay, metabolic acidosis, hyperammonemia, hypervalinemia, hyperleucinemia, hyperisoleucinemia, feeding difficulties, severe hearing impairment, elevated urinary carboxylic acid.
++2. Propionic Acidemia: Seizure, lethargy, growth delay, metabolic acidosis, hyperammonemia, feeding difficulties, severe hearing impairment, elevated urinary carboxylic acid. (Lacks elevated branched-chain amino acids)
++3. Methylmalonic Acidemia: Seizure, lethargy, growth delay, metabolic acidosis, hyperammonemia, feeding difficulties, severe hearing impairment, elevated urinary carboxylic acid. (Lacks elevated branched-chain amino acids)
++4. Urea Cycle Disorders: Seizure, lethargy, growth delay, metabolic acidosis, hyperammonemia, feeding difficulties, severe hearing impairment. (Lacks elevated branched-chain amino acids and specific organic acids)
++5. Organic Acidemias: Seizure, lethargy, growth delay, metabolic acidosis, hyperammonemia, feeding difficulties, severe hearing impairment, elevated urinary carboxylic acid. (Specific type to be determined based on further metabolic findings)",Hereditary metabolic disorders
+['Ornithine transcarbamylase deficiency'],"+1. Urea Cycle Disorder: Consistent with hyperammonemia, elevated plasma citrulline, hyperglutaminemia, oroticaciduria, and aminoaciduria.
++2. Organic Aciduria: Consistent with hypoglycemia, vomiting, hyperammonemia, aminoaciduria, elevated creatine kinase, and recurrent infections.
++3. Mitochondrial Disorder: Consistent with generalized hypotonia, hypoglycemia, elevated creatine kinase, recurrent infections, and cerebral edema.
++4. Lysosomal Storage Disorder: Consistent with hypotonia, recurrent infections, and elevated creatine kinase. Hyperammonemia and elevated plasma citrulline are less common.
++5. Peroxisomal Disorder: Consistent with hypotonia, hypoglycemia, and elevated creatine kinase. Hyperammonemia and elevated plasma citrulline are less common.",Hereditary metabolic disorders

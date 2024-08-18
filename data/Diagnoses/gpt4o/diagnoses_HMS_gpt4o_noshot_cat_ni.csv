@@ -1,0 +1,647 @@
+GT,Diagnosis 1,ERN Category
+[],"+1 Ehlers-Danlos Syndrome (EDS): Joint hypermobility, widespread joint pain, abnormality of the gluteal musculature. Key symptoms not reported: skin hyperextensibility, easy bruising.
++2 Rheumatoid Arthritis (RA): Wrist swelling, joint pain in multiple joints, leukocytosis. Key symptoms not reported: morning stiffness, symmetrical joint involvement.
++3 Systemic Lupus Erythematosus (SLE): Widespread joint pain, leukocytosis. Key symptoms not reported: butterfly rash, photosensitivity.
++4 Psoriatic Arthritis: Joint pain and swelling, leukocytosis. Key symptoms not reported: skin psoriasis, nail changes.
++5 Hypermobility Spectrum Disorder (HSD): Joint hypermobility, widespread joint pain. Key symptoms not reported: none specific, but lacks thrombocytosis and leukocytosis.",Rare connective tissue and musculoskeletal diseases
+['Cryoglobulinemic vasculitis'],"+1. Waldenström's macroglobulinemia: Increased circulating IgM level, cryoglobulinemia, vasculitis, and potential kidney involvement (MPGN).
++2. Mixed cryoglobulinemia syndrome: Cryoglobulinemia, vasculitis, MPGN, and recurrent infections.
++3. Chronic lymphocytic leukemia (CLL): Leukocytosis, recurrent infections, and possible kidney involvement.
++4. Systemic lupus erythematosus (SLE): MPGN, vasculitis, and recurrent infections (though increased IgM is less typical).
++5. Hepatitis C infection: Cryoglobulinemia, MPGN, and recurrent infections.",Rare connective tissue and musculoskeletal diseases
+['Behçet disease'],"<thinking>
+a. Key symptoms that stand out include a combination of systemic and localized issues: oral ulcer, sinusitis, tinnitus, hearing impairment, visual loss, diplopia, nephrolithiasis, hematuria, keratoconjunctivitis sicca, syncope, arthritis, eosinophilia, renal tubular acidosis, nausea, abdominal pain, hypercalciuria, headache, vertigo, bone pain, exertional dyspnea, elevated circulating creatine kinase concentration, myalgia, paresthesia, back pain, somatic sensory dysfunction, hypouricemia, deviated nasal septum, generalized morning stiffness, limb pain, decreased urinary urate, fatigue, mild proteinuria, oral cavity bleeding, neck pain, wrist pain, ankle pain, aphthous ulcer, chest pain, lymphocytosis, papule, pustule, and epigastric pain.
+
+b. Possible diagnoses:
+1. **Systemic Lupus Erythematosus (SLE)**: The presence of oral ulcers, arthritis, fatigue, and renal involvement (hematuria, mild proteinuria) are consistent with SLE. However, the presence of nephrolithiasis and hypercalciuria is less typical.
+2. **Sjogren's Syndrome**: Keratoconjunctivitis sicca, oral ulcers, and arthritis are key features. However, the extensive systemic involvement (e.g., nephrolithiasis, hematuria, and hypercalciuria) is less common.
+3. **Granulomatosis with Polyangiitis (Wegener's)**: Sinusitis, hearing impairment, visual loss, hematuria, and arthritis are consistent with this diagnosis. However, the presence of nephrolithiasis and hypercalciuria is less typical.
+4. **Sarcoidosis**: The combination of systemic symptoms (e.g., fatigue, arthritis, lymphocytosis) and specific organ involvement (e.g., visual loss, hearing impairment) could suggest sarcoidosis. However, nephrolithiasis and hypercalciuria are less typical.
+5. **Hyperparathyroidism**: Hypercalciuria, nephrolithiasis, bone pain, and fatigue are consistent with hyperparathyroidism. However, the presence of systemic symptoms like oral ulcers, arthritis, and visual loss is less typical.
+
+c. Additional tests or information:
+- Autoantibody tests (e.g., ANA, anti-dsDNA, anti-Ro/SSA, anti-La/SSB) to evaluate for autoimmune conditions.
+- Imaging studies (e.g., chest X-ray, CT scan) to assess for granulomas or other abnormalities.
+- Serum calcium and parathyroid hormone levels to evaluate for hyperparathyroidism.
+- Urinalysis and renal function tests to further assess renal involvement.
+- Biopsy of affected tissues (e.g., skin, kidney) if indicated.
+
+</thinking>
+
+<top5>
++1. Systemic Lupus Erythematosus (SLE): Oral ulcer, arthritis, fatigue, hematuria, mild proteinuria, elevated circulating creatine kinase concentration. Key symptoms not reported: Malar rash, photosensitivity.
++2. Sjogren's Syndrome: Keratoconjunctivitis sicca, oral ulcers, arthritis, fatigue. Key symptoms not reported: Parotid gland enlargement, dry mouth.
++3. Granulomatosis with Polyangiitis (Wegener's): Sinusitis, hearing impairment, visual loss, hematuria, arthritis. Key symptoms not reported: Nasal crusting, saddle-nose deformity.
++4. Sarcoidosis: Fatigue, arthritis, lymphocytosis, visual loss, hearing impairment. Key symptoms not reported: Erythema nodosum, bilateral hilar lymphadenopathy.
++5. Hyperparathyroidism: Hypercalciuria, nephrolithiasis, bone pain,",Autoinflammatory and autoimmune diseases
+['Granulomatosis with polyangiitis'],"+1. Granulomatosis with polyangiitis (GPA): Epistaxis, hemoptysis, pulmonary infiltrates, arthralgia, microscopic hematuria, elevated CRP, decreased GFR, c-ANCA positivity.
++2. Microscopic polyangiitis (MPA): Hemoptysis, pulmonary infiltrates, microscopic hematuria, elevated CRP, decreased GFR, c-ANCA positivity. (Lacks granulomatous inflammation)
++3. Goodpasture syndrome: Hemoptysis, pulmonary infiltrates, microscopic hematuria, decreased GFR. (Typically associated with anti-GBM antibodies, not c-ANCA)
++4. Systemic lupus erythematosus (SLE): Arthralgia, microscopic hematuria, elevated CRP, decreased GFR. (c-ANCA positivity is less common)
++5. Infective endocarditis: Elevated CRP, microscopic hematuria, decreased GFR, pulmonary infiltrates. (Typically presents with heart murmur and positive blood cultures, not mentioned here)",Autoinflammatory and autoimmune diseases
+['Pediatric systemic lupus erythematosus'],"+1 Systemic Lupus Erythematosus (SLE): Proteinuria, pancytopenia, fever, arthralgia, myalgia, antinuclear antibody positivity, fatigue. Key symptoms not reported: Malar rash, photosensitivity.
++2 Hemophagocytic Lymphohistiocytosis (HLH): Fever, splenomegaly, pancytopenia, elevated lactate dehydrogenase, generalized muscle weakness. Key symptoms not reported: Hypertriglyceridemia, hyperferritinemia.
++3 Acute Pancreatitis: Acute pancreatitis, epigastric pain, abdominal pain. Key symptoms not reported: Nausea, vomiting.
++4 Autoimmune Hepatitis: Antinuclear antibody positivity, elevated lactate dehydrogenase, fatigue. Key symptoms not reported: Jaundice, pruritus.
++5 Systemic Vasculitis: Fever, proteinuria, pancytopenia, arthralgia, myalgia. Key symptoms not reported: Purpura, neuropathy.",Rare connective tissue and musculoskeletal diseases
+['Pediatric systemic lupus erythematosus'],"+1 Systemic Lupus Erythematosus (SLE): Renal insufficiency, proteinuria, glomerulonephritis, arthritis, lymphopenia, antinuclear antibody positivity, microscopic hematuria. Key symptoms not reported: Malar rash, photosensitivity.
++2 Antiphospholipid Syndrome (APS): Pulmonary embolism, deep venous thrombosis, anti-beta 2 glycoprotein I antibody positivity, reduced coagulation factor V activity. Key symptoms not reported: Recurrent miscarriages.
++3 Wegener's Granulomatosis (Granulomatosis with Polyangiitis): Glomerulonephritis, uveitis, arthritis. Key symptoms not reported: Nasal or sinus inflammation, lung nodules.
++4 Goodpasture Syndrome: Glomerulonephritis, pulmonary symptoms (though not explicitly reported, could be inferred from pulmonary embolism). Key symptoms not reported: Hemoptysis.
++5 Renal Cell Carcinoma: Renal cyst, renal cell carcinoma. Key symptoms not reported: Flank pain, hematuria (though microscopic hematuria is noted).",Rare connective tissue and musculoskeletal diseases
+[],"+1: Polycystic Kidney Disease (PKD): Renal hypoplasia, renal cysts, hepatic cysts, decreased glomerular filtration rate, increased blood urea nitrogen, elevated creatinine.
++2: Sjögren's Syndrome: Xerostomia, chronic oral candidiasis, autoimmune antibody positivity, fatigue, dysphagia.
++3: Chronic Kidney Disease (CKD): Renal hypoplasia, renal cysts, increased blood urea nitrogen, elevated creatinine, decreased glomerular filtration rate, fatigue.
++4: Systemic Lupus Erythematosus (SLE): Autoimmune antibody positivity, renal involvement, elevated ESR, elevated CRP, fatigue.
++5: Cystic Fibrosis: Bronchiectasis, crackles, reduced FEV1/FVC ratio, sputum eosinophilia, decreased DLCO, gastrointestinal symptoms (dysphagia, nausea, gastroesophageal reflux, abdominal pain, hiatus hernia, epigastric pain).",Rare kidney diseases
+['Giant cell arteritis'],"+1: Giant Cell Arteritis (GCA): Jaw claudication, headache, elevated erythrocyte sedimentation rate, fatigue. Key symptoms not reported: Age (typically older adults).
++2: Infective Endocarditis: Pallor, fatigue, weight loss, elevated erythrocyte sedimentation rate, chills, leukocytosis, exercise intolerance. Key symptoms not reported: Heart murmur.
++3: Systemic Lupus Erythematosus (SLE): Fatigue, weight loss, leukocytosis, elevated erythrocyte sedimentation rate. Key symptoms not reported: Malar rash, photosensitivity.
++4: Pheochromocytoma: Hyperhidrosis, pallor, syncope, headache, weight loss. Key symptoms not reported: Hypertension.
++5: Temporal Arteritis: Headache, jaw claudication, elevated erythrocyte sedimentation rate, fatigue. Key symptoms not reported: Age (typically older adults).",Rare multisystemic vascular diseases
+[],"+1. Ankylosing Spondylitis: Back pain, kyphosis, generalized morning stiffness, uveitis. (Microscopic hematuria is not typical.)
++2. Sjögren's Syndrome: Keratoconjunctivitis sicca, uveitis. (Kyphosis and back pain are less common.)
++3. Systemic Lupus Erythematosus (SLE): Uveitis, microscopic hematuria, musculoskeletal pain. (Kyphosis is not typical.)
++4. Rheumatoid Arthritis: Generalized morning stiffness, back pain, uveitis. (Kyphosis and microscopic hematuria are less common.)
++5. Vitamin D Deficiency: Musculoskeletal pain, decreased circulating vitamin D concentration. (Does not typically cause uveitis, keratoconjunctivitis sicca, or microscopic hematuria.)",Rare connective tissue and musculoskeletal diseases
+['Takayasu arteritis'],"+1. **Amyloidosis**: Renal insufficiency, hypertrophic and dilated cardiomyopathy, pericardial effusion, left ventricular hypertrophy, abnormal circulating protein concentration, decreased glomerular filtration rate, fatigue, pruritus.
++2. **Sarcoidosis**: Hypertrophic and dilated cardiomyopathy, pericardial effusion, renal insufficiency, fever, dyspnea, fatigue, myocarditis.
++3. **Systemic Lupus Erythematosus (SLE)**: Renal insufficiency, myocarditis, pericardial effusion, fever, fatigue, abnormal circulating protein concentration.
++4. **Chronic Kidney Disease (CKD)**: Renal insufficiency, decreased glomerular filtration rate, fatigue. (Does not fully explain cardiac symptoms).
++5. **Infective Endocarditis**: Fever, myocarditis, pericardial effusion. (Less likely to explain renal insufficiency and abnormal protein levels).",Rare multisystemic vascular diseases
+['Granulomatosis with polyangiitis'],"<thinking>
+a. Key symptoms that stand out include urinary urgency, sinusitis, tachycardia, fever, leukocytosis, hemoptysis, pleural effusion, abnormal EKG, atrial fibrillation, elevated circulating C-reactive protein concentration, cough, reduced haptoglobin level, nodular pattern on pulmonary HRCT, episcleritis, and chest pain. The combination of respiratory symptoms (cough, hemoptysis, pleural effusion, nodular pattern on HRCT), cardiovascular symptoms (tachycardia, atrial fibrillation, abnormal EKG, chest pain), and systemic inflammatory markers (fever, leukocytosis, elevated CRP) are particularly notable.
+
+b. Possible diagnoses:
+1. Infective Endocarditis: This condition could explain the fever, leukocytosis, tachycardia, abnormal EKG, atrial fibrillation, and possibly the pleural effusion and chest pain. However, it does not typically present with hemoptysis or a nodular pattern on HRCT.
+2. Granulomatosis with Polyangiitis (GPA): This vasculitis can present with sinusitis, hemoptysis, nodular pattern on HRCT, episcleritis, and systemic symptoms like fever and leukocytosis. The cardiovascular symptoms could be secondary to systemic inflammation.
+3. Pulmonary Embolism: This could explain the pleural effusion, chest pain, tachycardia, abnormal EKG, and atrial fibrillation. However, it does not typically cause sinusitis, episcleritis, or a nodular pattern on HRCT.
+4. Systemic Lupus Erythematosus (SLE): This autoimmune condition can present with pleuritis (pleural effusion), pericarditis (chest pain, abnormal EKG), fever, leukocytosis, and elevated CRP. However, it is less likely to cause hemoptysis or a nodular pattern on HRCT.
+5. Tuberculosis: This could explain the fever, leukocytosis, hemoptysis, nodular pattern on HRCT, and pleural effusion. However, it does not typically cause episcleritis, atrial fibrillation, or abnormal EKG.
+
+c. Additional tests that could help narrow down the diagnosis include blood cultures (for infective endocarditis), ANCA levels (for GPA), D-dimer and CT pulmonary angiography (for pulmonary embolism), ANA and anti-dsDNA antibodies (for SLE), and sputum culture/acid-fast bacilli staining (for tuberculosis).
+
+</thinking>
+
+<top5>
++1. Granulomatosis with Polyangiitis (GPA): Sinusitis, hemoptysis, nodular pattern on HRCT, episcleritis, fever, leukocytosis, elevated CRP, tachycardia, pleural effusion, chest pain.
++2. Infective Endocarditis: Fever, leukocytosis, tachycardia, abnormal EKG, atrial fibrillation, pleural effusion, chest pain. Key symptoms not reported: positive blood cultures, new heart murmur.
++3. Pulmonary Embolism: Pleural effusion, chest pain, tachycardia, abnormal EKG, atrial fibrillation. Key symptoms not reported: sudden onset dyspnea, D-dimer elevation.
++4. Systemic Lupus Erythematosus (SLE): Pleuritis (pleural effusion), pericarditis (chest pain, abnormal EKG), fever, leukocytosis, elevated CRP. Key symptoms not reported: malar rash, arthritis.
++5. Tuberculosis: Fever, leukocytosis, hemoptysis, nodular pattern on HRCT, pleural effusion. Key symptoms not reported: night sweats, weight loss.
+</top",Rare immunodeficiency
+"['Reactive arthritis', 'Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis', 'Systemic-onset juvenile idiopathic arthritis', 'Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis']","+1. Sjögren's Syndrome: Consistent with xerostomia, decreased lacrimation, anti-La/SS-B antibody positivity, arthralgia, and myalgia. Key symptoms not reported: parotid gland enlargement.
++2. Rheumatoid Arthritis: Consistent with rheumatoid factor positivity, morning stiffness, wrist/knee/ankle pain, and joint swelling. Key symptoms not reported: rheumatoid nodules.
++3. Systemic Lupus Erythematosus (SLE): Consistent with antinuclear antibody positivity, arthralgia, myalgia, and systemic inflammation. Key symptoms not reported: malar rash, photosensitivity.
++4. Mixed Connective Tissue Disease (MCTD): Consistent with overlapping features of SLE, RA, and Sjögren's Syndrome, including positive autoantibodies and systemic inflammation. Key symptoms not reported: Raynaud's phenomenon.
++5. Eosinophilic Granulomatosis with Polyangiitis (EGPA): Consistent with increased circulating IgE levels and systemic inflammation. Key symptoms not reported: asthma, sinusitis.",Rare connective tissue and musculoskeletal diseases
+[],"+1. Chronic Kidney Disease (CKD): Decreased glomerular filtration rate, increased blood urea nitrogen, mild proteinuria, nephrosclerosis, focal segmental glomerulosclerosis.
++2. Nephrotic Syndrome: Hypoalbuminemia, hypercholesterolemia, mild proteinuria, focal segmental glomerulosclerosis.
++3. Hyperuricemia-related conditions (e.g., Gout): Hyperuricemia, hyperuricosuria, elevated erythrocyte sedimentation rate, elevated C-reactive protein.
++4. Liver Disease: Elevated hepatic transaminase levels, hypoalbuminemia. (Key symptoms not reported: jaundice, ascites)
++5. Metabolic Syndrome: Hypertriglyceridemia, hypercholesterolemia, hyperuricemia. (Key symptoms not reported: central obesity, hypertension)",Rare kidney diseases
+['Behçet disease'],"+1. Granulomatosis with polyangiitis (GPA): Sinusitis, abnormal nasal mucosa morphology, oral ulcer, fever, leukocytosis, dyspnea, chest pain, mediastinal lymphadenopathy, elevated inflammatory markers.
++2. Sarcoidosis: Erythema nodosum, mediastinal lymphadenopathy, retinitis, fever, elevated inflammatory markers, cervical lymphadenopathy.
++3. Behçet's disease: Oral ulcer, aphthous ulcer, erythema nodosum, retinitis, cervical lymphadenopathy, elevated inflammatory markers.
++4. Systemic lupus erythematosus (SLE): Oral ulcer, fever, cervical lymphadenopathy, elevated inflammatory markers. (Key symptoms not reported: malar rash, renal involvement)
++5. Infectious cause (e.g., tuberculosis): Fever, cervical lymphadenopathy, mediastinal lymphadenopathy, elevated inflammatory markers. (Key symptoms not reported: specific infectious symptoms like night sweats, weight loss)",Autoinflammatory and autoimmune diseases
+['Granulomatosis with polyangiitis'],"+1. Granulomatosis with polyangiitis (GPA): Sinusitis, abnormality of the nose, conjunctivitis, renal insufficiency, glomerulonephritis, pulmonary hemorrhage, hemoptysis, fever, cough, oliguria.
++2. Goodpasture syndrome: Renal insufficiency, glomerulonephritis, pulmonary hemorrhage, hemoptysis, oliguria. (Lacks sinusitis and nasal abnormalities)
++3. Systemic lupus erythematosus (SLE): Renal insufficiency, glomerulonephritis, pulmonary hemorrhage, hemoptysis, fever, joint pain (shoulder, elbow, knee). (Lacks sinusitis and nasal abnormalities)
++4. Microscopic polyangiitis (MPA): Renal insufficiency, glomerulonephritis, pulmonary hemorrhage, hemoptysis, oliguria. (Lacks sinusitis and nasal abnormalities)
++5. Churg-Strauss syndrome (Eosinophilic granulomatosis with polyangiitis): Renal insufficiency, glomerulonephritis, pulmonary hemorrhage, hemoptysis, fever, joint pain (shoulder, elbow, knee). (Lacks asthma and eosinophilia)",Autoinflammatory and autoimmune diseases
+['Sarcoidosis'],"+1. Polycystic Kidney Disease (PKD): Renal cysts, renal insufficiency, hypertension, hepatic cysts, moderate albuminuria, microscopic hematuria, pyuria, fatigue, peripheral edema.
++2. Systemic Lupus Erythematosus (SLE): Renal insufficiency, hypertension, purpura, visual loss, fatigue, peripheral edema, microscopic hematuria, pyuria, moderate albuminuria, headache.
++3. Hepatorenal Syndrome: Renal insufficiency, hepatic steatosis, hepatic cysts, hypertension, fatigue, peripheral edema, moderate albuminuria.
++4. Alport Syndrome: Renal insufficiency, visual loss, microscopic hematuria, hypertension, fatigue, peripheral edema.
++5. Sarcoidosis: Abnormal lung morphology, dyspnea, mediastinal lymphadenopathy, tubulointerstitial nephritis, hepatic cysts, fatigue, peripheral edema, cough.",Rare respiratory disease
+['Immunoglobulin A vasculitis'],"+1. **Nephrotic Syndrome**: Heavy proteinuria, hypoalbuminemia, hyperlipidemia, edema, foamy urine.
++2. **Membranoproliferative Glomerulonephritis (MPGN)**: Nephrotic syndrome, hematuria, purpura, edema.
++3. **Systemic Lupus Erythematosus (SLE)**: Nephrotic syndrome, hematuria, MPGN, purpura, peripheral edema (absence of malar rash, joint pain).
++4. **Henoch-Schönlein Purpura (HSP)**: Purpura, hematuria, nephrotic syndrome (more common in children).
++5. **Diabetic Nephropathy**: Nephrotic syndrome, proteinuria, edema (absence of diabetes history).",Autoinflammatory and autoimmune diseases
+['Hypophosphatasia'],"+1. Hypophosphatasia: Abnormality of the dentition, increased susceptibility to fractures, low alkaline phosphatase, short stature, fatigue, lower limb pain.
++2. Osteogenesis Imperfecta: Increased susceptibility to fractures, short stature, abnormality of the dentition, fatigue, lower limb pain. (Alopecia not typically associated)
++3. Ehlers-Danlos Syndrome: Abnormality of the dentition, fatigue, lower limb pain. (Low alkaline phosphatase and increased fracture susceptibility not typically associated)
++4. Celiac Disease: Short stature, fatigue, abnormality of the dentition. (Low alkaline phosphatase and increased fracture risk not typically associated)
++5. Turner Syndrome: Short stature, increased susceptibility to fractures, miscarriage, ectopic pregnancy. (Low alkaline phosphatase and alopecia not typically associated)",Rare bone disorders
+['Sarcoidosis'],"+1: Systemic Lupus Erythematosus (SLE): Autoimmune antibody positivity, decreased complement levels (C3 and C4), irregular menstruation, tachycardia, weight loss, palpitations, ankle swelling, oral mucosal blisters. Key symptoms not reported: Malar rash, photosensitivity.
++2: Wegener's Granulomatosis (Granulomatosis with Polyangiitis): Mastoiditis, hearing impairment, autoimmune antibody positivity, systemic symptoms. Key symptoms not reported: Respiratory tract involvement.
++3: Multiple Sclerosis (MS): Horizontal nystagmus, vertigo, facial palsy. Key symptoms not reported: Optic neuritis, spinal cord involvement.
++4: Autoimmune Inner Ear Disease (AIED): Mastoiditis, hearing impairment, autoimmune antibody positivity. Key symptoms not reported: Systemic symptoms.
++5: Behçet's Disease: Oral mucosal blisters, systemic symptoms, autoimmune features. Key symptoms not reported: Genital ulcers, uveitis.",Rare respiratory disease
+['IgG4-related retroperitoneal fibrosis'],"+1 IgG4-related disease: Proptosis, diplopia, oculomotor nerve palsy, palpebral edema, increased circulating IgG4 level, hepatomegaly, cardiovascular involvement.
++2 Orbital cellulitis: Sinusitis, proptosis, diplopia, palpebral edema. (Does not explain systemic findings like increased IgG4 levels or cardiovascular issues.)
++3 Thyroid eye disease: Proptosis, diplopia, palpebral edema. (Does not explain elevated IgG4 levels or liver and cardiovascular findings.)
++4 Metastatic disease: Neoplasm of the liver, proptosis, diplopia. (Does not explain elevated IgG4 levels or cardiovascular findings.)
++5 Sarcoidosis: Multi-organ involvement including orbit, liver, and cardiovascular system. (Typically does not elevate IgG4 levels.)",Rare connective tissue and musculoskeletal diseases
+"['CINCA syndrome', 'Familial cold urticaria', 'Muckle-Wells syndrome']","+1. **Multiple Myeloma**: Hypercalcemia, elevated ESR, bone pain. (Key symptoms not reported: Monoclonal protein in serum/urine, anemia)
++2. **Systemic Lupus Erythematosus (SLE)**: Fever, elevated ESR, abnormal complement system, joint pain. (Key symptoms not reported: Malar rash, renal involvement)
++3. **Hyperthyroidism**: Increased circulating free T3, tachycardia. (Key symptoms not reported: Weight loss, heat intolerance)
++4. **Infective Endocarditis**: Fever, tachycardia, splenomegaly, elevated ESR, abnormal EKG. (Key symptoms not reported: Positive blood cultures, heart murmur)
++5. **Waldenström's Macroglobulinemia**: Decreased circulating total IgM, splenomegaly, elevated ESR. (Key symptoms not reported: Hyperviscosity symptoms, anemia)",Autoinflammatory and autoimmune diseases
+['Sarcoidosis'],"+1. **Churg-Strauss Syndrome (Eosinophilic Granulomatosis with Polyangiitis)**: Eosinophilia, pulmonary infiltrates, cytoplasmic antineutrophil antibody positivity, weight loss, fatigue, and systemic involvement.
++2. **Granulomatosis with Polyangiitis (GPA)**: Hemoptysis, pulmonary infiltrates, cytoplasmic antineutrophil antibody positivity, weight loss, fatigue, and systemic involvement. Eosinophilia is not typical.
++3. **Systemic Lupus Erythematosus (SLE)**: Fatigue, weight loss, facial edema, elevated C-reactive protein, and systemic involvement. Eosinophilia is not typical.
++4. **Adrenal Neoplasm**: Adrenal hyperplasia, neoplasm of the adrenal gland, hyperkalemia, weight loss, and systemic symptoms.
++5. **Lymphoma**: Cervical lymphadenopathy, weight loss, fatigue, systemic symptoms, and possible pulmonary involvement.",Rare respiratory disease
+['Behçet disease'],"+1: Behçet's Disease: Oral ulcer, uveitis, arthritis, abnormal penis morphology, ankle swelling, abdominal pain, myalgia, muscle spasm, stomatitis, aphthous ulcer. Key symptoms not reported: None.
++2: Systemic Lupus Erythematosus (SLE): Oral ulcer, arthritis, hematuria, hypertension, elevated hepatic transaminase, elevated creatine kinase, myalgia, fatigue, dysesthesia. Key symptoms not reported: Malar rash, photosensitivity.
++3: Granulomatosis with Polyangiitis (Wegener's): Epistaxis, hematuria, hypertension, elevated creatinine, unusual infection, back pain. Key symptoms not reported: Nasal or oral inflammation, lung involvement.
++4: Multiple Sclerosis (MS): Uveitis, visual loss, focal white matter lesions, somatic sensory dysfunction, foot dorsiflexor weakness, back pain, fatigue, dysesthesia. Key symptoms not reported: Optic neuritis, motor weakness.
++5: Mixed Connective Tissue Disease (MCTD): Arthritis, myalgia, elevated hepatic transaminase, elevated creatine kinase, fatigue, dysesthesia, abnormal metacarpophalangeal joint morphology. Key symptoms not reported: Raynaud's phenomenon, swollen hands.",Autoinflammatory and autoimmune diseases
+['Antisynthetase syndrome'],"+1: Polymyositis/Dermatomyositis: Elevated creatine kinase, myositis, myopathic abnormalities on EMG, antinuclear antibody positivity, myalgia, erythema.
++2: Systemic Lupus Erythematosus (SLE): Antinuclear antibody positivity, anemia, leukocytosis, fever, generalized symptoms like myalgia and morning stiffness.
++3: Rheumatoid Arthritis (RA): Morning stiffness, enlarged metacarpophalangeal joints, elevated ESR and CRP, erythema, exercise intolerance.
++4: Mixed Connective Tissue Disease (MCTD): Overlapping features of SLE, polymyositis, and RA, including antinuclear antibody positivity, myositis, joint involvement.
++5: Infective Endocarditis: Fever, anemia, leukocytosis, abnormal EKG, elevated inflammatory markers, tachycardia, weight loss.",Rare connective tissue and musculoskeletal diseases
+['Kimura disease'],"+1. **Hypereosinophilic Syndrome (HES)**: Eosinophilia, pulmonary infiltrates, increased IgE levels. Key symptoms not reported: None.
++2. **Systemic Lupus Erythematosus (SLE)**: Autoimmune antibody positivity, elevated hepatic transaminase levels, lymphadenopathy. Key symptoms not reported: Malar rash, photosensitivity.
++3. **Sarcoidosis**: Lymphadenopathy, pulmonary infiltrates, elevated hepatic transaminase levels. Key symptoms not reported: Skin lesions, eye involvement.
++4. **Primary Biliary Cholangitis (PBC)**: Elevated hepatic transaminase levels, hypercholesterolemia, elevated gamma-glutamyltransferase levels. Key symptoms not reported: Pruritus, fatigue.
++5. **Chronic Granulomatous Disease (CGD)**: Lymphadenopathy, pulmonary infiltrates, increased IgE levels. Key symptoms not reported: Recurrent infections, granulomas.",Rare immunodeficiency
+['Eosinophilic granulomatosis with polyangiitis'],"+1. Eosinophilic Granulomatosis with Polyangiitis (EGPA): Consistent with sinusitis, eosinophilia, dyspnea, pulmonary infiltrates, increased IgE levels, autoimmune antibody positivity, and nasal polyposis.
++2. Allergic Bronchopulmonary Aspergillosis (ABPA): Consistent with sinusitis, eosinophilia, dyspnea, pulmonary infiltrates, increased IgE levels, and nasal polyposis. Autoimmune antibody positivity is not typical.
++3. Chronic Eosinophilic Pneumonia: Consistent with dyspnea, pulmonary infiltrates, and eosinophilia. Increased IgE levels and autoimmune antibody positivity are not typical.
++4. Hypereosinophilic Syndrome (HES): Consistent with eosinophilia and pulmonary infiltrates. Increased IgE levels and autoimmune antibody positivity are not typical.
++5. Asthma with Nasal Polyposis: Consistent with sinusitis, dyspnea, increased IgE levels, and nasal polyposis. Eosinophilia and pulmonary infiltrates are not typical.",Autoinflammatory and autoimmune diseases
+['Antisynthetase syndrome'],"+1. Systemic Lupus Erythematosus (SLE): Consistent with antinuclear antibody positivity, decreased complement C3, arthritis, anemia, oral ulcers, and multiple joint pains. Key symptoms not reported: Malar rash, photosensitivity.
++2. Rheumatoid Arthritis (RA): Consistent with multiple joint pains, abnormal joint morphology, and arthritis. Key symptoms not reported: Morning stiffness, rheumatoid nodules.
++3. Sjögren's Syndrome: Consistent with increased tear production, oral ulcers, and joint pain. Key symptoms not reported: Dry mouth, dry eyes.
++4. Hyperthyroidism: Consistent with goiter, palpitations, and fasciculations. Key symptoms not reported: Weight loss, heat intolerance.
++5. Mixed Connective Tissue Disease (MCTD): Consistent with antinuclear antibody positivity, decreased complement C3, arthritis, and multiple joint pains. Key symptoms not reported: Raynaud's phenomenon, swollen hands.",Rare connective tissue and musculoskeletal diseases
+['Granulomatosis with polyangiitis'],"+1. Wegener's Granulomatosis (Granulomatosis with Polyangiitis): Abnormal paranasal sinus morphology, epistaxis, abnormal nasal mucosa morphology, hemoptysis, joint pain.
++2. Sarcoidosis: Abnormal paranasal sinus morphology, hemoptysis, joint pain. (Note: Epistaxis is less common in Sarcoidosis.)
++3. Chronic Sinusitis with Nasal Polyps: Abnormal paranasal sinus morphology, epistaxis, abnormal nasal mucosa morphology. (Note: Does not typically cause hemoptysis or joint pain.)
++4. Rheumatoid Arthritis with Secondary Sjogren's Syndrome: Joint pain, possible nasal symptoms due to secondary involvement. (Note: Hemoptysis is less common.)
++5. Systemic Lupus Erythematosus (SLE): Joint pain, potential respiratory involvement leading to hemoptysis and nasal issues. (Note: Abnormal sinus morphology is less specific for SLE.)",Rare connective tissue and musculoskeletal diseases
+[],"+1 Hepatocellular carcinoma: Hepatic steatosis, hepatomegaly, neoplasm of the liver, elevated hepatic transaminase concentration, elevated gamma-glutamyltransferase level. Key symptoms not reported: weight loss, jaundice.
++2 Autoimmune hepatitis: Hepatic steatosis, elevated hepatic transaminase concentration, fever, leukocytosis, elevated CRP. Key symptoms not reported: jaundice, pruritus.
++3 Systemic lupus erythematosus (SLE): Serositis, elevated CRP, fatigue, multi-organ involvement (liver, joints, lungs). Key symptoms not reported: malar rash, photosensitivity.
++4 Ankylosing spondylitis: Sacroiliac arthritis, generalized morning stiffness, elevated CRP, back pain, exercise intolerance. Key symptoms not reported: uveitis, enthesitis.
++5 Non-alcoholic steatohepatitis (NASH): Hepatic steatosis, elevated hepatic transaminase concentration, hepatomegaly, elevated gamma-glutamyltransferase level. Key symptoms not reported: obesity, diabetes.",Rare connective tissue and musculoskeletal diseases
+['SAPHO syndrome'],"+1. SAPHO Syndrome: Jaw swelling, jaw pain, hyperostosis, osteomyelitis, palmoplantar pustulosis, elevated ESR, elevated CRP.
++2. Chronic Recurrent Multifocal Osteomyelitis (CRMO): Jaw pain, jaw swelling, hyperostosis, osteomyelitis, elevated ESR, elevated CRP.
++3. Acute Osteomyelitis: Leukocytosis, jaw pain, jaw swelling, elevated ESR, elevated CRP. (Lacks hyperostosis and palmoplantar pustulosis)
++4. Psoriatic Arthritis: Jaw pain, jaw swelling, palmoplantar pustulosis, elevated ESR, elevated CRP. (Lacks hyperostosis)
++5. Langerhans Cell Histiocytosis (LCH): Jaw pain, jaw swelling, elevated ESR, elevated CRP. (Lacks palmoplantar pustulosis)",Rare connective tissue and musculoskeletal diseases
+['Polyarteritis nodosa'],"+1. Systemic Lupus Erythematosus (SLE): Consistent with skin manifestations (macules, skin erosion), elevated ESR, CRP, decreased complement C4, microscopic hematuria, and paresthesia. Key symptoms not reported: joint pain, photosensitivity.
++2. Dermatomyositis: Consistent with elevated creatine kinase, skin changes (macules, skin erosion), elevated ESR, CRP, and muscle weakness (abnormality of the lower limb). Key symptoms not reported: Gottron's papules, heliotrope rash.
++3. Vasculitis: Consistent with skin changes, elevated ESR, CRP, microscopic hematuria, and paresthesia. Key symptoms not reported: systemic symptoms like fever, weight loss.
++4. Rheumatoid Arthritis (RA): Consistent with elevated ESR, CRP, and skin changes. Key symptoms not reported: joint pain, swelling, morning stiffness.
++5. Henoch-Schönlein Purpura (HSP): Consistent with skin changes, elevated ESR, and microscopic hematuria. Key symptoms not reported: abdominal pain, arthralgia.",Rare multisystemic vascular diseases
+['Antisynthetase syndrome'],"+1 Systemic Lupus Erythematosus (SLE): Weight loss, leukopenia, dyspnea, autoimmune antibody positivity. Key symptoms not reported: skin rashes, joint pain.
++2 Polymyositis: Elevated creatine kinase concentration, exercise intolerance, weight loss. Key symptoms not reported: muscle weakness.
++3 Interstitial Lung Disease (ILD): Ground-glass opacification, decreased DLCO, dyspnea, weight loss. Key symptoms not reported: chronic cough.
++4 Sarcoidosis: Weight loss, dyspnea, ground-glass opacification. Key symptoms not reported: lymphadenopathy, skin lesions.
++5 Mixed Connective Tissue Disease (MCTD): Elevated creatine kinase, leukopenia, autoimmune antibody positivity, ground-glass opacification, decreased DLCO. Key symptoms not reported: Raynaud's phenomenon, swollen hands.",Rare connective tissue and musculoskeletal diseases
+['IgG4-related retroperitoneal fibrosis'],"+1. IgG4-related disease: Elevated IgG4 levels, plasmacytosis, retroperitoneal fibrosis, aortic aneurysm, ureteral involvement, splenomegaly.
++2. Systemic lupus erythematosus (SLE): Elevated creatinine, splenomegaly, elevated C-reactive protein. (Key symptoms not reported: typical autoimmune markers, skin rash, joint pain)
++3. Sarcoidosis: Splenomegaly, elevated C-reactive protein. (Key symptoms not reported: granulomas on biopsy, pulmonary involvement)
++4. Lymphoma: Splenomegaly, plasmacytosis, elevated C-reactive protein. (Key symptoms not reported: lymphadenopathy, B symptoms like fever, night sweats, weight loss)
++5. Chronic kidney disease (CKD) with secondary complications: Elevated creatinine, hydroureter, dilatation of renal calices. (Key symptoms not reported: underlying cause of CKD, other systemic symptoms)",Rare connective tissue and musculoskeletal diseases
+['Polymyositis'],"+1. **Systemic Lupus Erythematosus (SLE)**: Anemia, thrombocytopenia, leukocytosis, elevated C-reactive protein, abnormal complement system. Key symptoms not reported: Malar rash, photosensitivity.
++2. **Multiple Myeloma**: Weight loss, anemia, elevated parathyroid hormone, decreased vitamin D levels. Key symptoms not reported: Bone pain, hypercalcemia.
++3. **Rheumatoid Arthritis (RA)**: Rheumatoid factor positive, myalgia, elevated C-reactive protein. Key symptoms not reported: Joint swelling, morning stiffness.
++4. **Chronic Kidney Disease (CKD)**: Decreased glomerular filtration rate, abnormal blood sodium concentration, elevated parathyroid hormone. Key symptoms not reported: Hypertension, proteinuria.
++5. **Infective Endocarditis**: Fever, night sweats, weight loss, elevated C-reactive protein. Key symptoms not reported: Heart murmur, Janeway lesions.",Neuromuscular diseases
+[],"+1. Systemic Lupus Erythematosus (SLE): Leukopenia, microcytic anemia, hypoglycemia, elevated ESR and CRP, generalized morning stiffness. (Key symptom not reported: Malar rash)
++2. Rheumatoid Arthritis (RA): Generalized morning stiffness, elevated ESR and CRP, wrist pain, shoulder pain, knee pain. (Key symptoms not reported: Rheumatoid nodules)
++3. Ankylosing Spondylitis: Sacroiliac arthritis, back pain, morning stiffness, elevated ESR and CRP. (Key symptom not reported: Reduced chest expansion)
++4. Mixed Connective Tissue Disease (MCTD): Joint pain, muscle abnormalities, systemic inflammation. (Key symptom not reported: Raynaud's phenomenon)
++5. Inflammatory Bowel Disease (IBD) with extraintestinal manifestations: Elevated ESR and CRP, joint pain, systemic inflammation. (Key symptom not reported: Gastrointestinal symptoms)",Autoinflammatory and autoimmune diseases
+"['Reactive arthritis', 'Familial Mediterranean fever', 'Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis', 'Systemic-onset juvenile idiopathic arthritis', 'Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis']","+1. Rheumatoid Arthritis: Generalized morning stiffness, multiple joint pains (knee, elbow, wrist, toe), abnormal metacarpophalangeal joint morphology, elevated creatine kinase, and increased IgG4 levels.
++2. IgG4-Related Disease: Increased circulating IgG4 levels, polyuria, polydipsia, multiple joint pains, and elevated creatine kinase.
++3. Systemic Lupus Erythematosus (SLE): Fatigue, joint pain, elevated creatine kinase, and increased IgG4 levels. Polyuria and polydipsia are not typical.
++4. Diabetes Mellitus: Polyuria and polydipsia. Elevated creatine kinase and increased IgG4 levels are not typical.
++5. Polycystic Ovary Syndrome (PCOS): Acne and polyuria. Other symptoms do not fit well with this diagnosis.",Rare connective tissue and musculoskeletal diseases
+"['Behçet disease', 'Familial Mediterranean fever']","+1. Behçet's Disease: Oral ulcer, genital ulcers, arthritis, fever, elevated ESR, CRP, second-degree AV block.
++2. Systemic Lupus Erythematosus (SLE): Oral ulcer, arthritis, fever, leukocytosis, elevated ESR, CRP. (Genital ulcers are less common.)
++3. Rheumatic Fever: Fever, arthritis, elevated ESR, CRP, second-degree AV block. (Oral and genital ulcers are not typical.)
++4. Infective Endocarditis: Fever, elevated ESR, CRP, syncope, second-degree AV block. (Oral and genital ulcers, arthritis are not typical.)
++5. Reactive Arthritis: Oral ulcer, arthritis, elevated ESR, CRP. (Genital ulcers and cardiac involvement are not typical.)",Autoinflammatory and autoimmune diseases
+['Granulomatosis with polyangiitis'],"+1. **Granulomatosis with polyangiitis (GPA)**: Hearing impairment, epistaxis, elevated CRP, c-ANCA positivity, fever, fatigue, myalgia, lower limb pain, ear pain. Key symptoms not reported: Granulomas on imaging or biopsy.
++2. **Systemic lupus erythematosus (SLE)**: Fever, fatigue, myalgia, elevated CRP. Key symptoms not reported: Malar rash, ANA positivity.
++3. **Rheumatoid arthritis (RA)**: Fever, fatigue, myalgia, elevated CRP. Key symptoms not reported: Joint swelling and deformities, rheumatoid factor positivity.
++4. **Infective endocarditis**: Fever, fatigue, myalgia, elevated CRP. Key symptoms not reported: Heart murmur, positive blood cultures.
++5. **Vasculitis (other types)**: Fever, fatigue, myalgia, elevated CRP, lower limb pain. Key symptoms not reported: Specific autoantibodies or biopsy findings.",Autoinflammatory and autoimmune diseases
+"['Mixed connective tissue disease', 'Pediatric systemic lupus erythematosus']","+1. Systemic Lupus Erythematosus (SLE): Renal insufficiency, proteinuria, glomerulonephritis, hematuria, arthritis, antinuclear antibody positivity, prolonged partial thromboplastin time, serositis. Key symptoms not reported: Malar rash, photosensitivity.
++2. Sjögren's Syndrome: Anti-La/SS-B antibody positivity, arthritis, dysphagia. Key symptoms not reported: Dry eyes, dry mouth.
++3. Mixed Connective Tissue Disease (MCTD): Renal involvement, arthritis, antinuclear antibody positivity, serositis. Key symptoms not reported: Raynaud's phenomenon, swollen hands.
++4. Amyloidosis: Renal insufficiency, proteinuria, hepatomegaly, splenomegaly, peripheral edema. Key symptoms not reported: Macroglossia, purpura.
++5. Goodpasture Syndrome: Glomerulonephritis, hematuria. Key symptoms not reported: Hemoptysis, anti-GBM antibodies.",Rare connective tissue and musculoskeletal diseases
+['IgG4-related retroperitoneal fibrosis'],"+1. **IgG4-related disease**: Increased circulating IgG4 level, visual loss, inflammatory abnormality of the skin, systemic symptoms.
++2. **Systemic Lupus Erythematosus (SLE)**: Polyuria, visual loss, dry skin, inflammatory skin abnormalities, fatigue, abnormal blood pressure.
++3. **Sjogren's Syndrome**: Keratoconjunctivitis sicca, dry skin, fatigue, myalgia.
++4. **Hyperthyroidism**: Heat intolerance, tremor, diarrhea, exertional dyspnea.
++5. **Diabetes Mellitus**: Polyuria, visual loss, fatigue.",Rare connective tissue and musculoskeletal diseases
+['Granulomatosis with polyangiitis'],"+1. Acute Sinusitis: Sinusitis, abnormality of the nose, fever, headache.
++2. Otitis Media: Otitis media, fever, headache.
++3. Upper Respiratory Infection (URI): Sinusitis, abnormality of the nose, fever, headache.
++4. Rheumatic Fever: Fever, elbow pain, knee pain, headache (though no sore throat reported).
++5. Allergic Rhinitis: Sinusitis, abnormality of the nose (fever is not typical for this condition).",Rare immunodeficiency
+['Hypophosphatasia'],"+1. Hypophosphatasia: Low alkaline phosphatase, osteoporosis, abnormal rib morphology, muscle pain, and spasms.
++2. Ehlers-Danlos Syndrome: Arthralgia, myalgia, abnormal rib morphology, scoliosis. (Note: Hypermobility and skin hyperextensibility not reported).
++3. Osteogenesis Imperfecta: Abnormal rib morphology, osteoporosis, scoliosis. (Note: History of frequent fractures not reported).
++4. Systemic Lupus Erythematosus (SLE): Antinuclear antibody positivity, arthralgia, myalgia. (Note: Skin rashes and organ involvement not reported).
++5. Ankylosing Spondylitis: Back pain, vertebral wedging, arthralgia. (Note: Chronic inflammation and stiffness not clearly indicated).",Rare bone disorders
+['CREST syndrome'],"+1. Chronic Kidney Disease (CKD): Renal hypoplasia, focal segmental glomerulosclerosis, nephrocalcinosis, hyperkalemia, elevated creatinine, decreased glomerular filtration rate.
++2. Systemic Lupus Erythematosus (SLE): Antinuclear antibody positivity, elevated erythrocyte sedimentation rate, abnormal complement system, thrombocytopenia.
++3. Polycystic Kidney Disease (PKD): Renal hypoplasia, nephrocalcinosis, hepatic cysts, decreased glomerular filtration rate.
++4. Primary Hyperparathyroidism: Elevated parathyroid hormone levels, nephrocalcinosis, hyperuricemia, hyperkalemia.
++5. Sarcoidosis: Hepatic steatosis, hepatic cysts, splenomegaly, elevated erythrocyte sedimentation rate, abnormal complement system.",Rare connective tissue and musculoskeletal diseases
+['Antisynthetase syndrome'],"+1. Tuberculosis: Fever, night sweats, weight loss, cough, ground-glass opacification, lymphocytosis.
++2. Systemic Lupus Erythematosus (SLE): Antinuclear antibody positivity, generalized muscle weakness, fatigue, fever, elevated C-reactive protein.
++3. Sarcoidosis: Abnormal CD4:CD8 ratio, lymphocytosis, ground-glass opacification, fatigue, cough.
++4. Rheumatoid Arthritis: Knee pain, toe pain, fatigue, elevated C-reactive protein, generalized muscle weakness.
++5. Congestive Heart Failure: Exertional dyspnea, peripheral edema, mitral regurgitation, ankle swelling, fatigue.",Rare connective tissue and musculoskeletal diseases
+"['CINCA syndrome', 'Tumor necrosis factor receptor 1 associated periodic syndrome', 'Familial cold urticaria', 'Muckle-Wells syndrome']","+1 Systemic Lupus Erythematosus (SLE): Arthritis, fever, elevated C-reactive protein, abnormal EKG, supraventricular arrhythmia. (Key symptoms not reported: Malar rash, photosensitivity)
++2 Rheumatic Fever: Fever, arthritis, abnormal EKG, supraventricular arrhythmia. (Key symptoms not reported: Erythema marginatum, subcutaneous nodules)
++3 Adult-onset Still's Disease: Fever, arthritis, elevated C-reactive protein, urticaria. (Key symptoms not reported: Salmon-colored bumpy rash, sore throat)
++4 Vasculitis (e.g., Polyarteritis Nodosa): Fever, arthritis, elevated C-reactive protein, cardiac issues. (Key symptoms not reported: Skin ulcers, weight loss)
++5 Lyme Disease: Arthritis, fever, cardiac issues (e.g., arrhythmias). (Key symptoms not reported: Erythema migrans, facial palsy)",Autoinflammatory and autoimmune diseases
+"['Buerger disease', 'Polyarteritis nodosa']","+1. **HIV/AIDS**: Generalized lymphadenopathy, chronic oral candidiasis, cachexia, fatigue, deep venous thrombosis, arterial thrombosis, hepatomegaly.
++2. **Systemic Lupus Erythematosus (SLE)**: Vasculitis, generalized lymphadenopathy, fatigue, fever, peripheral edema, erythema.
++3. **Antiphospholipid Syndrome (APS)**: Deep venous thrombosis, arterial thrombosis, portal vein thrombosis, acrocyanosis, peripheral edema.
++4. **Systemic Vasculitis**: Vasculitis, fever, fatigue, hepatomegaly, erythema, peripheral edema.
++5. **Lymphoma**: Generalized lymphadenopathy, hepatomegaly, fatigue, cachexia, chronic oral candidiasis, fever.",Rare multisystemic vascular diseases
+['Takayasu arteritis'],"+1. **Giant Cell Arteritis (GCA)**: Weight loss, myalgia, elevated ESR, migraine, carotid artery stenosis. (Key symptoms not reported: jaw claudication, visual disturbances)
++2. **Wegener's Granulomatosis (Granulomatosis with Polyangiitis)**: Epistaxis, weight loss, myalgia, elevated ESR, ear pain. (Key symptoms not reported: renal involvement, lower respiratory tract symptoms)
++3. **Takayasu Arteritis**: Weight loss, myalgia, elevated ESR, carotid artery stenosis, neck pain. (Key symptoms not reported: limb claudication, blood pressure discrepancies)
++4. **Systemic Lupus Erythematosus (SLE)**: Weight loss, myalgia, elevated ESR, vasculitis, migraine. (Key symptoms not reported: malar rash, renal involvement)
++5. **Carotid Artery Dissection**: Neck pain, migraine, ear pain, vertigo. (Key symptoms not reported: Horner's syndrome, transient ischemic attacks)",Rare multisystemic vascular diseases
+['Relapsing polychondritis'],"+1 Systemic Lupus Erythematosus (SLE): Renal insufficiency, oral ulcers, facial erythema, elevated ESR and CRP, pleural effusion, lymphadenopathy, microscopic hematuria, myalgia, fatigue. Key symptoms not reported: Malar rash, photosensitivity.
++2 Granulomatosis with Polyangiitis (GPA): Renal insufficiency, oral ulcers, nasal abnormalities, elevated ESR and CRP, pleural effusion, lymphadenopathy, microscopic hematuria, myalgia, fatigue. Key symptoms not reported: Nasal crusting, sinusitis.
++3 Rheumatoid Arthritis (RA): Elevated ESR and CRP, joint pain (elbow, ankle, foot), enthesitis, fatigue. Key symptoms not reported: Symmetrical joint involvement, rheumatoid nodules.
++4 Ankylosing Spondylitis: Sacroiliac arthritis, enthesitis, back pain, elevated ESR and CRP, fatigue. Key symptoms not reported: Morning stiffness, reduced spinal mobility.
++5 Gout: Hyperuricemia, hyperuricosuria, joint pain (foot, ankle, elbow), elevated ESR and CRP. Key symptoms not reported: Acute monoarticular arthritis, tophi.",Rare connective tissue and musculoskeletal diseases
+[],"+1 Multiple Sclerosis (MS): Optic neuropathy, focal white matter lesions, CSF pleocytosis, reduced visual acuity. (Key symptoms not reported: none specific to MS)
++2 Neuromyelitis Optica (NMO): Optic neuropathy, focal white matter lesions, CSF pleocytosis, reduced visual acuity. (Key symptoms not reported: none specific to NMO)
++3 Systemic Lupus Erythematosus (SLE): Optic neuropathy, elevated hepatic transaminase levels, lupus anticoagulant, CSF pleocytosis. (Key symptoms not reported: malar rash, arthritis)
++4 Sarcoidosis: Optic neuropathy, focal white matter lesions, elevated hepatic transaminase levels, CSF pleocytosis. (Key symptoms not reported: erythema nodosum, bilateral hilar lymphadenopathy)
++5 Antiphospholipid Syndrome (APS): Lupus anticoagulant, elevated hepatic transaminase levels, hypercholesterolemia, increased LDL cholesterol. (Key symptoms not reported: recurrent thrombosis, pregnancy complications)",Rare neurological diseases
+"['Diffuse cutaneous systemic sclerosis', 'Limited cutaneous systemic sclerosis', 'CREST syndrome', 'Systemic sclerosis']","+1. Systemic Lupus Erythematosus (SLE): Consistent with weight loss, arthralgia, ANA positivity, fatigue, and exercise intolerance. Key symptoms not reported: malar rash, photosensitivity.
++2. Mixed Connective Tissue Disease (MCTD): Consistent with arthralgia, ANA positivity, fatigue, and exercise intolerance. Key symptoms not reported: Raynaud's phenomenon, swollen hands.
++3. Chronic Kidney Disease (CKD): Consistent with elevated creatinine concentration, fatigue, and exercise intolerance. Key symptoms not reported: none specific to CKD, but does not explain ANA positivity or arthralgia.
++4. Rheumatoid Arthritis (RA): Consistent with arthralgia and fatigue. Key symptoms not reported: joint swelling, morning stiffness.
++5. Sjögren's Syndrome: Consistent with arthralgia, ANA positivity, and fatigue. Key symptoms not reported: dry eyes, dry mouth.",Rare connective tissue and musculoskeletal diseases
+['Cryoglobulinemic vasculitis'],"<thinking>
+a. Key symptoms that stand out include renal insufficiency, proteinuria, nephrotic syndrome, hematuria, membranoproliferative glomerulonephritis, hypertension, purpura, splenomegaly, and cryoglobulinemia. These symptoms suggest a complex systemic condition affecting multiple organ systems, particularly the kidneys and the vascular system.
+
+b. Possible diagnoses:
+1. **Cryoglobulinemia**: This condition is characterized by the presence of cryoglobulins in the blood, which can lead to vasculitis, renal involvement (glomerulonephritis), and systemic symptoms such as purpura, splenomegaly, and lymphadenopathy. The patient's symptoms of cryoglobulinemia, renal insufficiency, proteinuria, and nephrotic syndrome fit well with this diagnosis.
+2. **Systemic Lupus Erythematosus (SLE)**: SLE can present with renal involvement (lupus nephritis), proteinuria, hematuria, hypertension, and systemic symptoms like purpura, splenomegaly, and lymphadenopathy. However, the absence of specific lupus markers (e.g., anti-dsDNA antibodies) and the presence of cryoglobulinemia make this less likely.
+3. **Wegener's Granulomatosis (Granulomatosis with Polyangiitis)**: This condition can cause renal insufficiency, hematuria, proteinuria, pulmonary infiltrates, and systemic symptoms. However, the presence of cryoglobulinemia and the specific pattern of glomerulonephritis make this less likely.
+4. **Goodpasture Syndrome**: This condition involves renal and pulmonary symptoms, such as hematuria, proteinuria, and pulmonary infiltrates. However, the presence of cryoglobulinemia and the systemic nature of the symptoms make this less likely.
+5. **Multiple Myeloma**: This condition can present with renal insufficiency, proteinuria, elevated beta-2-microglobulin, and systemic symptoms. However, the presence of cryoglobulinemia and the specific pattern of glomerulonephritis make this less likely.
+
+c. Additional tests that could help narrow down the diagnosis include:
+- Serum cryoglobulin levels and typing
+- Complement levels (C3, C4)
+- Autoantibody panel (ANA, anti-dsDNA, ANCA)
+- Renal biopsy to confirm the type of glomerulonephritis
+- Bone marrow biopsy if multiple myeloma is suspected
+</thinking>
+
+<top5>
++1. **Cryoglobulinemia**: Renal insufficiency, proteinuria, nephrotic syndrome, hematuria, membranoproliferative glomerulonephritis, hypertension, purpura, splenomegaly, cryoglobulinemia, decreased complement levels (C3, C4), elevated beta-2-microglobulin.
++2. **Systemic Lupus Erythematosus (SLE)**: Renal insufficiency, proteinuria, nephrotic syndrome, hematuria, hypertension, purpura, splenomegaly, decreased complement levels (C3, C4), elevated C-reactive protein. Key symptoms not reported: specific lupus markers (e.g., anti-dsDNA antibodies).
++3. **Wegener's Granulomatosis (Granulomatosis with Polyangiitis)**: Renal insufficiency, hematuria, proteinuria, pulmonary infiltrates, pleural effusion, abnormal lung lobation, abnormality of the pulmonary vasculature. Key symptoms not reported: ANCA positivity.
++4. **Goodpasture Syndrome**: Renal insufficiency, hematuria, proteinuria, pulmonary infiltrates, pleural effusion. Key symptoms not reported",Rare connective tissue and musculoskeletal diseases
+['Granulomatosis with polyangiitis'],"+1. Congestive Heart Failure (CHF): Pericardial effusion, pleural effusion, cyanosis, abnormal cardiovascular system physiology. Key symptoms not reported: Shortness of breath, edema.
++2. Systemic Lupus Erythematosus (SLE): Arthralgia, pleural effusion, peripheral neuropathy. Key symptoms not reported: Malar rash, photosensitivity.
++3. Infective Endocarditis: Pericardial effusion, abnormal cardiovascular system physiology, gangrene, cyanosis. Key symptoms not reported: Fever, heart murmur.
++4. Peripheral Arterial Disease (PAD): Abnormal toe morphology, gangrene, cyanosis. Key symptoms not reported: Claudication, reduced pulses in extremities.
++5. Rheumatoid Arthritis (RA): Arthralgia, peripheral neuropathy. Key symptoms not reported: Morning stiffness, joint swelling.",Autoinflammatory and autoimmune diseases
+['IgG4-related retroperitoneal fibrosis'],"<thinking>
+a. Key symptoms and combinations:
+- Hypothyroidism: Elevated circulating thyroid-stimulating hormone concentration, decreased circulating free T3, thyroiditis.
+- Pruritus: Itching sensation, which can be associated with various conditions including liver disease and autoimmune disorders.
+- Cholelithiasis: Gallstones, which can cause abdominal pain and potentially lead to acute pancreatitis.
+- Mood changes: Can be associated with hypothyroidism, among other conditions.
+- Dilated cardiomyopathy: Abnormal EKG, bradycardia, atrioventricular dissociation.
+- Bradycardia: Slow heart rate, which can be linked to hypothyroidism and cardiomyopathy.
+- Acute pancreatitis: Nausea, elevated gamma-glutamyltransferase level.
+- Weight loss: Can be associated with hyperthyroidism, malignancies, or chronic diseases.
+- Macrocytic anemia: Enlarged red blood cells, often due to vitamin B12 or folate deficiency.
+- Leukocytosis: Elevated white blood cell count, indicating infection or inflammation.
+- Nausea: Non-specific symptom, can be related to many conditions including pancreatitis and cholelithiasis.
+- Loss of speech and incomprehensible speech: Neurological symptoms that could indicate a stroke or other central nervous system pathology.
+- Vasculitis: Inflammation of blood vessels, indicated by elevated erythrocyte sedimentation rate and C-reactive protein concentration.
+- Obstructive sleep apnea: Can cause fatigue and mood changes.
+- Elevated parathyroid hormone level: Could indicate hyperparathyroidism.
+- Antinuclear antibody positivity: Suggests an autoimmune disorder.
+- Elevated erythrocyte sedimentation rate and C-reactive protein: Indicators of inflammation.
+- Atrioventricular dissociation: Abnormal heart rhythm, seen in cardiomyopathy.
+- Elevated gamma-glutamyltransferase level: Can indicate liver disease or pancreatitis.
+- Unhappy demeanor: Could be related to mood changes or depression.
+- Increased circulating IgG4 level: Associated with IgG4-related disease.
+- Carotid artery stenosis: Narrowing of the carotid arteries, which can lead to stroke.
+- Thyroiditis: Inflammation of the thyroid gland, often associated with hypothyroidism.
+
+b. Possible diagnoses:
+- Hypothyroidism: Fits well with elevated TSH, decreased free T3, thyroiditis, mood changes, bradycardia.
+- Autoimmune disease (e.g., systemic lupus erythematosus): Antinuclear antibody positivity, elevated ESR and CRP, vasculitis.
+- Dilated cardiomyopathy: Abnormal EKG, bradycardia, atrioventricular dissociation.
+- Acute pancreatitis: Nausea, elevated gamma-glutamyltransferase level.
+- Hyperparathyroidism: Elevated parathyroid hormone level, could explain some symptoms but not all.
+
+c. Additional tests:
+- Thyroid function tests (T3, T4, TSH).
+- Imaging studies (ultrasound, CT scan) for cholelithiasis and pancreatitis.
+- Cardiac evaluation (echocardiogram) for cardiomyopathy.
+- Autoimmune panel (ANA, anti-dsDNA, etc.) for suspected autoimmune disease.
+- Neurological evaluation and imaging (MRI) for speech issues.
+
+</thinking>
+
+<top5>
++1: Hypothyroidism: Elevated TSH, decreased free T3, thyroiditis, mood changes, bradycardia.
++2: Autoimmune disease (e.g., systemic lupus erythematosus): Antinuclear antibody positivity, elevated ESR and CRP, vasculitis, pruritus.
++3: Dilated cardiomyopathy: Abnormal EKG, bradycardia, atrioventricular dissociation, mood changes.
++4: Acute pancreatitis: Nausea, elevated gamma-glut",Autoinflammatory and autoimmune diseases
+['Cryoglobulinemic vasculitis'],"<thinking>
+a. Key symptoms that stand out include: 'Abnormality of the hand', 'Weight loss', 'Elevated circulating hepatic transaminase concentration', 'Rheumatoid factor positive', 'Increased circulating ferritin concentration', 'Elevated erythrocyte sedimentation rate', 'Abnormality of complement system', 'Increased alpha-globulin', 'Limited wrist movement', 'Elevated circulating C-reactive protein concentration', 'Upper limb pain', 'Dysesthesia', 'Neck pain', 'Arterial stenosis', 'Cryoglobulinemia', and 'Skin erosion'. 
+
+b. Possible diagnoses:
+1. Rheumatoid Arthritis (RA): The presence of 'Rheumatoid factor positive', 'Elevated erythrocyte sedimentation rate', 'Elevated circulating C-reactive protein concentration', 'Limited wrist movement', and 'Upper limb pain' are highly suggestive of RA. However, 'Weight loss' and 'Elevated circulating hepatic transaminase concentration' are less typical but can occur in severe or systemic cases.
+2. Systemic Lupus Erythematosus (SLE): 'Abnormality of complement system', 'Elevated erythrocyte sedimentation rate', 'Elevated circulating C-reactive protein concentration', 'Skin erosion', and 'Cryoglobulinemia' are consistent with SLE. However, 'Rheumatoid factor positive' is less common in SLE.
+3. Mixed Connective Tissue Disease (MCTD): This condition can present with overlapping features of RA, SLE, and other connective tissue diseases. Symptoms like 'Rheumatoid factor positive', 'Abnormality of complement system', 'Elevated erythrocyte sedimentation rate', and 'Cryoglobulinemia' fit this diagnosis.
+4. Hepatitis: 'Elevated circulating hepatic transaminase concentration', 'Weight loss', and 'Increased circulating ferritin concentration' suggest liver involvement. However, the presence of 'Rheumatoid factor positive' and 'Abnormality of the hand' are less typical.
+5. Vasculitis: 'Arterial stenosis', 'Cryoglobulinemia', 'Skin erosion', and 'Elevated erythrocyte sedimentation rate' are indicative of vasculitis. However, 'Rheumatoid factor positive' and 'Abnormality of the hand' are less specific.
+
+c. Additional tests or information:
+- Autoantibody panel (e.g., ANA, anti-dsDNA, anti-Smith) to further evaluate for SLE or MCTD.
+- Liver function tests and viral hepatitis panel to assess liver involvement.
+- Imaging studies (e.g., MRI, ultrasound) to evaluate arterial stenosis and joint abnormalities.
+- Biopsy of skin lesions or affected tissues to confirm vasculitis or other inflammatory conditions.
+</thinking>
+
+<top5>
++1. Rheumatoid Arthritis (RA): 'Rheumatoid factor positive', 'Elevated erythrocyte sedimentation rate', 'Elevated circulating C-reactive protein concentration', 'Limited wrist movement', 'Upper limb pain'. Key symptoms not reported: Joint swelling, morning stiffness.
++2. Systemic Lupus Erythematosus (SLE): 'Abnormality of complement system', 'Elevated erythrocyte sedimentation rate', 'Elevated circulating C-reactive protein concentration', 'Skin erosion', 'Cryoglobulinemia'. Key symptoms not reported: Malar rash, photosensitivity.
++3. Mixed Connective Tissue Disease (MCTD): 'Rheumatoid factor positive', 'Abnormality of complement system', 'Elevated erythrocyte sedimentation rate', 'Cryoglobulinemia'. Key symptoms not reported: Raynaud's phenomenon, swollen hands.
++4. Hepatitis: 'Elevated circulating hepatic transaminase concentration', 'Weight loss', 'Increased circulating ferritin concentration'.",Autoinflammatory and autoimmune diseases
+['Cryoglobulinemic vasculitis'],"+1. **Cryoglobulinemia**: Consistent with cryoglobulins, vasculitis, decreased complement levels, viral hepatitis, peripheral neuropathy, and elevated inflammatory markers.
++2. **Systemic Lupus Erythematosus (SLE)**: Consistent with antinuclear antibodies, decreased complement levels, vasculitis, thrombocytopenia, and elevated inflammatory markers. Less typical are anti-smooth muscle and antimitochondrial antibodies.
++3. **Autoimmune Hepatitis**: Consistent with elevated hepatic transaminase levels, anti-smooth muscle antibody positivity, and antinuclear antibody positivity. Less typical are cryoglobulinemia and peripheral neuropathy.
++4. **Mixed Connective Tissue Disease (MCTD)**: Consistent with positive antinuclear antibodies, vasculitis, systemic symptoms like fatigue and edema, and overlapping features of other autoimmune diseases.
++5. **Vasculitis (e.g., Polyarteritis Nodosa)**: Consistent with vasculitis, elevated inflammatory markers, systemic symptoms like fatigue and lower limb pain. The specific autoantibody profile may not fit perfectly.",Rare connective tissue and musculoskeletal diseases
+['Tumor necrosis factor receptor 1 associated periodic syndrome'],"<thinking>
+The patient's symptoms present a complex clinical picture with a wide range of systemic manifestations. Key symptoms include:
+
+- Epididymitis
+- Conjunctivitis
+- Pericarditis
+- Splenomegaly
+- Weight loss
+- Fever
+- Leukocytosis
+- Diarrhea
+- Abdominal pain
+- Hypoalbuminemia
+- Generalized amyloid deposition
+- Elevated circulating creatinine concentration
+- Elevated erythrocyte sedimentation rate (ESR)
+- Erythema
+- Elevated circulating C-reactive protein (CRP) concentration
+- Intestinal lymphoid nodular hyperplasia
+- Fatigue
+- Proteinuria (both moderate and heavy)
+- Night sweats
+- Hip pain
+- Abnormal mesentery morphology
+- Periorbital edema
+
+a. Key symptoms or combinations:
+- The combination of systemic inflammation markers (elevated ESR, CRP), fever, weight loss, and fatigue suggests a chronic inflammatory or infectious process.
+- The presence of generalized amyloid deposition and proteinuria points towards a systemic condition that affects multiple organs.
+- The involvement of multiple organ systems (e.g., pericarditis, splenomegaly, conjunctivitis, epididymitis) suggests a systemic disease rather than isolated organ-specific conditions.
+
+b. Possible diagnoses:
+1. **Systemic Lupus Erythematosus (SLE)**: This autoimmune disease can present with a wide range of symptoms including pericarditis, splenomegaly, fever, weight loss, and proteinuria. However, SLE typically does not cause generalized amyloid deposition.
+2. **Sarcoidosis**: This inflammatory disease can affect multiple organs and present with symptoms like pericarditis, splenomegaly, and elevated inflammatory markers. However, amyloid deposition is not a common feature.
+3. **Infective Endocarditis**: This condition can cause fever, weight loss, splenomegaly, and elevated inflammatory markers. However, it typically does not cause generalized amyloid deposition or the wide range of other symptoms.
+4. **Amyloidosis**: This condition can cause generalized amyloid deposition, proteinuria, and multi-organ involvement. The presence of systemic inflammation and other symptoms could be secondary to amyloidosis.
+5. **Inflammatory Bowel Disease (IBD)**: Conditions like Crohn's disease can cause intestinal lymphoid nodular hyperplasia, abdominal pain, diarrhea, and systemic inflammation. However, generalized amyloid deposition is not typical.
+
+c. Additional tests:
+- Biopsy of affected tissues to confirm amyloid deposition.
+- Autoimmune panel to check for SLE or other autoimmune diseases.
+- Blood cultures to rule out infective endocarditis.
+- Imaging studies (e.g., CT, MRI) to assess organ involvement.
+- Colonoscopy or endoscopy to evaluate for IBD.
+
+</thinking>
+
+<top5>
++1. **Amyloidosis**: Generalized amyloid deposition, proteinuria, multi-organ involvement, systemic inflammation (elevated ESR, CRP), fatigue, weight loss.
++2. **Systemic Lupus Erythematosus (SLE)**: Pericarditis, splenomegaly, fever, weight loss, proteinuria, elevated inflammatory markers. (Note: Generalized amyloid deposition is not typical).
++3. **Sarcoidosis**: Pericarditis, splenomegaly, elevated inflammatory markers, multi-organ involvement. (Note: Generalized amyloid deposition is not typical).
++4. **Infective Endocarditis**: Fever, weight loss, splenomegaly, elevated inflammatory markers. (Note: Generalized amyloid deposition and some other symptoms are not typical).
++5. **Inflammatory Bowel Disease (IBD)**: Intestinal lymphoid nodular hyper",Autoinflammatory and autoimmune diseases
+['Familial Mediterranean fever'],"+1: Systemic lupus erythematosus (SLE): Consistent with fever, arthralgia, myalgia, elevated CRP, night sweats, splenomegaly, and exertional dyspnea. Key symptoms not reported: butterfly rash, renal involvement.
++2: Infectious mononucleosis: Consistent with fever, splenomegaly, myalgia, and elevated CRP. Key symptoms not reported: sore throat, lymphadenopathy.
++3: Rheumatoid arthritis (RA): Consistent with fever, arthralgia, myalgia, elevated CRP, and night sweats. Key symptoms not reported: symmetrical joint involvement, morning stiffness.
++4: Infective endocarditis: Consistent with fever, elevated CRP, exertional dyspnea, night sweats, and splenomegaly. Key symptoms not reported: heart murmurs, embolic phenomena.
++5: Chronic liver disease: Consistent with hepatic steatosis, splenomegaly, fever, myalgia, and elevated CRP. Key symptoms not reported: jaundice, ascites.",Autoinflammatory and autoimmune diseases
+['Antisynthetase syndrome'],"+1: Polycystic Kidney Disease (PKD): Renal cyst, nocturia, renal neoplasm, perinephric fluid collection.
++2: Rheumatoid Arthritis (RA): Joint swelling, arthralgia, rheumatoid factor positive, generalized morning stiffness, enlarged metacarpophalangeal joints.
++3: Systemic Lupus Erythematosus (SLE): Facial erythema, pleuritis, arthralgia, increased circulating IgG4 level, abnormality of complement system.
++4: Hepatic Cirrhosis: Hepatic steatosis, ascites, hepatomegaly, increased total bilirubin, neoplasm of the liver, elevated gamma-glutamyltransferase level.
++5: Hyperuricemia/Gout: Hyperuricemia, hyperuricosuria, elevated circulating C-reactive protein concentration, joint swelling, finger pain, abnormal toe morphology.",Autoinflammatory and autoimmune diseases
+['Granulomatosis with polyangiitis'],"+1. Granulomatosis with polyangiitis (GPA): Proteinuria, hematuria, decreased GFR, cytoplasmic antineutrophil antibody positivity, abnormal sinus and nasal morphology.
++2. Systemic lupus erythematosus (SLE): Proteinuria, hematuria, anemia, elevated CRP, multi-organ involvement.
++3. Goodpasture syndrome: Proteinuria, hematuria, decreased GFR, cytoplasmic antineutrophil antibody positivity (though less likely due to lack of pulmonary symptoms).
++4. IgA nephropathy: Proteinuria, hematuria (less likely due to lack of systemic symptoms).
++5. Alport syndrome: Proteinuria, hematuria, decreased GFR (less likely due to lack of systemic inflammation and sinus issues).",Autoinflammatory and autoimmune diseases
+['Behçet disease'],"+1. Sjögren's Syndrome: Consistent with xerostomia, decreased lacrimation, arthritis, oral ulcers. Key symptoms not reported: dry eyes, parotid gland enlargement.
++2. Systemic Lupus Erythematosus (SLE): Consistent with oral ulcers, arthritis, nephrolithiasis, visual and auditory symptoms. Key symptoms not reported: butterfly rash, photosensitivity.
++3. Hyperthyroidism: Consistent with elevated thyroid-stimulating hormone concentration, exertional dyspnea, exercise intolerance. Key symptoms not reported: weight loss, heat intolerance.
++4. Multiple Sclerosis (MS): Consistent with hemiparesis, gait disturbance, visual loss, diplopia. Key symptoms not reported: muscle spasms, fatigue.
++5. Sarcoidosis: Consistent with arthritis, visual loss, skin vesicles, pustules. Key symptoms not reported: lymphadenopathy, pulmonary involvement.",Autoinflammatory and autoimmune diseases
+['Takayasu arteritis'],"+1. **Systemic Lupus Erythematosus (SLE)**: Antinuclear antibody positivity, elevated erythrocyte sedimentation rate, elevated C-reactive protein concentration, anemia, and renal involvement (elevated creatinine).
++2. **Chronic Kidney Disease (CKD)**: Increased blood urea nitrogen, elevated creatinine concentration, hypertension, renal artery stenosis, and anemia.
++3. **Infection (e.g., Pyelonephritis or Sepsis)**: Fever, leukocytosis, elevated C-reactive protein concentration, flank pain, and elevated hepatic transaminase concentration.
++4. **Multiple Myeloma**: Elevated IgG levels, anemia, back pain, and elevated creatinine concentration.
++5. **Autoimmune Hepatitis**: Elevated hepatic transaminase concentration, antinuclear antibody positivity, elevated gamma-glutamyltransferase level, and elevated C-reactive protein concentration.",Rare multisystemic vascular diseases
+"['Primary sclerosing cholangitis', 'Polymyositis']","+1. **Autoimmune Hepatitis**: Hepatic steatosis, elevated hepatic transaminase concentration, antinuclear antibody positivity, antimitochondrial antibody positivity, elevated gamma-glutamyltransferase level.
++2. **Polymyositis/Dermatomyositis**: Elevated creatine kinase concentration, myalgia, necrotizing myopathy, abnormality of the upper limb.
++3. **Systemic Lupus Erythematosus (SLE)**: Antinuclear antibody positivity, myalgia, abnormal EKG (atrial fibrillation, left bundle branch block), elevated creatinine concentration.
++4. **Chronic Kidney Disease (CKD)**: Decreased glomerular filtration rate, moderate to heavy proteinuria, elevated creatinine concentration.
++5. **Cardiovascular Disease**: Atrial fibrillation, coronary artery stenosis, left bundle branch block, increased NT-proBNP concentration, abnormal EKG.",Rare hepatological diseases
+[],"<thinking>
+The patient's symptoms are extensive and involve multiple systems, including cardiovascular, gastrointestinal, musculoskeletal, neurological, and metabolic systems. Key symptoms that stand out include:
+
+- Cardiovascular: Hypertension, aortic regurgitation, abnormal EKG, ventricular tachycardia, premature ventricular contraction, right bundle branch block, exertional dyspnea, chest pain.
+- Gastrointestinal: Diarrhea, nausea, constipation, hepatic steatosis, abnormal intestine morphology, gastrointestinal inflammation, gastritis, abdominal distention.
+- Neurological: Hearing abnormality, visual loss, gait disturbance, headache, vertigo, somatic sensory dysfunction, dysesthesia, panic attack, insomnia.
+- Musculoskeletal: Abnormality of the lower limb, arthralgia, sacroiliac arthritis, upper limb pain, lower limb pain, neck pain, hip pain, groin pain, back pain.
+- Metabolic: Elevated circulating hepatic transaminase concentration, increased LDL cholesterol concentration, elevated circulating creatine kinase concentration, increased circulating ferritin concentration, decreased circulating vitamin D concentration, hyperhidrosis, heat intolerance.
+
+Possible diagnoses and considerations:
+1. **Systemic Lupus Erythematosus (SLE)**: This autoimmune disease can present with a wide range of symptoms, including joint pain, skin rashes, and organ involvement. However, the patient does not report skin rashes or photosensitivity, which are common in SLE.
+2. **Rheumatoid Arthritis (RA)**: RA can cause joint pain, abnormal joint morphology, and systemic symptoms like fatigue and fever. The presence of sacroiliac arthritis and abnormal metacarpophalangeal joint morphology supports this, but gastrointestinal symptoms are less common.
+3. **Sarcoidosis**: This inflammatory disease can affect multiple organs, including the lungs, heart, and liver. Symptoms like exertional dyspnea, abnormal EKG, and elevated liver enzymes are consistent, but the patient does not report common sarcoidosis symptoms like skin lesions or lymphadenopathy.
+4. **Amyloidosis**: This condition involves abnormal protein deposits in organs and can cause a wide range of symptoms, including cardiac issues, gastrointestinal problems, and neuropathy. The combination of cardiac abnormalities, gastrointestinal symptoms, and neuropathy fits well.
+5. **Hypothyroidism**: This condition can cause a variety of symptoms, including fatigue, weight gain, and cold intolerance. However, the patient reports heat intolerance, which is more consistent with hyperthyroidism.
+
+Additional tests that could help narrow down the diagnosis include:
+- Autoimmune panel (ANA, RF, anti-CCP)
+- Serum protein electrophoresis (SPEP) and urine protein electrophoresis (UPEP)
+- Thyroid function tests (TSH, free T4)
+- Imaging studies (e.g., echocardiogram, abdominal ultrasound)
+- Biopsy of affected tissues (e.g., liver, intestine)
+
+</thinking>
+
+<top5>
++1. Amyloidosis: Consistent with cardiac abnormalities (aortic regurgitation, abnormal EKG, ventricular tachycardia), gastrointestinal symptoms (diarrhea, nausea, constipation), and neuropathy (somatic sensory dysfunction, dysesthesia).
++2. Systemic Lupus Erythematosus (SLE): Consistent with joint pain (arthralgia, sacroiliac arthritis), neurological symptoms (headache, vertigo), and systemic involvement (elevated hepatic transaminase, increased ferritin). Lack of skin rashes or photosensitivity noted.
++3. Sarcoidosis: Consistent with exertional dyspnea, abnormal EKG, elevated liver enzymes, and gastrointestinal symptoms. Lack of skin lesions or lymphadenopathy noted.
++4. Rheumatoid Arthritis (RA): Consistent with joint pain (arthralgia, sacroiliac arthritis), abnormal joint morphology, and systemic symptoms. Gastrointestinal symptoms are less",Rare multisystemic vascular diseases
+"['CINCA syndrome', 'Familial cold urticaria', 'Muckle-Wells syndrome']","+1: Sarcoidosis: Consistent with fever, night sweats, hepatomegaly, elevated liver enzymes, hypercalcemia, and lymphadenopathy. Goiter and cholelithiasis are less typical.
++2: Systemic Lupus Erythematosus (SLE): Consistent with arthritis, fever, anemia, leukocytosis, elevated liver enzymes, and lymphadenopathy. Hypercalcemia and goiter are not common features.
++3: Rheumatoid Arthritis (RA): Consistent with arthritis, arthralgia, myalgia, elevated C-reactive protein, and anemia. Hepatomegaly, hypercalcemia, and goiter are not typical.
++4: Hyperthyroidism: Consistent with goiter, elevated liver enzymes, hypercalcemia, and exercise intolerance. Does not typically cause fever, night sweats, or lymphadenopathy.
++5: Lymphoma: Consistent with fever, night sweats, lymphadenopathy, hepatomegaly, and elevated liver enzymes. Goiter and cholelithiasis are not typical.",Autoinflammatory and autoimmune diseases
+['Fabry disease'],"+1 Chronic Kidney Disease (CKD): Renal insufficiency, elevated creatinine, decreased GFR, hyperkalemia, increased BUN, mild proteinuria, anemia, hypoalbuminemia, elevated PTH levels.
++2 Focal Segmental Glomerulosclerosis (FSGS): Renal insufficiency, mild proteinuria, hypoalbuminemia, decreased GFR.
++3 Hypothyroidism: Hypothyroidism, anemia, potential contribution to renal insufficiency.
++4 Secondary Hyperparathyroidism: Elevated PTH levels, decreased vitamin D concentration, associated with CKD.
++5 Anemia of Chronic Disease: Anemia, associated with CKD and hypothyroidism.",Hereditary metabolic disorders
+['Thrombotic thrombocytopenic purpura'],"+1. Thrombotic Thrombocytopenic Purpura (TTP): Thrombocytopenia, schistocytosis, elevated lactate dehydrogenase, reduced haptoglobin, neurological symptoms (vertigo, loss of consciousness).
++2. Hemolytic Uremic Syndrome (HUS): Thrombocytopenia, schistocytosis, renal impairment (elevated creatinine, increased blood urea nitrogen, decreased glomerular filtration rate).
++3. Systemic Lupus Erythematosus (SLE): Thrombocytopenia, elevated hepatic transaminase levels, renal impairment, neurological symptoms (vertigo, loss of consciousness). Absence of rash or joint pain.
++4. Sepsis: Increased procalcitonin, multi-organ dysfunction (liver and kidney impairment), thrombocytopenia, elevated lactate dehydrogenase.
++5. Wilson's Disease: Elevated hepatic transaminase levels, neurological symptoms (postural instability, vertigo). Less typical: schistocytosis, thrombocytopenia.",Rare haematological diseases
+[],"+1. Infective Endocarditis: Consistent with endocarditis, fever, splenomegaly, systolic heart murmur, ventricular septal defect, and aortic regurgitation.
++2. Systemic Lupus Erythematosus (SLE): Consistent with secondary amenorrhea, arthralgia, anterior uveitis, nephritis, and elevated ESR. Key symptoms not reported: Malar rash, photosensitivity.
++3. Rheumatic Fever: Consistent with fever, arthralgia, heart murmur. Key symptoms not reported: History of streptococcal infection, erythema marginatum.
++4. Granulomatosis with Polyangiitis (Wegener's): Consistent with fever, weight loss, cough, dyspnea, nephritis, and elevated ESR. Key symptoms not reported: Nasal or oral inflammation, granulomatous inflammation on biopsy.
++5. Takayasu Arteritis: Consistent with abnormal facility in opposing the shoulders, upper limb pain, neck pain, fever, and weight loss. Key symptoms not reported: Claudication of extremities, decreased or absent pulses.",Rare connective tissue and musculoskeletal diseases
+['Primary erythromelalgia'],"+1. **Vitamin B12 Deficiency**: Abnormal circulating vitamin B12 concentration, hyporeflexia, lower limb amyotrophy, dysesthesia. Key symptoms not reported: macrocytic anemia, glossitis.
++2. **Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)**: Hyporeflexia, lower limb amyotrophy, dysesthesia, elevated creatine kinase. Key symptoms not reported: progressive weakness, sensory loss.
++3. **Systemic Lupus Erythematosus (SLE)**: Neutropenia, arthralgia, lymphocytosis. Key symptoms not reported: malar rash, photosensitivity.
++4. **Celiac Disease**: Steatorrhea, dyspepsia, abnormal circulating vitamin B12 concentration. Key symptoms not reported: weight loss, diarrhea.
++5. **Myasthenia Gravis**: Diplopia, hyporeflexia, upper airway obstruction. Key symptoms not reported: muscle weakness that worsens with activity, ptosis.",Rare neurological diseases
+"['Diffuse cutaneous systemic sclerosis', 'Limited cutaneous systemic sclerosis', 'Polymyositis', 'Scleroderma', 'Localized scleroderma', 'CREST syndrome', 'Systemic sclerosis']","+1. Systemic Lupus Erythematosus (SLE): Proteinuria, hypertension, antinuclear antibody positivity, fatigue, fever, erythema nodosum, arthralgia, and generalized morning stiffness. Key symptoms not reported: butterfly rash.
++2. Rheumatoid Arthritis (RA): Rheumatoid factor positivity, generalized morning stiffness, swelling of proximal interphalangeal joints, abnormality of hand joint mobility, and joint pain. Key symptoms not reported: proteinuria, hypertension.
++3. Mixed Connective Tissue Disease (MCTD): Overlapping symptoms of SLE and RA, including proteinuria, hypertension, antinuclear antibody positivity, rheumatoid factor positivity, and joint abnormalities.
++4. Sjogren's Syndrome: Abnormal dentition, fatigue, joint symptoms, and possibly abnormal nasal mucosa morphology. Key symptoms not reported: proteinuria, hypertension.
++5. Sarcoidosis: Erythema nodosum, fatigue, systemic symptoms, and possibly abnormal nasal mucosa morphology. Key symptoms not reported: rheumatoid factor positivity, antinuclear antibody positivity.",Rare connective tissue and musculoskeletal diseases
+['Sarcoidosis'],"+1. Systemic Lupus Erythematosus (SLE): Consistent with fever, weight loss, elevated ESR and CRP, hematuria, proteinuria, lymphadenopathy, ocular involvement, and xerostomia. Key symptoms not reported: Malar rash, photosensitivity.
++2. Sjögren's Syndrome: Consistent with xerostomia, enlargement of the parotid gland, anterior uveitis, and ocular pain. Key symptoms not reported: Dry eyes, arthritis.
++3. Sarcoidosis: Consistent with fever, weight loss, lymphadenopathy, elevated ESR and CRP, ocular involvement, and parotid gland enlargement. Key symptoms not reported: Pulmonary involvement, skin lesions.
++4. Granulomatosis with Polyangiitis (GPA): Consistent with fever, weight loss, hematuria, proteinuria, elevated ESR and CRP, and ocular involvement. Key symptoms not reported: Nasal or sinus inflammation, lung involvement.
++5. Tuberculosis: Consistent with fever, night sweats, weight loss, lymphadenopathy, and elevated ESR. Key symptoms not reported: Cough, hemoptysis (coughing up blood).",Rare respiratory disease
+['SAPHO syndrome'],"+1. Systemic Lupus Erythematosus (SLE): Oral ulcer, headache, memory impairment, osteoarthritis, back pain, intervertebral disk degeneration. Key symptoms not reported: Butterfly rash, photosensitivity.
++2. Behçet's Disease: Oral ulcer, aphthous ulcer, pustule, headache, joint pain. Key symptoms not reported: Genital ulcers, uveitis.
++3. Rheumatoid Arthritis (RA): Osteoarthritis, ankle pain, back pain, abnormality of the ankle. Key symptoms not reported: Symmetrical joint swelling, morning stiffness.
++4. Psoriatic Arthritis: Osteoarthritis, back pain, pustule, intervertebral disk degeneration. Key symptoms not reported: Psoriatic skin lesions, dactylitis.
++5. Ankylosing Spondylitis: Back pain, kyphosis, intervertebral disk degeneration. Key symptoms not reported: Morning stiffness, reduced chest expansion.",Rare connective tissue and musculoskeletal diseases
+"['Autosomal dominant otospondylomegaepiphyseal dysplasia', 'Autosomal recessive Stickler syndrome', 'Stickler syndrome', 'Stickler syndrome type 1', 'Stickler syndrome type 2']","+1 Marfan Syndrome: Tall stature, abnormal finger morphology, pes cavus, joint issues (arthralgia, genu valgum), exertional dyspnea, reduced visual acuity.
++2 Ehlers-Danlos Syndrome (EDS): Joint pain, abnormal cartilage morphology, varicose veins, pedal edema, hypotension.
++3 Polycystic Kidney Disease (PKD): Renal cysts, microscopic hematuria, gastrointestinal inflammation, weight loss.
++4 Multiple Endocrine Neoplasia (MEN): Renal cysts, ovarian cysts, gastrointestinal inflammation, weight loss.
++5 Stickler Syndrome: Joint issues (arthralgia, genu valgum, knee osteoarthritis), abnormal cartilage morphology, reduced visual acuity, myopia.",Rare connective tissue and musculoskeletal diseases
+['Pediatric systemic lupus erythematosus'],"+1 Systemic Lupus Erythematosus (SLE): Renal insufficiency, nephrotic syndrome, pericardial effusion, pericarditis, anemia, elevated circulating creatinine concentration, antinuclear antibody positivity, reduced circulating complement concentration, fatigue, proteinuria.
++2 Mixed Connective Tissue Disease (MCTD): Renal insufficiency, nephrotic syndrome, pericardial effusion, pericarditis, anemia, antinuclear antibody positivity, reduced circulating complement concentration, fatigue, proteinuria.
++3 Goodpasture Syndrome: Renal insufficiency, nephrotic syndrome, anemia, elevated circulating creatinine concentration, proteinuria. (Lacks pulmonary symptoms in this case)
++4 IgA Nephropathy: Renal insufficiency, proteinuria, elevated circulating creatinine concentration. (Lacks systemic symptoms like pericarditis or anemia)
++5 Membranous Nephropathy: Nephrotic syndrome, proteinuria, renal insufficiency. (Lacks systemic symptoms like pericarditis or anemia)",Rare connective tissue and musculoskeletal diseases
+[],"+1. Sjögren's Syndrome: Xerostomia, keratoconjunctivitis sicca, oral ulcers, arthralgia, autoimmune antibody positivity. Key symptoms not reported: parotid gland enlargement.
++2. Systemic Lupus Erythematosus (SLE): Oral ulcers, arthralgia, autoimmune antibody positivity, focal white matter lesions. Key symptoms not reported: malar rash, photosensitivity.
++3. Primary Biliary Cholangitis (PBC): Hepatomegaly, hypercholesterolemia, autoimmune antibody positivity. Key symptoms not reported: pruritus, fatigue.
++4. Malignancy (e.g., metastatic cancer): Neoplasm of the liver, uterine neoplasm, cachexia, night sweats, abnormal circulating protein concentration. Key symptoms not reported: specific primary cancer site symptoms.
++5. Mixed Connective Tissue Disease (MCTD): Xerostomia, keratoconjunctivitis sicca, arthralgia, autoimmune antibody positivity. Key symptoms not reported: Raynaud's phenomenon, swollen hands.",Rare connective tissue and musculoskeletal diseases
+['Familial Mediterranean fever'],"+1. Systemic Lupus Erythematosus (SLE): Fever, pleuritis, pleural effusion, fatigue, lymphopenia, elevated C-reactive protein. Key symptoms not reported: Malar rash, photosensitivity.
++2. Infective Endocarditis: Fever, chills, fatigue, elevated C-reactive protein, splenomegaly. Key symptoms not reported: Heart murmur, Janeway lesions.
++3. Tuberculosis (TB): Fever, pleuritis, pleural effusion, fatigue, elevated C-reactive protein. Key symptoms not reported: Night sweats, weight loss.
++4. Lymphoma: Splenomegaly, lymphopenia, fever, fatigue, elevated lactate dehydrogenase. Key symptoms not reported: Night sweats, weight loss.
++5. Hypothyroidism with secondary infection: Fatigue, abnormal blood sodium concentration, hypocalcemia, fever, pleuritis, pleural effusion. Key symptoms not reported: Cold intolerance, weight gain.",Autoinflammatory and autoimmune diseases
+['Granulomatosis with polyangiitis'],"+1. **Systemic Lupus Erythematosus (SLE)**: Consistent with pericardial effusion, splenomegaly, cytoplasmic antineutrophil antibody positivity, and insomnia. Key symptoms not reported: Malar rash, photosensitivity.
++2. **Sarcoidosis**: Consistent with abnormal lung morphology, splenomegaly, and hepatomegaly. Key symptoms not reported: Erythema nodosum, uveitis.
++3. **Primary Biliary Cholangitis (PBC)**: Consistent with hepatic steatosis, hepatomegaly, and splenomegaly. Key symptoms not reported: Pruritus, jaundice.
++4. **Glycogen Storage Disease (GSD)**: Consistent with hepatomegaly, hepatic steatosis, splenomegaly, paraparesis, and somatic sensory dysfunction. Key symptoms not reported: Hypoglycemia, muscle cramps.
++5. **Amyloidosis**: Consistent with hepatomegaly, splenomegaly, abnormal lung morphology, and neurological symptoms. Key symptoms not reported: Proteinuria, macroglossia.",Rare immunodeficiency
+['Felty syndrome'],"+1. **Systemic Lupus Erythematosus (SLE)**: Consistent with renal cysts, nephrocalcinosis, arthritis, neutropenia, leukopenia, anemia, splenomegaly, hepatomegaly, and lymphadenopathy. Key symptom not reported: malar rash.
++2. **Sarcoidosis**: Consistent with lymphadenopathy, hepatomegaly, splenomegaly, arthritis, and systemic symptoms. Key symptom not reported: pulmonary involvement.
++3. **Rheumatoid Arthritis (RA)**: Consistent with arthritis, abnormal joint morphology, splenomegaly, and anemia. Key symptom not reported: rheumatoid nodules.
++4. **Chronic Kidney Disease (CKD)**: Consistent with renal cysts, nephrocalcinosis, anemia, and systemic symptoms like fatigue and exercise intolerance. Key symptom not reported: hypertension.
++5. **Multiple Myeloma**: Consistent with bone pain, anemia, renal dysfunction, and systemic symptoms like fatigue and exercise intolerance. Key symptom not reported: hypercalcemia.",Rare connective tissue and musculoskeletal diseases
+['Granulomatosis with polyangiitis'],"+1. Granulomatosis with polyangiitis (GPA): Hemoptysis, hearing impairment, rhinitis, arthralgia, hypertension. Key symptoms not reported: Kidney involvement.
++2. Systemic lupus erythematosus (SLE): Hypertension, arthralgia, hemoptysis. Key symptoms not reported: Malar rash, photosensitivity.
++3. Rheumatoid arthritis (RA): Arthralgia (wrist, knee, ankle pain). Key symptoms not reported: Hemoptysis, hearing impairment.
++4. Goodpasture syndrome: Hemoptysis, hypertension. Key symptoms not reported: Hearing impairment, widespread joint pain.
++5. Wegener's granulomatosis: Hemoptysis, hearing impairment, rhinitis, arthralgia. Key symptoms not reported: Kidney involvement.",Rare immunodeficiency
+['Relapsing polychondritis'],"+1. **Systemic Lupus Erythematosus (SLE)**: Renal insufficiency, facial erythema, visual loss, microcytic anemia, exercise intolerance. Key symptoms not reported: Malar rash, photosensitivity.
++2. **Wegener's Granulomatosis (Granulomatosis with Polyangiitis)**: Renal insufficiency, nasal abnormalities, episcleritis, gangrene. Key symptoms not reported: Upper respiratory tract involvement, lung nodules.
++3. **Churg-Strauss Syndrome (Eosinophilic Granulomatosis with Polyangiitis)**: Eosinophilia, renal insufficiency, multiple organ involvement. Key symptoms not reported: Asthma, allergic rhinitis.
++4. **Rheumatoid Arthritis (RA)**: Joint abnormalities, wrist swelling, episcleritis, microcytic anemia. Key symptoms not reported: Morning stiffness, rheumatoid nodules.
++5. **Scleroderma (Systemic Sclerosis)**: Renal insufficiency, facial erythema, abnormal finger and toe morphology, microcytic anemia, exercise intolerance. Key symptoms not reported: Skin thickening, Raynaud's phenomenon.",Rare connective tissue and musculoskeletal diseases
+['SAPHO syndrome'],"+1. Chronic Recurrent Multifocal Osteomyelitis (CRMO): Abnormal sternum morphology, osteomyelitis, hyperostosis, elevated ESR, elevated CRP, chest pain.
++2. SAPHO Syndrome: Abnormal sternum morphology, osteomyelitis, hyperostosis, elevated ESR, elevated CRP, chest pain.
++3. Infective Endocarditis: Leukocytosis, elevated ESR, elevated CRP, chest pain. (Key symptoms not reported: heart murmur, positive blood cultures)
++4. Rheumatoid Arthritis (RA): Osteoarthritis, elevated ESR, elevated CRP, chest pain. (Key symptoms not reported: symmetric joint involvement, rheumatoid nodules)
++5. Paget's Disease of Bone: Abnormal sternum morphology, hyperostosis, chest pain. (Key symptoms not reported: bone pain in other areas, hearing loss)",Rare connective tissue and musculoskeletal diseases
+['Immunoglobulin A vasculitis'],"+1. Systemic Lupus Erythematosus (SLE): Consistent with membranoproliferative glomerulonephritis, petechiae, headache, and fatigue. Abnormal taste sensation is less common.
++2. Vasculitis: Consistent with petechiae, glomerulonephritis, headache, and fatigue. Abnormal taste sensation is not typically a feature.
++3. Infective Endocarditis: Consistent with petechiae, glomerulonephritis, headache, and fatigue. Abnormal taste sensation is not common.
++4. Chronic Kidney Disease (CKD): Consistent with membranoproliferative glomerulonephritis, fatigue, headache, and taste abnormalities. Petechiae can occur due to platelet dysfunction.
++5. Vitamin Deficiencies (e.g., Vitamin C or B12): Consistent with petechiae, fatigue, headache, and taste abnormalities. Glomerulonephritis is not typically associated.",Autoinflammatory and autoimmune diseases
+['Pediatric systemic lupus erythematosus'],"+1. Sjögren's Syndrome: Consistent with xerostomia, keratoconjunctivitis sicca, leukopenia, and autoimmune antibody positivity. Irregular menstruation and diarrhea are less common.
++2. Systemic Lupus Erythematosus (SLE): Consistent with leukopenia, autoimmune antibody positivity, irregular menstruation, and potentially dry mouth and dry eyes. Diarrhea and reduced haptoglobin levels can also be seen.
++3. Primary Biliary Cholangitis (PBC): Consistent with autoimmune antibody positivity, dry eyes, and dry mouth. Leukopenia, irregular menstruation, and diarrhea are less typical.
++4. Rheumatoid Arthritis (RA): Consistent with autoimmune antibody positivity and dry eyes. Dry mouth, leukopenia, and irregular menstruation are less common, and diarrhea is not typical.
++5. Celiac Disease: Consistent with diarrhea and autoimmune antibody positivity. Dry mouth, dry eyes, leukopenia, and irregular menstruation are less commonly associated.",Rare connective tissue and musculoskeletal diseases
+['Eosinophilic granulomatosis with polyangiitis'],"<thinking>
+a. Key symptoms that stand out include: sinusitis, eosinophilia, dyspnea, pulmonary infiltrates, colitis, elevated hepatic transaminase levels, increased IgE, chronic oral candidiasis, and autoimmune antibody positivity. The combination of respiratory symptoms (sinusitis, dyspnea, bronchitis, nasal polyposis), gastrointestinal symptoms (colitis), and systemic markers (elevated IgE, eosinophilia, elevated C-reactive protein, neutrophilia) suggests a complex, multi-systemic condition.
+
+b. Possible diagnoses:
+1. **Churg-Strauss Syndrome (Eosinophilic Granulomatosis with Polyangiitis)**: This condition is characterized by asthma, eosinophilia, and systemic vasculitis. The patient's respiratory symptoms, eosinophilia, and elevated IgE are consistent with this diagnosis. However, the presence of colitis and chronic oral candidiasis is less typical.
+2. **Hypereosinophilic Syndrome (HES)**: This syndrome involves persistent eosinophilia and organ damage. The patient's eosinophilia, pulmonary infiltrates, and elevated IgE fit this diagnosis. However, HES typically does not include chronic oral candidiasis or autoimmune antibody positivity.
+3. **Allergic Bronchopulmonary Aspergillosis (ABPA)**: This condition is associated with asthma, eosinophilia, and elevated IgE levels. The patient's respiratory symptoms and elevated IgE are consistent with ABPA, but colitis and chronic oral candidiasis are not typical features.
+4. **Systemic Lupus Erythematosus (SLE)**: SLE can present with a wide range of symptoms, including respiratory issues, elevated hepatic transaminase levels, and autoimmune antibody positivity. However, the combination of eosinophilia and elevated IgE is less common in SLE.
+5. **Common Variable Immunodeficiency (CVID)**: This condition can present with recurrent infections, chronic lung disease, and gastrointestinal issues. The patient's chronic oral candidiasis, decreased IgG levels, and respiratory symptoms are consistent with CVID, but eosinophilia and elevated IgE are not typical.
+
+c. Additional tests that could help narrow down the diagnosis include:
+- Detailed pulmonary function tests to assess the extent of respiratory involvement.
+- Biopsy of affected tissues (e.g., lung, gastrointestinal tract) to look for specific histopathological features.
+- Specific antibody tests to rule out or confirm autoimmune conditions.
+- Fungal cultures or serology to investigate possible fungal infections like ABPA.
+- Genetic testing for mutations associated with HES or other eosinophilic disorders.
+
+</thinking>
+
+<top5>
++1. **Churg-Strauss Syndrome (Eosinophilic Granulomatosis with Polyangiitis)**: Sinusitis, eosinophilia, dyspnea, pulmonary infiltrates, elevated IgE, nasal polyposis, autoimmune antibody positivity. Key symptoms not reported: Asthma.
++2. **Hypereosinophilic Syndrome (HES)**: Eosinophilia, pulmonary infiltrates, elevated IgE, elevated hepatic transaminase levels, colitis. Key symptoms not reported: Cardiac involvement.
++3. **Allergic Bronchopulmonary Aspergillosis (ABPA)**: Sinusitis, eosinophilia, dyspnea, elevated IgE, bronchitis, reduced FEV1/FVC ratio. Key symptoms not reported: Central bronchiectasis.
++4. **Systemic Lupus Erythematosus (SLE)**: Pulmonary infiltrates, elevated hepatic transaminase levels, autoimmune antibody positivity, decreased glomerular filtration rate, colitis. Key symptoms not reported: Malar rash, arthritis.
++5. **Common Variable Immunodeficiency (CVID)**: Chronic oral candidiasis, decreased Ig",Autoinflammatory and autoimmune diseases
+['Takayasu arteritis'],"+1. Giant Cell Arteritis (GCA): Vasculitis, elevated ESR, elevated CRP, increased carotid artery intimal medial thickness, fatigue, neck pain. (Cervical lymphadenopathy is less typical but can occur.)
++2. Takayasu Arteritis: Vasculitis, elevated ESR, elevated CRP, increased carotid artery intimal medial thickness, fatigue, cervical lymphadenopathy, neck pain.
++3. Systemic Lupus Erythematosus (SLE): Vasculitis, elevated ESR, elevated CRP, fatigue, cervical lymphadenopathy. (Increased carotid artery intimal medial thickness is less typical.)
++4. Polyarteritis Nodosa (PAN): Vasculitis, elevated ESR, elevated CRP, fatigue. (Typically does not involve the carotid arteries.)
++5. Infectious causes (e.g., Tuberculosis, HIV): Elevated ESR, elevated CRP, fatigue, cervical lymphadenopathy. (Less likely to cause increased carotid artery intimal medial thickness and vasculitis.)",Rare multisystemic vascular diseases
+['Granulomatosis with polyangiitis'],"+1. **Granulomatosis with Polyangiitis (GPA)**: Elevated CRP, nodular pattern on HRCT, cytoplasmic antineutrophil antibody positivity, tricuspid regurgitation, fever, myalgia, and cough. Key symptoms not reported: Hematuria, nasal or oral inflammation.
++2. **Sarcoidosis**: Hyperpigmentation, elevated liver enzymes, elevated ESR, cough, nodular pattern on HRCT, lymphocytosis, and myalgia. Key symptoms not reported: Uveitis, erythema nodosum.
++3. **Multiple Myeloma**: Normocytic anemia, increased susceptibility to fractures, elevated IgA, elevated ESR, and myalgia. Key symptoms not reported: Bone pain, renal impairment.
++4. **Systemic Lupus Erythematosus (SLE)**: Hyperpigmentation, elevated liver enzymes, elevated ESR, lymphocytosis, and myalgia. Key symptoms not reported: Malar rash, photosensitivity.
++5. **Primary Biliary Cholangitis (PBC)**: Elevated liver enzymes, elevated IgA, elevated ESR, and myalgia. Key symptoms not reported: Pruritus, jaundice.",Autoinflammatory and autoimmune diseases
+['Fabry disease'],"+1 Fabry disease: Consistent with tachycardia, left ventricular hypertrophy, palpitations, abnormal EKG, abnormality of galactoside metabolism, edema of the dorsum of hands, upper limb pain, finger swelling, and pain in multiple joints.
++2 Hyperthyroidism: Consistent with tachycardia, left ventricular hypertrophy, palpitations, but does not explain joint pain or galactoside metabolism abnormalities.
++3 Rheumatoid arthritis: Consistent with arthralgia, edema of the dorsum of hands, upper limb pain, finger swelling, knee pain, ankle pain, but does not explain cardiovascular symptoms or galactoside metabolism abnormalities.
++4 Systemic lupus erythematosus (SLE): Consistent with arthralgia, edema, upper limb pain, finger swelling, knee pain, ankle pain, and can have cardiovascular involvement, but does not typically involve galactoside metabolism abnormalities.
++5 Sarcoidosis: Consistent with joint pain, swelling, and potential cardiovascular involvement, but less likely to cause the specific metabolic abnormality noted.",Hereditary metabolic disorders
+['Whipple disease'],"+1. Systemic Lupus Erythematosus (SLE): Arthritis, antinuclear antibody positivity, multi-organ involvement (hepatic steatosis, abnormal right ventricle morphology), elevated ESR and CRP, fever, weight loss, poor appetite.
++2. Rheumatoid Arthritis (RA): Arthritis, joint swelling, morning stiffness, elevated ESR and CRP, fever, weight loss, poor appetite. Key symptoms not reported: rheumatoid nodules.
++3. Psoriatic Arthritis: Arthritis, joint swelling, abnormal finger and toe morphology, elevated ESR and CRP. Key symptoms not reported: skin psoriasis.
++4. Gout: Hyperuricemia, hyperuricosuria, joint pain (especially in toes), elevated ESR and CRP. Key symptoms not reported: tophi.
++5. Inflammatory Bowel Disease (IBD) with Extraintestinal Manifestations: Intestinal lymphoid nodular hyperplasia, abdominal pain, arthritis, hepatic steatosis, elevated ESR and CRP, fever, weight loss, poor appetite. Key symptoms not reported: bloody diarrhea.",Rare inherited and congenital (digestive and gastrointestinal) anomalies
+['Immunoglobulin A vasculitis'],"+1. Systemic Lupus Erythematosus (SLE): Consistent with vasculitis, purpura, fever, leukocytosis, and recurrent infections. Missing symptoms include joint pain and skin rashes.
++2. Henoch-Schönlein Purpura (HSP): Consistent with purpura, vasculitis, and lower limb pain. Missing symptoms include abdominal pain and it is more common in children.
++3. Wegener's Granulomatosis (Granulomatosis with Polyangiitis): Consistent with vasculitis, purpura, fever, and systemic symptoms. Missing symptoms include respiratory involvement.
++4. Infective Endocarditis: Consistent with fever, leukocytosis, purpura, and vasculitis. Missing symptoms include heart murmurs and other cardiac symptoms.
++5. Cryoglobulinemia: Consistent with purpura, vasculitis, fever, and leukocytosis. Missing symptoms include Raynaud's phenomenon and peripheral neuropathy.",Autoinflammatory and autoimmune diseases

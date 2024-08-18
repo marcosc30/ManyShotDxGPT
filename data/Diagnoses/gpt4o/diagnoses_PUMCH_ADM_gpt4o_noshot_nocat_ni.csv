@@ -1,0 +1,401 @@
+GT,Diagnosis 1,ERN Category
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: Consistent with compulsive behaviors, neonatal hypotonia, increased body weight, delayed speech and language development, and elevated hemoglobin A1c.
++2 Congenital Hypothyroidism: Consistent with neonatal hypotonia, delayed speech and language development, and poor suck. Key symptoms not reported: enlarged tongue, jaundice.
++3 Cerebral Palsy: Consistent with neonatal hypotonia, delayed speech, and mild postnatal growth retardation. Key symptoms not reported: spasticity, motor delays.
++4 Autism Spectrum Disorder: Consistent with delayed speech and language development, compulsive behaviors. Key symptoms not reported: social interaction difficulties, repetitive behaviors.
++5 Beckwith-Wiedemann Syndrome: Consistent with increased body weight, abnormal stomach morphology. Key symptoms not reported: macroglossia, ear creases.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: Consistent with cryptorchidism, excessive daytime somnolence, dysphonia, infantile muscular hypotonia, and feeding difficulties. Key symptoms not reported: hyperphagia, obesity.
++2 Congenital Hypothyroidism: Consistent with infantile muscular hypotonia, feeding difficulties, and excessive daytime somnolence. Key symptoms not reported: jaundice, large fontanelle.
++3 Myotonic Dystrophy: Consistent with infantile muscular hypotonia, dysphonia, and feeding difficulties. Key symptoms not reported: muscle weakness, cataracts.
++4 Smith-Lemli-Opitz Syndrome: Consistent with infantile muscular hypotonia, feeding difficulties, and cryptorchidism. Key symptoms not reported: microcephaly, intellectual disability.
++5 Angelman Syndrome: Consistent with infantile muscular hypotonia, feeding difficulties, and excessive daytime somnolence. Key symptoms not reported: frequent laughter, ataxia.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome (PWS): Neonatal hypotonia, poor suck, poor appetite, bilateral cryptorchidism. Key symptoms not reported: hyperphagia, obesity in later childhood.
++2 Mitochondrial Disorders: Neonatal hypotonia, lacticaciduria, poor suck, poor appetite. Key symptoms not reported: muscle weakness, neurological deficits.
++3 Smith-Lemli-Opitz Syndrome (SLOS): Intrauterine growth retardation, neonatal hypotonia, bilateral cryptorchidism. Key symptoms not reported: microcephaly, syndactyly.
++4 Congenital Muscular Dystrophy: Neonatal hypotonia, poor suck. Key symptoms not reported: progressive muscle weakness, respiratory issues.
++5 Beckwith-Wiedemann Syndrome (BWS): Bilateral cryptorchidism, abnormality of the palmar creases. Key symptoms not reported: macroglossia, hemihyperplasia.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1 Prader-Willi Syndrome: Consistent with compulsive behaviors, delayed speech and language development, poor suck, postnatal growth retardation, and infantile muscular hypotonia.
++2 Angelman Syndrome: Consistent with delayed speech and language development and hypotonia; however, ataxia and a happy demeanor are not reported.
++3 Autism Spectrum Disorder: Consistent with compulsive behaviors and delayed speech; physical symptoms like poor suck and hypotonia are less typical.
++4 Rett Syndrome: Consistent with hypotonia and compulsive behaviors; more common in females and often includes seizures, which are not reported.
++5 Congenital Hypothyroidism: Consistent with hypotonia, poor suck, and growth retardation; compulsive behaviors are not typical.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Prader-Willi syndrome'],"+1. Methylmalonic acidemia: Consistent with methylmalonic acidemia, dicarboxylic aciduria, propionic acidemia, lacticaciduria, decreased circulating vitamin B12 concentration, and encephalopathy. Key symptoms not reported: none.
++2. Propionic acidemia: Consistent with propionic acidemia, dicarboxylic aciduria, lacticaciduria, decreased circulating vitamin B12 concentration, encephalopathy, and hypotonia. Key symptoms not reported: none.
++3. Multiple carboxylase deficiency: Consistent with methylmalonic acidemia, propionic acidemia, lacticaciduria, hypocalcemia, and decreased vitamin B12 concentration. Key symptoms not reported: none.
++4. Prader-Willi syndrome: Consistent with obesity, polyphagia, hypotonia, and cryptorchidism. Key symptoms not reported: metabolic abnormalities like methylmalonic acidemia.
++5. Congenital adrenal hyperplasia: Consistent with micropenis, bilateral cryptorchidism, and hypocalcemia. Key symptoms not reported: metabolic abnormalities like methylmalonic acidemia.","Rare malformation syndromes, intellectual and other neurodevelopmental disorders"
+['Wilson disease'],"+1. Wilson's Disease: Kayser-Fleischer rings, decreased ceruloplasmin, cirrhosis, elevated liver enzymes, hyperammonemia, jaundice, hypoalbuminemia, prolonged prothrombin time.
++2. Hepatitis: Elevated liver enzymes, jaundice, prolonged prothrombin time, cirrhosis, ascites, hypoalbuminemia. (Kayser-Fleischer rings and decreased ceruloplasmin are not typical).
++3. Hemochromatosis: Cirrhosis, elevated liver enzymes, jaundice, hypoalbuminemia, prolonged prothrombin time. (Kayser-Fleischer rings and decreased ceruloplasmin are not typical).
++4. Autoimmune Hepatitis: Elevated liver enzymes, jaundice, cirrhosis, ascites, hypoalbuminemia, prolonged prothrombin time. (Kayser-Fleischer rings and decreased ceruloplasmin are not typical).
++5. Porphyria: Increased urinary porphobilinogen, abdominal symptoms, elevated liver enzymes, jaundice. (Kayser-Fleischer rings and decreased ceruloplasmin are not typical).",Rare hepatological diseases
+['Wilson disease'],"+1. Wilson's Disease: Consistent with irritability, personality changes, tremor, nausea, abdominal pain, hepatomegaly, sleep abnormality, poor appetite, decreased ceruloplasmin, increased urinary copper, elevated AST and ALT, mania, and Kayser-Fleischer rings.
++2. Viral Hepatitis: Consistent with nausea, abdominal pain, hepatomegaly, elevated AST and ALT. Key symptoms not reported: jaundice, fever.
++3. Autoimmune Hepatitis: Consistent with abdominal pain, hepatomegaly, elevated AST and ALT. Key symptoms not reported: jaundice, fatigue.
++4. Hemochromatosis: Consistent with abdominal pain, hepatomegaly, elevated AST and ALT. Key symptoms not reported: skin pigmentation changes, diabetes.
++5. Acute Intermittent Porphyria: Consistent with abdominal pain, irritability, personality changes, sleep abnormality. Key symptoms not reported: dark urine, muscle weakness.",Rare hepatological diseases
+['Wilson disease'],"+1. Wilson's Disease: Hematuria, slurred speech, abnormality of the liver, dysphagia, drooling, abnormal caudate nucleus morphology, hand tremor, poor appetite, decreased circulating ceruloplasmin concentration, increased urinary copper concentration, Kayser-Fleischer ring.
++2. Hepatolenticular Degeneration: Same as Wilson's Disease, as it is another term for the same condition.
++3. Hepatitis: Abnormality of the liver, poor appetite. However, it lacks the neurological symptoms and specific lab findings.
++4. Multiple System Atrophy (MSA): Slurred speech, dysphagia, drooling, hand tremor. Does not explain liver abnormalities or specific lab findings.
++5. Huntington's Disease: Abnormal caudate nucleus morphology, slurred speech, hand tremor. Does not explain liver abnormalities or specific lab findings.",Rare hepatological diseases
+['Wilson disease'],"+1. Wilson's Disease: Muscle weakness, slurred speech, abnormality of the liver, splenomegaly, incoordination, abnormal caudate nucleus morphology, microscopic hematuria, elevated circulating alkaline phosphatase concentration, increased circulating ferritin concentration, involuntary movements, decreased circulating ceruloplasmin concentration, increased urinary copper concentration, Kayser-Fleischer ring.
++2. Hemochromatosis: Abnormality of the liver, splenomegaly, elevated circulating alkaline phosphatase concentration, increased circulating ferritin concentration. Key symptoms not reported: skin pigmentation changes, diabetes.
++3. Vitamin B12 Deficiency: Muscle weakness, slurred speech, incoordination, abnormality of vitamin B12 metabolism. Key symptoms not reported: megaloblastic anemia, glossitis.
++4. Huntington's Disease: Involuntary movements, abnormal caudate nucleus morphology, incoordination. Key symptoms not reported: psychiatric symptoms, family history of Huntington's Disease.
++5. Homocystinuria: Hyperhomocystinemia, abnormality of vitamin B12 metabolism, muscle weakness, incoordination. Key symptoms not reported: lens dislocation, skeletal abnormalities.",Rare hepatological diseases
+['Wilson disease'],"+1. Wilson's Disease: Consistent with proteinuria, slurred speech, drooling, hand tremor, decreased circulating ceruloplasmin concentration, increased urinary copper concentration, and hand muscle weakness.
++2. Parkinson's Disease: Consistent with hand tremor and muscle weakness. Key symptoms not reported: bradykinesia, rigidity.
++3. Amyotrophic Lateral Sclerosis (ALS): Consistent with hand muscle weakness and slurred speech. Key symptoms not reported: muscle atrophy, fasciculations.
++4. Multiple Sclerosis (MS): Consistent with hand tremor and muscle weakness. Key symptoms not reported: visual disturbances, sensory changes.
++5. Chronic Kidney Disease (CKD): Consistent with proteinuria. Key symptoms not reported: fatigue, swelling in legs and ankles.",Rare hepatological diseases
+['McCune-Albright syndrome'],"+1 McCune-Albright Syndrome (MAS): Fibrous dysplasia of the bones, large cafe-au-lait macules with irregular margins, accelerated skeletal maturation, precocious puberty in females, increased serum estradiol, decreased circulating FSH and LH.
++2 Neurofibromatosis Type 1 (NF1): Cafe-au-lait spots, skin rash, bone abnormalities, hearing impairment. Key symptoms not reported: Lisch nodules, neurofibromas.
++3 Polyostotic Fibrous Dysplasia: Bone pain, fractures of the long bones, abnormal femoral neck morphology, fibrous dysplasia of the bones. Key symptoms not reported: Hormonal imbalances, skin manifestations.
++4 Congenital Adrenal Hyperplasia (CAH): Precocious puberty in females, hormonal imbalances (increased serum estradiol, decreased FSH and LH). Key symptoms not reported: Fibrous dysplasia, cafe-au-lait spots.
++5 Albright Hereditary Osteodystrophy (AHO): Skeletal abnormalities, hormonal imbalances. Key symptoms not reported: Cafe-au-lait spots, fibrous dysplasia.",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright Syndrome (MAS): Polyostotic fibrous dysplasia, café-au-lait spots, increased serum estradiol, decreased FSH and LH, premature thelarche.
++2 Precocious Puberty: Premature thelarche, increased serum estradiol, decreased FSH and LH.
++3 Polycystic Ovary Syndrome (PCOS): Ovarian cysts, abnormal hormone levels (though less likely due to absence of other typical symptoms).
++4 Neurofibromatosis Type 1 (NF1): Café-au-lait spots (though less likely due to absence of neurofibromas and Lisch nodules).
++5 Endocrine Tumors: Abnormal hormone levels, ovarian cysts (requires further investigation to confirm).",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright Syndrome: Elevated growth hormone and prolactin levels, cafe-au-lait spots, fibrous dysplasia, accelerated skeletal maturation, premature pubarche, increased serum testosterone, abnormal testis size, thickened cortex of bones.
++2 Acromegaly: Elevated growth hormone and prolactin levels, abnormal calvaria morphology, thickened cortex of bones. (Key symptoms not reported: Enlarged hands and feet, coarse facial features)
++3 Neurofibromatosis Type 1: Cafe-au-lait spots, skeletal abnormalities. (Key symptoms not reported: Neurofibromas, Lisch nodules)
++4 Fibrous Dysplasia: Fibrous dysplasia of the bones, abnormal calvaria morphology, thickened cortex of bones. (Key symptoms not reported: Endocrine abnormalities)
++5 Hyperprolactinemia: Elevated prolactin levels, abnormal testis size. (Key symptoms not reported: Galactorrhea, menstrual irregularities)",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright Syndrome: Polyostotic fibrous dysplasia, cafe-au-lait spots with irregular borders, cranial hyperostosis, visual loss.
++2 Neurofibromatosis Type 1 (NF1): Cafe-au-lait spots, cranial hyperostosis, visual loss. (Key symptom not reported: neurofibromas)
++3 Fibrous Dysplasia: Polyostotic fibrous dysplasia, cranial hyperostosis. (Key symptom not reported: cafe-au-lait spots)
++4 Albright's Hereditary Osteodystrophy: Skeletal abnormalities, skin pigmentation changes. (Key symptoms not reported: short stature, endocrine issues)
++5 Cherubism: Craniofacial abnormalities, visual loss due to cranial hyperostosis. (Key symptom not reported: cafe-au-lait spots)",Rare bone disorders
+['McCune-Albright syndrome'],"+1 McCune-Albright Syndrome (MAS): Café-au-lait spots, increased hormone levels, abnormal breast morphology, abnormal vagina morphology, premature pubarche, metrorrhagia.
++2 Neurofibromatosis Type 1 (NF1): Café-au-lait spots, delayed speech and language development, abnormal eating behavior. Key symptoms not reported: neurofibromas, Lisch nodules.
++3 Congenital Adrenal Hyperplasia (CAH): Premature pubarche, increased serum estradiol, increased circulating progesterone. Key symptoms not reported: ambiguous genitalia, salt-wasting crisis.
++4 Hypothyroidism: Decreased thyroid-stimulating hormone level, increased circulating free T3. Key symptoms not reported: fatigue, weight gain, cold intolerance.
++5 Precocious Puberty: Premature pubarche, increased serum estradiol, increased circulating progesterone. Key symptoms not reported: rapid growth, advanced bone age.",Rare endocrine conditions
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1. Heart Failure: Cardiomegaly, abnormal left ventricular function, mitral and aortic regurgitation, elevated B-type natriuretic peptide, dyspnea, palpitations, decreased body weight.
++2. Infective Endocarditis: Fever, abnormal aortic valve morphology, mitral regurgitation, aortic regurgitation, abnormal left ventricular function, productive cough, hemoptysis.
++3. Aortic Aneurysm: Ascending tubular aorta aneurysm, abnormal aortic valve morphology, cardiomegaly.
++4. Bronchiectasis: Productive cough, hemoptysis, bronchiectasis.
++5. Thyroid Disease: Hoarse voice, palpitations, decreased body weight.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Idiopathic Scoliosis: The patient has kyphoscoliosis, which can be a manifestation of idiopathic scoliosis, especially if the onset was during adolescence.
++2 Scheuermann's Disease: The presence of kyphosis along with scoliosis suggests Scheuermann's disease, particularly if the patient is a teenager.
++3 Congenital Scoliosis: If the kyphoscoliosis was present from birth, congenital scoliosis is a likely diagnosis.
++4 Neurofibromatosis: This condition can cause kyphoscoliosis, especially if there are other signs such as café-au-lait spots or neurofibromas.
++5 Marfan Syndrome: Kyphoscoliosis can be a feature of Marfan syndrome, particularly if the patient has other signs like long limbs, flexible joints, or cardiovascular issues.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1. Marfan Syndrome: Tall stature, mitral valve prolapse, aortic root aneurysm, kyphoscoliosis, mitral regurgitation, aortic regurgitation, tricuspid valve prolapse, left ventricular hypertrophy, dyspnea, tachypnea, exercise intolerance, heart murmur, chest pain.
++2. Loeys-Dietz Syndrome: Aortic root aneurysm, mitral valve prolapse, kyphoscoliosis, mitral regurgitation, aortic regurgitation, tricuspid valve prolapse, left ventricular hypertrophy, dyspnea, tachypnea, exercise intolerance, heart murmur, chest pain. (Tall stature is less common but possible.)
++3. Ehlers-Danlos Syndrome (vascular type): Mitral valve prolapse, aortic regurgitation, tricuspid valve prolapse, mitral regurgitation, left ventricular hypertrophy, dyspnea, tachypnea, exercise intolerance, heart murmur, chest pain. (Tall stature and kyphoscoliosis are less common.)
++4. Hypertrophic Cardiomyopathy: Left ventricular hypertrophy, mitral regurgitation, dyspnea, tachypnea, exercise intolerance, heart murmur, chest pain. (Does not explain tall stature, aortic root aneurysm, or kyphoscoliosis.)
++5. Congenital Heart Disease: Multiple valve abnormalities, left ventricular hypertrophy, dyspnea, tachypnea, exercise intolerance, heart murmur, chest pain. (Does not explain tall stature, aortic root aneurysm, or kyphoscoliosis.)",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1 Marfan Syndrome: Consistent with lens subluxation, high myopia, scoliosis, and low back pain. Key symptoms not reported: cardiovascular abnormalities.
++2 Homocystinuria: Consistent with lens subluxation, high myopia, and scoliosis. Key symptoms not reported: developmental delay, thromboembolic events.
++3 Ehlers-Danlos Syndrome (EDS): Consistent with scoliosis and low back pain. Key symptoms not reported: hypermobile joints, skin hyperextensibility.
++4 Stickler Syndrome: Consistent with high myopia and scoliosis. Key symptoms not reported: hearing loss, cleft palate.
++5 Weill-Marchesani Syndrome: Consistent with lens subluxation and high myopia. Key symptoms not reported: short stature, brachydactyly.",Rare connective tissue and musculoskeletal diseases
+"['Neonatal Marfan syndrome', 'Marfan syndrome']","+1. Congestive Heart Failure (CHF): Cardiomegaly, dyspnea, abdominal distention, exercise intolerance, poor appetite, increased NT-proBNP.
++2. Dilated Cardiomyopathy: Cardiomegaly, dyspnea, exercise intolerance, poor appetite, myocarditis, increased NT-proBNP.
++3. Myocarditis: Cardiomegaly, dyspnea, myocarditis, increased NT-proBNP.
++4. Pericardial Effusion: Dyspnea, abdominal distention. (Cardiomegaly and increased NT-proBNP are less typical unless leading to heart failure.)
++5. Hepatic Cirrhosis with Cardiac Involvement: Abdominal distention, poor appetite, cardiomegaly, dyspnea. (Increased NT-proBNP is less specific.)",Rare connective tissue and musculoskeletal diseases
+['Desminopathy'],"+1. **Dilated Cardiomyopathy (DCM)**: Cardiomegaly, dilated cardiomyopathy, reduced systolic function, right ventricular dilatation, exertional dyspnea, palpitations, syncope.
++2. **Right Heart Failure**: Right ventricular failure, pedal edema, decreased urine output, right atrial enlargement, elevated pulmonary artery pressure, increased NT-proBNP concentration.
++3. **Tricuspid Valve Disease**: Abnormal tricuspid valve morphology, right ventricular failure, exertional dyspnea, palpitations, pedal edema.
++4. **Arrhythmias**: Paroxysmal ventricular tachycardia, paroxysmal atrial tachycardia, premature ventricular contractions, palpitations, syncope.
++5. **Cardiac Cachexia**: Weight loss, poor appetite, muscle weakness, associated with severe heart failure.",Neuromuscular diseases
+['Desminopathy'],"+1 Heart failure: Cardiomegaly, mitral regurgitation, tricuspid regurgitation, ventricular dysfunction, elevated creatinine, palpitations, falls, lower limb muscle weakness.
++2 Arrhythmogenic right ventricular cardiomyopathy (ARVC): Right ventricular dilatation, tricuspid regurgitation, ventricular tachycardia, premature ventricular contractions, palpitations.
++3 Chronic kidney disease (CKD): Hyperkalemia, elevated creatinine, vomiting, lower limb muscle weakness.
++4 Ischemic heart disease: T-wave inversion, ST segment depression, regional left ventricular wall motion abnormality, left ventricular systolic dysfunction, palpitations.
++5 Electrolyte imbalance: Hyperkalemia, lower limb muscle weakness, palpitations, vomiting.",Neuromuscular diseases
+['Desminopathy'],"+1. **Cardiomyopathy**: Consistent with cardiomegaly, valve abnormalities, right ventricular failure, elevated creatine kinase, fatigable weakness, and exercise intolerance.
++2. **Congestive Heart Failure (CHF)**: Consistent with orthopnea, pedal edema, pleural effusion, decreased urine output, cardiomegaly, and multiple valve abnormalities.
++3. **Amyloidosis**: Consistent with multi-organ involvement, including cardiomegaly, valve abnormalities, hepatic cysts, hypoalbuminemia, syncope, and orthopnea.
++4. **Polycystic Liver Disease with Cardiac Involvement**: Consistent with hepatic cysts and cardiac symptoms like valve abnormalities and cardiomegaly.
++5. **Carcinoid Heart Disease**: Consistent with multiple valve abnormalities and right ventricular failure, though less likely due to the absence of flushing and diarrhea.",Neuromuscular diseases
+['Desminopathy'],"+1. **Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)**: Consistent with right ventricular abnormalities, ventricular tachycardia, syncope, and palpitations. Key symptoms not reported: none.
++2. **Dilated Cardiomyopathy (DCM)**: Consistent with biventricular involvement, cardiomegaly, heart failure symptoms, and arrhythmias. Key symptoms not reported: none.
++3. **Cardiac Sarcoidosis**: Consistent with myocarditis, arrhythmias, multi-system involvement, and possibly skin rash. Key symptoms not reported: none.
++4. **Amyloidosis**: Consistent with multi-organ involvement, heart failure, arrhythmias, and possibly skin rash. Key symptoms not reported: none.
++5. **Hypertrophic Cardiomyopathy (HCM)**: Consistent with left ventricular dysfunction and arrhythmias. Key symptoms not reported: right ventricular failure.",Neuromuscular diseases
+['Brugada syndrome'],"+1 Myocardial Infarction: Ventricular fibrillation, ST segment elevation, Dyspnea. (Key symptoms not reported: Chest pain, diaphoresis)
++2 Pneumonia: Cough, Dyspnea. (Key symptoms not reported: Fever, chills)
++3 Heart Failure: Dyspnea, Exercise intolerance, Ventricular fibrillation. (Key symptoms not reported: Peripheral edema, orthopnea)
++4 Viral Hepatitis: Systemic illness. (Key symptoms not reported: Jaundice, abdominal pain)
++5 Pulmonary Embolism: Dyspnea, Cough. (Key symptoms not reported: Sudden onset of symptoms, pleuritic chest pain)",Uncommon and rare diseases of the heart
+['Brugada syndrome'],"+1 Acute Myocardial Infarction: ST segment elevation, right bundle branch block, syncope, vomiting, loss of consciousness. (Trismus and hyperhidrosis are not typical.)
++2 Tetanus: Trismus, hyperhidrosis. (Syncope, vomiting, loss of consciousness, RBBB, and ST segment elevation are not typical.)
++3 Seizure Disorder: Loss of consciousness, syncope, vomiting. (Trismus, hyperhidrosis, RBBB, and ST segment elevation are not typical.)
++4 Neurocardiogenic Syncope: Syncope, loss of consciousness, hyperhidrosis. (Trismus, vomiting, RBBB, and ST segment elevation are not typical.)
++5 Acute Gastroenteritis: Vomiting, syncope. (Trismus, hyperhidrosis, loss of consciousness, RBBB, and ST segment elevation are not typical.)",Uncommon and rare diseases of the heart
+['Brugada syndrome'],"+1. **Myocardial Infarction (MI)**: ST segment elevation, increased creatine kinase MB isoform, syncope, loss of consciousness, pedal edema. (Key symptoms not reported: chest pain, shortness of breath)
++2. **Rhabdomyolysis**: Muscle weakness, elevated circulating creatine kinase concentration, exercise intolerance, urinary symptoms (due to renal involvement). (Key symptoms not reported: dark urine, muscle pain)
++3. **Prostatitis**: Urinary hesitancy, urinary incontinence, dysuria. (Key symptoms not reported: fever, pelvic pain)
++4. **Multiple Sclerosis (MS)**: Muscle weakness, urinary incontinence, syncope. (Key symptoms not reported: visual disturbances, fatigue)
++5. **Transient Ischemic Attack (TIA)**: Amaurosis fugax, syncope, loss of consciousness. (Key symptoms not reported: sudden numbness or weakness, difficulty speaking)",Uncommon and rare diseases of the heart
+[],"+1. Congestive Heart Failure (CHF): Dyspnea, exercise intolerance, pedal edema, increased NT-proBNP, left ventricular systolic dysfunction, right atrial enlargement, left atrial enlargement.
++2. Tricuspid Valve Disease: Abnormal tricuspid valve morphology, tricuspid regurgitation, right atrial enlargement, right bundle branch block, abnormal ST segment.
++3. Pericarditis: Pericardial effusion, abdominal pain (possible referred chest pain), dyspnea, palpitations.
++4. Cardiomyopathy: Muscle weakness, left ventricular systolic dysfunction, atrial fibrillation, increased NT-proBNP, exercise intolerance.
++5. Connective Tissue Disorder: Vascular tortuosity, muscle weakness, abnormal tricuspid valve morphology, right atrial enlargement, left atrial enlargement.",Uncommon and rare diseases of the heart
+[],"+1 Hypertrophic Cardiomyopathy: Hypertrophic cardiomyopathy, left ventricular hypertrophy, ventricular septal hypertrophy, atrial fibrillation, abnormal T-wave, reduced left ventricular ejection fraction, left ventricular diastolic dysfunction, right atrial enlargement, left atrial enlargement.
++2 Heart Failure: Dyspnea, pedal edema, reduced left ventricular ejection fraction, abnormal B-type natriuretic peptide concentration, right ventricular dilatation, tricuspid regurgitation, right bundle branch block, regional left ventricular wall motion abnormality.
++3 Pulmonary Hypertension: Pulmonary arterial hypertension, right ventricular dilatation, dyspnea, right atrial enlargement, tricuspid regurgitation.
++4 Nephrolithiasis: Nephrolithiasis, urinary hesitancy, dysuria, hypokalemia.
++5 Pneumonia: Productive cough, dyspnea, chest pain, pulmonary arterial hypertension.",Rare kidney diseases
+[],"+1. Congestive Heart Failure (CHF): Cardiomegaly, reduced ejection fraction, pedal edema, dyspnea, increased NT-proBNP concentration, right and left ventricular dysfunction, atrial enlargement, pulmonary hypertension.
++2. Cirrhosis with Portal Hypertension: Hepatomegaly, ascites, conjugated hyperbilirubinemia, increased total bilirubin, abdominal pain, accessory spleen, portal hypertension.
++3. Cholecystitis: Abdominal pain, hepatomegaly. (Key symptoms not reported: fever, nausea, vomiting).
++4. Pulmonary Arterial Hypertension (PAH): Dyspnea, exercise intolerance, pulmonary artery dilatation. (Key symptoms not reported: syncope, chest pain).
++5. Pericardial Effusion: Pericardial effusion, dyspnea, generalized muscle weakness. (Key symptoms not reported: chest pain, fever).",Uncommon and rare diseases of the heart
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1. Hereditary Spastic Paraplegia (HSP): Spastic paraplegia, difficulty walking, Babinski sign, hyperactive deep tendon reflexes, lower limb muscle weakness.
++2. Spinal Cord Compression: Spastic paraplegia, difficulty walking, Babinski sign, hyperactive deep tendon reflexes, lower limb muscle weakness, abnormal thoracic spine morphology.
++3. Adrenomyeloneuropathy (AMN): Spastic paraplegia, difficulty walking, Babinski sign, hyperactive deep tendon reflexes, lower limb muscle weakness.
++4. Amyotrophic Lateral Sclerosis (ALS): Spastic paraplegia, difficulty walking, Babinski sign, hyperactive deep tendon reflexes, lower limb muscle weakness. (Lacks upper motor neuron signs in upper limbs)
++5. Multiple Sclerosis (MS): Spastic paraplegia, difficulty walking, Babinski sign, hyperactive deep tendon reflexes, lower limb muscle weakness. (Lacks sensory disturbances and visual problems)",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1. Amyotrophic Lateral Sclerosis (ALS): Upper limb muscle weakness, neuropathic changes on EMG, slurred speech. Key symptoms not reported: progressive muscle atrophy, difficulty breathing.
++2. Cervical Spondylotic Myelopathy: Spinal canal stenosis, abnormal cervical spine morphology, upper limb weakness, upper limb pain. Key symptoms not reported: gait disturbances, bowel/bladder dysfunction.
++3. Chiari Malformation: Abnormal sella turcica morphology, abnormality of the cervical spine, upper limb muscle weakness, slurred speech. Key symptoms not reported: headaches, balance problems.
++4. Multiple Sclerosis (MS): Abnormal cerebral white matter morphology, slurred speech, upper limb muscle weakness. Key symptoms not reported: vision problems, fatigue.
++5. Stroke: Cerebral ischemia, slurred speech. Key symptoms not reported: sudden onset, facial drooping, one-sided weakness.",Rare neurological diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1. Stroke: Coma, dysarthria, muscle weakness, Babinski sign, hyperactive reflexes. Key symptoms not reported: sudden onset, focal neurological deficits.
++2. Amyotrophic Lateral Sclerosis (ALS): Dysarthria, muscle weakness, spastic gait, amyotrophy, hyperactive reflexes. Key symptoms not reported: progressive muscle atrophy, fasciculations.
++3. Multiple Sclerosis (MS): Muscle weakness, spastic gait, hyperactive reflexes, Babinski sign. Key symptoms not reported: visual disturbances, sensory deficits, episodic nature.
++4. Brainstem Glioma: Coma, dysarthria, abnormal reflexes, muscle weakness. Key symptoms not reported: progressive cranial nerve deficits, headache.
++5. Spinal Cord Injury: Muscle weakness, spasticity, abnormal reflexes. Key symptoms not reported: history of trauma, sensory level.",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Charcot-Marie-Tooth Disease (CMT): Consistent with pes cavus, distal muscle weakness, neuropathic changes on EMG. Key symptoms not reported: none.
++2 Friedreich's Ataxia: Consistent with pes cavus, muscle weakness, abnormal reflexes. Key symptoms not reported: none.
++3 Mitochondrial Myopathy: Consistent with elevated creatine kinase, muscle weakness, metabolic abnormalities. Key symptoms not reported: pes cavus, talipes.
++4 Homocystinuria: Consistent with hyperhomocystinemia, decreased vitamin B12, muscle weakness. Key symptoms not reported: pes cavus, talipes.
++5 Spinal Muscular Atrophy (SMA): Consistent with muscle weakness, atrophy, decreased reflexes, abnormal EMG findings. Key symptoms not reported: hyperammonemia, hyperhomocystinemia.",Neuromuscular diseases
+"['Amyotrophic lateral sclerosis type 4', 'Juvenile amyotrophic lateral sclerosis', 'Amyotrophic lateral sclerosis']","+1 Amyotrophic Lateral Sclerosis (ALS): Upper and lower limb muscle weakness, interosseus muscle atrophy, EMG: neuropathic changes, difficulty walking, poor fine motor coordination. Key symptoms not reported: Fasciculations, respiratory muscle weakness.
++2 Charcot-Marie-Tooth Disease (CMT): Upper and lower limb muscle weakness, interosseus muscle atrophy, EMG: neuropathic changes, difficulty walking, abnormal joint and 4th finger morphology, poor fine motor coordination. Key symptoms not reported: High arches, hammer toes.
++3 Hereditary Spastic Paraplegia (HSP): Difficulty walking, abnormal corticospinal tract morphology, lower limb muscle weakness, abnormal muscle tone. Key symptoms not reported: Spasticity, bladder dysfunction.
++4 Muscular Dystrophy: Upper and lower limb muscle weakness, interosseus muscle atrophy, difficulty walking, exercise-induced leg cramps, hand muscle weakness. Key symptoms not reported: Progressive muscle weakness, cardiomyopathy.
++5 Spinal Muscular Atrophy (SMA): Upper and lower limb muscle weakness, interosseus muscle atrophy, EMG: neuropathic changes, difficulty walking, poor fine motor coordination. Key symptoms not reported: Progressive muscle weakness, respiratory difficulties.",Neuromuscular diseases
+['Myasthenia gravis'],"+1. Myasthenia Gravis: Bilateral ptosis, fatigable weakness, upper limb muscle weakness, difficulty climbing stairs, difficulty standing, favorable response to acetylcholine esterase inhibitors, EMG findings.
++2. Lambert-Eaton Myasthenic Syndrome: Muscle weakness, EMG abnormalities. (Key symptoms not reported: autonomic symptoms, proximal muscle weakness).
++3. Congenital Myasthenic Syndromes: Bilateral ptosis, muscle weakness, EMG abnormalities. (Key symptoms not reported: variable response to acetylcholine esterase inhibitors).
++4. Oculopharyngeal Muscular Dystrophy: Ptosis, muscle weakness. (Key symptoms not reported: later onset, slower progression, less typical EMG findings).
++5. Mitochondrial Myopathy: Muscle weakness, ptosis. (Key symptoms not reported: exercise intolerance, multi-organ involvement).",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Consistent with ptosis, diplopia, generalized muscle weakness, easy fatigability, and EMG findings of decremental response to repetitive nerve stimulation.
++2 Lambert-Eaton Myasthenic Syndrome: Consistent with muscle weakness and fatigability, but less likely due to the pattern of weakness and EMG findings.
++3 Chronic Progressive External Ophthalmoplegia: Consistent with ptosis and ophthalmoplegia, but less likely due to lack of generalized muscle weakness and specific EMG findings.
++4 Botulism: Consistent with muscle weakness, ptosis, and difficulty swallowing and breathing, but less likely due to acute presentation and different EMG findings.
++5 Guillain-Barré Syndrome: Consistent with generalized muscle weakness and respiratory muscle involvement, but less likely due to lack of ascending paralysis and specific EMG findings.",Neuromuscular diseases
+['Myasthenia gravis'],"+1: Myasthenia Gravis: Diplopia, bilateral ptosis, dysphagia, difficulty walking, easy fatigability, exercise intolerance, anti-acetylcholine receptor antibody positivity, EMG findings.
++2: Lambert-Eaton Myasthenic Syndrome: Diplopia, bilateral ptosis, dysphagia, difficulty walking, easy fatigability, exercise intolerance, EMG findings. (Key symptom not reported: improvement with activity)
++3: Multiple Sclerosis: Diplopia, difficulty walking, leukoencephalopathy, abnormal cerebral white matter morphology. (Key symptoms not reported: relapsing-remitting course, other neurological deficits)
++4: Mitochondrial Myopathy: Exercise intolerance, difficulty walking, abnormal cerebral white matter morphology. (Key symptoms not reported: lactic acidosis, muscle biopsy findings)
++5: Chronic Inflammatory Demyelinating Polyneuropathy: Difficulty walking, easy fatigability. (Key symptoms not reported: sensory deficits, relapsing course)",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Bilateral ptosis, upper limb muscle weakness, favorable response to acetylcholine esterase inhibitors, anti-acetylcholine receptor antibody positivity.
++2 Stroke: Dysarthria, slurred speech, difficulty walking, history of ischemic stroke, abnormal cerebral white matter morphology.
++3 Multiple Sclerosis: Diplopia, muscle weakness, abnormal cerebral white matter morphology.
++4 Lambert-Eaton Myasthenic Syndrome (LEMS): Muscle weakness, reduced tendon reflexes (less likely due to specific antibody findings and response to acetylcholine esterase inhibitors).
++5 Diabetes-related neuropathy: Muscle weakness, reduced tendon reflexes (does not explain ptosis or response to acetylcholine esterase inhibitors).",Neuromuscular diseases
+['Myasthenia gravis'],"+1 Myasthenia Gravis: Diplopia, bilateral ptosis, dysarthria, hoarse voice, dysphagia, generalized muscle weakness, fatigable weakness, favorable response to acetylcholine esterase inhibitors, thymus hyperplasia, thymoma, EMG findings.
++2 Lambert-Eaton Myasthenic Syndrome: Generalized muscle weakness, EMG findings. (Key symptoms not reported: autonomic dysfunction, small cell lung cancer association)
++3 Multiple Sclerosis: Diplopia, dysarthria, muscle weakness. (Key symptoms not reported: sensory disturbances, MRI findings of demyelination)
++4 Amyotrophic Lateral Sclerosis: Dysarthria, muscle weakness, dysphagia. (Key symptoms not reported: upper motor neuron signs, progressive muscle atrophy)
++5 Stroke-related complications: Dysarthria, muscle weakness, history of ischemic stroke, atherosclerosis. (Key symptoms not reported: acute focal neurological deficits, imaging findings of new stroke)",Neuromuscular diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1. Multiple System Atrophy (MSA): Consistent with bradykinesia, akinesia, action tremor, shuffling gait, falls, urinary urgency, retention, incontinence, episodic hypertension, and sleep abnormalities. Key symptoms not reported: None.
++2. Parkinson's Disease: Consistent with bradykinesia, akinesia, action tremor, shuffling gait, falls, and sleep abnormalities. Key symptoms not reported: Progressive language deterioration, extensive urinary symptoms.
++3. Normal Pressure Hydrocephalus (NPH): Consistent with shuffling gait, falls, urinary incontinence, and progressive language deterioration. Key symptoms not reported: None.
++4. Amyotrophic Lateral Sclerosis (ALS): Consistent with hand muscle weakness, foot dorsiflexor weakness, EMG abnormality, and progressive motor deterioration. Key symptoms not reported: Extensive urinary symptoms.
++5. Lewy Body Dementia: Consistent with progressive language deterioration, parkinsonian symptoms, and sleep abnormalities. Key symptoms not reported: Extensive urinary symptoms.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1. Multiple System Atrophy (MSA): Urinary urgency, hesitancy, incontinence, erectile dysfunction, poor fine motor coordination, clumsiness, dysdiadochokinesis, decreased facial expression, hyperactive deep tendon reflexes.
++2. Amyotrophic Lateral Sclerosis (ALS): Dysarthria, slurred speech, Babinski sign, EMG: neuropathic changes, poor fine motor coordination, clumsiness, dysdiadochokinesis, inability to walk.
++3. Stroke or Transient Ischemic Attack (TIA): Syncope, slurred speech, dysarthria, cerebral ischemia, abnormal cerebral white matter morphology, positive Romberg sign, patent foramen ovale, arteriosclerosis.
++4. Parkinson's Disease: Decreased facial expression, poor fine motor coordination, memory impairment, dysarthria, slurred speech, positive Romberg sign, hyperactive deep tendon reflexes.
++5. Tuberous Sclerosis Complex (TSC): Renal hamartoma, hemangioma, abnormal cerebral white matter morphology, abnormal ventricular septum morphology, abnormal pons and medulla oblongata morphology.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1. Multiple System Atrophy (MSA): Bradykinesia, urinary incontinence, syncope, sleep abnormality, pontocerebellar atrophy, broad-based gait, and frequent falls.
++2. Normal Pressure Hydrocephalus (NPH): Urinary incontinence, broad-based gait, hallucinations, dilated fourth ventricle, and frequent falls.
++3. Parkinson's Disease: Bradykinesia, shuffling gait, poor fine motor coordination, frequent falls, and lower limb muscle weakness. Hallucinations and hyperactivity are less typical.
++4. Spinal Cord Compression: Back pain, difficulty climbing stairs, lower limb hypertonia, abnormal intervertebral disk morphology, and difficulty standing. Does not explain hallucinations or hepatic steatosis.
++5. Amyotrophic Lateral Sclerosis (ALS): Lower limb muscle weakness, difficulty standing, poor fine motor coordination, and lower limb hypertonia. Hallucinations and hyperactivity are not typical.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1. Multiple System Atrophy (MSA): Urinary urgency, hesitancy, incontinence, erectile dysfunction, dysdiadochokinesis, positive Romberg sign, Babinski sign, lower limb muscle weakness.
++2. Normal Pressure Hydrocephalus (NPH): Urinary incontinence, difficulty climbing stairs, abasia, loss of consciousness, slurred speech.
++3. Amyotrophic Lateral Sclerosis (ALS): Lower limb muscle weakness, neuropathic changes on EMG, dysphagia (slurred speech), Babinski sign. (Note: Urinary symptoms are less typical).
++4. Spinal Cord Tumor (e.g., Schwannoma): Abnormal spinal cord morphology, neuropathic changes on EMG, lower limb muscle weakness, dysesthesia.
++5. Prostate Cancer with Metastasis: Abnormal prostate morphology, urinary symptoms, abnormal lumbar spine morphology, lower limb muscle weakness.",Rare neurological diseases
+"['Multiple system atrophy', 'Multiple system atrophy, parkinsonian type', 'Multiple system atrophy, cerebellar type']","+1: Multiple System Atrophy (MSA): Nocturia, urinary incontinence, bradykinesia, broad-based gait, unsteady gait, memory impairment, falls, hyporeflexia of lower limbs, bowel incontinence, paresthesia, Babinski sign, Chaddock reflex, abasia, Hoffmann sign.
++2: Normal Pressure Hydrocephalus (NPH): Nocturia, urinary incontinence, broad-based gait, unsteady gait, memory impairment, positive Romberg sign, dyscalculia, falls.
++3: Diabetic Neuropathy: Diabetes mellitus, paresthesia, impaired vibration sensation at ankles, impaired pain sensation, hyporeflexia of lower limbs.
++4: Parkinson's Disease: Bradykinesia, broad-based gait, unsteady gait, memory impairment, falls, hyporeflexia of lower limbs.
++5: Prostate Cancer with Metastasis: Nocturia, urinary hesitancy, urinary incontinence, male hypogonadism, benign prostatic hyperplasia, abnormal lumbar spine morphology, impaired pain sensation, decreased body weight.",Rare neurological diseases
+['Alport syndrome'],"+1 Chronic Kidney Disease (CKD): Nocturia, proteinuria, hematuria, hypertension, hyperkalemia, hypoalbuminemia, hypercholesterolemia, hyperuricosuria, elevated creatinine, abnormal urinary color.
++2 Nephrotic Syndrome: Proteinuria, hypoalbuminemia, hypercholesterolemia, hypertension, hematuria (less typical but possible).
++3 Glomerulonephritis: Hematuria, proteinuria, hypertension, elevated creatinine, nocturia, abnormal urinary color.
++4 Polycystic Kidney Disease (PKD): Hypertension, hematuria, proteinuria, elevated creatinine. (Nodular goiter not typically associated).
++5 Lupus Nephritis: Proteinuria, hematuria, hypertension, elevated creatinine, acne, nodular goiter (suggestive of autoimmune process).",Rare kidney diseases
+['Alport syndrome'],"+1. Alport Syndrome: Proteinuria, hypertension, elevated creatinine, severe sensorineural hearing impairment, abnormal urinary color, macroscopic hematuria, cylindruria.
++2. IgA Nephropathy: Proteinuria, hypertension, elevated creatinine, abnormal urinary color, macroscopic hematuria, cylindruria. (Hearing impairment not typical)
++3. Lupus Nephritis: Proteinuria, hypertension, fever, elevated creatinine, abnormal urinary color, macroscopic hematuria, cylindruria. (Hearing impairment not typical)
++4. Goodpasture Syndrome: Proteinuria, hypertension, fever, elevated creatinine, abnormal urinary color, macroscopic hematuria, cylindruria. (Hearing impairment not typical)
++5. Chronic Kidney Disease (CKD): Proteinuria, hypertension, elevated creatinine, abnormal urinary color, macroscopic hematuria, cylindruria. (Hearing impairment not typical)",Rare kidney diseases
+['Alport syndrome'],"+1 Alport Syndrome: Nephritis, high-frequency sensorineural hearing impairment, microscopic hematuria, macroscopic hematuria.
++2 IgA Nephropathy: Nephritis, microscopic hematuria, macroscopic hematuria. (Lacks hearing impairment)
++3 Goodpasture Syndrome: Nephritis, microscopic hematuria, macroscopic hematuria. (Lacks pulmonary symptoms)
++4 Wegener's Granulomatosis: Sinusitis, nephritis, microscopic hematuria, macroscopic hematuria. (Lacks respiratory symptoms)
++5 Systemic Lupus Erythematosus (SLE): Nephritis, microscopic hematuria, macroscopic hematuria. (Lacks other systemic symptoms)",Rare kidney diseases
+['Alport syndrome'],"+1. Membranoproliferative Glomerulonephritis (MPGN): Consistent with proteinuria, hematuria, glomerulonephritis, increased IgM, and elevated ESR.
++2. IgA Nephropathy (Berger's Disease): Consistent with hematuria, proteinuria, and glomerulonephritis. Increased IgM is not typical.
++3. Systemic Lupus Erythematosus (SLE): Consistent with glomerulonephritis, proteinuria, hematuria, CKD, and elevated ESR. Increased IgM is not specific.
++4. Waldenström's Macroglobulinemia: Consistent with increased IgM, proteinuria, and CKD. Glomerulonephritis is less common.
++5. Thyroid-Related Kidney Disease: Consistent with nodular goiter and CKD. Direct link to glomerulonephritis and increased IgM is less clear.",Rare kidney diseases
+['Alport syndrome'],"+1. Alport Syndrome: Proteinuria, glomerulonephritis, hearing impairment, visual loss, elevated creatinine, macroscopic hematuria.
++2. Systemic Lupus Erythematosus (SLE): Proteinuria, glomerulonephritis, fever, elevated ESR, elevated creatinine, macroscopic hematuria. (Key symptoms not reported: skin rashes, joint pain)
++3. Goodpasture Syndrome: Proteinuria, glomerulonephritis, elevated creatinine, macroscopic hematuria. (Key symptoms not reported: pulmonary symptoms)
++4. IgA Nephropathy: Proteinuria, glomerulonephritis, macroscopic hematuria, elevated creatinine. (Key symptoms not reported: hearing and visual loss)
++5. Wegener's Granulomatosis (Granulomatosis with Polyangiitis): Proteinuria, glomerulonephritis, fever, elevated ESR, elevated creatinine. (Key symptoms not reported: respiratory symptoms)",Rare kidney diseases
+['Alport syndrome'],"+1. **Focal Segmental Glomerulosclerosis (FSGS)**: Proteinuria, hypoalbuminemia, elevated creatinine, renal tubular atrophy, tubulointerstitial fibrosis. Key symptoms not reported: None specific.
++2. **Chronic Kidney Disease (CKD)**: Renal tubular atrophy, proteinuria, elevated creatinine, tubulointerstitial fibrosis, hypercholesterolemia. Key symptoms not reported: None specific.
++3. **Nephrotic Syndrome**: Proteinuria, hypoalbuminemia, hypercholesterolemia, increased body weight. Key symptoms not reported: Edema (though increased body weight may suggest this).
++4. **Systemic Lupus Erythematosus (SLE)**: Glomerulonephritis, proteinuria, fever, systemic symptoms. Key symptoms not reported: Butterfly rash, joint pain.
++5. **Alport Syndrome**: Glomerulonephritis, renal failure. Key symptoms not reported: Hearing loss, eye abnormalities.",Rare kidney diseases
+['Alport syndrome'],"+1. Alport Syndrome: Hematuria, proteinuria, glomerulonephritis, renal cysts, hearing impairment, chronic kidney disease.
++2. Polycystic Kidney Disease (PKD): Renal cysts, chronic kidney disease, hematuria. (Hearing impairment is not typical.)
++3. IgA Nephropathy: Hematuria, proteinuria, glomerulonephritis. (Hearing impairment and renal cysts are not typical.)
++4. Membranoproliferative Glomerulonephritis (MPGN): Proteinuria, hematuria, glomerulonephritis, chronic kidney disease. (Hearing impairment is not typical.)
++5. Nephrotic Syndrome: Proteinuria, hypoalbuminemia, hypercholesterolemia, chronic kidney disease. (Hearing impairment and renal cysts are not typical.)",Rare kidney diseases
+['Alport syndrome'],"+1. **Systemic Lupus Erythematosus (SLE)**: Consistent with proteinuria, hematuria, fever, and xerostomia. Key symptoms not reported: Malar rash, joint pain.
++2. **Nephrotic Syndrome**: Consistent with proteinuria and hypercholesterolemia. Key symptoms not reported: Edema, hypoalbuminemia.
++3. **Sjogren's Syndrome**: Consistent with xerostomia and fever. Key symptoms not reported: Dry eyes, arthritis.
++4. **Diabetes Mellitus**: Consistent with proteinuria and hypercholesterolemia. Key symptoms not reported: Polyuria, polydipsia.
++5. **Alport Syndrome**: Consistent with proteinuria and hematuria. Key symptoms not reported: Hearing loss, ocular abnormalities.",Rare kidney diseases
+['Fabry disease'],"+1 Chronic Kidney Disease (CKD): Proteinuria, hematuria, hypertension, increased blood urea nitrogen, elevated circulating creatinine concentration. Key symptoms not reported: None specific to CKD.
++2 Systemic Lupus Erythematosus (SLE): Proteinuria, hematuria, hypertension, arthralgia, leukocytosis, thrombocytosis. Key symptoms not reported: Skin rashes, photosensitivity.
++3 Sjögren's Syndrome: Xerostomia, arthralgia, chronic diarrhea. Key symptoms not reported: Significant kidney issues like proteinuria and hematuria.
++4 Henoch-Schönlein Purpura (HSP): Proteinuria, hematuria, arthralgia, chronic diarrhea. Key symptoms not reported: Purpuric rash.
++5 Multiple Myeloma: Proteinuria, elevated circulating creatinine concentration, decreased body weight, drowsiness, arthralgia. Key symptoms not reported: Anemia, hypercalcemia.",Hereditary metabolic disorders
+['Fabry disease'],"+1 Alport Syndrome: Consistent with proteinuria, abnormality of the ureter, unilateral deafness, and abnormal tympanic membrane morphology. Key symptoms not reported: eye abnormalities.
++2 Branchio-Oto-Renal (BOR) Syndrome: Consistent with abnormal auditory canal morphology, unilateral deafness, abnormality of the ureter, and proteinuria. Key symptoms not reported: branchial cleft cysts or fistulas.
++3 Nail-Patella Syndrome: Consistent with proteinuria, abnormal finger phalanx morphology, and possibly auditory issues. Key symptoms not reported: nail abnormalities.
++4 Familial Hypercholesterolemia: Consistent with hypercholesterolemia. Key symptoms not reported: cardiovascular issues.
++5 Ehlers-Danlos Syndrome: Consistent with skeletal abnormalities (fractured hand bones, abnormal finger phalanx morphology). Key symptoms not reported: hypermobility, skin hyperextensibility.",Hereditary metabolic disorders
+['Fabry disease'],"+1. IgA Nephropathy: Hematuria, Proteinuria, Glomerulonephritis, IgA deposition in the glomerulus, Chronic kidney disease, Hypertension.
++2. Alport Syndrome: Hematuria, Proteinuria, Glomerulonephritis, Chronic kidney disease, Blurred vision (ocular abnormalities), Hypertension.
++3. Fabry Disease: Proteinuria, Chronic kidney disease, Hypertension, Hypertrophic cardiomyopathy, Arrhythmias, Blurred vision.
++4. Hypertensive Nephropathy: Proteinuria, Chronic kidney disease, Hypertension, Left ventricular hypertrophy, Arrhythmias.
++5. Polycystic Kidney Disease: Renal cysts, Chronic kidney disease, Hypertension, Cardiovascular complications (e.g., arrhythmias, left ventricular hypertrophy).",Rare kidney diseases
+['Gitelman syndrome'],"+1 Gitelman Syndrome: Consistent with hypokalemia, hypomagnesemia, metabolic alkalosis, renal potassium and magnesium wasting. Skin rash is not typical.
++2 Bartter Syndrome: Consistent with hypokalemia, metabolic alkalosis, renal potassium wasting. Hypomagnesemia is less common.
++3 Liddle Syndrome: Consistent with hypokalemia, metabolic alkalosis. Hypertension is a key symptom not reported.
++4 Hypomagnesemia with Secondary Hypocalcemia: Consistent with hypomagnesemia, hypokalemia. Does not typically present with metabolic alkalosis or prolonged QT interval.
++5 Autoimmune Polyendocrine Syndrome Type 1 (APS-1): Consistent with skin rash, potential hypomagnesemia. Electrolyte disturbances and metabolic alkalosis are not typical.",Rare kidney diseases
+['Gitelman syndrome'],"+1. Primary Hyperaldosteronism (Conn's Syndrome): Hypokalemia, hypernatriuria, muscle weakness, nocturia, hyperchloriduria.
++2. Cushing's Syndrome: Hypokalemia, hypernatriuria, muscle weakness, hepatic steatosis, elevated ALT.
++3. Liddle Syndrome: Hypokalemia, hypernatriuria, muscle weakness, nocturia, hyperchloriduria.
++4. Gitelman Syndrome: Hypokalemia, hyperchloriduria, muscle weakness, nocturia, increased urinary potassium.
++5. Hyperthyroidism: Palpitations, sinus tachycardia, hyperhidrosis, muscle weakness.",Rare kidney diseases
+['Gitelman syndrome'],"+1. Primary Hyperaldosteronism: Hypokalemia, increased circulating renin level, syncope, palpitations, muscle weakness. Key symptoms not reported: Hypertension.
++2. Addison's Disease: Syncope, muscle weakness, electrolyte imbalances. Key symptoms not reported: Hyperkalemia, hyperpigmentation.
++3. Carcinoid Syndrome: Diarrhea, palpitations, syncope. Key symptoms not reported: Flushing, bronchospasm.
++4. Pheochromocytoma: Palpitations, syncope, increased renin levels. Key symptoms not reported: Hypertension, headaches, sweating.
++5. Systemic Lupus Erythematosus (SLE): Oral ulcer, syncope, muscle weakness, electrolyte imbalances, T-wave inversion. Key symptoms not reported: Malar rash, photosensitivity.",Rare kidney diseases
+['Gitelman syndrome'],"+1 Bartter Syndrome: Consistent with hypokalemia, metabolic alkalosis, increased urinary potassium, and hypocalciuria.
++2 Gitelman Syndrome: Consistent with hypokalemia, metabolic alkalosis, and hypocalciuria. Key symptom not reported: magnesium wasting.
++3 Liddle Syndrome: Consistent with hypokalemia and metabolic alkalosis. Key symptom not reported: hypertension.
++4 Primary Hyperaldosteronism: Consistent with hypokalemia and metabolic alkalosis. Key symptoms not reported: hypertension, low renin levels.
++5 Diuretic Use: Consistent with hypokalemia and metabolic alkalosis. Key information not reported: medication history.",Rare kidney diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1. Systemic Lupus Erythematosus (SLE): Pancytopenia, proteinuria, urticaria, hypercoagulability, elevated bilirubin. Key symptoms not reported: Malar rash, photosensitivity.
++2. Paroxysmal Nocturnal Hemoglobinuria (PNH): Pancytopenia, hematuria, hypercoagulability, increased bilirubin, abnormal urinary color. Key symptoms not reported: Episodes of dark urine, abdominal pain.
++3. Thrombotic Thrombocytopenic Purpura (TTP): Thrombocytopenia, hematuria, hypercoagulability, elevated bilirubin, abnormal granulocytopoietic cell morphology. Key symptoms not reported: Neurological symptoms, fever.
++4. Hemolytic Uremic Syndrome (HUS): Proteinuria, thrombocytopenia, hematuria, elevated bilirubin, diarrhea. Key symptoms not reported: Acute kidney injury, hypertension.
++5. Multiple Myeloma: Proteinuria, anemia, hypercalcemia, elevated bilirubin, generalized muscle weakness. Key symptoms not reported: Bone pain, recurrent infections.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Chronic Kidney Disease (CKD): Nocturia, proteinuria, hematuria, hypertension, elevated circulating creatinine concentration, anemia. Key symptoms not reported: Edema, fatigue.
++2 Hepatic Dysfunction (e.g., Cirrhosis): Jaundice, increased total bilirubin, unconjugated hyperbilirubinemia, abdominal distention. Key symptoms not reported: Spider angiomas, ascites.
++3 Hemolytic Anemia: Jaundice, increased bilirubin, reticulocytosis, anemia. Key symptoms not reported: Dark urine, splenomegaly.
++4 Congestive Heart Failure (CHF): Dyspnea, pleural effusion, tachycardia, increased body weight. Key symptoms not reported: Peripheral edema, orthopnea.
++5 Systemic Lupus Erythematosus (SLE): Proteinuria, hematuria, hypertension, anemia, alopecia, elevated erythrocyte sedimentation rate. Key symptoms not reported: Malar rash, photosensitivity.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1. Paroxysmal Nocturnal Hemoglobinuria (PNH): Consistent with reduced granulocyte CD55/CD59 levels, decreased expression of GPI-anchored proteins, anemia, abnormal urinary color, and poikilocytosis.
++2. Myelofibrosis: Consistent with increased megakaryocyte count, myelofibrosis, hepatosplenomegaly, and anemia. Hepatic cysts and abnormal mesentery morphology are less typical.
++3. Chronic Liver Disease (e.g., Cirrhosis): Consistent with hepatosplenomegaly, ascites, hepatic cysts, and abdominal distention. Hematological abnormalities are less commonly associated.
++4. Gaucher Disease: Consistent with hepatosplenomegaly, anemia, vertebral hyperostosis, and generalized muscle weakness. Specific hematological findings (reduced CD55/CD59) are not typical.
++5. Systemic Lupus Erythematosus (SLE): Consistent with hepatosplenomegaly, anemia, neutropenia, and leukopenia. Specific findings related to GPI-anchored proteins are not characteristic.",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1 Myelodysplastic Syndromes (MDS): Pancytopenia, myelodysplasia, abnormal erythroid lineage cell morphology, abnormal megakaryocyte morphology, anisocytosis.
++2 Systemic Lupus Erythematosus (SLE): Oral ulcer, skin rash, thrombocytopenia, anemia, fever. (Key symptoms not reported: arthritis, renal involvement)
++3 Aplastic Anemia: Pancytopenia, recurrent upper respiratory tract infections, anemia. (Key symptoms not reported: absence of abnormal cell morphology)
++4 Acute Leukemia: Pancytopenia, fever, abnormal cell morphology, recurrent infections. (Key symptoms not reported: acute onset, blasts in peripheral blood)
++5 Paroxysmal Nocturnal Hemoglobinuria (PNH): Pancytopenia, reticulocytosis, anemia. (Key symptoms not reported: hemoglobinuria, thrombosis)",Rare haematological diseases
+['Paroxysmal nocturnal hemoglobinuria'],"+1: Hemophagocytic Lymphohistiocytosis (HLH): Fever, hepatomegaly, cytopenias (thrombocytopenia, anemia), hyperbilirubinemia, hemophagocytosis, leukocytosis, abnormal cell morphology.
++2: Systemic Lupus Erythematosus (SLE): Purpura, skin rash, muscle weakness, thrombocytopenia, anemia, fever, leukocytosis. Key symptoms not reported: Malar rash, photosensitivity.
++3: Chronic Myelomonocytic Leukemia (CMML): Hepatomegaly, abnormal cell morphology, anemia, thrombocytopenia, leukocytosis, recurrent thromboembolism, hypercoagulability.
++4: Antiphospholipid Syndrome (APS): Recurrent thromboembolism, hypercoagulability, thrombocytopenia, anemia. Key symptoms not reported: Livedo reticularis, recurrent pregnancy loss.
++5: Cirrhosis with Portal Hypertension: Ascites, hepatomegaly, gastric varix, portal vein thrombosis. Key symptoms not reported: Jaundice, spider angiomas.",Rare haematological diseases
+['POEMS syndrome'],"+1. **Systemic Lupus Erythematosus (SLE)**: Proteinuria, hematuria, anemia, fever, pleural effusion, elevated ESR. Key symptoms not reported: Malar rash, photosensitivity.
++2. **Nephrotic Syndrome**: Proteinuria, hypoalbuminemia, edema, elevated ESR. Key symptoms not reported: Hyperlipidemia.
++3. **Congestive Heart Failure (CHF)**: Cardiomegaly, pericardial effusion, pulmonary arterial hypertension, pleural effusion, pedal edema, anasarca. Key symptoms not reported: Dyspnea on exertion.
++4. **Chronic Kidney Disease (CKD)**: Proteinuria, hematuria, hypertension, anemia, elevated ESR. Key symptoms not reported: Uremic symptoms (e.g., pruritus, nausea).
++5. **Lymphoma**: Lymphadenopathy, hepatosplenomegaly, fever, anemia, elevated ESR. Key symptoms not reported: Night sweats, weight loss.",Rare neurological diseases
+['POEMS syndrome'],"+1. Hypothyroidism: Facial edema, apathy, poor appetite, abnormal circulating thyroid hormone concentration.
++2. Cirrhosis: Hepatosplenomegaly, ascites, hyperpigmentation of the skin, anasarca.
++3. Multiple Myeloma: Monoclonal elevation of IgG, anemia, lower limb pain, EMG abnormality.
++4. Nephrotic Syndrome: Hypoproteinemia, anasarca, pedal edema, facial edema, pleural effusion.
++5. Systemic Lupus Erythematosus (SLE): Fever, lymphadenopathy, pleural effusion, pericardial effusion.",Rare neurological diseases
+['POEMS syndrome'],"+1. **Amyloidosis**: Consistent with myocardial infarction, left ventricular diastolic dysfunction, left atrial enlargement, neuropathy, and splenomegaly. Key symptoms not reported: macroglossia, periorbital purpura.
++2. **Multiple Myeloma**: Consistent with increased circulating IgA level, osteoporosis, abnormal granulocytopoietic cell morphology, and lower limb muscle weakness. Key symptoms not reported: bone pain, anemia.
++3. **Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)**: Consistent with demyelinating motor and sensory neuropathy, lower limb muscle weakness, difficulty climbing stairs, and dysesthesia. Key symptoms not reported: areflexia.
++4. **Systemic Lupus Erythematosus (SLE)**: Consistent with a wide range of symptoms including cardiac, hepatic, and neuropathic issues. Key symptoms not reported: malar rash, photosensitivity.
++5. **Gaucher Disease**: Consistent with splenomegaly, thrombocytosis, and bone abnormalities. Key symptoms not reported: hepatomegaly, bone pain.",Rare neurological diseases
+['POEMS syndrome'],"+1: Amyloidosis: Proteinuria, abnormal renal glomerulus morphology, ascites, pleural effusion, pericardial effusion, hyperpigmentation, thickened skin, elevated IgA levels.
++2: Systemic Lupus Erythematosus (SLE): Proteinuria, hematuria, hypertension, pleural effusion, pericardial effusion, splenomegaly, elevated ESR. (Key symptom not reported: Positive ANA test)
++3: Chronic Kidney Disease (CKD): Proteinuria, hematuria, hypertension, elevated creatinine, abnormal renal morphology. (Key symptom not reported: Underlying cause of CKD)
++4: Sarcoidosis: Lymphadenopathy, splenomegaly, pleural effusion, abnormal adrenal morphology. (Key symptom not reported: Pulmonary involvement)
++5: Multiple Myeloma: Proteinuria, elevated creatinine, hyperpigmentation, elevated ESR, systemic symptoms. (Key symptom not reported: Bone pain or fractures)",Rare neurological diseases
+['POEMS syndrome'],"+1. **Systemic Lupus Erythematosus (SLE)**: Facial edema, nephrolithiasis, hematuria, anemia, pleural effusion, elevated creatinine. Key symptoms not reported: Butterfly rash, photosensitivity.
++2. **Chronic Kidney Disease (CKD)**: Nephrolithiasis, hematuria, elevated creatinine, anemia. Key symptoms not reported: Hypertension, uremic symptoms.
++3. **Hypothyroidism**: Facial edema, dry skin, decreased T4, weight loss (though typically weight gain is seen). Key symptoms not reported: Cold intolerance, bradycardia.
++4. **Multiple Myeloma**: Monoclonal elevation of IgA, anemia, abnormal bone mineral density. Key symptoms not reported: Bone pain, hypercalcemia.
++5. **Congestive Heart Failure (CHF)**: Cardiomegaly, pericardial effusion, pleural effusion, elevated NT-proBNP, exertional dyspnea. Key symptoms not reported: Peripheral edema, orthopnea.",Rare neurological diseases
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Gaucher Disease: Hepatosplenomegaly, protuberant abdomen, bone-marrow foam cells, recurrent infections, falls.
++2 Niemann-Pick Disease: Hepatosplenomegaly, protuberant abdomen, bone-marrow foam cells, falls, incontinence.
++3 Chronic Granulomatous Disease: Recurrent respiratory infections, hepatosplenomegaly, fever, intermittent diarrhea.
++4 Mucopolysaccharidosis: Hepatosplenomegaly, protuberant abdomen, recurrent infections, falls.
++5 Systemic Lupus Erythematosus (SLE): Fever, recurrent infections, hepatosplenomegaly, intermittent diarrhea, falls.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1 Gaucher Disease: Splenomegaly, leukopenia, reticulocytosis, poor appetite, postnatal growth retardation. Key symptoms not reported: Bone pain, hepatomegaly.
++2 Niemann-Pick Disease: Splenomegaly, leukopenia, intellectual disability, poor appetite, postnatal growth retardation. Key symptoms not reported: Hepatomegaly, cherry-red spot in the eye.
++3 Lysosomal Storage Disorders (general): Splenomegaly, leukopenia, intellectual disability, poor appetite, postnatal growth retardation. Key symptoms not reported: Specific enzyme deficiencies.
++4 Inflammatory Bowel Disease (IBD): Diarrhea, abdominal pain, poor appetite, postnatal growth retardation, headache. Key symptoms not reported: Splenomegaly, leukopenia.
++5 Infectious Diseases (e.g., tuberculosis, HIV): Lymphadenopathy, splenomegaly, poor appetite, headache, abdominal pain. Key symptoms not reported: Specific infectious symptoms (e.g., fever, night sweats).",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","<thinking>
+The patient's symptoms present a complex clinical picture with multiple organ systems involved. Key symptoms include proteinuria, hepatosplenomegaly, cardiomegaly, thrombocytopenia, neutropenia, pancytopenia, leukopenia, anemia, and reticulocytosis. These symptoms suggest a systemic condition affecting the blood, liver, spleen, and heart.
+
+a. Key symptoms:
+- Hematologic abnormalities: thrombocytopenia, neutropenia, pancytopenia, leukopenia, anemia, reticulocytosis, schistocytosis, elliptocytosis, anisocytosis, increased mean platelet volume, abnormal erythroid lineage cell morphology, abnormal megakaryocyte morphology.
+- Hepatic and splenic involvement: hepatosplenomegaly, hepatomegaly, conjugated hyperbilirubinemia, hypocholesterolemia, increased total bilirubin, abnormal gallbladder morphology.
+- Cardiac involvement: cardiomegaly, left atrial enlargement.
+- Other symptoms: subcutaneous hemorrhage, vomiting, nausea, abdominal pain, neonatal respiratory distress, recurrent upper respiratory tract infections, exercise intolerance, prolonged partial thromboplastin time, generalized lymphadenopathy.
+
+b. Possible diagnoses:
+1. Gaucher disease: This lysosomal storage disorder can present with hepatosplenomegaly, anemia, thrombocytopenia, and bone abnormalities. However, the presence of cardiomegaly and left atrial enlargement is less typical.
+2. Hemophagocytic lymphohistiocytosis (HLH): This condition can cause pancytopenia, hepatosplenomegaly, and hyperbilirubinemia. The presence of prolonged partial thromboplastin time and generalized lymphadenopathy also supports this diagnosis.
+3. Congenital dyserythropoietic anemia (CDA): This rare disorder can present with anemia, reticulocytosis, and abnormal erythroid lineage cell morphology. Hepatosplenomegaly and increased bilirubin levels are also consistent with CDA.
+4. Niemann-Pick disease: This lysosomal storage disorder can cause hepatosplenomegaly, anemia, thrombocytopenia, and neurological symptoms. Cardiomegaly and left atrial enlargement are less common but possible.
+5. Sickle cell disease: This condition can cause anemia, reticulocytosis, and splenomegaly. However, the presence of cardiomegaly, left atrial enlargement, and generalized lymphadenopathy is less typical.
+
+c. Additional tests:
+- Bone marrow biopsy to evaluate for HLH or CDA.
+- Genetic testing for lysosomal storage disorders (Gaucher disease, Niemann-Pick disease).
+- Enzyme assays for Gaucher disease and Niemann-Pick disease.
+- Hemoglobin electrophoresis for sickle cell disease.
+- Imaging studies (MRI, CT) to assess organ involvement and morphology.
+</thinking>
+
+<top5>
++1. Hemophagocytic lymphohistiocytosis (HLH): Consistent with pancytopenia, hepatosplenomegaly, hyperbilirubinemia, prolonged partial thromboplastin time, generalized lymphadenopathy.
++2. Gaucher disease: Consistent with hepatosplenomegaly, anemia, thrombocytopenia, abnormal erythroid lineage cell morphology. Cardiomegaly and left atrial enlargement are less typical.
++3. Congenital dyserythropoietic anemia (CDA): Consistent with anemia, reticulocytosis, abnormal erythroid lineage cell morphology, hepatosplenomegaly, increased bilirubin levels.
++4. Niemann-Pick disease: Consistent with hepatosplenomegaly, anemia, thrombocytopenia, abnormal erythroid lineage cell morphology. Cardiomegaly and left atrial enlargement are less common.
++5. Sickle cell disease: Consistent with anemia,",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1. **Leukodystrophy**: Consistent with progressive language deterioration, memory impairment, abnormal cerebral white matter morphology, seizures, and intellectual disability. Key symptoms not reported: None specific.
++2. **Mucopolysaccharidosis**: Consistent with intellectual disability, seizures, splenomegaly, abnormal lung morphology, and multiple physical abnormalities. Key symptoms not reported: Coarse facial features, joint stiffness.
++3. **Down Syndrome**: Consistent with intellectual disability, seizures, congenital abnormalities (inguinal hernia, talipes), and dysmorphic features. Key symptoms not reported: Characteristic facial features, hypotonia.
++4. **Neurosarcoidosis**: Consistent with splenomegaly, abnormal lung morphology, neurological symptoms (seizures, gait disturbance, dysarthria). Key symptoms not reported: Uveitis, skin lesions.
++5. **Chiari Malformation**: Consistent with abnormal medulla oblongata morphology, seizures, gait disturbance, and intellectual disability. Key symptoms not reported: Headache, neck pain.",Hereditary metabolic disorders
+"['Chronic visceral acid sphingomyelinase deficiency', 'Niemann-Pick disease type C']","+1. **Gaucher Disease**: Hepatosplenomegaly, pancytopenia, delayed puberty, bone abnormalities (kyphosis), and potential cardiac involvement.
++2. **Wilson's Disease**: Jaundice, hepatosplenomegaly, pancytopenia, delayed puberty, and potential cardiac involvement.
++3. **Hemochromatosis**: Hepatosplenomegaly, cardiomegaly, delayed puberty, and potential pancytopenia.
++4. **Congenital Heart Disease with Secondary Effects**: Multiple cardiac abnormalities, hepatosplenomegaly, pancytopenia, and delayed puberty.
++5. **Chronic Liver Disease/Cirrhosis**: Hepatosplenomegaly, jaundice, pancytopenia, and cardiac issues due to cirrhotic cardiomyopathy.",Hereditary metabolic disorders

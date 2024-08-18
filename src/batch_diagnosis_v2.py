@@ -256,7 +256,7 @@ def get_diagnosis(prompt, dataset, output_file, model, no_cat=False, many_shot=T
     print("Generating Diagnoses")
     # Iterate over the rows in the synthetic data
     for index, row in tqdm(df[:200].iterrows(), total=df[:200].shape[0]):
-        print(f"Entry: {index}")
+        #print(f"Entry: {index}")
         # Get the ground truth (GT) and the description
         description = row["Phenotype"]
         gt = row["RareDisease"]
@@ -357,11 +357,47 @@ def get_all_diagnoses(model, dataset, cat=True, no_cat=False):
         get_diagnosis(PROMPT_TEMPLATE_IMPROVED_NO_SHOT, dataset, f'diagnoses_{dataset}_{model}_noshot_nocat_ni.csv', model, no_cat=True, many_shot=False)
 
 # GPT-4o-mini
-get_all_diagnoses("gpt4omini", "PUMCH_ADM", no_cat=True)
-#get_all_diagnoses("gpt4omini", "MME", no_cat=False)
-get_all_diagnoses("gpt4omini", "LIRICAL", no_cat=False)
-get_all_diagnoses("gpt4omini", "HMS", no_cat=False)
-get_all_diagnoses("gpt4omini", "RAMEDIS", no_cat=True)
+# get_all_diagnoses("gpt4omini", "PUMCH_ADM", cat=False, no_cat=True)
+# get_all_diagnoses("gpt4omini", "MME", no_cat=False)
+# get_all_diagnoses("gpt4omini", "LIRICAL", no_cat=False)
+# get_all_diagnoses("gpt4omini", "HMS", no_cat=False)
+# get_all_diagnoses("gpt4omini", "RAMEDIS", no_cat=True)
+
+# GPT-4o
+# get_all_diagnoses("gpt4o", "PUMCH_ADM", no_cat=True)
+# get_all_diagnoses("gpt4o", "MME", no_cat=False)
+# get_all_diagnoses("gpt4o", "LIRICAL", no_cat=False)
+# get_all_diagnoses("gpt4o", "HMS", no_cat=False)
+# get_all_diagnoses("gpt4o", "RAMEDIS", no_cat=True)
+
+# GPT-4 Turbo 1106
+# get_all_diagnoses("gpt4turbo1106", "PUMCH_ADM", no_cat=True)
+# get_all_diagnoses("gpt4turbo1106", "MME", no_cat=False)
+# get_all_diagnoses("gpt4turbo1106", "LIRICAL", no_cat=False)
+# get_all_diagnoses("gpt4turbo1106", "HMS", no_cat=False)
+# get_all_diagnoses("gpt4turbo1106", "RAMEDIS", no_cat=True)
+
+# Llama 3 70B
+get_all_diagnoses("llama3_70b", "PUMCH_ADM", no_cat=True)
+get_all_diagnoses("llama3_70b", "MME", no_cat=False) # Not doing this on first go
+get_all_diagnoses("llama3_70b", "LIRICAL", no_cat=False)
+get_all_diagnoses("llama3_70b", "HMS", no_cat=False)
+get_all_diagnoses("llama3_70b", "RAMEDIS", no_cat=True)
+
+# Claude 3 Opus
+get_all_diagnoses("c3opus", "PUMCH_ADM", no_cat=True)
+get_all_diagnoses("c3opus", "MME", no_cat=False)
+get_all_diagnoses("c3opus", "LIRICAL", no_cat=False)
+get_all_diagnoses("c3opus", "HMS", no_cat=False)
+get_all_diagnoses("c3opus", "RAMEDIS", no_cat=True)
+
+# Claude 3.5 Sonnet
+get_all_diagnoses("c3sonnet", "PUMCH_ADM", no_cat=True)
+get_all_diagnoses("c3sonnet", "MME", no_cat=False)
+get_all_diagnoses("c3sonnet", "LIRICAL", no_cat=False)
+get_all_diagnoses("c3sonnet", "HMS", no_cat=False)
+get_all_diagnoses("c3sonnet", "RAMEDIS", no_cat=True)
+
 
 # No point in doing aggregated, I will just concatenate the other results
 #get_all_diagnoses("gpt4omini", "aggregated", no_cat=True)
