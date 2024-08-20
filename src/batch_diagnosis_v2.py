@@ -377,26 +377,26 @@ def get_all_diagnoses(model, dataset, cat=True, no_cat=False):
 # get_all_diagnoses("gpt4turbo1106", "HMS", no_cat=False)
 # get_all_diagnoses("gpt4turbo1106", "RAMEDIS", no_cat=True)
 
-# Llama 3 70B
-get_all_diagnoses("llama3_70b", "PUMCH_ADM", no_cat=True)
-get_all_diagnoses("llama3_70b", "MME", no_cat=False) # Not doing this on first go
-get_all_diagnoses("llama3_70b", "LIRICAL", no_cat=False)
-get_all_diagnoses("llama3_70b", "HMS", no_cat=False)
-get_all_diagnoses("llama3_70b", "RAMEDIS", no_cat=True)
+# # Llama 3 70B
+# get_all_diagnoses("llama3_70b", "PUMCH_ADM", no_cat=True)
+# get_all_diagnoses("llama3_70b", "MME", no_cat=False) # Not doing this on first go
+# get_all_diagnoses("llama3_70b", "LIRICAL", no_cat=False)
+# get_all_diagnoses("llama3_70b", "HMS", no_cat=False)
+# get_all_diagnoses("llama3_70b", "RAMEDIS", no_cat=True)
 
 # Claude 3 Opus
 get_all_diagnoses("c3opus", "PUMCH_ADM", no_cat=True)
-get_all_diagnoses("c3opus", "MME", no_cat=False)
-get_all_diagnoses("c3opus", "LIRICAL", no_cat=False)
-get_all_diagnoses("c3opus", "HMS", no_cat=False)
-get_all_diagnoses("c3opus", "RAMEDIS", no_cat=True)
+#get_all_diagnoses("c3opus", "MME", no_cat=False)
+# get_all_diagnoses("c3opus", "LIRICAL", no_cat=False)
+# get_all_diagnoses("c3opus", "HMS", no_cat=False)
+# get_all_diagnoses("c3opus", "RAMEDIS", no_cat=True)
 
-# Claude 3.5 Sonnet
-get_all_diagnoses("c3sonnet", "PUMCH_ADM", no_cat=True)
-get_all_diagnoses("c3sonnet", "MME", no_cat=False)
-get_all_diagnoses("c3sonnet", "LIRICAL", no_cat=False)
-get_all_diagnoses("c3sonnet", "HMS", no_cat=False)
-get_all_diagnoses("c3sonnet", "RAMEDIS", no_cat=True)
+# # Claude 3.5 Sonnet
+# get_all_diagnoses("c3sonnet", "PUMCH_ADM", no_cat=True)
+# get_all_diagnoses("c3sonnet", "MME", no_cat=False)
+# get_all_diagnoses("c3sonnet", "LIRICAL", no_cat=False)
+# get_all_diagnoses("c3sonnet", "HMS", no_cat=False)
+# get_all_diagnoses("c3sonnet", "RAMEDIS", no_cat=True)
 
 
 # No point in doing aggregated, I will just concatenate the other results

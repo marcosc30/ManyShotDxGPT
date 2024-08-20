@@ -10,6 +10,8 @@ from tqdm import tqdm
 # Load the environment variables from the .env file
 load_dotenv()
 
+# Delete entries with no GT, I should've done this earlier honestly
+
 # LLM Version from original paper
 # Initialize the AzureChatOpenAI model
 model = AzureChatOpenAI(
@@ -101,8 +103,22 @@ def get_scores(model, dataset, model_tested, many_shot, cat, i=False):
     scores_df.to_csv(output_path, index=False)
 
 
-get_scores(model, 'PUMCH_ADM', 'gpt4omini',many_shot=True, cat=True)
-get_scores(model, 'PUMCH_ADM', 'gpt4omini', many_shot=False, cat=True)
+def get_all_scores (model, model_tested):
+    datasets = ['RAMEDIS', 'LIRICAL', 'PUMCH_ADM', 'MME', 'HHS']
+    for dataset in datasets:
+        get_scores(model, dataset, model_tested, many_shot=True, cat=False, i=False)
+        get_scores(model, dataset, model_tested, many_shot=False, cat=False, i=False)
+        if dataset == 'RAMEDIS' or dataset == 'PUMCH_ADM':
+            get_scores(model, dataset, model_tested, many_shot=True, cat=True, i=False)
+            get_scores(model, dataset, model_tested, many_shot=False, cat=True, i=False)
+
+
+get_all_scores("gpt4o", "gpt4omini")
+get_all_scores("gpt4o", "gpt4o")
+get_all_scores("gpt4o", "c3opus")
+get_all_scores("gpt4o", "c3sonnet")
+
+    
 
 
 
