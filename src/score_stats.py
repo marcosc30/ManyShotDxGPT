@@ -1,59 +1,82 @@
 import os
 import pandas as pd
 
-# Load the scores data
-# df2 = pd.read_csv('data/scores_RAMEDIS_c3sonnet.csv')
+def score_stats(model, dataset, many_shot, cat, i=False):
+    if many_shot:
+        many_shot = "manyshot"
+    else:
+        many_shot = "noshot"
 
-# Summarize the data
-# print(df.describe())
-# print(df.head())
-# print(df.shape)
+    if cat:
+        cat = "cat"
+    else:
+        cat = "nocat"
 
-# Give me the stats for P1, P5 and P0
-print(df['Score'].value_counts())
-# Give me the stats for P1, P5 and P0 for the first 50 rows
-# print(df['Score'].iloc[:50].value_counts())
+    if i:
+        i = "i"
+    else:
+        i = "ni"
+    # Load the scores data
+    df = pd.read_csv('data/scores_{dataset}_{model}_{cat}_{i}.csv')
 
-# Give me the stats for P1, P5 and P0
-print(df2['Score'].value_counts())
-# Give me the stats for P1, P5 and P0 for the first 50 rows
-# print(df2['Score'].iloc[:50].value_counts())
+    # Summarize the data
+    print(df.describe())
+    print(df.head())
+    print(df.shape)
 
-# To calculate the overlapping errors between the two models, we will compare the 'Score' columns from both dataframes (df and df2) to identify common mispredictions.
-# First, filter out correct predictions (P1) as we are only interested in errors (P5 and P0).
-errors_df = df[df['Score'] != 'P1']
-errors_df2 = df2[df2['Score'] != 'P1']
+    # Give me the stats for P1, P5 and P0
+    print(df['Score'].value_counts())
+    # Give me the stats for P1, P5 and P0 for the first 50 rows
+    # print(df['Score'].iloc[:50].value_counts())
 
-# Now, find the intersection of GT (Ground Truth) values in both error dataframes to identify overlapping errors.
-overlapping_errors = pd.merge(errors_df, errors_df2, on='GT', how='inner', suffixes=('_df', '_df2'))
+    # To calculate the overlapping errors between the two models, we will compare the 'Score' columns from both dataframes (df and df2) to identify common mispredictions.
+    # First, filter out correct predictions (P1) as we are only interested in errors (P5 and P0).
+    errors_df_p1 = df[df['Score'] != 'P1']
 
-# Display the count of overlapping errors
-print(f"Number of overlapping errors: {len(overlapping_errors)}")
+    # # Now, find the intersection of GT (Ground Truth) values in both error dataframes to identify overlapping errors.
+    # overlapping_errors = pd.merge(errors_df, errors_df2, on='GT', how='inner', suffixes=('_df', '_df2'))
 
-# But also for !P5
-errors_df = df[df['Score'] == 'P0']
-errors_df2 = df2[df2['Score'] == 'P0']
+    # # Display the count of overlapping errors
+    # print(f"Number of overlapping errors: {len(overlapping_errors)}")
 
-# Now, find the intersection of GT (Ground Truth) values in both error dataframes to identify overlapping errors.
-overlapping_errors = pd.merge(errors_df, errors_df2, on='GT', how='inner', suffixes=('_df', '_df2'))
+    # But also for !P5
+    errors_df_p5 = df[df['Score'] == 'P0']
 
-# Display the count of overlapping errors
-print(f"Number of overlapping errors: {len(overlapping_errors)}")
+    # # Now, find the intersection of GT (Ground Truth) values in both error dataframes to identify overlapping errors.
+    # overlapping_errors = pd.merge(errors_df, errors_df2, on='GT', how='inner', suffixes=('_df', '_df2'))
 
-#Score
-count_p1 = df['Score'].value_counts()['P1']
-count_p5 = df[df['Score'].isin(['P2', 'P3', 'P4', 'P5'])].shape[0]
-count_p0 = df['Score'].value_counts()['P0']
+    # # Display the count of overlapping errors
+    # print(f"Number of overlapping errors: {len(overlapping_errors)}")
 
-print(f"Overlapping errors 14 of 23 errors in the 200 predictions: {len(overlapping_errors)/count_p0*100}%")
+    #Score
+    count_p1 = df['Score'].value_counts()['P1']
+    count_p5 = df[df['Score'].isin(['P2', 'P3', 'P4', 'P5'])].shape[0]
+    count_p0 = df['Score'].value_counts()['P0']
 
-# Calculate total number of predictions
-total_predictions = count_p1 + count_p5 + count_p0
+    # print(f"Overlapping errors 14 of 23 errors in the 200 predictions: {len(overlapping_errors)/count_p0*100}%")
 
-# Calculate Strict Accuracy
-strict_accuracy_new = (count_p1 / total_predictions) * 100
+    # Calculate total number of predictions
+    total_predictions = count_p1 + count_p5 + count_p0
 
-# Calculate Lenient Accuracy
-lenient_accuracy_new = ((count_p1 + count_p5) / total_predictions) * 100
+    # Calculate Strict Accuracy
+    strict_accuracy_new = (count_p1 / total_predictions) * 100
 
-print(strict_accuracy_new, lenient_accuracy_new)
+    # Calculate Lenient Accuracy
+    lenient_accuracy_new = ((count_p1 + count_p5) / total_predictions) * 100
+
+    print(model, dataset, strict_accuracy_new, lenient_accuracy_new)
+    result_df = pd.read_csv('data/scores/results.csv')
+    result_df = result_df.append({'model': model, 'dataset': dataset, 'strict_accuracy': strict_accuracy_new, 'lenient_accuracy': lenient_accuracy_new}, ignore_index=True)
+    result_df.to_csv('data/scores/results.csv', index=False)
+
+
+def score_stats_all_datasets(model):
+    datasets = ['PUMCH_ADM', 'LIRICAL', 'HMS', 'MME', 'RAMEDIS']
+    for dataset in datasets:    
+        score_stats(model, dataset, True, True, False)
+        score_stats(model, dataset, False, True, False)
+        if dataset == 'RAMEDIS' or dataset == 'PUMCH_ADM':
+            score_stats(model, dataset, True, False, False)
+            score_stats(model, dataset, False, False, False)
+
+

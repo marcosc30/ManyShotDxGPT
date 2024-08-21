@@ -6,6 +6,8 @@ from langchain.schema import HumanMessage
 from langchain.prompts import PromptTemplate
 from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from tqdm import tqdm
+from langchain.chat_models import ChatOpenAI
+from numpy import NaN
 
 # Load the environment variables from the .env file
 load_dotenv()
@@ -13,14 +15,24 @@ load_dotenv()
 # Delete entries with no GT, I should've done this earlier honestly
 
 # LLM Version from original paper
-# Initialize the AzureChatOpenAI model
-model = AzureChatOpenAI(
-    openai_api_version = str(os.getenv("OPENAI_API_VERSION")),
-    deployment_name="nav29",
-    temperature=0,
-    # request_timeout=128,
-    max_tokens=800
-)
+# # Initialize the AzureChatOpenAI model
+# model = AzureChatOpenAI(
+#     openai_api_version = str(os.getenv("OPENAI_API_VERSION")),
+#     deployment_name="nav29",
+#     temperature=0,
+#     # request_timeout=128,
+#     max_tokens=800
+# )
+
+# gpt-4o
+model_name = "gpt-4o"
+openai_api_key=os.getenv("OPENAI_API_KEY")
+gpt4o = ChatOpenAI(
+        openai_api_key = openai_api_key,
+        model_name = model_name,
+        temperature = 0,
+        max_tokens = 800,
+    )
 
 def get_scores(model, dataset, model_tested, many_shot, cat, i=False):
     if many_shot:
@@ -75,9 +87,12 @@ def get_scores(model, dataset, model_tested, many_shot, cat, i=False):
     # Iterate over the rows in the diagnoses data
     for index, row in tqdm(df.iterrows(), total=df.shape[0]):
         # Get the ground truth (GT) and the first prediction
-        gt = row[0]
-        predictions = row[1]
+        if row['GT'] == "[]":
+            continue
 
+        gt = row['GT']
+        predictions = row['Diagnosis 1']
+                          
         # Generate a score for the prediction
         formatted_prompt = chat_prompt.format_messages(gt=gt, predictions=predictions)
         #print(formatted_prompt)
@@ -103,20 +118,19 @@ def get_scores(model, dataset, model_tested, many_shot, cat, i=False):
     scores_df.to_csv(output_path, index=False)
 
 
-def get_all_scores (model, model_tested):
-    datasets = ['RAMEDIS', 'LIRICAL', 'PUMCH_ADM', 'MME', 'HHS']
+def get_all_scores (model, model_tested, datasets=['PUMCH_ADM','RAMEDIS', 'LIRICAL', 'MME', 'HMS']):
     for dataset in datasets:
-        get_scores(model, dataset, model_tested, many_shot=True, cat=False, i=False)
-        get_scores(model, dataset, model_tested, many_shot=False, cat=False, i=False)
+        get_scores(model, dataset, model_tested, many_shot=True, cat=True, i=False)
+        get_scores(model, dataset, model_tested, many_shot=False, cat=True, i=False)
         if dataset == 'RAMEDIS' or dataset == 'PUMCH_ADM':
-            get_scores(model, dataset, model_tested, many_shot=True, cat=True, i=False)
-            get_scores(model, dataset, model_tested, many_shot=False, cat=True, i=False)
+            get_scores(model, dataset, model_tested, many_shot=True, cat=False, i=False)
+            get_scores(model, dataset, model_tested, many_shot=False, cat=False, i=False)
 
 
-get_all_scores("gpt4o", "gpt4omini")
-get_all_scores("gpt4o", "gpt4o")
-get_all_scores("gpt4o", "c3opus")
-get_all_scores("gpt4o", "c3sonnet")
+#get_all_scores(gpt4o, "gpt4omini")
+get_all_scores(gpt4o, "gpt4o")
+get_all_scores(gpt4o, "c3opus")
+get_all_scores(gpt4o, "c3sonnet")
 
     
 
